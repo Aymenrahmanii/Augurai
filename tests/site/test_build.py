@@ -321,3 +321,15 @@ def test_playbook_shows_the_exercise_when_there_is_one(tmp_path, populated_root,
 def test_about_page_explains_how_to_learn_with_ai(tmp_path, populated_root, settings):
     html = page(built(tmp_path, populated_root, settings), "about/index.html")
     assert "Learning with AI" in html and "predict" in html.lower()
+
+
+def test_filter_only_offers_categories_that_exist_in_the_data(tmp_path, populated_root, settings):
+    html = page(built(tmp_path, populated_root, settings), "models/index.html")
+    assert '<option value="coding">' in html and '<option value="long_context">' in html
+    assert '<option value="legal">' not in html and '<option value="healthcare">' not in html
+
+
+def test_models_table_shows_domain_columns_and_explains_them(tmp_path, populated_root, settings):
+    html = page(built(tmp_path, populated_root, settings), "models/index.html")
+    assert '<th class="num">Engineering</th>' in html and '<th class="num">Legal</th>' in html
+    assert "Artificial Analysis" in html and "not software coding" in html

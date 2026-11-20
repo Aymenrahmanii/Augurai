@@ -16,6 +16,12 @@ Category = Literal[
     "speed",
     "cost_efficiency",
     "open_weights",
+    "engineering",
+    "finance",
+    "legal",
+    "healthcare",
+    "strategy",
+    "economics",
 ]
 ItemKind = Literal["model", "repo", "skill", "mcp", "agent", "paper", "post", "video", "hn", "job"]
 EntityKind = Literal["repo", "skill", "mcp", "agent"]

@@ -87,3 +87,26 @@ def test_best_at_cost_efficiency_and_open_weights():
         "cost_efficiency" in out["cheap"].best_at and "cost_efficiency" not in out["pricey"].best_at
     )
     assert "open_weights" in out["pricey"].best_at
+
+
+def test_best_at_covers_the_domain_indices():
+    scores = {
+        "artificial-analysis": {
+            "engineering": 70.0,
+            "finance_and_accounting": 60.0,
+            "legal": 50.0,
+            "healthcare_and_medical": 40.0,
+            "strategy_and_ops": 30.0,
+            "economics": 20.0,
+        }
+    }
+    best = compute_best_at({"a": model("a", scores=scores), "b": model("b")}, top_n=1)
+    assert set(best["a"].best_at) == {
+        "engineering",
+        "finance",
+        "legal",
+        "healthcare",
+        "strategy",
+        "economics",
+    }
+    assert best["b"].best_at == []

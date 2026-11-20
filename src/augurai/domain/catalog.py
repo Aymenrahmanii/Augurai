@@ -107,6 +107,13 @@ _METRICS: dict[Category, Callable[[Model], float | None]] = {
     "speed": lambda m: _score(m, "output_tps"),
     "cost_efficiency": _cost_efficiency,
     "open_weights": _open_weights,
+    # Artificial Analysis domain indices: how well a model does professional tasks in a field.
+    "engineering": lambda m: _score(m, "engineering"),
+    "finance": lambda m: _score(m, "finance_and_accounting"),
+    "legal": lambda m: _score(m, "legal"),
+    "healthcare": lambda m: _score(m, "healthcare_and_medical"),
+    "strategy": lambda m: _score(m, "strategy_and_ops"),
+    "economics": lambda m: _score(m, "economics"),
 }
 
 

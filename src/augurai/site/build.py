@@ -39,6 +39,12 @@ CATEGORIES: list[Category] = [
     "speed",
     "cost_efficiency",
     "open_weights",
+    "engineering",
+    "finance",
+    "legal",
+    "healthcare",
+    "strategy",
+    "economics",
 ]
 ECOSYSTEM_KINDS = [
     ("repo", "Rising repos"),
@@ -201,7 +207,11 @@ def build_site(root: Path, out: Path, settings: Settings) -> list[Path]:
         newest_models=newest,
         rising_now=rising_now,
     )
-    render("models.html", "models/index.html", "models", models=models, categories=CATEGORIES)
+    present = {c for m in models for c in m.best_at}
+    categories = [
+        c for c in CATEGORIES if c in present
+    ]  # never offer a filter that matches nothing
+    render("models.html", "models/index.html", "models", models=models, categories=categories)
     for model in models:
         render("model.html", f"models/{model.id}/index.html", "models", model=model)
 
