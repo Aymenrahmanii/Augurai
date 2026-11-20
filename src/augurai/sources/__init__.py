@@ -1,4 +1,5 @@
 from augurai.config import Settings
+from augurai.models import Person
 from augurai.sources.artificial_analysis import ArtificialAnalysisSource
 from augurai.sources.base import Source
 from augurai.sources.feeds import FeedsSource
@@ -15,7 +16,7 @@ from augurai.sources.mcp_registry import McpRegistrySource
 from augurai.sources.openrouter import OpenRouterSource
 
 
-def all_sources(settings: Settings) -> list[Source]:
+def all_sources(settings: Settings, extra_people: list[Person] | None = None) -> list[Source]:
     return [
         OpenRouterSource(),
         HuggingFaceModelsSource(),
@@ -24,9 +25,9 @@ def all_sources(settings: Settings) -> list[Source]:
         GitHubSkillsSource(),
         McpRegistrySource(),
         HackerNewsSource(),
-        FeedsSource(),
+        FeedsSource(extra_people),
         HfPapersSource(),
-        GitHubPeopleSource(),
+        GitHubPeopleSource(extra_people),
         HnHiringSource(),
         RemoteOkSource(),
         AdzunaSource(),
