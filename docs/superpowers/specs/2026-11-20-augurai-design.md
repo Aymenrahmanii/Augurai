@@ -1,7 +1,9 @@
 # Augurai: Design
 
 Date: 2026-11-20
-Status: draft, awaiting approval
+Status: approved
+
+> **Change, 2026-11-20 (after implementation):** the email channel was removed at the owner's request. The morning briefing is written once per local day and shown on the site's home page and archive; the coach writes private proposals to `coach/proposals/` and is reviewed with `/coach-review`. Sections below that mention email (5.7, the Gmail secrets, the email half of the coach) are superseded.
 
 ## 1. Intent
 

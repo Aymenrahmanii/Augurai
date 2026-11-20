@@ -4,13 +4,11 @@ from datetime import UTC, datetime, timedelta
 import httpx
 import pytest
 
-from augurai import mailer
 from augurai.models import RawItem, RunRecord
 from augurai.pipeline import collect, finish
 from augurai.store import Store
 
 NOW = datetime(2026, 11, 20, 4, 30, tzinfo=UTC)
-ENV = {"GMAIL_USER": "me@example.com", "GMAIL_APP_PASSWORD": "pw", "BRIEFING_TO": "to@example.com"}
 
 
 class FakeModels:
@@ -30,21 +28,21 @@ class FakeModels:
         ]
 
 
-class FakeSend:
-    def __init__(self) -> None:
-        self.messages: list = []
-        self.results: list[bool] = []
+class FakeExtra:
+    name = "fake-extra"
+    required_env: tuple[str, ...] = ()
 
-    def __call__(self, msg, env) -> bool:
-        self.messages.append(msg)
-        return self.results.pop(0) if self.results else True
-
-
-@pytest.fixture
-def fake_send(monkeypatch):
-    sender = FakeSend()
-    monkeypatch.setattr(mailer, "send", sender)
-    return sender
+    def fetch(self, ctx):
+        return [
+            RawItem(
+                id="e",
+                source="openrouter",
+                kind="model",
+                title="Extra",
+                url="https://x/extra",
+                extra={"model_key": "extra", "provider": "p"},
+            )
+        ]
 
 
 @pytest.fixture
@@ -68,81 +66,8 @@ def runs(root):
     return Store(root / "data").read("runs", RunRecord)
 
 
-def test_morning_twice_sends_once(collected_root, settings, fake_send):
-    finish(collected_root, settings, "morning", NOW, ENV)
-    finish(collected_root, settings, "morning", NOW + timedelta(minutes=40), ENV)
-    assert len(fake_send.messages) == 1
-    assert [r.email_sent for r in runs(collected_root)] == [True, False]
-
-
-def test_morning_without_claude_output_falls_back(collected_root, settings, fake_send):
-    record = finish(collected_root, settings, "morning", NOW, ENV)
-    assert record.enrichment == "failed" and record.email_sent
-    assert "Claude step did not produce output" in record.enrichment_note
-    briefing = (collected_root / "briefings" / "2026-11-20.md").read_text(encoding="utf-8")
-    assert "Summaries unavailable today" in briefing
-
-
-def test_morning_with_valid_output_uses_claude_text(collected_root, settings, fake_send):
-    write_output(collected_root)
-    record = finish(collected_root, settings, "morning", NOW, ENV)
-    assert record.enrichment == "ran"
-    assert "Claude wrote this" in fake_send.messages[0]["Subject"]
-    assert "Claude wrote this" in (collected_root / "briefings" / "2026-11-20.md").read_text(
-        encoding="utf-8"
-    )
-
-
-def test_failed_email_is_retried_by_the_next_morning_run(collected_root, settings, fake_send):
-    fake_send.results = [False, True]
-    first = finish(collected_root, settings, "morning", NOW, ENV)
-    second = finish(collected_root, settings, "morning", NOW + timedelta(minutes=40), ENV)
-    assert first.email_sent is False and second.email_sent is True
-    assert len(fake_send.messages) == 2
-
-
-def test_refresh_never_emails_and_skips_enrichment(tmp_path, settings, fake_send):
-    collect(tmp_path, settings, "refresh", NOW, sources=[FakeModels()], env={}, http=httpx.Client())
-    record = finish(tmp_path, settings, "refresh", NOW, ENV)
-    assert record.enrichment == "skipped" and record.email_sent is False
-    assert fake_send.messages == []
-    assert not (tmp_path / "briefings").exists()
-    assert (tmp_path / "_site" / "index.html").exists()
-
-
-def test_record_carries_source_results(collected_root, settings, fake_send):
-    record = finish(collected_root, settings, "morning", NOW, ENV)
-    assert record.sources_ok == ["fake-models"] and record.mode == "morning"
-
-
-def test_finish_without_changes_file_still_builds_site(tmp_path, settings, fake_send):
-    record = finish(tmp_path, settings, "refresh", NOW, ENV)
-    assert (tmp_path / "_site" / "index.html").exists()
-    assert record.enrichment == "skipped"
-
-
-def test_runs_are_capped_at_two_hundred(tmp_path, settings, fake_send, monkeypatch):
-    monkeypatch.setattr("augurai.pipeline.build_site", lambda *args, **kwargs: [])
-    for n in range(205):
-        finish(tmp_path, settings, "refresh", NOW + timedelta(minutes=n), ENV)
-    assert len(runs(tmp_path)) == 200
-
-
-class FakeExtra:
-    name = "fake-extra"
-    required_env: tuple[str, ...] = ()
-
-    def fetch(self, ctx):
-        return [
-            RawItem(
-                id="e",
-                source="openrouter",
-                kind="model",
-                title="Extra",
-                url="https://x/extra",
-                extra={"model_key": "extra", "provider": "p"},
-            )
-        ]
+def briefing_text(root, day="2026-11-20") -> str:
+    return (root / "briefings" / f"{day}.md").read_text(encoding="utf-8")
 
 
 def pending(root):
@@ -161,22 +86,75 @@ def collect_extra(root, settings):
     )
 
 
-def test_pending_changes_cleared_after_the_briefing_is_sent(collected_root, settings, fake_send):
+def test_morning_without_claude_output_falls_back(collected_root, settings):
+    record = finish(collected_root, settings, "morning", NOW)
+    assert record.enrichment == "failed" and record.briefing_written
+    assert "Claude step did not produce output" in record.enrichment_note
+    assert "Summaries unavailable today" in briefing_text(collected_root)
+
+
+def test_morning_with_valid_output_uses_claude_text(collected_root, settings):
+    write_output(collected_root)
+    record = finish(collected_root, settings, "morning", NOW)
+    assert record.enrichment == "ran" and record.briefing_written
+    assert "Claude wrote this" in briefing_text(collected_root)
+
+
+def test_a_later_morning_run_never_overwrites_the_days_briefing(collected_root, settings):
+    write_output(collected_root)
+    first = finish(collected_root, settings, "morning", NOW)
+    (collected_root / "work" / "enrich_output.json").unlink()
+    second = finish(collected_root, settings, "morning", NOW + timedelta(minutes=40))
+    assert first.briefing_written is True and second.briefing_written is False
+    assert "Claude wrote this" in briefing_text(collected_root)
+
+
+def test_pending_changes_cleared_once_the_briefing_is_written(collected_root, settings):
     changes = collect_extra(collected_root, settings)
     assert changes.new_models == ["extra"] and pending(collected_root)["new_models"] == ["extra"]
-    finish(collected_root, settings, "morning", NOW + timedelta(minutes=10), ENV)
+    finish(collected_root, settings, "morning", NOW + timedelta(minutes=10))
     assert pending(collected_root)["new_models"] == []
+    assert "Extra" in briefing_text(collected_root)
 
 
-def test_pending_changes_kept_when_the_email_fails(collected_root, settings, fake_send):
-    collect_extra(collected_root, settings)
-    fake_send.results = [False]
-    record = finish(collected_root, settings, "morning", NOW + timedelta(minutes=10), ENV)
-    assert record.email_failed is True and record.email_sent is False
-    assert pending(collected_root)["new_models"] == ["extra"]
+def test_next_day_briefing_is_written_even_if_yesterdays_exists(collected_root, settings):
+    finish(collected_root, settings, "morning", NOW)
+    tomorrow = NOW + timedelta(days=1)
+    collect(
+        collected_root,
+        settings,
+        "morning",
+        tomorrow,
+        sources=[FakeModels()],
+        env={},
+        http=httpx.Client(),
+    )
+    record = finish(collected_root, settings, "morning", tomorrow)
+    assert record.briefing_written is True
+    assert (collected_root / "briefings" / "2026-11-21.md").exists()
 
 
-def test_a_second_run_that_skips_the_email_is_not_a_failure(collected_root, settings, fake_send):
-    finish(collected_root, settings, "morning", NOW, ENV)
-    second = finish(collected_root, settings, "morning", NOW + timedelta(minutes=40), ENV)
-    assert second.email_failed is False
+def test_refresh_writes_no_briefing_and_skips_enrichment(tmp_path, settings):
+    collect(tmp_path, settings, "refresh", NOW, sources=[FakeModels()], env={}, http=httpx.Client())
+    record = finish(tmp_path, settings, "refresh", NOW)
+    assert record.enrichment == "skipped" and record.briefing_written is False
+    assert not (tmp_path / "briefings").exists()
+    assert (tmp_path / "_site" / "index.html").exists()
+
+
+def test_record_carries_source_results(collected_root, settings):
+    record = finish(collected_root, settings, "morning", NOW)
+    assert record.sources_ok == ["fake-models"] and record.mode == "morning"
+
+
+def test_finish_without_changes_file_still_builds_site(tmp_path, settings):
+    record = finish(tmp_path, settings, "refresh", NOW)
+    assert (tmp_path / "_site" / "index.html").exists()
+    assert record.enrichment == "skipped"
+
+
+def test_runs_are_capped_at_two_hundred(tmp_path, settings, monkeypatch):
+    monkeypatch.setattr("augurai.pipeline.build_site", lambda *args, **kwargs: [])
+    for n in range(205):
+        finish(tmp_path, settings, "refresh", NOW + timedelta(minutes=n))
+    assert len(runs(tmp_path)) == 200

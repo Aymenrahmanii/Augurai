@@ -2,7 +2,7 @@ name: augurai
 
 on:
   schedule:
-    - cron: "30 4 * * *" # morning run: 05:30 Tunis, email + briefing
+    - cron: "30 4 * * *" # morning run: 05:30 Tunis, writes the daily briefing
     - cron: "0 10,16,22 * * *" # refresh runs
   workflow_dispatch:
     inputs:
@@ -30,7 +30,7 @@ jobs:
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
       # Always start from the branch head, never the event SHA: a re-run of an old run must
-      # see the runs.json that records "email already sent" or it would send a second email.
+      # see the briefing already written for today, or it would replace it with an empty one.
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.event.repository.default_branch }}
@@ -89,15 +89,8 @@ jobs:
             rm -rf briefings && cp -r "$RUNNER_TEMP/before/briefings" briefings
           fi
 
-      - name: Finish (briefing, email, site)
-        id: finish
-        # Exit code 3 means only the email failed: still commit and deploy, then fail the job below.
-        continue-on-error: true
+      - name: Finish (briefing and site)
         run: uv run augurai finish --mode "$MODE"
-        env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          BRIEFING_TO: ${{ secrets.BRIEFING_TO }}
 
       - name: Commit data
         run: |
@@ -119,10 +112,3 @@ jobs:
 
       - id: deploy
         uses: actions/deploy-pages@v4
-
-      # GitHub only emails you about failed jobs, so make a failed briefing email a failed job.
-      - name: Fail if the finish step failed
-        if: steps.finish.outcome == 'failure'
-        run: |
-          echo "::error::The finish step failed (most often: the briefing email could not be sent). Check the Gmail secrets."
-          exit 1

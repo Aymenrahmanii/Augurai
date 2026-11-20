@@ -1,7 +1,6 @@
-"""The weekly coach: read local sessions, ask Claude, write and email private proposals."""
+"""The weekly coach: read local sessions, ask Claude, write private proposals."""
 
 import json
-from collections.abc import Mapping
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -17,21 +16,6 @@ from augurai.timeutil import iso_week, local_date
 PROMPT_FILE = Path(__file__).resolve().parents[3] / "prompts" / "coach.md"
 
 
-def load_env_file(path: Path) -> dict[str, str]:
-    values: dict[str, str] = {}
-    if not path.exists():
-        return values
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, _, value = line.partition("=")
-        key = key.strip()
-        if key.replace("_", "").isalnum():
-            values[key] = value.strip().strip("'\"")
-    return values
-
-
 def _render_prompt(profile_json: str, practices_json: str) -> str:
     template = PROMPT_FILE.read_text(encoding="utf-8")
     return template.replace("{{PROFILE}}", profile_json).replace("{{PRACTICES}}", practices_json)
@@ -42,8 +26,6 @@ def run_coach(
     settings: Settings,
     now: datetime,
     days: int,
-    dry_run: bool,
-    env: Mapping[str, str],
     home: Path | None = None,
     runner: Runner = default_runner,
     http: httpx.Client | None = None,
@@ -72,6 +54,4 @@ def run_coach(
     answer = run_claude(prompt, runner=runner)
     proposals = parse(answer, week, {p.id for p in practices})
     path = report.write(proposals, root)
-    if not dry_run:
-        report.email(proposals, settings, env)
     return path

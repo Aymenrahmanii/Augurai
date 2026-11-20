@@ -1,6 +1,6 @@
 ---
 name: coach-review
-description: Review the newest Augurai coach proposals one by one and apply only the ones the user approves. Use when the user says /coach-review, asks to go through the weekly coaching suggestions, or mentions the Augurai coach email.
+description: Review the newest Augurai coach proposals one by one and apply only the ones the user approves. Use when the user says /coach-review, or asks to go through the weekly Augurai coaching suggestions.
 ---
 
 # Coach review

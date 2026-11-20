@@ -4,7 +4,6 @@ import sys
 from augurai import __version__
 
 COMMANDS = ("collect", "finish", "build", "coach")
-EXIT_EMAIL_FAILED = 3
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -17,7 +16,6 @@ def build_parser() -> argparse.ArgumentParser:
             command.add_argument("--mode", choices=["morning", "refresh"], default="refresh")
         if name == "coach":
             command.add_argument("--days", type=int, default=7)
-            command.add_argument("--dry-run", action="store_true")
     return parser
 
 
@@ -34,7 +32,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "finish":
         return _finish(args.mode)
     if args.command == "coach":
-        return _coach(args.days, args.dry_run)
+        return _coach(args.days)
     if args.command == "build":
         return _build()
     print(f"{args.command}: not implemented", file=sys.stderr)
@@ -65,34 +63,27 @@ def _build() -> int:
 
 
 def _finish(mode: str) -> int:
-    import os
     from datetime import UTC, datetime
     from pathlib import Path
 
     from augurai.config import load_settings
     from augurai.pipeline import finish
 
-    record = finish(Path.cwd(), load_settings(), mode, datetime.now(UTC), os.environ)  # type: ignore[arg-type]
+    record = finish(Path.cwd(), load_settings(), mode, datetime.now(UTC))  # type: ignore[arg-type]
     print(
-        f"finish ok: enrichment={record.enrichment}, email_sent={record.email_sent}"
+        f"finish ok: enrichment={record.enrichment}, briefing_written={record.briefing_written}"
         + (f" ({record.enrichment_note})" if record.enrichment_note else "")
     )
-    if record.email_failed:
-        print("the briefing email could not be sent (check the Gmail secrets)", file=sys.stderr)
-        return EXIT_EMAIL_FAILED
     return 0
 
 
-def _coach(days: int, dry_run: bool) -> int:
-    import os
+def _coach(days: int) -> int:
     from datetime import UTC, datetime
     from pathlib import Path
 
-    from augurai.coach.run import load_env_file, run_coach
+    from augurai.coach.run import run_coach
     from augurai.config import load_settings
 
-    root = Path.cwd()
-    env = {**load_env_file(root / ".env"), **os.environ}
-    path = run_coach(root, load_settings(), datetime.now(UTC), days, dry_run, env)
+    path = run_coach(Path.cwd(), load_settings(), datetime.now(UTC), days)
     print(f"coach ok: {path}")
     return 0

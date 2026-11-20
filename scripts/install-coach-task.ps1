@@ -13,7 +13,7 @@ $trigger = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Sunday -At 10:00
 $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
 
 Register-ScheduledTask -TaskName "Augurai Coach" -Action $action -Trigger $trigger -Settings $settings `
-    -Description "Weekly Augurai coach: reviews your Claude Code sessions and emails suggestions." -Force | Out-Null
+    -Description "Weekly Augurai coach: reviews your Claude Code sessions and writes suggestions to coach/proposals." -Force | Out-Null
 
 Write-Host "Registered 'Augurai Coach' for Sundays at 10:00 (repo: $repo)."
-Write-Host "Put GMAIL_USER, GMAIL_APP_PASSWORD and BRIEFING_TO in $repo\.env so it can email you."
+Write-Host "Review each week's suggestions with /coach-review in Claude Code (files are in $repo\coach\proposals)."

@@ -9,7 +9,6 @@ from typing import Literal
 
 import httpx
 
-from augurai import mailer
 from augurai.briefing import build as build_briefing
 from augurai.briefing import save as save_briefing
 from augurai.config import Settings
@@ -99,7 +98,7 @@ def collect(
         promoted=promoted,
         demoted=demoted,
     )
-    # The briefing must cover everything since the last email, not just this run's diff.
+    # The briefing must cover everything since the last briefing, not just this run's diff.
     pending = merge_changes(load_pending(store.root, today), changes)
     save_pending(store.root, pending)
     work = root / "work"
@@ -185,9 +184,7 @@ def _enrich(
     return status, note, text
 
 
-def finish(
-    root: Path, settings: Settings, mode: Mode, now: datetime, env: Mapping[str, str]
-) -> RunRecord:
+def finish(root: Path, settings: Settings, mode: Mode, now: datetime) -> RunRecord:
     store = Store(root / "data")
     today = local_date(now, settings.timezone)
     work = root / "work"
@@ -196,18 +193,14 @@ def finish(
 
     enrichment: EnrichStatus = "skipped"
     note: str | None = None
-    email_sent = False
-    email_failed = False
+    briefing_written = False
     if mode == "morning":
         enrichment, note, text = _enrich(store, work, today)
-        sent_before = mailer.already_sent(root, today, settings.timezone)
-        if not sent_before:
-            briefing = build_briefing(changes, store, text, note, settings)
-            save_briefing(briefing, root)
-            email_sent = mailer.send(mailer.render(briefing, settings), env)
-            email_failed = not email_sent
-        if email_sent or sent_before:
-            save_pending(store.root, Changes(day=today))  # everything pending has been reported
+        # One briefing per local day: a later run must never replace a good one with an empty one.
+        if not (root / "briefings" / f"{today.isoformat()}.md").exists():
+            save_briefing(build_briefing(changes, store, text, note, settings), root)
+            save_pending(store.root, Changes(day=today))  # everything pending is now reported
+            briefing_written = True
 
     record = RunRecord(
         id=now.isoformat(),
@@ -218,8 +211,7 @@ def finish(
         sources_skipped=info.get("sources_skipped", []),
         enrichment=enrichment,
         enrichment_note=note,
-        email_sent=email_sent,
-        email_failed=email_failed,
+        briefing_written=briefing_written,
     )
     runs = sorted([*store.read("runs", RunRecord), record], key=lambda r: r.id)
     store.write("runs", runs[-MAX_RUN_RECORDS:])

@@ -148,8 +148,7 @@ class RunRecord(BaseModel):
     sources_skipped: list[str] = Field(default_factory=list)
     enrichment: EnrichmentStatus = "skipped"
     enrichment_note: str | None = None
-    email_sent: bool = False
-    email_failed: bool = False
+    briefing_written: bool = False
 
 
 class Summary(BaseModel):

@@ -1,11 +1,8 @@
-"""Write the weekly proposals to a private file and email them."""
+"""Write the weekly proposals to a private, git-ignored file."""
 
-from collections.abc import Mapping
 from pathlib import Path
 
-from augurai import mailer
 from augurai.coach.propose import Proposals
-from augurai.config import Settings
 
 
 def _markdown(proposals: Proposals) -> str:
@@ -35,11 +32,3 @@ def write(proposals: Proposals, root: Path) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(_markdown(proposals), encoding="utf-8")
     return path
-
-
-def email(proposals: Proposals, settings: Settings, env: Mapping[str, str]) -> bool:
-    count = len(proposals.items)
-    noun = "suggestion" if count == 1 else "suggestions"
-    subject = f"Augurai coach · {proposals.week} · {count} {noun}"
-    message = mailer.render_message(subject, _markdown(proposals), subject, settings)
-    return mailer.send(message, env)
