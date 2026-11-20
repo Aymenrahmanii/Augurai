@@ -1,0 +1,216 @@
+{
+ "exhaustive": {
+  "nbHits": false,
+  "typo": false
+ },
+ "exhaustiveNbHits": false,
+ "exhaustiveTypo": false,
+ "hits": [
+  {
+   "objectID": "50562320",
+   "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+   "url": "https://github.com/onlook-dev/onlook/",
+   "points": 122,
+   "author": "D_R_Farrell",
+   "num_comments": 84,
+   "created_at": "2026-11-19T16:34:04Z"
+  },
+  {
+   "objectID": "50561199",
+   "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+   "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+   "points": 108,
+   "author": "vihren",
+   "num_comments": 30,
+   "created_at": "2026-11-19T15:16:02Z"
+  },
+  {
+   "objectID": "50553225",
+   "title": "LLM assisted reverse engineering",
+   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+   "points": 311,
+   "author": "ioma8",
+   "num_comments": 80,
+   "created_at": "2026-11-18T22:29:13Z"
+  },
+  {
+   "objectID": "50548660",
+   "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+   "url": null,
+   "points": 153,
+   "author": "codekarate",
+   "num_comments": 42,
+   "created_at": "2026-11-18T16:53:42Z"
+  },
+  {
+   "objectID": "50535885",
+   "title": "MAI Code 2 and Code 2 Flash",
+   "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+   "points": 422,
+   "author": "lemonish97",
+   "num_comments": 171,
+   "created_at": "2026-11-17T18:25:13Z"
+  },
+  {
+   "objectID": "50535740",
+   "title": "Not Everything Needs an LLM",
+   "url": "https://newsletter.posthog.com/p/decision-models",
+   "points": 186,
+   "author": "speckx",
+   "num_comments": 75,
+   "created_at": "2026-11-17T18:16:18Z"
+  },
+  {
+   "objectID": "50528119",
+   "title": "How to CAD Almost Anything",
+   "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+   "points": 369,
+   "author": "o4c",
+   "num_comments": 137,
+   "created_at": "2026-11-17T06:29:57Z"
+  },
+  {
+   "objectID": "50514470",
+   "title": "How to make almost anything",
+   "url": "https://pub.cba.mit.edu/863.26/site/",
+   "points": 919,
+   "author": "o4c",
+   "num_comments": 149,
+   "created_at": "2026-11-16T05:50:37Z"
+  },
+  {
+   "objectID": "50506376",
+   "title": "Understanding Positional Embeddings in Modern LLMs",
+   "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+   "points": 246,
+   "author": "vismit2000",
+   "num_comments": 27,
+   "created_at": "2026-11-15T12:14:06Z"
+  },
+  {
+   "objectID": "50497155",
+   "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "points": 149,
+   "author": "wondersky",
+   "num_comments": 72,
+   "created_at": "2026-11-14T14:09:25Z"
+  },
+  {
+   "objectID": "50468888",
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "points": 486,
+   "author": "mrashad74",
+   "num_comments": 180,
+   "created_at": "2026-11-12T15:23:10Z"
+  },
+  {
+   "objectID": "50467087",
+   "title": "Jensen Huang resigns",
+   "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+   "points": 4060,
+   "author": "lldb",
+   "num_comments": 3493,
+   "created_at": "2026-11-12T13:52:29Z"
+  },
+  {
+   "objectID": "50454625",
+   "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "points": 307,
+   "author": "brownrout",
+   "num_comments": 118,
+   "created_at": "2026-11-11T15:33:06Z"
+  },
+  {
+   "objectID": "50443331",
+   "title": "A rare glimpse inside the high-risk, high-reward Hormuz trade",
+   "url": "https://www.lloydslist.com/LL1158922/A-rare-glimpse-inside-the-highrisk-highreward-Hormuz-trade",
+   "points": 108,
+   "author": "everybodyknows",
+   "num_comments": 116,
+   "created_at": "2026-11-10T17:21:48Z"
+  },
+  {
+   "objectID": "50427934",
+   "title": "Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI",
+   "url": null,
+   "points": 125,
+   "author": "shayan_abbas",
+   "num_comments": 50,
+   "created_at": "2026-11-09T16:36:38Z"
+  },
+  {
+   "objectID": "50421155",
+   "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+   "url": "https://github.com/OmniJev/Flide",
+   "points": 126,
+   "author": "unikcc",
+   "num_comments": 31,
+   "created_at": "2026-11-09T04:43:12Z"
+  },
+  {
+   "objectID": "50412591",
+   "title": "Why I will not be using LLMs in my coding",
+   "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+   "points": 119,
+   "author": "Risse",
+   "num_comments": 245,
+   "created_at": "2026-11-08T12:14:10Z"
+  },
+  {
+   "objectID": "50397429",
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "points": 603,
+   "author": "theanomaly",
+   "num_comments": 156,
+   "created_at": "2026-11-06T19:48:51Z"
+  },
+  {
+   "objectID": "50395919",
+   "title": "Memorilla: Latent Semantic Memory for LLMs",
+   "url": "https://arxiv.org/abs/2610.21375",
+   "points": 125,
+   "author": "handfuloflight",
+   "num_comments": 14,
+   "created_at": "2026-11-06T18:03:33Z"
+  },
+  {
+   "objectID": "50390525",
+   "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+   "url": "https://jhr.pensoft.net/articles.php?id=9096",
+   "points": 183,
+   "author": "hitekker",
+   "num_comments": 60,
+   "created_at": "2026-11-06T10:21:15Z"
+  }
+ ],
+ "hitsPerPage": 20,
+ "nbHits": 2341,
+ "nbPages": 50,
+ "page": 0,
+ "params": "query=LLM&tags=story&numericFilters=points%3E100&hitsPerPage=20&advancedSyntax=true&analyticsTags=backend",
+ "processingTimeMS": 29,
+ "processingTimingsMS": {
+  "_request": {
+   "queue": 1,
+   "roundTrip": 24
+  },
+  "afterFetch": {
+   "format": {
+    "highlighting": 2,
+    "total": 2
+   }
+  },
+  "fetch": {
+   "query": 1,
+   "scanning": 26,
+   "total": 28
+  },
+  "total": 29
+ },
+ "query": "LLM",
+ "serverTimeMS": 34
+}

@@ -1,0 +1,5 @@
+{"__CLASS__": "Adzuna::API::Response::JobSearchResults", "count": 2, "mean": 52000.0,
+ "results": [
+  {"__CLASS__": "Adzuna::API::Response::Job", "id": "syn-1", "title": "Ingénieur LLM / RAG", "description": "Poste d'ingénieur LLM, RAG, agents et MLOps...", "created": "2026-11-15T09:00:00Z", "redirect_url": "https://www.adzuna.fr/land/ad/syn-1", "company": {"display_name": "SynthCorp"}, "location": {"display_name": "Paris", "area": ["France", "Île-de-France", "Paris"]}, "category": {"tag": "it-jobs", "label": "Emplois Informatique"}, "salary_min": 50000, "salary_max": 60000},
+  {"__CLASS__": "Adzuna::API::Response::Job", "id": "syn-2", "title": "Data Engineer", "description": "Pipelines, PyTorch, vector database...", "created": "2026-11-16T09:00:00Z", "redirect_url": "https://www.adzuna.fr/land/ad/syn-2", "company": {"display_name": "SynthCorp 2"}, "location": {"display_name": "Lyon", "area": ["France", "Auvergne-Rhône-Alpes", "Lyon"]}, "category": {"tag": "it-jobs", "label": "Emplois Informatique"}}
+ ]}

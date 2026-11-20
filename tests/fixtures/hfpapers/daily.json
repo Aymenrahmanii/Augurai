@@ -1,0 +1,594 @@
+[
+ {
+  "paper": {
+   "id": "2611.26627",
+   "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+   "upvotes": 4
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+  "summary": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering reques",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26627.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "64f8b03f83807928d25e766f",
+   "avatarUrl": "/avatars/56f0588d02b7db419ce8eed9b0cdf701.svg",
+   "fullname": "Tuna Han Salih Meral",
+   "name": "tmeral",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 1,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.23875",
+   "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+   "upvotes": 1
+  },
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "title": "In Situ Training of Optical Neural Networks by Coding Agents",
+  "summary": "Optical neural networks promise fast, energy-efficient computing, but every device departs from its design and must be trained with the hardware. In situ training relies on an expert-built calibrated ",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.23875.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "69c18e0d8d9d3d57b3728a11",
+   "avatarUrl": "/avatars/a47894f5304c9f76f7bc74cdc83efb5a.svg",
+   "fullname": "Ilker Oguz",
+   "name": "ilkeroguz",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "672c672dcf09d152f4da04c4",
+   "name": "StanfordUniversity",
+   "fullname": "Stanford University",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/68e396f2b5bb631e9b2fac9a/vJI0POlzGMXL2878t1vz2.jpeg"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.21885",
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "upvotes": 2
+  },
+  "publishedAt": "2026-11-15T19:00:00.000Z",
+  "title": "Language Models Can Rewrite Their Own Weights",
+  "summary": "Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21885.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "66ceb51c4eadcdf26a6280fc",
+   "avatarUrl": "/avatars/b6852fd5bdc23d288c3d6fac0cfe0d97.svg",
+   "fullname": "jiajun fan",
+   "name": "jiajunfanthu",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.21053",
+   "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+   "upvotes": 2
+  },
+  "publishedAt": "2026-11-15T19:00:00.000Z",
+  "title": "System 1 agents: a method for local, reliable and fast agentic AI",
+  "summary": "Agentic artificial intelligence could automate analyses of sensitive clinical data, but current agents depend on large language models (LLMs). Cloud LLMs expose patient data. Local LLMs hallucinate, a",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.21053.png",
+  "numComments": 0,
+  "submittedBy": {
+   "_id": "66a92164697b8c2e936643e6",
+   "avatarUrl": "/avatars/8aa1be11a88454fb8dae84411f97fb63.svg",
+   "fullname": "Eleftherios Tzanis",
+   "name": "eltzanis",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.25567",
+   "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+   "upvotes": 8
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "Online Mistake Detection in Instruction-Conditioned Procedural Video",
+  "summary": "An assistant monitoring a person performing a procedure is most useful when it can detect mistakes while there is still time to recover. This requires judging actions against task instructions as the ",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25567.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "69b3e1e2a70a202ad01e5b1b",
+   "avatarUrl": "/avatars/c887f0322edc15af05e6564b4422a8fd.svg",
+   "fullname": "Rotem Dror",
+   "name": "rtmdrr",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "65475bd492d9b890bb848130",
+   "name": "UoHaifa",
+   "fullname": "University of Haifa",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6534fdcb9326d6da5f3eb2a7/HroGuVGnBf66e9nZuC0h6.png"
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.26540",
+   "title": "AURA: AUdio-dRiven streaming Avatar",
+   "upvotes": 1
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "AURA: AUdio-dRiven streaming Avatar",
+  "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitabl",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26540.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "66b1ded53ddfb745eddfd072",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/JD85tZKReU8CWS-QDWnTU.png",
+   "fullname": "Amelie Royer",
+   "name": "ameroyer",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 4,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6683d6350b54a28aff6645fe",
+   "name": "kyutai",
+   "fullname": "Kyutai",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6355a3c1805be5a8f30fea49/8xGdIOlfkopZfhbMitw_k.jpeg"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.26211",
+   "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+   "upvotes": 1
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "SpecWM: Turning Verification into Refinement for Streaming World Models",
+  "summary": "Recently, video world models have advanced interactive generation, with large models offering higher quality and smaller models enabling faster inference. Existing speculative methods combine their st",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26211.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "6322d6d8510aa62b8125d755",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/6322d6d8510aa62b8125d755/z3qvVBy01iItET9lMmum6.jpeg",
+   "fullname": "Zhiyuan Ma",
+   "name": "zhizhi111",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 1,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "63ea5d1ee7f148f46015ebb3",
+   "name": "Huster",
+   "fullname": "Huazhong University of Science and Technology",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1676303638801-63ea5a04e7f148f46015c770.jpeg"
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.26511",
+   "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+   "upvotes": 4
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+  "summary": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, fr",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26511.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "65f92794176337cd0770c32f",
+   "avatarUrl": "/avatars/f768c6c0845edc7c42712962986bec59.svg",
+   "fullname": "Shuang Wu",
+   "name": "wushuang98",
+   "type": "user",
+   "isPro": true,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 24,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6314524a5f47a1896274d586",
+   "name": "NJU",
+   "fullname": "Nanjing University",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1662276136108-6314518e5f47a1896274d080.jpeg"
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.26450",
+   "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+   "upvotes": 2
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+  "summary": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting ",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26450.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "64de9c210f599f78efa3c7d4",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64de9c210f599f78efa3c7d4/LJN_iUNVuv6IHn3nebhcn.jpeg",
+   "fullname": "Tanmay Sah",
+   "name": "TanmaySah",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 4,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.25179",
+   "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
+   "upvotes": 3
+  },
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "title": "Phantom Success, Silent Failure: Auditing the Success Checkers of Simulated Manipulation Benchmarks",
+  "summary": "Simulated manipulation benchmarks measure policy performance using hand-written success checkers that label each episode as a success or failure. Passing an expert demonstration shows that a checker a",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25179.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "65407ba7a38390065750233f",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/65407ba7a38390065750233f/1_IPMZbk-S9u2t18PQgMp.jpeg",
+   "fullname": "Zirui Song",
+   "name": "Ziruibest",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 1,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "61fb9e24dc607a42af5f193f",
+   "name": "MBZUAI",
+   "fullname": "Mohamed Bin Zayed University of Artificial Intelligence",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1643879908583-603ab5664a944b99e81476e8.jpeg"
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.19499",
+   "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
+   "upvotes": 2
+  },
+  "publishedAt": "2026-11-13T19:00:00.000Z",
+  "title": "Do Probing and Steering Favor the Same Directions Within and Across Language Models?",
+  "summary": "A direction in a language model's hidden state can be used to probe whether a concept is present or to steer the model toward it. Although probe directions are often reused for steering, the direction",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.19499.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "655ce1466a37ab8e1c3de260",
+   "avatarUrl": "/avatars/853c77029662b91108d0392fa95ca8a8.svg",
+   "fullname": "sadeghi",
+   "name": "afshinsadeghi",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6488847b7207bac7edb951f1",
+   "name": "FraunhoferIAIS",
+   "fullname": "Fraunhofer Institute for Intelligent Analysis and Information Systems",
+   "avatar": "https://www.gravatar.com/avatar/3f1b00b122c35d3e0e333189e39acf8d?d=retro&size=100"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.26286",
+   "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+   "upvotes": 9
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "Twice-Told Critiques: Claim-Level Homogenization of Peer Review in the LLM Era",
+  "summary": "Peer review relies on several readers finding different problems. We measure critique overlap in conference and journal reviews. At ICLR, measured overlap rose from 12.0% in 2026 to 21.3% in 2027, in ",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26286.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "5fc2346dea82dd667bb0ffbc",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/1612371927570-5fc2346dea82dd667bb0ffbc.jpeg",
+   "fullname": "Ilya Gusev",
+   "name": "IlyaGusev",
+   "type": "user",
+   "isPro": true,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 919,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.26408",
+   "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+   "upvotes": 12
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "Training Vision Models for LLM-Driven Weight-Space Programming",
+  "summary": "It has been demonstrated that, in certain settings, large language models can perform weight-space programming to directly modify the weights of neural networks. However, it is unknown how dedicated t",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26408.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "642150c201c62c1e41fc2390",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/642150c201c62c1e41fc2390/4udBai02RARpIujIeiCX-.png",
+   "fullname": "Leon Sick",
+   "name": "leonsick",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 5,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.25935",
+   "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+   "upvotes": 1
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "TwinD: Generalizing Deepfake Detection from Blending to Entire Face Synthesis",
+  "summary": "Facial deepfake detectors are usually trained on blending fakes, where a generated face is pasted back into a real frame. Recent generators synthesize the entire face and leave no traces of blending. ",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25935.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "6313025e3ef0644e256403c8",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/EASeMfkGl6rVvpx-YZbw_.png",
+   "fullname": "Andy Yermakov",
+   "name": "yermandy",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 5,
+   "isUserFollowing": false
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.26073",
+   "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+   "upvotes": 19
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "AltRA-Test: An Alternative Annotator Test for LLM Judges Without Shared Annotators",
+  "summary": "Large language models (LLMs) are increasingly used as judges and graders to replace human annotators, raising the question of when such replacement is statistically justified. To support such decision",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26073.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "6995cfd70f9c4f0aebdebc51",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/no-auth/a9OVt11nTWAXafft1XW0L.png",
+   "fullname": "Nagham Omar",
+   "name": "naghamo",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 3,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6393322be2364bc1eea56e45",
+   "name": "Technion",
+   "fullname": "Technion Israel institute of technology",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/1670591001944-63926124526c29d5b5011374.jpeg"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.25279",
+   "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+   "upvotes": 8
+  },
+  "publishedAt": "2026-11-17T19:00:00.000Z",
+  "title": "Accord: Universal Online Metric Localization and Dense Mapping from one Camera and an IMU",
+  "summary": "Dense metric mapping from a single camera and IMU remains challenging: visual-inertial odometry (VIO) provides metric motion but sparse geometry, whereas feed-forward depth models predict dense struct",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.25279.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "628cfb1a7cf7cc5a88c822ad",
+   "avatarUrl": "/avatars/030a43aeb8314cb1f5e657c619b4bae2.svg",
+   "fullname": "Jaafar Mahmoud",
+   "name": "Jaafar",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 4,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "69f3649ba0e63db57e46aeaf",
+   "name": "BE2R",
+   "fullname": "BE2R Lab",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6981d67b9d54b7ab610ecb70/gN5t92Q12SnC5TVXsnrHU.jpeg"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.26617",
+   "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+   "upvotes": 2
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
+  "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26617.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "64897b1f0ec897cfe579a399",
+   "avatarUrl": "https://cdn-avatars.huggingface.co/v1/production/uploads/64897b1f0ec897cfe579a399/ICR_75b877BaSE94gjBuj.jpeg",
+   "fullname": "wenq",
+   "name": "wenqsun",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 13,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6508ab2b349930913196378b",
+   "name": "NationalUniversityofSingapore",
+   "fullname": "National University of Singapore",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/630ca0817dacb93b33506ce7/ZYUmpSMsa5Whihw3me2Bw.png"
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.26590",
+   "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+   "upvotes": 34
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+  "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is sel",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26590.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "63a8683732ed73936eb96d10",
+   "avatarUrl": "/avatars/bdbe7221c5370d41dbd8347e675cc758.svg",
+   "fullname": "Jiahao Huang",
+   "name": "JiahaoHuang",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 3,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6464cc20860abf030496e986",
+   "name": "UniversityCollegeLondon",
+   "fullname": "University College London",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/6464cadff072e09adec1c372/OszOYithNLCeeNuMIjaoI.png"
+  },
+  "isAuthorParticipating": false
+ },
+ {
+  "paper": {
+   "id": "2611.26248",
+   "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+   "upvotes": 3
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs",
+  "summary": "AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements fro",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26248.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "6652eb1895bc4a27bab1ba01",
+   "avatarUrl": "/avatars/01bccd9819624aedbc19cae5d948fae9.svg",
+   "fullname": "Yang Wan",
+   "name": "kelatte",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "6878f1158a96055b30c4e802",
+   "name": "zju-community",
+   "fullname": "Zhejiang University",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/660c2d134ba2fcc848b03e21/Yom0mtdRlos3bpIk7eLcz.png"
+  },
+  "isAuthorParticipating": true
+ },
+ {
+  "paper": {
+   "id": "2611.26107",
+   "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+   "upvotes": 25
+  },
+  "publishedAt": "2026-11-18T19:00:00.000Z",
+  "title": "HiUni: Harmonizing Understanding and Generation in Shared Visual Space",
+  "summary": "Unified multimodal models aim to support visual understanding and generation within a single framework. However, prevailing approaches often separate their visual representations or backbone computati",
+  "thumbnail": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.26107.png",
+  "numComments": 1,
+  "submittedBy": {
+   "_id": "67f37f78b36e82d366dedeec",
+   "avatarUrl": "/avatars/eefa8b305a78c788f24033f138b1b648.svg",
+   "fullname": "Zhenyu Zhang",
+   "name": "max-zhenyu-zhang",
+   "type": "user",
+   "isPro": false,
+   "isHf": false,
+   "isHfAdmin": false,
+   "isMod": false,
+   "followerCount": 4,
+   "isUserFollowing": false
+  },
+  "organization": {
+   "_id": "682dc063d57ba1e4d149e134",
+   "name": "ernie-research",
+   "fullname": "ernie-research",
+   "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/626a6ce8adf559c88de9ace0/FFebJQj-LjMu6XkztMbH2.webp"
+  },
+  "isAuthorParticipating": false
+ }
+]

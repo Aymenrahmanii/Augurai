@@ -1,0 +1,2603 @@
+{
+ "data": [
+  {
+   "id": "mistralai/pixtral-large-2502",
+   "canonical_slug": "mistralai/pixtral-large-2502",
+   "hugging_face_id": null,
+   "name": "Mistral: Pixtral Large 2502",
+   "created": 1795135865,
+   "description": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter.ai/mistralai/pixtral-large-2411). It accepts text and image in",
+   "context_length": 128000,
+   "architecture": {
+    "modality": "text+image->text",
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.000006"
+   },
+   "top_provider": {
+    "context_length": 128000,
+    "max_completion_tokens": 102400,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "max_tokens",
+    "stop",
+    "temperature",
+    "top_k",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/mistralai/pixtral-large-2502/endpoints"
+   }
+  },
+  {
+   "id": "google/gemini-4-neon",
+   "canonical_slug": "google/gemini-4-neon-20261118",
+   "hugging_face_id": null,
+   "name": "Google: Gemini 4 Neon",
+   "created": 1795006977,
+   "description": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000003",
+    "completion": "0.000015",
+    "image": "0.000003",
+    "audio": "0.000003",
+    "input_audio_cache": "0.00000015",
+    "web_search": "0.014",
+    "internal_reasoning": "0.000015",
+    "input_cache_read": "0.00000015",
+    "input_cache_write": "0.0000000833333333333333"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-neon-20261118/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1502,
+      "win_rate": 76.8,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1393,
+      "win_rate": 65.6,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1396,
+      "win_rate": 64.8,
+      "rank": 3
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1358,
+      "win_rate": 58.9,
+      "rank": 5
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1347,
+      "win_rate": 59.9,
+      "rank": 4
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 61.4,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 65.1,
+     "strategy_and_ops_index": 63.8,
+     "legal_index": 63.8,
+     "healthcare_and_medical_index": 60.1,
+     "engineering_index": 66.8,
+     "economics_index": 61.9,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "google/gemini-4-neon:batch",
+   "canonical_slug": "google/gemini-4-neon-20261118",
+   "hugging_face_id": null,
+   "name": "Google: Gemini 4 Neon (batch)",
+   "created": 1795006977,
+   "description": "Gemini 4 Neon is a fast, mid-priced model in the Gemini 4 family from Google, built for coding and agentic work. It is suited for repository and terminal coding, web...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
+    "image": "0.0000015",
+    "audio": "0.0000015",
+    "input_audio_cache": "0.000000075",
+    "web_search": "0.014",
+    "internal_reasoning": "0.0000075",
+    "input_cache_read": "0.000000075",
+    "input_cache_write": "0.0000000833333333333333"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-neon-20261118/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1502,
+      "win_rate": 76.8,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1393,
+      "win_rate": 65.6,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1396,
+      "win_rate": 64.8,
+      "rank": 3
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1358,
+      "win_rate": 58.9,
+      "rank": 5
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1347,
+      "win_rate": 59.9,
+      "rank": 4
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 61.4,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 65.1,
+     "strategy_and_ops_index": 63.8,
+     "legal_index": 63.8,
+     "healthcare_and_medical_index": 60.1,
+     "engineering_index": 66.8,
+     "economics_index": 61.9,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra-pro",
+   "canonical_slug": "openai/gpt-6.2-astra-pro-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Astra Pro",
+   "created": 1794938432,
+   "description": "GPT-6.2 Astra Pro is the same underlying model as [GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. ",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000008",
+    "completion": "0.00004",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000004",
+    "input_cache_write": "0.00001",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000016",
+      "completion": "0.00006",
+      "input_cache_read": "0.0000008",
+      "input_cache_write": "0.00002"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-astra-pro-20261117/endpoints"
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra-pro:batch",
+   "canonical_slug": "openai/gpt-6.2-astra-pro-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Astra Pro (batch)",
+   "created": 1794938432,
+   "description": "GPT-6.2 Astra Pro is the same underlying model as [GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. ",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000004",
+    "completion": "0.00002",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.000005",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000008",
+      "completion": "0.00003",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.00001"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-astra-pro-20261117/endpoints"
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra",
+   "canonical_slug": "openai/gpt-6.2-astra-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Astra",
+   "created": 1794938423,
+   "description": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000008",
+    "completion": "0.00004",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000004",
+    "input_cache_write": "0.00001",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000016",
+      "completion": "0.00006",
+      "input_cache_read": "0.0000008",
+      "input_cache_write": "0.00002"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-astra-20261117/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [],
+    "artificial_analysis": {
+     "intelligence_index": 62.1,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 60.9,
+     "strategy_and_ops_index": 63.3,
+     "legal_index": 58.7,
+     "healthcare_and_medical_index": 57,
+     "engineering_index": 66.6,
+     "economics_index": 61.1,
+     "cyber_index": 40.8,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-astra:batch",
+   "canonical_slug": "openai/gpt-6.2-astra-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Astra (batch)",
+   "created": 1794938423,
+   "description": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000004",
+    "completion": "0.00002",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.000005",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000008",
+      "completion": "0.00003",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.00001"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-astra-20261117/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [],
+    "artificial_analysis": {
+     "intelligence_index": 62.1,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 60.9,
+     "strategy_and_ops_index": 63.3,
+     "legal_index": 58.7,
+     "healthcare_and_medical_index": 57,
+     "engineering_index": 66.6,
+     "economics_index": 61.1,
+     "cyber_index": 40.8,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol-pro",
+   "canonical_slug": "openai/gpt-6.2-sol-pro-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Sol Pro",
+   "created": 1794938409,
+   "description": "GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004",
+      "completion": "0.000015",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-sol-pro-20261117/endpoints"
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol-pro:batch",
+   "canonical_slug": "openai/gpt-6.2-sol-pro-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Sol Pro (batch)",
+   "created": 1794938409,
+   "description": "GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "web_search": "0.01",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.00000125",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000002",
+      "completion": "0.0000075",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-sol-pro-20261117/endpoints"
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol",
+   "canonical_slug": "openai/gpt-6.2-sol-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Sol",
+   "created": 1794938371,
+   "description": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited...",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004",
+      "completion": "0.000015",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-sol-20261117/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [],
+    "artificial_analysis": {
+     "intelligence_index": 57.3,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 57.2,
+     "strategy_and_ops_index": 59.4,
+     "legal_index": 55,
+     "healthcare_and_medical_index": 53.3,
+     "engineering_index": 61.2,
+     "economics_index": 57.4,
+     "cyber_index": 37.7,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "openai/gpt-6.2-sol:batch",
+   "canonical_slug": "openai/gpt-6.2-sol-20261117",
+   "hugging_face_id": null,
+   "name": "OpenAI: GPT-6.2 Sol (batch)",
+   "created": 1794938371,
+   "description": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited...",
+   "context_length": 1050000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "web_search": "0.01",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.00000125",
+    "overrides": [
+     {
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000002",
+      "completion": "0.0000075",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025"
+     }
+    ]
+   },
+   "top_provider": {
+    "context_length": 1050000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-sol-20261117/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [],
+    "artificial_analysis": {
+     "intelligence_index": 57.3,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 57.2,
+     "strategy_and_ops_index": 59.4,
+     "legal_index": 55,
+     "healthcare_and_medical_index": 53.3,
+     "engineering_index": 61.2,
+     "economics_index": 57.4,
+     "cyber_index": 37.7,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "tencent/hy4-flash",
+   "canonical_slug": "tencent/hy4-flash-20261116",
+   "hugging_face_id": "tencent/Hy4-flash",
+   "name": "Tencent: Hy4 flash",
+   "created": 1794838706,
+   "description": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets c",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image->text",
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000000035",
+    "completion": "0.0000001405",
+    "input_cache_read": "0.0000000015"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 65536,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/tencent/hy4-flash-20261116/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1215,
+      "win_rate": 44.4,
+      "rank": 43
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1227,
+      "win_rate": 44.5,
+      "rank": 52
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1210,
+      "win_rate": 43.2,
+      "rank": 50
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1269,
+      "win_rate": 48.6,
+      "rank": 33
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1227,
+      "win_rate": 44.4,
+      "rank": 58
+     }
+    ]
+   },
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   }
+  },
+  {
+   "id": "qwen/qwen4-max",
+   "canonical_slug": "qwen/qwen4-max-20261115",
+   "hugging_face_id": null,
+   "name": "Qwen: Qwen4 Max",
+   "created": 1794795526,
+   "description": "Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default....",
+   "context_length": 1000000,
+   "architecture": {
+    "modality": "text+image+video->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Qwen",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000001425",
+    "completion": "0.000004275",
+    "input_cache_read": "0.00000007125",
+    "input_cache_write": "0.00000178125"
+   },
+   "top_provider": {
+    "context_length": 1000000,
+    "max_completion_tokens": 131072,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/qwen/qwen4-max-20261115/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [],
+    "artificial_analysis": {
+     "intelligence_index": 42.9,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 54.1,
+     "strategy_and_ops_index": 56.9,
+     "legal_index": 49.6,
+     "healthcare_and_medical_index": 48.2,
+     "engineering_index": 50.1,
+     "economics_index": 51.3,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "low",
+     "none"
+    ],
+    "default_effort": "high"
+   }
+  },
+  {
+   "id": "inclusionai/ling-3.2-flash:free",
+   "canonical_slug": "inclusionai/ling-3.2-flash-20261113",
+   "hugging_face_id": "inclusionAI/Ling-3.2-flash",
+   "name": "inclusionAI: Ling 3.2 Flash (free)",
+   "created": 1794591958,
+   "description": "Ling 3.2 Flash is a hybrid reasoning model from inclusionAI that accepts text and image input, with a 1M-token context window and up to 200 images per request. Thinking can...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image->text",
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 262144,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/inclusionai/ling-3.2-flash-20261113/endpoints"
+   },
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true
+   }
+  },
+  {
+   "id": "google/gemini-4-hydrogen",
+   "canonical_slug": "google/gemini-4-hydrogen-20261112",
+   "hugging_face_id": null,
+   "name": "Google: Gemini 4 Hydrogen",
+   "created": 1794506460,
+   "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.0000015",
+    "completion": "0.0000075",
+    "image": "0.0000015",
+    "audio": "0.0000015",
+    "input_audio_cache": "0.000000075",
+    "web_search": "0.014",
+    "internal_reasoning": "0.0000075",
+    "input_cache_read": "0.000000075",
+    "input_cache_write": "0.0000000833333333333333"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-hydrogen-20261112/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1216,
+      "win_rate": 55.3,
+      "rank": 14
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1394,
+      "win_rate": 65.8,
+      "rank": 8
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1456,
+      "win_rate": 72.8,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1335,
+      "win_rate": 57.4,
+      "rank": 12
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1307,
+      "win_rate": 57.4,
+      "rank": 13
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1340,
+      "win_rate": 53.6,
+      "rank": 11
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1338,
+      "win_rate": 54.5,
+      "rank": 10
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1330,
+      "win_rate": 59.1,
+      "rank": 6
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 53.9,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 58.1,
+     "strategy_and_ops_index": 57.7,
+     "legal_index": 56.7,
+     "healthcare_and_medical_index": 53.3,
+     "engineering_index": 60.1,
+     "economics_index": 55,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "google/gemini-4-hydrogen:batch",
+   "canonical_slug": "google/gemini-4-hydrogen-20261112",
+   "hugging_face_id": null,
+   "name": "Google: Gemini 4 Hydrogen (batch)",
+   "created": 1794506460,
+   "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than.",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.00000075",
+    "completion": "0.00000375",
+    "image": "0.00000075",
+    "audio": "0.00000075",
+    "input_audio_cache": "0.0000000375",
+    "web_search": "0.014",
+    "internal_reasoning": "0.00000375",
+    "input_cache_read": "0.0000000375",
+    "input_cache_write": "0.0000000833333333333333"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-hydrogen-20261112/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1216,
+      "win_rate": 55.3,
+      "rank": 14
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1394,
+      "win_rate": 65.8,
+      "rank": 8
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1456,
+      "win_rate": 72.8,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1335,
+      "win_rate": 57.4,
+      "rank": 12
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1307,
+      "win_rate": 57.4,
+      "rank": 13
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1340,
+      "win_rate": 53.6,
+      "rank": 11
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1338,
+      "win_rate": 54.5,
+      "rank": 10
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1330,
+      "win_rate": 59.1,
+      "rank": 6
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 53.9,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 58.1,
+     "strategy_and_ops_index": 57.7,
+     "legal_index": 56.7,
+     "healthcare_and_medical_index": 53.3,
+     "engineering_index": 60.1,
+     "economics_index": 55,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "baidu/ernie-5.5-flash-preview:free",
+   "canonical_slug": "baidu/ernie-5.5-flash-preview-20261110",
+   "hugging_face_id": "baidu/ERNIE-5.5-Flash-Preview",
+   "name": "Baidu: ERNIE-5.5-Flash-Preview (free)",
+   "created": 1794333533,
+   "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total",
+   "context_length": 1024000,
+   "architecture": {
+    "modality": "text->text",
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0",
+    "completion": "0"
+   },
+   "top_provider": {
+    "context_length": 1024000,
+    "max_completion_tokens": 921600,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/baidu/ernie-5.5-flash-preview-20261110/endpoints"
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "high"
+    ],
+    "default_effort": "high"
+   }
+  },
+  {
+   "id": "baidu/ernie-light-dt-1.0-intl",
+   "canonical_slug": "baidu/ernie-light-dt-1.0-intl-20261110",
+   "hugging_face_id": null,
+   "name": "Baidu: ERNIE-Light-DT-1.0",
+   "created": 1794331260,
+   "description": "ERNIE-Light-DT-1.0 is based on open-source GLM models and includes research findings from Baidu Search's Lightning large model. It features Baidu Sparse Attention (BSA), a unique sparse attention mech",
+   "context_length": 1024000,
+   "architecture": {
+    "modality": "text->text",
+    "input_modalities": [
+     "text"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.00000113",
+    "completion": "0.00000394",
+    "input_cache_read": "0.000000113"
+   },
+   "top_provider": {
+    "context_length": 1024000,
+    "max_completion_tokens": 131072,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/baidu/ernie-light-dt-1.0-intl-20261110/endpoints"
+   },
+   "reasoning": {
+    "mandatory": false,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "low",
+     "none"
+    ],
+    "default_effort": "max"
+   }
+  },
+  {
+   "id": "google/gemini-4-carbon",
+   "canonical_slug": "google/gemini-4-carbon-20261110",
+   "hugging_face_id": null,
+   "name": "Google: Gemini 4 Carbon",
+   "created": 1794326871,
+   "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000002",
+    "completion": "0.00001",
+    "image": "0.000002",
+    "audio": "0.000002",
+    "input_audio_cache": "0.0000001",
+    "web_search": "0.014",
+    "internal_reasoning": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000001875"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-carbon-20261110/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "codetovideo",
+      "elo": 1269,
+      "win_rate": 62.2,
+      "rank": 5
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1293,
+      "win_rate": 62.2,
+      "rank": 3
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1311,
+      "win_rate": 67.6,
+      "rank": 3
+     },
+     {
+      "arena": "agents",
+      "category": "spreadsheet",
+      "elo": 1220,
+      "win_rate": 48.9,
+      "rank": 13
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1412,
+      "win_rate": 68.4,
+      "rank": 7
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1335,
+      "win_rate": 58.7,
+      "rank": 11
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1339,
+      "win_rate": 61.3,
+      "rank": 7
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1325,
+      "win_rate": 57.6,
+      "rank": 13
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1395,
+      "win_rate": 69.1,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1342,
+      "win_rate": 59.4,
+      "rank": 9
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1305,
+      "win_rate": 55,
+      "rank": 13
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 60,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 62.6,
+     "strategy_and_ops_index": 60.9,
+     "legal_index": 62,
+     "healthcare_and_medical_index": 56.8,
+     "engineering_index": 65.3,
+     "economics_index": 59.6,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "google/gemini-4-carbon:batch",
+   "canonical_slug": "google/gemini-4-carbon-20261110",
+   "hugging_face_id": null,
+   "name": "Google: Gemini 4 Carbon (batch)",
+   "created": 1794326871,
+   "description": "Gemini 4 Carbon is a frontier Gemini 4 model from Google for coding, agentic and complex reasoning work. It takes text, image, audio, video and file input, supports long decode...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000001",
+    "completion": "0.000005",
+    "image": "0.000001",
+    "audio": "0.000001",
+    "input_audio_cache": "0.00000005",
+    "web_search": "0.014",
+    "internal_reasoning": "0.000005",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.0000001875"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-carbon-20261110/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "codetovideo",
+      "elo": 1269,
+      "win_rate": 62.2,
+      "rank": 5
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1293,
+      "win_rate": 62.2,
+      "rank": 3
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1311,
+      "win_rate": 67.6,
+      "rank": 3
+     },
+     {
+      "arena": "agents",
+      "category": "spreadsheet",
+      "elo": 1220,
+      "win_rate": 48.9,
+      "rank": 13
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1412,
+      "win_rate": 68.4,
+      "rank": 7
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1335,
+      "win_rate": 58.7,
+      "rank": 11
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1339,
+      "win_rate": 61.3,
+      "rank": 7
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1325,
+      "win_rate": 57.6,
+      "rank": 13
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1395,
+      "win_rate": 69.1,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1342,
+      "win_rate": 59.4,
+      "rank": 9
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1305,
+      "win_rate": 55,
+      "rank": 13
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 60,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 62.6,
+     "strategy_and_ops_index": 60.9,
+     "legal_index": 62,
+     "healthcare_and_medical_index": 56.8,
+     "engineering_index": 65.3,
+     "economics_index": 59.6,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "medium"
+   }
+  },
+  {
+   "id": "nex-agi/nex-n2.6",
+   "canonical_slug": "nex-agi/nex-n2.6-20261110",
+   "hugging_face_id": "nex-agi/Nex-N2.6",
+   "name": "Nex AGI: Nex-N2.6",
+   "created": 1794282379,
+   "description": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters. It is suited for computer use, coding, and long-horiz",
+   "context_length": 262144,
+   "architecture": {
+    "modality": "text+image->text",
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.00000012",
+    "completion": "0.0000004",
+    "input_cache_read": "0.000000024"
+   },
+   "top_provider": {
+    "context_length": 262144,
+    "max_completion_tokens": 235929,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": 0.7,
+    "top_p": 0.95,
+    "top_k": 40
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/nex-agi/nex-n2.6-20261110/endpoints"
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "medium"
+    ],
+    "default_effort": "high"
+   }
+  },
+  {
+   "id": "thinkingmachines/inkling-2-small",
+   "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
+   "hugging_face_id": "thinkingmachines/Inkling-2-Small",
+   "name": "Thinking Machines: Inkling 2 Small",
+   "created": 1794261847,
+   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image->text",
+    "input_modalities": [
+     "text",
+     "image"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.0000003",
+    "completion": "0.000001",
+    "input_cache_read": "0.00000003"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": false
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "default_parameters": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null
+   },
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/thinkingmachines/inkling-2-small-20261107/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [],
+    "artificial_analysis": {
+     "intelligence_index": 30.6,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 44.3,
+     "strategy_and_ops_index": 43.5,
+     "legal_index": 41.6,
+     "healthcare_and_medical_index": 40.8,
+     "engineering_index": 38.9,
+     "economics_index": 43.4,
+     "cyber_index": null,
+     "openness_index": 38.9,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "default_enabled": true,
+    "supported_efforts": [
+     "max",
+     "high",
+     "medium",
+     "low",
+     "minimal"
+    ],
+    "default_effort": "high"
+   }
+  },
+  {
+   "id": "anthropic/claude-fable-5.2",
+   "canonical_slug": "anthropic/claude-fable-5.2-20261109",
+   "hugging_face_id": null,
+   "name": "Anthropic: Claude Fable 5.2",
+   "created": 1794253781,
+   "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infea",
+   "context_length": 1000000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000008",
+    "completion": "0.00004",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.00001",
+    "input_cache_write_1h": "0.000016"
+   },
+   "top_provider": {
+    "context_length": 1000000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/anthropic/claude-fable-5.2-20261109/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "codetovideo",
+      "elo": 1457,
+      "win_rate": 82.6,
+      "rank": 1
+     },
+     {
+      "arena": "agents",
+      "category": "fullstack",
+      "elo": 1408,
+      "win_rate": 73.1,
+      "rank": 1
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1313,
+      "win_rate": 65,
+      "rank": 2
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1337,
+      "win_rate": 70.3,
+      "rank": 1
+     },
+     {
+      "arena": "agents",
+      "category": "spreadsheet",
+      "elo": 1420,
+      "win_rate": 74.2,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1486,
+      "win_rate": 72.6,
+      "rank": 2
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1369,
+      "win_rate": 62.3,
+      "rank": 4
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1391,
+      "win_rate": 64.1,
+      "rank": 6
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1380,
+      "win_rate": 63.6,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1347,
+      "win_rate": 60.3,
+      "rank": 3
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 64.6,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 64.7,
+     "strategy_and_ops_index": 67.4,
+     "legal_index": 63.3,
+     "healthcare_and_medical_index": 65.4,
+     "engineering_index": 72.6,
+     "economics_index": 66.5,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "high"
+   }
+  },
+  {
+   "id": "anthropic/claude-fable-5.2:batch",
+   "canonical_slug": "anthropic/claude-fable-5.2-20261109",
+   "hugging_face_id": null,
+   "name": "Anthropic: Claude Fable 5.2 (batch)",
+   "created": 1794253781,
+   "description": "Claude Fable 5.2 is Anthropic's most capable model for the most demanding technical work, with gains over Fable 5.1 in coding, reasoning, and vision. In prerelease testing it completed otherwise-infea",
+   "context_length": 1000000,
+   "architecture": {
+    "modality": "text+image+file->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "file"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.000004",
+    "completion": "0.00002",
+    "web_search": "0.01",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.000005",
+    "input_cache_write_1h": "0.000008"
+   },
+   "top_provider": {
+    "context_length": 1000000,
+    "max_completion_tokens": 128000,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/anthropic/claude-fable-5.2-20261109/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "codetovideo",
+      "elo": 1457,
+      "win_rate": 82.6,
+      "rank": 1
+     },
+     {
+      "arena": "agents",
+      "category": "fullstack",
+      "elo": 1408,
+      "win_rate": 73.1,
+      "rank": 1
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1313,
+      "win_rate": 65,
+      "rank": 2
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1337,
+      "win_rate": 70.3,
+      "rank": 1
+     },
+     {
+      "arena": "agents",
+      "category": "spreadsheet",
+      "elo": 1420,
+      "win_rate": 74.2,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1486,
+      "win_rate": 72.6,
+      "rank": 2
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1369,
+      "win_rate": 62.3,
+      "rank": 4
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1391,
+      "win_rate": 64.1,
+      "rank": 6
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1380,
+      "win_rate": 63.6,
+      "rank": 1
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1347,
+      "win_rate": 60.3,
+      "rank": 3
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 64.6,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 64.7,
+     "strategy_and_ops_index": 67.4,
+     "legal_index": 63.3,
+     "healthcare_and_medical_index": 65.4,
+     "engineering_index": 72.6,
+     "economics_index": 66.5,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low"
+    ],
+    "default_effort": "high"
+   }
+  },
+  {
+   "id": "meta/muse-ember",
+   "canonical_slug": "meta/muse-ember-20261109",
+   "hugging_face_id": null,
+   "name": "Meta: Muse Ember",
+   "created": 1794247648,
+   "description": "Muse Ember is the smallest and most efficient model from Meta that’s designed for complex reasoning execution and the work agents repeat all day: tool calls, coding agent subtasks, routing,...",
+   "context_length": 1048576,
+   "architecture": {
+    "modality": "text+image+file+audio+video->text",
+    "input_modalities": [
+     "text",
+     "image",
+     "video",
+     "file",
+     "audio"
+    ],
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other",
+    "instruct_type": null
+   },
+   "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "web_search": "0.0025",
+    "input_cache_read": "0.000000004",
+    "input_cache_write": "0.000000125"
+   },
+   "top_provider": {
+    "context_length": 1048576,
+    "max_completion_tokens": 943718,
+    "is_moderated": true
+   },
+   "per_request_limits": null,
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "default_parameters": {},
+   "supported_voices": null,
+   "knowledge_cutoff": null,
+   "expiration_date": null,
+   "links": {
+    "details": "/api/v1/models/meta/muse-ember-20261109/endpoints"
+   },
+   "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1357,
+      "win_rate": 61.5,
+      "rank": 12
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1341,
+      "win_rate": 60.7,
+      "rank": 9
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1314,
+      "win_rate": 60.1,
+      "rank": 12
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1321,
+      "win_rate": 59.5,
+      "rank": 15
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1306,
+      "win_rate": 55.8,
+      "rank": 17
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1326,
+      "win_rate": 59.5,
+      "rank": 7
+     }
+    ],
+    "artificial_analysis": {
+     "intelligence_index": 36,
+     "coding_index": null,
+     "agentic_index": null,
+     "finance_and_accounting_index": 44.6,
+     "strategy_and_ops_index": 48.7,
+     "legal_index": 38.5,
+     "healthcare_and_medical_index": 41.3,
+     "engineering_index": 41.8,
+     "economics_index": 41,
+     "cyber_index": null,
+     "openness_index": null,
+     "multilingual_index": null,
+     "decision_index": null
+    }
+   },
+   "reasoning": {
+    "mandatory": true,
+    "supported_efforts": [
+     "max",
+     "xhigh",
+     "high",
+     "medium",
+     "low",
+     "minimal"
+    ],
+    "default_effort": "max"
+   }
+  }
+ ],
+ "total_count": 477,
+ "links": {
+  "next": null
+ }
+}

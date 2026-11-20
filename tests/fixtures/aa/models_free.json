@@ -1,0 +1,25 @@
+{
+  "tier": "free",
+  "intelligence_index_version": 5.0,
+  "pagination": {"page": 1, "page_size": 50, "total_pages": 1, "has_more": false},
+  "data": [
+    {
+      "id": "synthetic-1", "name": "Synthetic Model A", "slug": "synthetic-model-a", "release_date": "2026-10-01",
+      "model_creator": {"id": "c1", "name": "SynthCo"},
+      "evaluations": {"artificial_analysis_intelligence_index": 72.5, "artificial_analysis_coding_index": 68.0, "artificial_analysis_agentic_index": 61.0, "artificial_analysis_finance_and_accounting_index": null, "artificial_analysis_strategy_and_ops_index": null, "artificial_analysis_legal_index": null, "artificial_analysis_healthcare_and_medical_index": null, "artificial_analysis_engineering_index": null, "artificial_analysis_economics_index": null},
+      "artificial_analysis_intelligence_index_cost": {"total_cost": 120.5, "cost_per_task": null},
+      "pricing": {"price_1m_input_tokens": 3.0, "price_1m_output_tokens": 15.0, "price_1m_cache_hit_tokens": 0.3, "price_1m_cache_write_tokens": 3.75},
+      "performance": {"median_output_tokens_per_second": 80.0, "median_time_to_first_token_seconds": 0.6, "median_time_to_first_answer_token_seconds": 0.6, "median_end_to_end_response_time_seconds": 8.0},
+      "performance_v3": {"mean_output_tokens_per_second": 78.0, "mean_time_to_first_token_seconds": 0.7, "mean_time_to_first_answer_token_seconds": 0.7}
+    },
+    {
+      "id": "synthetic-2", "name": "Synthetic Model B", "slug": "synthetic-model-b", "release_date": null,
+      "model_creator": null,
+      "evaluations": {"artificial_analysis_intelligence_index": 55.0, "artificial_analysis_coding_index": null, "artificial_analysis_agentic_index": null, "artificial_analysis_finance_and_accounting_index": null, "artificial_analysis_strategy_and_ops_index": null, "artificial_analysis_legal_index": null, "artificial_analysis_healthcare_and_medical_index": null, "artificial_analysis_engineering_index": null, "artificial_analysis_economics_index": null},
+      "artificial_analysis_intelligence_index_cost": null,
+      "pricing": {"price_1m_input_tokens": 0.2, "price_1m_output_tokens": 0.8, "price_1m_cache_hit_tokens": null, "price_1m_cache_write_tokens": null},
+      "performance": {"median_output_tokens_per_second": null, "median_time_to_first_token_seconds": null, "median_time_to_first_answer_token_seconds": null, "median_end_to_end_response_time_seconds": null},
+      "performance_v3": null
+    }
+  ]
+}

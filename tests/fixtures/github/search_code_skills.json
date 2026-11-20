@@ -1,0 +1,116 @@
+{
+ "total_count": 7700480,
+ "incomplete_results": false,
+ "items": [
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "stas00/ml-engineering",
+    "html_url": "https://github.com/stas00/ml-engineering",
+    "description": "Machine Learning Engineering Open Book",
+    "owner": {
+     "login": "stas00"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "RinDig/icm-architect",
+    "html_url": "https://github.com/RinDig/icm-architect",
+    "description": "Agent skill: design any process, idea, or problem into an ICM workspace (folder structure as agent architecture), or restructure an existing folder into one",
+    "owner": {
+     "login": "RinDig"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "zakirkun/guardian-cli",
+    "html_url": "https://github.com/zakirkun/guardian-cli",
+    "description": "Guardian is a production-ready AI-powered penetration testing automation CLI tool that leverages Google Gemini and LangChain to orchestrate intelligent, step-by-step penetration testing workflows while maintaining ethical hacking standards.",
+    "owner": {
+     "login": "zakirkun"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "s1dashu/ip-as-logo-skill",
+    "html_url": "https://github.com/s1dashu/ip-as-logo-skill",
+    "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+    "owner": {
+     "login": "s1dashu"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "butterbase-ai/butterbase-skills",
+    "html_url": "https://github.com/butterbase-ai/butterbase-skills",
+    "description": "Plugin for Butterbase.ai",
+    "owner": {
+     "login": "butterbase-ai"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "autoclaw-cc/xiaohongshu-skills",
+    "html_url": "https://github.com/autoclaw-cc/xiaohongshu-skills",
+    "description": "xiaohongshu-skills",
+    "owner": {
+     "login": "autoclaw-cc"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "Affitor/affiliate-skills",
+    "html_url": "https://github.com/Affitor/affiliate-skills",
+    "description": "50 AI agent skills for affiliate marketing. Research trending content, write data-backed posts, generate infographics, build landing pages, deploy \u2014 full flywheel with social intelligence. Works with Claude Code, Pi, ChatGPT, Gemini, Cursor, Windsurf, any AI.",
+    "owner": {
+     "login": "Affitor"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "zanwei/design-dna",
+    "html_url": "https://github.com/zanwei/design-dna",
+    "description": "Turn reference UIs (images, screenshots, URLs) into quantified Design DNA JSON\u2014tokens, qualitative style, visual effects\u2014then generate matching UI from your content.",
+    "owner": {
+     "login": "zanwei"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "xiaopu-ai/web-design",
+    "html_url": "https://github.com/xiaopu-ai/web-design",
+    "description": "A Claude Code SKILL for designing beautiful, consistent web pages \u2014 spec first, code second. ",
+    "owner": {
+     "login": "xiaopu-ai"
+    }
+   }
+  },
+  {
+   "path": "SKILL.md",
+   "repository": {
+    "full_name": "DenisSergeevitch/repo-task-proof-loop",
+    "html_url": "https://github.com/DenisSergeevitch/repo-task-proof-loop",
+    "description": "Spec driven skill with subagents spawning",
+    "owner": {
+     "login": "DenisSergeevitch"
+    }
+   }
+  }
+ ]
+}

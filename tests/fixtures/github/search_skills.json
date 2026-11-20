@@ -1,0 +1,322 @@
+{
+ "total_count": 2864,
+ "incomplete_results": false,
+ "items": [
+  {
+   "id": 1087192965,
+   "full_name": "shanraisshan/claude-code-best-practice",
+   "html_url": "https://github.com/shanraisshan/claude-code-best-practice",
+   "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+   "created_at": "2025-10-31T14:15:28Z",
+   "stargazers_count": 69264,
+   "topics": [
+    "agentic-ai",
+    "agentic-coding",
+    "agentic-engineering",
+    "agentic-workflow",
+    "ai",
+    "ai-agents",
+    "anthropic",
+    "best-practices",
+    "boris",
+    "claude",
+    "claude-ai",
+    "claude-code",
+    "claude-code-agents",
+    "claude-code-best-practices",
+    "claude-code-commands",
+    "claude-code-skills",
+    "context-engineering",
+    "pakistan",
+    "pakistani-developer",
+    "vibe-coding"
+   ],
+   "owner": {
+    "login": "shanraisshan"
+   }
+  },
+  {
+   "id": 1134426800,
+   "full_name": "sickn33/agentic-awesome-skills",
+   "html_url": "https://github.com/sickn33/agentic-awesome-skills",
+   "description": "3,000+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+   "created_at": "2026-01-14T17:48:09Z",
+   "stargazers_count": 50044,
+   "topics": [
+    "agent-skills",
+    "agentic-skills",
+    "ai-agent-skills",
+    "ai-agents",
+    "ai-coding",
+    "ai-workflows",
+    "antigravity",
+    "antigravity-skills",
+    "claude-code",
+    "claude-code-skills",
+    "codex-cli",
+    "codex-skills",
+    "cursor",
+    "cursor-skills",
+    "developer-tools",
+    "gemini-cli",
+    "gemini-skills",
+    "kiro",
+    "mcp",
+    "skill-library"
+   ],
+   "owner": {
+    "login": "sickn33"
+   }
+  },
+  {
+   "id": 1201730379,
+   "full_name": "alchaincyf/nuwa-skill",
+   "html_url": "https://github.com/alchaincyf/nuwa-skill",
+   "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+   "created_at": "2026-04-05T04:33:04Z",
+   "stargazers_count": 38698,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "decision-making",
+    "deepseek-harness",
+    "dsh-plugin",
+    "gemini-cli",
+    "hermes-agent",
+    "huashu-skills",
+    "mental-models",
+    "nuwa-skill",
+    "openclaw",
+    "opencode",
+    "persona",
+    "prompt-engineering",
+    "skills"
+   ],
+   "owner": {
+    "login": "alchaincyf"
+   }
+  },
+  {
+   "id": 1084853233,
+   "full_name": "VoltAgent/awesome-agent-skills",
+   "html_url": "https://github.com/VoltAgent/awesome-agent-skills",
+   "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+   "created_at": "2025-10-28T08:55:32Z",
+   "stargazers_count": 37384,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "awesome-list",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "codex-skills",
+    "cursor",
+    "cursor-skills",
+    "gemini-skills",
+    "skills"
+   ],
+   "owner": {
+    "login": "VoltAgent"
+   }
+  },
+  {
+   "id": 1079084637,
+   "full_name": "alirezarezvani/claude-skills",
+   "html_url": "https://github.com/alirezarezvani/claude-skills",
+   "description": "410 Claude Code skills & agent skills & plugins (120+ Agents, custom commands, 410+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+   "created_at": "2025-10-19T04:04:05Z",
+   "stargazers_count": 30190,
+   "topics": [
+    "agent-plugins",
+    "agent-skills",
+    "agentic-ai",
+    "ai-coding-agent",
+    "anthropic-claude",
+    "claude-ai",
+    "claude-code",
+    "claude-code-plugins",
+    "claude-code-skills",
+    "claude-skills",
+    "codex-skills",
+    "coding-agent-plugins",
+    "cursor-skills",
+    "developer-tools",
+    "gemini-cli-skills",
+    "openai-codex",
+    "openclaw",
+    "openclaw-plugins",
+    "openclaw-skills",
+    "prompt-engineering"
+   ],
+   "owner": {
+    "login": "alirezarezvani"
+   }
+  },
+  {
+   "id": 1215145625,
+   "full_name": "alchaincyf/huashu-design",
+   "html_url": "https://github.com/alchaincyf/huashu-design",
+   "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+   "created_at": "2026-04-19T14:42:06Z",
+   "stargazers_count": 29957,
+   "topics": [
+    "agent-skills",
+    "ai-design",
+    "animation",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "deepseek-harness",
+    "design",
+    "dsh-plugin",
+    "html",
+    "huashu-skills",
+    "infographic",
+    "pptx",
+    "presentation",
+    "prototype",
+    "skills",
+    "slides",
+    "ui-design"
+   ],
+   "owner": {
+    "login": "alchaincyf"
+   }
+  },
+  {
+   "id": 1127110039,
+   "full_name": "OthmanAdi/planning-with-files",
+   "html_url": "https://github.com/OthmanAdi/planning-with-files",
+   "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+   "created_at": "2026-01-03T07:37:28Z",
+   "stargazers_count": 28160,
+   "topics": [
+    "agent-skills",
+    "autonomous-agents",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "coding-agent",
+    "context-engineering",
+    "context-rot",
+    "cursor",
+    "github-copilot",
+    "hermes-plugin",
+    "hermes-skill",
+    "llm-agents",
+    "long-running-agents",
+    "manus",
+    "multi-agent-systems",
+    "planning",
+    "session-recovery"
+   ],
+   "owner": {
+    "login": "OthmanAdi"
+   }
+  },
+  {
+   "id": 1305663861,
+   "full_name": "Vincentwei1021/video-shotcraft",
+   "html_url": "https://github.com/Vincentwei1021/video-shotcraft",
+   "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+   "created_at": "2026-07-19T11:44:41Z",
+   "stargazers_count": 21801,
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "ai-video",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "motion-design",
+    "motion-graphics",
+    "product-video",
+    "promo-video",
+    "remotion",
+    "video-generation",
+    "video-production"
+   ],
+   "owner": {
+    "login": "Vincentwei1021"
+   }
+  },
+  {
+   "id": 1177608268,
+   "full_name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+   "html_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+   "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
+   "created_at": "2026-03-10T07:31:45Z",
+   "stargazers_count": 19525,
+   "topics": [
+    "ai-research",
+    "ai-tools",
+    "aris",
+    "autonomous-agent",
+    "claude",
+    "claude-code",
+    "claude-code-skills",
+    "codex",
+    "deep-learning",
+    "gpt",
+    "idea-generation",
+    "llm",
+    "machine-learning",
+    "mcp",
+    "mcp-server",
+    "ml-research",
+    "openai",
+    "paper-review",
+    "paper-writing",
+    "research-automation"
+   ],
+   "owner": {
+    "login": "wanshuiyin"
+   }
+  },
+  {
+   "id": 1201947430,
+   "full_name": "alchaincyf/zhangxuefeng-skill",
+   "html_url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+   "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+   "created_at": "2026-04-05T11:37:18Z",
+   "stargazers_count": 10800,
+   "topics": [
+    "agent-skills",
+    "career-planning",
+    "claude-code",
+    "claude-code-skills",
+    "claude-skills",
+    "codex",
+    "cursor",
+    "decision-making",
+    "education",
+    "gaokao",
+    "gemini-cli",
+    "hermes-agent",
+    "huashu-skills",
+    "mental-models",
+    "nuwa-skill",
+    "openclaw",
+    "opencode",
+    "persona",
+    "prompt-engineering",
+    "skills"
+   ],
+   "owner": {
+    "login": "alchaincyf"
+   }
+  }
+ ]
+}
