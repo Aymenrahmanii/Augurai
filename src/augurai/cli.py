@@ -14,6 +14,9 @@ def build_parser() -> argparse.ArgumentParser:
         command = sub.add_parser(name)
         if name in ("collect", "finish"):
             command.add_argument("--mode", choices=["morning", "refresh"], default="refresh")
+        if name == "coach":
+            command.add_argument("--days", type=int, default=7)
+            command.add_argument("--dry-run", action="store_true")
     return parser
 
 
@@ -29,6 +32,8 @@ def main(argv: list[str] | None = None) -> int:
         return _collect(args.mode)
     if args.command == "finish":
         return _finish(args.mode)
+    if args.command == "coach":
+        return _coach(args.days, args.dry_run)
     if args.command == "build":
         return _build()
     print(f"{args.command}: not implemented", file=sys.stderr)
@@ -71,4 +76,19 @@ def _finish(mode: str) -> int:
         f"finish ok: enrichment={record.enrichment}, email_sent={record.email_sent}"
         + (f" ({record.enrichment_note})" if record.enrichment_note else "")
     )
+    return 0
+
+
+def _coach(days: int, dry_run: bool) -> int:
+    import os
+    from datetime import UTC, datetime
+    from pathlib import Path
+
+    from augurai.coach.run import load_env_file, run_coach
+    from augurai.config import load_settings
+
+    root = Path.cwd()
+    env = {**load_env_file(root / ".env"), **os.environ}
+    path = run_coach(root, load_settings(), datetime.now(UTC), days, dry_run, env)
+    print(f"coach ok: {path}")
     return 0

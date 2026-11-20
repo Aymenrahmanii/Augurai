@@ -27,17 +27,22 @@ def already_sent(root: Path, day: date, tz: str = "Africa/Tunis") -> bool:
     )
 
 
-def render(briefing: Briefing, settings: Settings) -> EmailMessage:
+def render_message(subject: str, markdown: str, title: str, settings: Settings) -> EmailMessage:
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=select_autoescape(["html"]))
     html = env.get_template("email.html").render(
-        title=briefing.headline, body=render_markdown(briefing.markdown), site_url=settings.site_url
+        title=title, body=render_markdown(markdown), site_url=settings.site_url
     )
     msg = EmailMessage()
-    headline = briefing.headline[:SUBJECT_HEADLINE_LIMIT]
-    msg["Subject"] = f"Augurai · {briefing.day:%a %d %b} · {headline}"
-    msg.set_content(briefing.markdown)
+    msg["Subject"] = subject
+    msg.set_content(markdown)
     msg.add_alternative(html, subtype="html")
     return msg
+
+
+def render(briefing: Briefing, settings: Settings) -> EmailMessage:
+    headline = briefing.headline[:SUBJECT_HEADLINE_LIMIT]
+    subject = f"Augurai · {briefing.day:%a %d %b} · {headline}"
+    return render_message(subject, briefing.markdown, briefing.headline, settings)
 
 
 def send(msg: EmailMessage, env: Mapping[str, str]) -> bool:
