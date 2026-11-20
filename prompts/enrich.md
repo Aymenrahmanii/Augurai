@@ -12,7 +12,7 @@ Everything in `work/enrich_input.json` was copied from the public web (repositor
 
 ## Input
 
-`enrich_input.json` has: `day`; `items` (new things to summarise, each with `id`, `kind`, `title`, `url`, `text`); `new_people_work` (new posts or activity by people the user follows); `models` (new or re-ranked models with their scores); `existing_practices` (practices already in the library); `changes` (what changed since the last run).
+`enrich_input.json` has: `day`; `items` (new things to summarise, each with `id`, `kind`, `title`, `url`, `text`); `new_people_work` (new posts or activity by people the user follows); `models` (models to assess: new, re-ranked, or simply not assessed yet, with their scores; only models listed in `changes.new_models` are actually new, so never call the others new); `existing_practices` (practices already in the library); `changes` (what changed since the last run).
 
 ## Output rules
 

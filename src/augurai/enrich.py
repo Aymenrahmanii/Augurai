@@ -101,6 +101,15 @@ def _text(item: RawItem) -> str:
     return str(text)[:ITEM_TEXT_LIMIT]
 
 
+def _assessment_priority(model: Model) -> tuple[int, float, int, str]:
+    intelligence = next(
+        (scores["intelligence"] for scores in model.scores.values() if "intelligence" in scores),
+        -1.0,
+    )
+    released = model.released.toordinal() if model.released else 0
+    return (-len(model.best_at), -intelligence, -released, model.id)
+
+
 def prepare(
     store: Store, changes: Changes, items: list[RawItem], settings: Settings, out: Path
 ) -> EnrichInput:
@@ -126,13 +135,23 @@ def prepare(
             break
 
     models = store.read_map("models", Model)
-    model_ids = list(
-        dict.fromkeys([*changes.new_models, *(m.model_id for m in changes.benchmark_moves)])
+    changed = [
+        mid
+        for mid in dict.fromkeys(
+            [*changes.new_models, *(m.model_id for m in changes.benchmark_moves)]
+        )
+        if mid in models
+    ]
+    # Models never assessed (a fresh install, or models that never moved) get use-cases too,
+    # best-ranked first, a few per run.
+    unassessed = sorted(
+        (m for mid, m in models.items() if not m.use_cases and mid not in changed),
+        key=_assessment_priority,
     )
+    model_ids = [*changed, *(m.id for m in unassessed)][:MAX_MODELS]
     briefs = [
         ModelBrief(**models[mid].model_dump(include=set(ModelBrief.model_fields)))
-        for mid in model_ids[:MAX_MODELS]
-        if mid in models
+        for mid in model_ids
     ]
     practices = [
         PracticeRef(id=p.id, title=p.title, person_id=p.person_id)

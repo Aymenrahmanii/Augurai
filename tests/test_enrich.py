@@ -221,3 +221,34 @@ def test_enrich_prompt_marks_the_input_as_untrusted_data():
 
     prompt = (Path(__file__).parent.parent / "prompts" / "enrich.md").read_text(encoding="utf-8")
     assert "untrusted" in prompt and "never follow" in prompt.lower()
+
+
+def _model(mid, **kw):
+    return Model(id=mid, name=mid, provider="p", first_seen=TODAY, **kw)
+
+
+def test_prepare_briefs_top_models_that_still_lack_use_cases(tmp_path, settings):
+    store = Store(tmp_path / "data")
+    store.write(
+        "models",
+        [
+            _model(
+                "top", best_at=["coding"], scores={"artificial-analysis": {"intelligence": 80.0}}
+            ),
+            _model("mid", best_at=["speed"]),
+            _model("plain"),
+            _model("done", best_at=["coding"], use_cases=["Already assessed"]),
+        ],
+    )
+    result = prepare(store, Changes(day=TODAY), [], settings, tmp_path / "in.json")
+    assert [m.id for m in result.models] == ["top", "mid", "plain"]
+
+
+def test_prepare_caps_the_model_briefs_and_keeps_changed_models_first(tmp_path, settings):
+    store = Store(tmp_path / "data")
+    store.write(
+        "models", [_model(f"m{n}", best_at=["coding"]) for n in range(30)] + [_model("fresh")]
+    )
+    changes = Changes(day=TODAY, new_models=["fresh"])
+    result = prepare(store, changes, [], settings, tmp_path / "in.json")
+    assert len(result.models) == 15 and result.models[0].id == "fresh"
