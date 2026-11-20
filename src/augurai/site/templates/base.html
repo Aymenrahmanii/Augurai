@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Augurai{% endblock %}</title>
+  <meta name="description" content="Augurai tracks AI models, benchmarks, projects, people and jobs, and turns them into a daily briefing.">
+  <link rel="stylesheet" href="{{ base }}static/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="brand" href="{{ base }}">Augurai</a>
+      <nav aria-label="Main">
+        {% for key, label, path in nav %}
+        <a href="{{ base }}{{ path }}"{% if key == page %} aria-current="page"{% endif %}>{{ label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>{{ updated }}</p>
+      <p class="credits">Data from OpenRouter, Hugging Face, GitHub, Hacker News, the MCP registry, Adzuna, RemoteOK and
+        <a href="https://artificialanalysis.ai/">Artificial Analysis</a>.</p>
+    </div>
+  </footer>
+  <script src="{{ base }}static/filter.js" defer></script>
+</body>
+</html>

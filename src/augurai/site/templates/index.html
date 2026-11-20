@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Augurai: your AI radar{% endblock %}
+{% block content %}
+<h1 class="visually-hidden">Today</h1>
+<p class="glance">Tracking <strong>{{ counts.models }}</strong> models, <strong>{{ counts.projects }}</strong> projects and <strong>{{ counts.people }}</strong> people.</p>
+{% if briefing_html %}
+<article class="briefing">
+  <p class="eyebrow">Briefing for {{ briefing_day }}</p>
+  {{ briefing_html }}
+</article>
+{% else %}
+<article class="briefing empty">
+  <h2>No briefing yet</h2>
+  <p>The first morning briefing appears here after the next morning run.</p>
+</article>
+{% endif %}
+{% endblock %}

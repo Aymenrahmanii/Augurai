@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block title %}About · Augurai{% endblock %}
+{% block content %}
+<h1>About</h1>
+<p class="lede">Augurai watches the AI field for one engineer: new models, benchmarks, projects, people and jobs. It refreshes every six hours, finds new people and projects on its own, and writes a short briefing each morning.</p>
+<h2>How it works</h2>
+<ol>
+  <li>Every six hours it reads public sources and ranks what moved.</li>
+  <li>Once a day, Claude summarises what is new and extracts practices from the people's work.</li>
+  <li>If the summary step fails, the site and email still ship with the ranked lists.</li>
+</ol>
+<h2>Source health</h2>
+{% if health %}
+<div class="table-scroll">
+  <table>
+    <thead><tr><th>Source</th><th>Last success</th><th class="num">Failures in a row</th><th>Note</th></tr></thead>
+    <tbody>
+      {% for h in health %}
+      <tr>
+        <td>{{ h.id }}</td>
+        <td>{{ h.last_success.strftime("%Y-%m-%d %H:%M UTC") if h.last_success else "never" }}</td>
+        <td class="num">{{ h.consecutive_failures }}</td>
+        <td>{{ h.last_error or "" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+<p class="empty">No data yet.</p>
+{% endif %}
+<h2>Credits</h2>
+<p>Benchmark data from <a href="https://artificialanalysis.ai/">Artificial Analysis</a>. Remote job data from <a href="https://remoteok.com/">Remote OK</a>. Models from OpenRouter and Hugging Face; projects from GitHub and the MCP registry; discussion from Hacker News; jobs also from Adzuna.</p>
+{% endblock %}

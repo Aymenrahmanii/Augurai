@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Jobs · Augurai{% endblock %}
+{% block content %}
+<h1>Jobs</h1>
+<p class="lede">What employers ask for in AI roles, counted by keyword each month. Markets are shown separately because their sources differ.</p>
+{% if markets %}
+{% for m in markets %}
+<section>
+  <h2>{{ m.label }}</h2>
+  {{ m.chart }}
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Keyword</th>{% for month in m.months %}<th class="num">{{ month }}</th>{% endfor %}</tr></thead>
+      <tbody>
+        {% for row in m.rows %}
+        <tr><td>{{ row.keyword }}</td>{% for n in row.counts %}<td class="num">{{ n }}</td>{% endfor %}</tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% if m.roles %}<p class="meta">Common titles this month: {{ m.roles|join(", ") }}</p>{% endif %}
+  <p class="meta">Sources: {{ m.sources|join(", ") }}</p>
+</section>
+{% endfor %}
+{% else %}
+<p class="empty">No data yet.</p>
+{% endif %}
+<p class="meta">Remote jobs courtesy of <a href="https://remoteok.com/">Remote OK</a>. Tunisian job boards are not tracked: their terms do not allow keyword searching by robots.</p>
+{% endblock %}

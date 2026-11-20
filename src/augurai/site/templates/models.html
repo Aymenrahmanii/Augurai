@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Models · Augurai{% endblock %}
+{% block content %}
+<h1>Models</h1>
+<p class="lede">Which model is best at what. "Best at" marks a model that ranks in the top 3 on that measure.</p>
+{% if models %}
+<div class="controls">
+  <label>Best at
+    <select data-filter="category">
+      <option value="">Everything</option>
+      {% for c in categories %}
+      <option value="{{ c }}">{{ c.replace("_", " ") }}</option>
+      {% endfor %}
+    </select>
+  </label>
+</div>
+<div class="table-scroll">
+  <table>
+    <thead>
+      <tr><th>Model</th><th>Provider</th><th>Best at</th><th class="num">Intelligence</th><th class="num">Coding</th><th class="num">Context</th><th class="num">$ in / out per 1M</th></tr>
+    </thead>
+    <tbody>
+      {% for m in models %}
+      <tr data-item data-category="{{ m.best_at|join(' ') }}">
+        <td><a href="{{ base }}models/{{ m.id }}/">{{ m.name }}</a></td>
+        <td>{{ m.provider }}</td>
+        <td>{% for c in m.best_at %}<span class="chip">{{ c.replace("_", " ") }}</span> {% endfor %}</td>
+        <td class="num">{{ score(m, "intelligence") or "–" }}</td>
+        <td class="num">{{ score(m, "coding") or "–" }}</td>
+        <td class="num">{% if m.context_window %}{{ "{:,}".format(m.context_window) }}{% else %}–{% endif %}</td>
+        <td class="num">{% if m.price_in is not none and m.price_out is not none %}{{ m.price_in }} / {{ m.price_out }}{% else %}–{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% else %}
+<p class="empty">No data yet.</p>
+{% endif %}
+{% endblock %}

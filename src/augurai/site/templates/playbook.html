@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Playbook · Augurai{% endblock %}
+{% block content %}
+<h1>Playbook</h1>
+<p class="lede">Ways of thinking and working with AI, taken from the people you follow. The ones seen again and again come first.</p>
+{% if practices %}
+<div class="controls">
+  <label>Person
+    <select data-filter="person">
+      <option value="">Everyone</option>
+      {% for a in authors %}<option value="{{ a|replace(' ', '-')|lower }}">{{ a }}</option>{% endfor %}
+    </select>
+  </label>
+  <label>Topic
+    <select data-filter="tag">
+      <option value="">All topics</option>
+      {% for t in tags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+    </select>
+  </label>
+</div>
+<ul class="cards">
+  {% for p in practices %}
+  <li data-item data-person="{{ names.get(p.person_id, p.person_id)|replace(' ', '-')|lower }}" data-tag="{{ p.tags|join(' ') }}">
+    <span class="card-title">{{ p.title }}</span>
+    <span class="meta">{{ names.get(p.person_id, p.person_id) }}{% if p.reinforced_by %} · seen {{ p.reinforced_by|length + 1 }} times{% endif %}{% if p.related_skill %} · skill: {{ p.related_skill }}{% endif %}</span>
+    <p>{{ p.principle }}</p>
+    <p><strong>Try it:</strong> {{ p.how_to_apply }}</p>
+    <p class="meta"><a href="{{ p.source_url }}">Source</a>{% for t in p.tags %} <span class="chip">{{ t }}</span>{% endfor %}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="empty">No practices yet. They are extracted from the people's new work every morning.</p>
+{% endif %}
+{% endblock %}

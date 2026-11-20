@@ -27,6 +27,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.command == "collect":
         return _collect(args.mode)
+    if args.command == "build":
+        return _build()
     print(f"{args.command}: not implemented", file=sys.stderr)
     return 2
 
@@ -40,4 +42,15 @@ def _collect(mode: str) -> int:
 
     changes = collect(Path.cwd(), load_settings(), mode, datetime.now(UTC))  # type: ignore[arg-type]
     print(f"collect ok: {len(changes.new_models)} new models, first_run={changes.first_run}")
+    return 0
+
+
+def _build() -> int:
+    from pathlib import Path
+
+    from augurai.config import load_settings
+    from augurai.site.build import build_site
+
+    pages = build_site(Path.cwd(), Path("_site"), load_settings())
+    print(f"built {len(pages)} files into _site/")
     return 0

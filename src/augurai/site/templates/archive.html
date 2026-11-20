@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Archive · Augurai{% endblock %}
+{% block content %}
+<h1>Archive</h1>
+{% if days %}
+<ul class="plain">
+  {% for d in days %}<li><a href="{{ base }}archive/{{ d }}/">{{ d }}</a></li>{% endfor %}
+</ul>
+{% else %}
+<p class="empty">No briefings yet.</p>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Ecosystem · Augurai{% endblock %}
+{% block content %}
+<h1>Ecosystem</h1>
+<p class="lede">Repos, skills, agents and MCP servers that are moving. Ranked by new stars per day over the last week; new projects get a small boost.</p>
+{% for group in groups %}
+<section>
+  <h2>{{ group.label }}</h2>
+  {% if group.entries %}
+  <ul class="cards">
+    {% for e in group.entries %}
+    <li>
+      <a class="card-title" href="{{ e.url }}">{{ e.name }}</a>
+      <span class="meta">{{ e.owner }}{% if e.stars %} · {{ "{:,}".format(e.stars) }} stars{% endif %}{% if e.velocity_7d %} · +{{ "%.1f"|format(e.velocity_7d) }}/day{% endif %}</span>
+      <p>{{ e.summary or e.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">No data yet.</p>
+  {% endif %}
+</section>
+{% endfor %}
+{% endblock %}

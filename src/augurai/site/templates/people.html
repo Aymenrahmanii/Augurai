@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}People · Augurai{% endblock %}
+{% block content %}
+<h1>People</h1>
+<p class="lede">The people worth learning from. New names are added automatically when their work keeps showing up.</p>
+{% set labels = {"seed": "Core list", "followed": "Discovered and followed", "rising": "Rising", "dormant": "Gone quiet"} %}
+{% for status, members in groups.items() %}
+{% if members %}
+<section>
+  <h2>{{ labels[status] }}</h2>
+  <ul class="cards">
+    {% for p in members %}
+    <li>
+      <span class="card-title">{{ p.name }}</span>
+      <span class="meta">{% for key, url in p.links.items() %}<a href="{{ url }}">{{ key }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+      {% if p.why_follow %}<p><strong>Why follow:</strong> {{ p.why_follow }}</p>{% endif %}
+      {% if p.what_to_learn %}<p><strong>Learn:</strong> {{ p.what_to_learn }}</p>{% endif %}
+      {% if p.recent_work %}
+      <ul class="work">
+        {% for w in p.recent_work[:3] %}<li><a href="{{ w.url }}">{{ w.title }}</a></li>{% endfor %}
+      </ul>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}
+{% endblock %}

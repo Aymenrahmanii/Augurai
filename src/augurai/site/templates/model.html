@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ model.name }} · Augurai{% endblock %}
+{% block content %}
+<p class="crumb"><a href="{{ base }}models/">Models</a></p>
+<h1>{{ model.name }}</h1>
+<p class="lede">{{ model.provider }}{% if model.released %} · released {{ model.released }}{% endif %}{% if model.open_weights %} · open weights{% endif %}</p>
+{% if model.best_at %}<p>{% for c in model.best_at %}<span class="chip">{{ c.replace("_", " ") }}</span> {% endfor %}</p>{% endif %}
+<div class="split">
+  <section>
+    <h2>Use it for</h2>
+    {% if model.use_cases %}<ul>{% for u in model.use_cases %}<li>{{ u }}</li>{% endfor %}</ul>{% else %}<p class="empty">Not assessed yet.</p>{% endif %}
+  </section>
+  <section>
+    <h2>Avoid it for</h2>
+    {% if model.avoid_for %}<ul>{% for u in model.avoid_for %}<li>{{ u }}</li>{% endfor %}</ul>{% else %}<p class="empty">Not assessed yet.</p>{% endif %}
+  </section>
+</div>
+<h2>Numbers</h2>
+<dl class="facts">
+  <dt>Context window</dt><dd>{% if model.context_window %}{{ "{:,}".format(model.context_window) }} tokens{% else %}–{% endif %}</dd>
+  <dt>Price per 1M tokens</dt><dd>{% if model.price_in is not none and model.price_out is not none %}${{ model.price_in }} in · ${{ model.price_out }} out{% else %}–{% endif %}</dd>
+  <dt>Modalities</dt><dd>{{ model.modalities|join(", ") or "–" }}</dd>
+</dl>
+{% for source, values in model.scores.items() %}
+<h3>{{ source }}</h3>
+<dl class="facts">{% for key, value in values.items() %}<dt>{{ key }}</dt><dd>{{ value }}</dd>{% endfor %}</dl>
+{% endfor %}
+{% if model.links %}
+<h2>Sources</h2>
+<ul>{% for source, url in model.links.items() %}<li><a href="{{ url }}">{{ source }}</a></li>{% endfor %}</ul>
+{% endif %}
+{% endblock %}
