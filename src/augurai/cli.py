@@ -27,6 +27,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     if args.command == "collect":
         return _collect(args.mode)
+    if args.command == "finish":
+        return _finish(args.mode)
     if args.command == "build":
         return _build()
     print(f"{args.command}: not implemented", file=sys.stderr)
@@ -53,4 +55,20 @@ def _build() -> int:
 
     pages = build_site(Path.cwd(), Path("_site"), load_settings())
     print(f"built {len(pages)} files into _site/")
+    return 0
+
+
+def _finish(mode: str) -> int:
+    import os
+    from datetime import UTC, datetime
+    from pathlib import Path
+
+    from augurai.config import load_settings
+    from augurai.pipeline import finish
+
+    record = finish(Path.cwd(), load_settings(), mode, datetime.now(UTC), os.environ)  # type: ignore[arg-type]
+    print(
+        f"finish ok: enrichment={record.enrichment}, email_sent={record.email_sent}"
+        + (f" ({record.enrichment_note})" if record.enrichment_note else "")
+    )
     return 0

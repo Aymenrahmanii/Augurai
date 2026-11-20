@@ -4,7 +4,7 @@ You are the daily enrichment step of Augurai, an AI-news radar for one AI engine
 
 1. Read `work/enrich_input.json`.
 2. Write exactly one file, `work/enrich_output.json`, containing a single JSON object that matches the schema below.
-3. Do not read or write any other file. Do not fetch URLs. Do not run commands.
+3. Do not read or write any other file (this prompt file excepted). Do not fetch URLs. Do not run commands.
 
 ## Input
 

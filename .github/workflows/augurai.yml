@@ -1,0 +1,86 @@
+name: augurai
+
+on:
+  schedule:
+    - cron: "30 4 * * *" # morning run: 05:30 Tunis, email + briefing
+    - cron: "0 10,16,22 * * *" # refresh runs
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Run mode"
+        type: choice
+        options: [refresh, morning]
+        default: refresh
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: augurai
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync --locked
+
+      - name: Pick the mode
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 4 * * *" ] || [ "${{ inputs.mode }}" = "morning" ]; then
+            echo "MODE=morning" >> "$GITHUB_ENV"
+          else
+            echo "MODE=refresh" >> "$GITHUB_ENV"
+          fi
+
+      - name: Collect
+        run: uv run augurai collect --mode "$MODE"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARTIFICIAL_ANALYSIS_API_KEY: ${{ secrets.ARTIFICIAL_ANALYSIS_API_KEY }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+
+      - name: Enrich with Claude
+        if: env.MODE == 'morning' && hashFiles('work/enrich_input.json') != ''
+        continue-on-error: true
+        timeout-minutes: 20
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: "Follow the instructions in prompts/enrich.md exactly. Read work/enrich_input.json and write work/enrich_output.json."
+          claude_args: '--allowedTools "Read,Write" --max-turns 15'
+
+      - name: Finish (briefing, email, site)
+        run: uv run augurai finish --mode "$MODE"
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          BRIEFING_TO: ${{ secrets.BRIEFING_TO }}
+
+      - name: Commit data
+        run: |
+          git config user.name "augurai-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data briefings
+          git diff --cached --quiet || git commit -m "chore(data): update $(date -u +%FT%H:%MZ)"
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
