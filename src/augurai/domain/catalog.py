@@ -8,6 +8,8 @@ from datetime import date
 from augurai.models import Category, Model, RawItem
 
 _DATE_SUFFIX = re.compile(r"-\d{8}$")
+_PROVIDER_PREFIX = re.compile(r"^[^:()]{1,40}:\s*")
+_VARIANT_SUFFIX = re.compile(r"\s*\([^()]*\)\s*$")
 
 
 def normalize_model_key(provider: str, name: str) -> str:
@@ -117,11 +119,26 @@ _METRICS: dict[Category, Callable[[Model], float | None]] = {
 }
 
 
+def family_key(name: str) -> str:
+    """A model's family: its name without the provider prefix and "(High)"-style variant suffixes."""
+    base = _PROVIDER_PREFIX.sub("", name.strip())
+    while (stripped := _VARIANT_SUFFIX.sub("", base)) != base and stripped:
+        base = stripped
+    return re.sub(r"\s+", " ", base).strip().lower()
+
+
 def compute_best_at(models: dict[str, Model], top_n: int = 3) -> dict[str, Model]:
     best: dict[str, list[Category]] = {key: [] for key in models}
     for category, metric in _METRICS.items():
         ranked = [(value, key) for key, m in models.items() if (value := metric(m)) is not None]
         ranked.sort(key=lambda pair: (-pair[0], pair[1]))
-        for _, key in ranked[:top_n]:
+        families: set[str] = set()
+        for _, key in ranked:  # best variant first; each family can win a category only once
+            family = family_key(models[key].name)
+            if family in families:
+                continue
+            families.add(family)
             best[key].append(category)
+            if len(families) == top_n:
+                break
     return {key: m.model_copy(update={"best_at": best[key]}) for key, m in models.items()}

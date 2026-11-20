@@ -110,3 +110,39 @@ def test_best_at_covers_the_domain_indices():
         "economics",
     }
     assert best["b"].best_at == []
+
+
+def test_family_key_ignores_provider_prefix_and_variant_suffix():
+    from augurai.domain.catalog import family_key
+
+    names = [
+        "Anthropic: Claude Fable 5.2",
+        "Claude Fable 5.2 (Xhigh, Default Fallback)",
+        "Claude Fable 5.2 (High)",
+        "claude fable 5.2",
+    ]
+    assert len({family_key(n) for n in names}) == 1
+    assert family_key("Claude Fable 5.2") != family_key("Claude Fable 5.1")
+    assert family_key("Mistral: Pixtral Large 2502") == family_key("Pixtral Large 2502")
+    assert family_key("(Beta)") == "(beta)"  # never collapses to an empty key
+
+
+def named(mid: str, name: str, **kw) -> Model:
+    return Model(id=mid, name=name, provider="p", first_seen=TODAY, **kw)
+
+
+def test_best_at_counts_one_variant_per_family():
+    def intel(v):
+        return {"artificial-analysis": {"intelligence": v, "legal": v}}
+
+    models = {
+        "a1": named("a1", "Alpha 1", scores=intel(90.0)),
+        "a2": named("a2", "Alpha 1 (High)", scores=intel(89.0)),
+        "a3": named("a3", "Alpha 1 (Xhigh)", scores=intel(88.0)),
+        "b": named("b", "Beta 2", scores=intel(70.0)),
+        "c": named("c", "Gamma 3", scores=intel(60.0)),
+        "d": named("d", "Delta 4", scores=intel(50.0)),
+    }
+    best = compute_best_at(models, top_n=3)
+    winners = {k for k, m in best.items() if "legal" in m.best_at}
+    assert winners == {"a1", "b", "c"}  # the best Alpha variant, then two other families
