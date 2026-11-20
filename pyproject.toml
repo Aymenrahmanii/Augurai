@@ -1,0 +1,34 @@
+[project]
+name = "augurai"
+version = "0.1.0"
+description = "Autonomous AI radar and weekly Claude Code coach"
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser>=6.0.14",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "markdown>=3.11.3",
+    "pydantic>=2",
+    "tzdata>=2026.6",
+]
+
+[project.scripts]
+augurai = "augurai.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "respx>=0.23.1",
+    "ruff>=0.17.6",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
