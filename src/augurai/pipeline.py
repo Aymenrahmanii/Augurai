@@ -15,6 +15,7 @@ from augurai.domain.changes import Changes, Snapshot, compute
 from augurai.domain.ecosystem import merge_entities, rising
 from augurai.domain.jobs import merge_snapshots, snapshot
 from augurai.domain.people import attach_work, candidate_signals, seed, update_discovery
+from augurai.enrich import prepare
 from augurai.models import Entity, JobSnapshot, Model, Person, SourceHealth
 from augurai.sources import all_sources
 from augurai.sources.base import Source, SourceContext, make_client, run_sources
@@ -97,4 +98,6 @@ def collect(
         "sources_skipped": run.skipped,
     }
     (work / "run.json").write_text(json.dumps(run_info, indent=2), encoding="utf-8")
+    if mode == "morning":
+        prepare(store, changes, run.items, settings, work / "enrich_input.json")
     return changes

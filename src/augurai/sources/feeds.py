@@ -67,9 +67,11 @@ class FeedsSource:
                 if not link:
                     continue
                 stamp = entry.get("published_parsed") or entry.get("updated_parsed")
+                body = _entry_text(entry)
                 extra: dict[str, object] = {
                     "feed": feed_url,
-                    "linked_people": linked_logins(_entry_text(entry)),
+                    "linked_people": linked_logins(body),
+                    "text": re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", body)).strip()[:1500],
                 }
                 if person_id:
                     extra["person_id"] = person_id

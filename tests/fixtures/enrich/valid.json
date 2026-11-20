@@ -1,0 +1,8 @@
+{
+  "summaries": {"i1": "Short summary."},
+  "practices": [
+    {"title": "Grill the idea", "principle": "Interrogate a plan before building.", "how_to_apply": "Run /grill-me first.", "person_id": "matt-pocock", "source_url": "https://x/post", "tags": ["planning"]}
+  ],
+  "model_notes": {"opus": {"use_cases": ["coding"], "avoid_for": ["cheap bulk work"]}},
+  "briefing": {"headline": "H", "sections": [{"title": "What changed", "body_md": "- one"}], "practice_of_the_day": "Try X"}
+}

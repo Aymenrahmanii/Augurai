@@ -124,3 +124,13 @@ def test_collect_keeps_data_when_all_sources_fail(tmp_path, settings):
     assert path.read_text(encoding="utf-8") == before
     health = json.loads((tmp_path / "data" / "health.json").read_text(encoding="utf-8"))
     assert {h["id"]: h["consecutive_failures"] for h in health}["boom"] == 1
+
+
+def test_morning_collect_writes_enrich_input_but_refresh_does_not(tmp_path, settings):
+    run_collect(tmp_path / "a", settings, [FakeModels(), FakeFeed()], mode="refresh")
+    assert not (tmp_path / "a" / "work" / "enrich_input.json").exists()
+    run_collect(tmp_path / "b", settings, [FakeModels(), FakeFeed()], mode="morning")
+    data = json.loads((tmp_path / "b" / "work" / "enrich_input.json").read_text(encoding="utf-8"))
+    assert data["day"] == "2026-11-20" and "items" in data
+    info = json.loads((tmp_path / "b" / "work" / "run.json").read_text(encoding="utf-8"))
+    assert info["mode"] == "morning" and "fake-models" in info["sources_ok"]

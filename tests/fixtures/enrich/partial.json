@@ -1,0 +1,10 @@
+{
+  "summaries": {"i1": "ok", "ghost": "dropped: unknown id", "i2": 5},
+  "practices": [
+    {"title": "Good one", "principle": "p", "how_to_apply": "h", "person_id": "matt-pocock", "source_url": "https://x/post"},
+    {"title": "Unknown person", "principle": "p", "how_to_apply": "h", "person_id": "nobody", "source_url": "https://x/post"},
+    {"title": 1}
+  ],
+  "model_notes": {"opus": {"use_cases": ["coding"], "avoid_for": ["bulk work"]}, "ghost-model": {"use_cases": [], "avoid_for": []}},
+  "briefing": {"headline": "H", "sections": [{"title": "t", "body_md": "b"}], "practice_of_the_day": "p"}
+}
