@@ -51,3 +51,17 @@ def test_artificial_analysis_sends_key_header(ctx, fixture):
     ArtificialAnalysisSource().fetch(ctx)
     assert route.calls.last.request.headers["x-api-key"] == "k"
     assert httpx  # keep import used
+
+
+@respx.mock
+def test_artificial_analysis_keeps_every_non_null_index(ctx, fixture):
+    respx.get("https://artificialanalysis.ai/api/v2/language/models/free").respond(
+        json=fixture("aa/models_free.json")
+    )
+    ctx.env = {"ARTIFICIAL_ANALYSIS_API_KEY": "k"}
+    items = ArtificialAnalysisSource().fetch(ctx)
+    a = next(i for i in items if i.extra["model_key"] == "synthetic-model-a")
+    assert a.metrics["engineering"] == 55.0 and a.metrics["legal"] == 48.5
+    assert a.metrics["intelligence"] == 72.5
+    b = next(i for i in items if i.extra["model_key"] == "synthetic-model-b")
+    assert set(b.metrics) == {"intelligence"}  # nulls are never stored as zeros

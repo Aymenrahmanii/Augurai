@@ -28,10 +28,12 @@ class ArtificialAnalysisSource:
 
     def _item(self, row: dict) -> RawItem:
         evals = row.get("evaluations") or {}
+        # Keep every index the API returns (nulls mean "not measured", never zero), so new
+        # benchmarks show up without a code change.
         metrics = {
-            short: float(evals[f"artificial_analysis_{short}_index"])
-            for short in ("intelligence", "coding", "agentic")
-            if evals.get(f"artificial_analysis_{short}_index") is not None
+            key.removeprefix("artificial_analysis_").removesuffix("_index"): float(value)
+            for key, value in evals.items()
+            if key.endswith("_index") and isinstance(value, int | float)
         }
         tps = (row.get("performance_v3") or {}).get("mean_output_tokens_per_second")
         if tps is not None:
