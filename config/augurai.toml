@@ -1,0 +1,142 @@
+# Augurai settings. Seed people and their verified links come from docs/sources.md.
+
+timezone = "Africa/Tunis"
+briefing_hour_local = 7
+site_url = "https://aymenrahmanii.github.io/Augurai/"
+site_base_path = "/Augurai/"
+
+github_topics = ["llm", "ai-agents", "mcp", "claude-code", "rag", "llmops"]
+hn_queries = ["LLM", "AI agent", "Claude", "GPT", "MCP", "open-weights"]
+hn_min_points = 100
+
+feeds = [
+  "https://www.latent.space/feed",
+  "https://simonwillison.net/atom/everything/",
+  "https://openai.com/news/rss.xml",
+  "https://deepmind.google/blog/rss.xml",
+  "https://mistral.ai/rss.xml",
+  "https://qwenlm.github.io/blog/index.xml",
+]
+
+rising_top_n = 10
+promote_threshold = 5.0
+promote_consecutive_runs = 2
+dormant_days = 90
+max_enrich_items = 60
+
+job_keywords = ["LLM", "RAG", "agents", "MCP", "fine-tuning", "evals", "MLOps", "PyTorch", "LangChain", "vector database"]
+adzuna_country = "fr"
+# Tunisia job board dropped: robots.txt disallows keyword search (see docs/sources.md).
+# tn_job_board = "tanitjobs"
+
+[[seed_people]]
+id = "matt-pocock"
+name = "Matt Pocock"
+why_follow = "Turns TypeScript and AI-assisted coding into small, repeatable workflows."
+what_to_learn = "Grill the idea before building; write specs, split into tickets, test-first loops."
+links = { github = "https://github.com/mattpocock", web = "https://aihero.dev", rss = "https://www.aihero.dev/rss.xml" }
+
+[[seed_people]]
+id = "lauren-tan"
+name = "Lauren Tan"
+why_follow = "Works on React's compiler and thinks carefully about tooling and correctness."
+what_to_learn = "Treat the model as a collaborator inside strict, verifiable tooling."
+links = { github = "https://github.com/poteto" }
+
+[[seed_people]]
+id = "simon-willison"
+name = "Simon Willison"
+why_follow = "Documents LLM experiments daily, with working code and honest limits."
+what_to_learn = "Build small tools with LLMs, publish what you learn, and test claims yourself."
+links = { github = "https://github.com/simonw", web = "https://simonwillison.net/", rss = "https://simonwillison.net/atom/everything/" }
+
+[[seed_people]]
+id = "armin-ronacher"
+name = "Armin Ronacher"
+why_follow = "Creator of Flask; writes frankly about agentic coding in real projects."
+what_to_learn = "How an experienced engineer shapes codebases and prompts so agents succeed."
+links = { github = "https://github.com/mitsuhiko", web = "https://lucumr.pocoo.org/", rss = "https://lucumr.pocoo.org/feed.atom" }
+
+[[seed_people]]
+id = "geoffrey-huntley"
+name = "Geoffrey Huntley"
+why_follow = "Pushes autonomous coding-agent loops to their limits."
+what_to_learn = "Loop design, context discipline and specs that let agents run unattended."
+links = { github = "https://github.com/ghuntley", web = "https://www.ghuntley.com/", rss = "https://ghuntley.com/rss/" }
+
+[[seed_people]]
+id = "boris-cherny"
+name = "Boris Cherny"
+why_follow = "Built Claude Code; shows how its creator uses it."
+what_to_learn = "Parallel sessions, plan mode, and verification loops in daily Claude Code use."
+links = { github = "https://github.com/bcherny", web = "https://borischerny.com", rss = "https://borischerny.com/feed.xml" }
+
+[[seed_people]]
+id = "jesse-vincent"
+name = "Jesse Vincent"
+why_follow = "Author of the Superpowers skills you already use."
+what_to_learn = "Skill-driven workflows: brainstorm, plan, test-first, review."
+links = { github = "https://github.com/obra", web = "http://fsck.com" }
+
+[[seed_people]]
+id = "harrison-chase"
+name = "Harrison Chase"
+why_follow = "Founder of LangChain; tracks how agent frameworks evolve."
+what_to_learn = "Agent architecture patterns and what production teams actually run."
+links = { github = "https://github.com/hwchase17" }
+
+[[seed_people]]
+id = "hamel-husain"
+name = "Hamel Husain"
+why_follow = "Practical LLM evals and error analysis."
+what_to_learn = "Look at your data, build evals from real failures, iterate against them."
+links = { github = "https://github.com/hamelsmu", web = "http://hamel.dev", rss = "https://hamel.dev/index.xml" }
+
+[[seed_people]]
+id = "shreya-shankar"
+name = "Shreya Shankar"
+why_follow = "Researches LLM pipelines, evals and human-in-the-loop quality."
+what_to_learn = "Validate the validators; criteria drift as you look at outputs."
+links = { github = "https://github.com/shreyashankar", web = "https://sh-reya.com", rss = "https://sh-reya.com/rss.xml" }
+
+[[seed_people]]
+id = "eugene-yan"
+name = "Eugene Yan"
+why_follow = "Writes applied ML and LLM system patterns from real production work."
+what_to_learn = "Evals, guardrails and retrieval patterns that hold up outside demos."
+links = { github = "https://github.com/eugeneyan", web = "https://eugeneyan.com", rss = "https://eugeneyan.com/rss/" }
+
+[[seed_people]]
+id = "jason-liu"
+name = "Jason Liu"
+why_follow = "Structured outputs, RAG consulting and Instructor."
+what_to_learn = "Treat retrieval as a product problem with measurable feedback loops."
+links = { github = "https://github.com/jxnl", web = "http://jxnl.co" }
+
+[[seed_people]]
+id = "andrej-karpathy"
+name = "Andrej Karpathy"
+why_follow = "Explains how LLMs work and how to work with them."
+what_to_learn = "First-principles understanding; keep the model on a leash with small steps."
+links = { github = "https://github.com/karpathy", rss = "https://karpathy.bearblog.dev/feed/" }
+
+[[seed_people]]
+id = "chip-huyen"
+name = "Chip Huyen"
+why_follow = "Author of AI Engineering and Designing ML Systems."
+what_to_learn = "Systems thinking for AI products: data, evaluation, deployment."
+links = { github = "https://github.com/chiphuyen", web = "https://huyenchip.com", rss = "https://huyenchip.com/feed.xml" }
+
+[[seed_people]]
+id = "sebastian-raschka"
+name = "Sebastian Raschka"
+why_follow = "Clear, code-first explanations of LLM internals and research."
+what_to_learn = "Read model papers by rebuilding the key pieces yourself."
+links = { github = "https://github.com/rasbt", web = "https://sebastianraschka.com", rss = "https://magazine.sebastianraschka.com/feed" }
+
+[[seed_people]]
+id = "swyx"
+name = "swyx"
+why_follow = "Founder of Latent Space; maps the AI engineering field."
+what_to_learn = "Spot the shape of the field early and learn in public."
+links = { github = "https://github.com/swyxio", web = "https://learninpublic.org", rss = "https://www.swyx.io/rss.xml" }
