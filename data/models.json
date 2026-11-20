@@ -149,7 +149,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Workloads needing predictable cost, since no price is listed",
+      "Cases needing a fixed, reproducible model choice"
+    ],
     "best_at": [
       "long_context",
       "multimodal"
@@ -174,10 +177,17 @@
     "provider": "openrouter",
     "released": "2026-11-05",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Routing general prompts without choosing a model by hand",
+      "Long-context requests, given the 2M-token window",
+      "Multimodal inputs"
+    ]
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Production paths that need stable behaviour",
+      "Cost-controlled workloads, since no price is listed"
+    ],
     "best_at": [
       "long_context",
       "multimodal"
@@ -202,10 +212,15 @@
     "provider": "openrouter",
     "released": "2026-07-17",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Trying the beta router on long-context or multimodal prompts"
+    ]
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Budget-sensitive runs, since no price is listed",
+      "Reproducible evaluations that need a fixed model"
+    ],
     "best_at": [
       "long_context",
       "multimodal"
@@ -230,7 +245,10 @@
     "provider": "openrouter",
     "released": "2026-11-05",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Coding prompts where the router picks the model",
+      "Large-codebase context, given the 2M-token window"
+    ]
   },
   {
     "avoid_for": [],
@@ -907,7 +925,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Production use without your own evaluation; no benchmark scores are given",
+      "Cases needing a known context window or hosted pricing"
+    ],
     "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
@@ -927,7 +948,9 @@
         "hf_trending": 77.0
       }
     },
-    "use_cases": []
+    "use_cases": [
+      "Local experimentation with a 27B open model that is trending on Hugging Face"
+    ]
   },
   {
     "avoid_for": [],
@@ -2118,7 +2141,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "High-volume cheap classification or extraction",
+      "Relying on it for a specific skill, since no scores are given"
+    ],
     "best_at": [],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
@@ -2140,7 +2166,10 @@
     "provider": "google",
     "released": "2026-11-18",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Long-context work, given the ~1M-token window",
+      "General tasks at $3 in / $15 out per million tokens"
+    ]
   },
   {
     "avoid_for": [],
@@ -3831,7 +3860,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "High-volume or latency-sensitive pipelines",
+      "Simple tasks where the cheaper Sol is enough"
+    ],
     "best_at": [],
     "context_window": 1050000,
     "first_seen": "2026-11-20",
@@ -3851,10 +3883,16 @@
     "provider": "openai",
     "released": "2026-11-17",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "High-value tasks that justify $8 in / $40 out per million tokens",
+      "Very long inputs, given the ~1.05M-token window"
+    ]
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Routine or bulk work, given the $40/M output price",
+      "Cases where its difference from Astra is unverified; no scores are given"
+    ],
     "best_at": [],
     "context_window": 1050000,
     "first_seen": "2026-11-20",
@@ -3874,10 +3912,16 @@
     "provider": "openai",
     "released": "2026-11-17",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Hardest problems where you want the Pro variant at the same listed price as Astra",
+      "Very long-context analysis"
+    ]
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Tasks proven to need the more expensive Astra tier",
+      "Bulk jobs where a much cheaper model suffices"
+    ],
     "best_at": [],
     "context_window": 1050000,
     "first_seen": "2026-11-20",
@@ -3897,10 +3941,16 @@
     "provider": "openai",
     "released": "2026-11-17",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "General-purpose work at $2 in / $10 out per million tokens",
+      "Long-context tasks up to ~1.05M tokens"
+    ]
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Bulk low-value tasks",
+      "Assuming it beats Sol; no scores are given"
+    ],
     "best_at": [],
     "context_window": 1050000,
     "first_seen": "2026-11-20",
@@ -3920,7 +3970,10 @@
     "provider": "openai",
     "released": "2026-11-17",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Harder tasks where you want the Pro variant at the same listed price as Sol",
+      "Long-context analysis"
+    ]
   },
   {
     "avoid_for": [],
@@ -4643,7 +4696,9 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Hard reasoning without testing first; no benchmark scores are given"
+    ],
     "best_at": [],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
@@ -4667,7 +4722,11 @@
         "hf_trending": 172.0
       }
     },
-    "use_cases": []
+    "use_cases": [
+      "High-volume, cost-sensitive work at $0.035 in / $0.14 out per million tokens",
+      "Long-context processing with a ~1M-token window",
+      "Trending on Hugging Face, so worth a trial"
+    ]
   },
   {
     "avoid_for": [],
@@ -4714,7 +4773,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Production use without your own evaluation",
+      "Cases needing a known context window or hosted pricing"
+    ],
     "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
@@ -4731,10 +4793,12 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 53.0
+        "hf_trending": 69.0
       }
     },
-    "use_cases": []
+    "use_cases": [
+      "Local experimentation with a small open model trending on Hugging Face"
+    ]
   },
   {
     "avoid_for": [],
@@ -5799,7 +5863,7 @@
     "released": "2026-11-05",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 60.5
+        "hf_trending": 61.0
       }
     },
     "use_cases": []
@@ -7055,7 +7119,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Inputs beyond 128K tokens",
+      "Tasks where a cheaper small model would do"
+    ],
     "best_at": [],
     "context_window": 128000,
     "first_seen": "2026-11-20",
@@ -7074,7 +7141,10 @@
     "provider": "mistralai",
     "released": "2026-11-20",
     "scores": {},
-    "use_cases": []
+    "use_cases": [
+      "Image-plus-text tasks at $2 in / $6 out per million tokens",
+      "Moderate-length document or screenshot analysis within 128K context"
+    ]
   },
   {
     "avoid_for": [],
@@ -7696,13 +7766,16 @@
     "released": "2026-08-05",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 235.0
+        "hf_trending": 235.5
       }
     },
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Use outside that harness without testing",
+      "Production use; no scores or context window are given"
+    ],
     "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
@@ -7722,10 +7795,15 @@
         "hf_trending": 47.5
       }
     },
-    "use_cases": []
+    "use_cases": [
+      "Trying a 27B model adapted for the opencode coding harness"
+    ]
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Use outside that harness without testing",
+      "Production use; no scores or context window are given"
+    ],
     "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
@@ -7745,7 +7823,9 @@
         "hf_trending": 290.5
       }
     },
-    "use_cases": []
+    "use_cases": [
+      "Trying a 27B model adapted for the pi coding harness; it is the highest-trending model in this batch"
+    ]
   },
   {
     "avoid_for": [],
@@ -8366,7 +8446,10 @@
     "use_cases": []
   },
   {
-    "avoid_for": [],
+    "avoid_for": [
+      "Hard tasks without testing first; no scores are given",
+      "Cases needing a known context window or hosted pricing"
+    ],
     "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
@@ -8386,7 +8469,10 @@
         "hf_trending": 168.0
       }
     },
-    "use_cases": []
+    "use_cases": [
+      "Local or on-device experiments with a 9B open model",
+      "Trying a model that is trending on Hugging Face"
+    ]
   },
   {
     "avoid_for": [],
