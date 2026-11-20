@@ -48,7 +48,9 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "cost_efficiency"
+    ],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "agnes-2-5-pro-theta",
@@ -406,10 +408,7 @@
       "Production paths that need stable behaviour",
       "Cost-controlled workloads, since no price is listed"
     ],
-    "best_at": [
-      "long_context",
-      "multimodal"
-    ],
+    "best_at": [],
     "context_window": 2000000,
     "first_seen": "2026-11-20",
     "id": "auto-beta",
@@ -1188,11 +1187,7 @@
   },
   {
     "avoid_for": [],
-    "best_at": [
-      "engineering",
-      "strategy",
-      "economics"
-    ],
+    "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "claude-fable-5-2-high",
@@ -1279,12 +1274,7 @@
   },
   {
     "avoid_for": [],
-    "best_at": [
-      "engineering",
-      "finance",
-      "strategy",
-      "economics"
-    ],
+    "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "claude-fable-5-2-xhigh",
@@ -1486,9 +1476,7 @@
   },
   {
     "avoid_for": [],
-    "best_at": [
-      "cost_efficiency"
-    ],
+    "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "claude-haiku-5-5-xhigh",
@@ -1799,7 +1787,9 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "healthcare"
+    ],
     "context_window": 1000000,
     "first_seen": "2026-11-20",
     "id": "claude-opus-5-5",
@@ -3966,7 +3956,7 @@
     "released": "2026-10-30",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 46.400000000000006
+        "hf_trending": 46.300000000000004
       }
     },
     "use_cases": []
@@ -4824,7 +4814,9 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "multimodal"
+    ],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
     "id": "gemini-2-5-flash",
@@ -5883,7 +5875,10 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "finance",
+      "legal"
+    ],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
     "id": "gemini-4-carbon",
@@ -6111,9 +6106,12 @@
       "Relying on it for a specific skill, since no scores are given"
     ],
     "best_at": [
+      "engineering",
       "finance",
       "legal",
-      "healthcare"
+      "healthcare",
+      "strategy",
+      "economics"
     ],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
@@ -6154,10 +6152,7 @@
   },
   {
     "avoid_for": [],
-    "best_at": [
-      "legal",
-      "healthcare"
-    ],
+    "best_at": [],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "gemini-4-neon-high",
@@ -10087,7 +10082,11 @@
       "High-volume or latency-sensitive pipelines",
       "Simple tasks where the cheaper Sol is enough"
     ],
-    "best_at": [],
+    "best_at": [
+      "engineering",
+      "strategy",
+      "economics"
+    ],
     "context_window": 1050000,
     "first_seen": "2026-11-20",
     "id": "gpt-6-2-astra",
@@ -11780,7 +11779,9 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "long_context"
+    ],
     "context_window": 2000000,
     "first_seen": "2026-11-20",
     "id": "grok-4-20",
@@ -12795,7 +12796,7 @@
         "strategy_and_ops": 35.2
       },
       "huggingface-models": {
-        "hf_trending": 125.0
+        "hf_trending": 141.0
       }
     },
     "use_cases": [
@@ -12820,7 +12821,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 51.0
+        "hf_trending": 56.0
       }
     },
     "use_cases": []
@@ -20538,7 +20539,7 @@
     "released": "2026-07-19",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 61.0
+        "hf_trending": 61.5
       }
     },
     "use_cases": []

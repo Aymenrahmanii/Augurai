@@ -504,10 +504,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 198026
+        "stars": 198027
       }
     ],
-    "stars": 198026,
+    "stars": 198027,
     "summary": "Anthropic's public repository for Agent Skills.",
     "url": "https://github.com/anthropics/skills",
     "velocity_7d": 0.0
@@ -656,10 +656,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 69221
+        "stars": 69224
       }
     ],
-    "stars": 69221,
+    "stars": 69224,
     "summary": "A skill for producing editorial diagrams as self-contained HTML and SVG, with 45 diagram types. It supports Claude Code, Codex, Copilot, Cursor and others.",
     "url": "https://github.com/cathrynlavery/diagram-design",
     "velocity_7d": 0.0
@@ -694,10 +694,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 30194
+        "stars": 30195
       }
     ],
-    "stars": 30194,
+    "stars": 30195,
     "summary": "A collection of 410 skills, plus agents and commands, for Claude Code, Codex, Gemini CLI, Cursor and 8 other coding agents. Domains include engineering, marketing, product, compliance and finance.",
     "url": "https://github.com/alirezarezvani/claude-skills",
     "velocity_7d": 0.0
@@ -1682,10 +1682,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 119378
+        "stars": 119379
       }
     ],
-    "stars": 119378,
+    "stars": 119379,
     "summary": null,
     "url": "https://github.com/addyosmani/agent-skills",
     "velocity_7d": 0.0
@@ -1948,10 +1948,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 678
+        "stars": 680
       }
     ],
-    "stars": 678,
+    "stars": 680,
     "summary": "A set of 45 agent skills from three shipped products, covering deciding what to build, building with Claude Code or Codex, review by a second model, and release.",
     "url": "https://github.com/phuryn/product-engineering",
     "velocity_7d": 0.0
@@ -2005,10 +2005,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 57934
+        "stars": 57935
       }
     ],
-    "stars": 57934,
+    "stars": 57935,
     "summary": null,
     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
     "velocity_7d": 0.0
@@ -2442,10 +2442,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 135
+        "stars": 136
       }
     ],
-    "stars": 135,
+    "stars": 136,
     "summary": null,
     "url": "https://github.com/jackulau/coding.sh",
     "velocity_7d": 0.0
@@ -3069,10 +3069,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 53699
+        "stars": 53700
       }
     ],
-    "stars": 53699,
+    "stars": 53700,
     "summary": null,
     "url": "https://github.com/CherryHQ/cherry-studio",
     "velocity_7d": 0.0
@@ -3145,10 +3145,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 94
+        "stars": 95
       }
     ],
-    "stars": 94,
+    "stars": 95,
     "summary": null,
     "url": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
     "velocity_7d": 0.0
@@ -3373,10 +3373,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 61708
+        "stars": 61709
       }
     ],
-    "stars": 61708,
+    "stars": 61709,
     "summary": null,
     "url": "https://github.com/coreyhaines31/marketingskills",
     "velocity_7d": 0.0
@@ -3506,10 +3506,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 6274
+        "stars": 6275
       }
     ],
-    "stars": 6274,
+    "stars": 6275,
     "summary": null,
     "url": "https://github.com/vercel-labs/ui",
     "velocity_7d": 0.0
@@ -3905,10 +3905,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 6532
+        "stars": 6534
       }
     ],
-    "stars": 6532,
+    "stars": 6534,
     "summary": null,
     "url": "https://github.com/erkamyaman/rust-anything",
     "velocity_7d": 0.0
@@ -4304,10 +4304,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 50047
+        "stars": 50048
       }
     ],
-    "stars": 50047,
+    "stars": 50048,
     "summary": null,
     "url": "https://github.com/sickn33/agentic-awesome-skills",
     "velocity_7d": 0.0
@@ -4342,10 +4342,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 1270
+        "stars": 1271
       }
     ],
-    "stars": 1270,
+    "stars": 1271,
     "summary": null,
     "url": "https://github.com/wici-ai/inferssd",
     "velocity_7d": 0.0
@@ -4361,10 +4361,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 471364
+        "stars": 471371
       }
     ],
-    "stars": 471364,
+    "stars": 471371,
     "summary": null,
     "url": "https://github.com/morluto/rea",
     "velocity_7d": 0.0
@@ -4494,10 +4494,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 1577
+        "stars": 1590
       }
     ],
-    "stars": 1577,
+    "stars": 1590,
     "summary": null,
     "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
     "velocity_7d": 0.0
@@ -4912,10 +4912,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 38569
+        "stars": 38570
       }
     ],
-    "stars": 38569,
+    "stars": 38570,
     "summary": null,
     "url": "https://github.com/virgiliojr94/book-to-skill",
     "velocity_7d": 0.0
@@ -5007,10 +5007,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 58394
+        "stars": 58397
       }
     ],
-    "stars": 58394,
+    "stars": 58397,
     "summary": null,
     "url": "https://github.com/emilkowalski/skills",
     "velocity_7d": 0.0
@@ -5140,10 +5140,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 108
+        "stars": 119
       }
     ],
-    "stars": 108,
+    "stars": 119,
     "summary": null,
     "url": "https://github.com/chase1225/anythingllm-verona-document-chat",
     "velocity_7d": 0.0
@@ -5235,10 +5235,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 5922
+        "stars": 5923
       }
     ],
-    "stars": 5922,
+    "stars": 5923,
     "summary": null,
     "url": "https://github.com/mdiri-ai/SoduWork",
     "velocity_7d": 0.0
@@ -5311,10 +5311,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 3984
+        "stars": 3985
       }
     ],
-    "stars": 3984,
+    "stars": 3985,
     "summary": null,
     "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
     "velocity_7d": 0.0
@@ -5330,10 +5330,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 4855
+        "stars": 4854
       }
     ],
-    "stars": 4855,
+    "stars": 4854,
     "summary": null,
     "url": "https://github.com/modelflare-ai/AnyModelBot",
     "velocity_7d": 0.0
@@ -5596,10 +5596,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 515
+        "stars": 516
       }
     ],
-    "stars": 515,
+    "stars": 516,
     "summary": null,
     "url": "https://github.com/chutingyean/Agent-Cockpit",
     "velocity_7d": 0.0
@@ -5634,10 +5634,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 988
+        "stars": 989
       }
     ],
-    "stars": 988,
+    "stars": 989,
     "summary": null,
     "url": "https://github.com/simpsoka/zigzag",
     "velocity_7d": 0.0
@@ -5729,10 +5729,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 58444
+        "stars": 58446
       }
     ],
-    "stars": 58444,
+    "stars": 58446,
     "summary": null,
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
     "velocity_7d": 0.0
@@ -5748,10 +5748,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 98297
+        "stars": 98299
       }
     ],
-    "stars": 98297,
+    "stars": 98299,
     "summary": null,
     "url": "https://github.com/tt-a1i/archify",
     "velocity_7d": 0.0
@@ -5995,10 +5995,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 2683
+        "stars": 2684
       }
     ],
-    "stars": 2683,
+    "stars": 2684,
     "summary": null,
     "url": "https://github.com/caru-ini/stack-diagram",
     "velocity_7d": 0.0
@@ -6318,10 +6318,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 195529
+        "stars": 195533
       }
     ],
-    "stars": 195529,
+    "stars": 195533,
     "summary": null,
     "url": "https://github.com/DietrichGebert/ponytail",
     "velocity_7d": 0.0
@@ -6489,10 +6489,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 4200
+        "stars": 4202
       }
     ],
-    "stars": 4200,
+    "stars": 4202,
     "summary": null,
     "url": "https://github.com/ersinkoc/phonebox",
     "velocity_7d": 0.0
@@ -6622,10 +6622,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 119280
+        "stars": 119285
       }
     ],
-    "stars": 119280,
+    "stars": 119285,
     "summary": null,
     "url": "https://github.com/Leonxlnx/taste-skill",
     "velocity_7d": 0.0
@@ -6698,10 +6698,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 47
+        "stars": 48
       }
     ],
-    "stars": 47,
+    "stars": 48,
     "summary": null,
     "url": "https://github.com/johnpsasser/lifeboat",
     "velocity_7d": 0.0
@@ -6755,10 +6755,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 33433
+        "stars": 33434
       }
     ],
-    "stars": 33433,
+    "stars": 33434,
     "summary": null,
     "url": "https://github.com/topoteretes/cognee",
     "velocity_7d": 0.0
@@ -6774,10 +6774,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 53891
+        "stars": 53892
       }
     ],
-    "stars": 53891,
+    "stars": 53892,
     "summary": null,
     "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
     "velocity_7d": 0.0
@@ -6812,10 +6812,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 108673
+        "stars": 108674
       }
     ],
-    "stars": 108673,
+    "stars": 108674,
     "summary": null,
     "url": "https://github.com/nexu-io/open-design",
     "velocity_7d": 0.0
@@ -7021,10 +7021,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 11393
+        "stars": 11395
       }
     ],
-    "stars": 11393,
+    "stars": 11395,
     "summary": null,
     "url": "https://github.com/JuneYaooo/rea-video",
     "velocity_7d": 0.0
@@ -7192,10 +7192,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 5603
+        "stars": 5606
       }
     ],
-    "stars": 5603,
+    "stars": 5606,
     "summary": null,
     "url": "https://github.com/haydenschmitty/floorplan",
     "velocity_7d": 0.0
@@ -7287,10 +7287,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 2755
+        "stars": 2756
       }
     ],
-    "stars": 2755,
+    "stars": 2756,
     "summary": null,
     "url": "https://github.com/FrigadeHQ/yogurt",
     "velocity_7d": 0.0
@@ -7325,10 +7325,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 54725
+        "stars": 54726
       }
     ],
-    "stars": 54725,
+    "stars": 54726,
     "summary": null,
     "url": "https://github.com/alibaba/open-code-review",
     "velocity_7d": 0.0
@@ -7363,10 +7363,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-20",
-        "stars": 113984
+        "stars": 113985
       }
     ],
-    "stars": 113984,
+    "stars": 113985,
     "summary": null,
     "url": "https://github.com/pbakaus/impeccable",
     "velocity_7d": 0.0

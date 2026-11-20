@@ -134,6 +134,126 @@
       "category": "legal",
       "change": "entered",
       "model_id": "gemini-4-neon-high"
+    },
+    {
+      "category": "cost_efficiency",
+      "change": "entered",
+      "model_id": "agnes-2-5-pro-theta"
+    },
+    {
+      "category": "long_context",
+      "change": "left",
+      "model_id": "auto-beta"
+    },
+    {
+      "category": "multimodal",
+      "change": "left",
+      "model_id": "auto-beta"
+    },
+    {
+      "category": "economics",
+      "change": "left",
+      "model_id": "claude-fable-5-2-high"
+    },
+    {
+      "category": "engineering",
+      "change": "left",
+      "model_id": "claude-fable-5-2-high"
+    },
+    {
+      "category": "strategy",
+      "change": "left",
+      "model_id": "claude-fable-5-2-high"
+    },
+    {
+      "category": "economics",
+      "change": "left",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "engineering",
+      "change": "left",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "finance",
+      "change": "left",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "strategy",
+      "change": "left",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "cost_efficiency",
+      "change": "left",
+      "model_id": "claude-haiku-5-5-xhigh"
+    },
+    {
+      "category": "healthcare",
+      "change": "entered",
+      "model_id": "claude-opus-5-5"
+    },
+    {
+      "category": "multimodal",
+      "change": "entered",
+      "model_id": "gemini-2-5-flash"
+    },
+    {
+      "category": "finance",
+      "change": "entered",
+      "model_id": "gemini-4-carbon"
+    },
+    {
+      "category": "legal",
+      "change": "entered",
+      "model_id": "gemini-4-carbon"
+    },
+    {
+      "category": "economics",
+      "change": "entered",
+      "model_id": "gemini-4-neon"
+    },
+    {
+      "category": "engineering",
+      "change": "entered",
+      "model_id": "gemini-4-neon"
+    },
+    {
+      "category": "strategy",
+      "change": "entered",
+      "model_id": "gemini-4-neon"
+    },
+    {
+      "category": "healthcare",
+      "change": "left",
+      "model_id": "gemini-4-neon-high"
+    },
+    {
+      "category": "legal",
+      "change": "left",
+      "model_id": "gemini-4-neon-high"
+    },
+    {
+      "category": "economics",
+      "change": "entered",
+      "model_id": "gpt-6-2-astra"
+    },
+    {
+      "category": "engineering",
+      "change": "entered",
+      "model_id": "gpt-6-2-astra"
+    },
+    {
+      "category": "strategy",
+      "change": "entered",
+      "model_id": "gpt-6-2-astra"
+    },
+    {
+      "category": "long_context",
+      "change": "entered",
+      "model_id": "grok-4-20"
     }
   ],
   "day": "2026-11-20",
