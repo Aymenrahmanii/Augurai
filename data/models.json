@@ -4664,7 +4664,7 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 171.0
+        "hf_trending": 171.5
       }
     },
     "use_cases": []
@@ -4716,6 +4716,29 @@
   {
     "avoid_for": [],
     "best_at": [],
+    "context_window": null,
+    "first_seen": "2026-11-20",
+    "id": "inkling-2-mini",
+    "links": {
+      "huggingface-models": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+    },
+    "modalities": [],
+    "name": "Inkling-2-Mini",
+    "open_weights": true,
+    "price_in": null,
+    "price_out": null,
+    "provider": "thinkingmachines",
+    "released": "2026-11-17",
+    "scores": {
+      "huggingface-models": {
+        "hf_trending": 43.0
+      }
+    },
+    "use_cases": []
+  },
+  {
+    "avoid_for": [],
+    "best_at": [],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
     "id": "inkling-2-small",
@@ -4735,7 +4758,7 @@
     "released": "2026-11-04",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 90.5
+        "hf_trending": 90.0
       }
     },
     "use_cases": []
@@ -7397,7 +7420,7 @@
     "released": "2026-07-19",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 59.5
+        "hf_trending": 60.0
       }
     },
     "use_cases": []
@@ -7742,7 +7765,7 @@
     "released": "2026-09-01",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 104.5
+        "hf_trending": 105.0
       }
     },
     "use_cases": []
@@ -8404,7 +8427,7 @@
     "released": "2025-02-11",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 63.0
+        "hf_trending": 63.5
       }
     },
     "use_cases": []

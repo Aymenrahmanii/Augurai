@@ -1,7 +1,6 @@
 [
   {
-    "email_failed": true,
-    "email_sent": false,
+    "briefing_written": false,
     "enrichment": "failed",
     "enrichment_note": "Claude step did not produce output",
     "id": "2026-11-20T20:23:47.513529+00:00",
@@ -25,5 +24,31 @@
       "jobs-adzuna"
     ],
     "started": "2026-11-20T20:23:47.513529Z"
+  },
+  {
+    "briefing_written": true,
+    "enrichment": "failed",
+    "enrichment_note": "Claude step did not produce output",
+    "id": "2026-11-20T20:37:06.524816+00:00",
+    "mode": "morning",
+    "sources_failed": [],
+    "sources_ok": [
+      "openrouter",
+      "huggingface-models",
+      "github-repos",
+      "github-skills",
+      "mcp-registry",
+      "hackernews",
+      "feeds",
+      "hf-papers",
+      "github-people",
+      "jobs-hn",
+      "jobs-remoteok"
+    ],
+    "sources_skipped": [
+      "artificial-analysis",
+      "jobs-adzuna"
+    ],
+    "started": "2026-11-20T20:37:06.524816Z"
   }
 ]

@@ -3,82 +3,11 @@
   "day": "2026-11-20",
   "demoted": [],
   "failing_sources": [],
-  "first_run": true,
+  "first_run": false,
   "new_models": [],
   "people_work": [],
   "promoted": [],
-  "rising": {
-    "agent": [
-      "15e141845b06db6a",
-      "1e2e1314ac1121e4",
-      "244d2e2d102af837",
-      "2519b65e4dae2378",
-      "2ac82a9b4f5ff40f",
-      "34689cddad5a3350",
-      "3c40bebd52407729",
-      "4e4f33a91e8a0857",
-      "537bd3ea8f73dce6",
-      "5e9d3fd0e59ccb77"
-    ],
-    "mcp": [
-      "006803f870ac1aa8",
-      "015e12a23d2fb07c",
-      "01a0e5ca68bc1778",
-      "0315535623695125",
-      "0403a139614fc039",
-      "070953677a6891e6",
-      "07d89bac7c6a81d8",
-      "08bbe111dca6be09",
-      "095539c5813d82cb",
-      "0a4ef99df2afb099"
-    ],
-    "repo": [
-      "000bc52c34a8c5de",
-      "04a506b8b3ccb73c",
-      "0667a519c65042ee",
-      "069c01a3a1c6d0a6",
-      "0982b209ff56a87e",
-      "0b6ea5fa9098b228",
-      "0d67183d9957047b",
-      "0dba818753f02bf2",
-      "1038f93149f1ee9a",
-      "116dad2ea71e5d74"
-    ],
-    "skill": [
-      "0c16e31c5bb47281",
-      "0c600aca31767b69",
-      "0f638e8a8f10e599",
-      "0f88f01cc4043ac3",
-      "10ba719313a0c835",
-      "11f0630cbc7600e5",
-      "14f321c495182c59",
-      "1578476054924343",
-      "1c414ec2b5237063",
-      "1f96d0661c1531e6"
-    ]
-  },
-  "top_hn": [
-    "a7a7773a9f5669fb",
-    "07706832bb39f07a",
-    "d3966b6fd7109579",
-    "bb82379af066ff25",
-    "52478eb1a864ece1",
-    "5388f4beff74263a",
-    "8e29c138e61ab876",
-    "95090c9e725edaf8",
-    "48b46abf2f4bdec3",
-    "f836fd200cc1c02e"
-  ],
-  "top_papers": [
-    "47ddbf71e00ceb23",
-    "63dbb81e2a2d11bd",
-    "0cdac5c6e4a67a41",
-    "eb4d2df7b7187bdc",
-    "f6990214f0b638d6",
-    "28a468536f32c3ad",
-    "a3bdd56a3a313bf2",
-    "db4bd6cbca203078",
-    "3b627af7791cfed8",
-    "77e0a0e89a0e9524"
-  ]
+  "rising": {},
+  "top_hn": [],
+  "top_papers": []
 }
