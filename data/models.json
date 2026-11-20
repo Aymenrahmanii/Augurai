@@ -143,7 +143,7 @@
     "released": "2026-11-06",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 45.0
+        "hf_trending": 45.5
       }
     },
     "use_cases": []
@@ -4793,7 +4793,7 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 69.0
+        "hf_trending": 83.0
       }
     },
     "use_cases": [
@@ -4822,7 +4822,7 @@
     "released": "2026-11-04",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 90.5
+        "hf_trending": 91.5
       }
     },
     "use_cases": []
@@ -7490,7 +7490,7 @@
     "released": "2026-07-19",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 60.0
+        "hf_trending": 60.5
       }
     },
     "use_cases": []
@@ -7820,7 +7820,7 @@
     "released": "2026-11-16",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 290.5
+        "hf_trending": 291.0
       }
     },
     "use_cases": [
@@ -7845,7 +7845,7 @@
     "released": "2026-09-01",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 105.0
+        "hf_trending": 106.0
       }
     },
     "use_cases": []
