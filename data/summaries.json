@@ -1,0 +1,242 @@
+[
+  {
+    "id": "000bc52c34a8c5de",
+    "text": "A repo of 43 short interviewer-vs-candidate episodes across 7 rounds for AI engineer interviews, covering prompting, RAG, agents, MCP, evals and system design. Each episode has an answer, follow-ups, a common trap and code."
+  },
+  {
+    "id": "006803f870ac1aa8",
+    "text": "An MCP server offering pay-per-call x402 tools for a locale cluster, paid in USDC with no API keys."
+  },
+  {
+    "id": "015e12a23d2fb07c",
+    "text": "An MCP server exposing 500+ typed UI components that an agent can compose into rendered interfaces. It is free and needs no API key."
+  },
+  {
+    "id": "01a0e5ca68bc1778",
+    "text": "A remote MCP API for GitHub trending repos, Hugging Face trending models and arXiv paper search."
+  },
+  {
+    "id": "0315535623695125",
+    "text": "An OAuth-based MCP server for acting in a Moha workspace: team, hires, approvals, time off, expenses and payroll."
+  },
+  {
+    "id": "0403a139614fc039",
+    "text": "An MCP server where an agent runs Meta Ads and Google Ads for Shopify stores, showing store revenue next to ad spend."
+  },
+  {
+    "id": "04a506b8b3ccb73c",
+    "text": "A stateful ride-support agent with versioned claims, evidence-backed RAG, durable memory and guarded MCP tools."
+  },
+  {
+    "id": "0667a519c65042ee",
+    "text": "A project aimed at running different LLMs on the smallest devices possible."
+  },
+  {
+    "id": "069c01a3a1c6d0a6",
+    "text": "A collection of 21 genre-specific skills for AI comic-drama production, from a one-line idea to a plan, asset prompts, episode scripts, storyboards and video prompts. Usable with Claude Code, WorkBuddy and DeepSeek."
+  },
+  {
+    "id": "070953677a6891e6",
+    "text": "An MCP server for buying travel eSIMs, gift cards and mobile top-ups with crypto, with user confirmation before any order."
+  },
+  {
+    "id": "07706832bb39f07a",
+    "text": "A Hacker News thread claiming Claude Code sends your email address to websites; only the title is available, so the claim is unverified here."
+  },
+  {
+    "id": "07d89bac7c6a81d8",
+    "text": "An MCP server returning Google search results, forum threads, local and shopping data, keyword ideas and AI answer tracking."
+  },
+  {
+    "id": "08bbe111dca6be09",
+    "text": "An MCP directory of merchants accepting agentic payments over Lightning, L402, BOLT12 and USDT, with search, verify and pay functions."
+  },
+  {
+    "id": "095539c5813d82cb",
+    "text": "An MCP directory for finding AI tools by task, with pricing context, setup steps, limitations and official sources."
+  },
+  {
+    "id": "0982b209ff56a87e",
+    "text": "An Alembic-style migration tool for LLM prompts and agent configs, with versioned JSON revisions, reversible upgrade/downgrade, per-environment state and drift checks. It is a local-first, stdlib-only Python CLI."
+  },
+  {
+    "id": "0a4ef99df2afb099",
+    "text": "An MCP server for shopping Korean skincare in the UAE from chat, with AED prices, ordering and payment."
+  },
+  {
+    "id": "0b6ea5fa9098b228",
+    "text": "A converter that turns PDF, Office, HWP/HWPX, OpenDocument, RTF, EPUB, HTML, email and image files into Markdown for LLM use."
+  },
+  {
+    "id": "0c16e31c5bb47281",
+    "text": "Context management for Claude Code using hooks that keep state in ledgers and handoffs. It also runs MCP calls without polluting context and orchestrates agents with isolated context windows."
+  },
+  {
+    "id": "0c600aca31767b69",
+    "text": "An open-source app for managing agents at work; the listing gives no further detail."
+  },
+  {
+    "id": "0cdac5c6e4a67a41",
+    "text": "WeMM-Video is a family of Chinese-English omni-modal video understanding models in 2B, 4B, 9B and 35B-A3B sizes, with joint audio-visual processing."
+  },
+  {
+    "id": "0d67183d9957047b",
+    "text": "A Claude Code skill that reverse-engineers an animation frame by frame and then checks that the copy moves the same way."
+  },
+  {
+    "id": "0dba818753f02bf2",
+    "text": "A self-hosted search and chat platform on Typesense and FastAPI, using hybrid BM25 plus vector search and RAG product chat. Rule-based query understanding skips the LLM when it is not needed, and it works with OpenAI, Claude, Gemini, Groq, Ollama or LiteLLM."
+  },
+  {
+    "id": "0f638e8a8f10e599",
+    "text": "An open-source job-search agent that scans job boards, scores each job 1-5 against your CV, and tailors resumes and cover letters. You press Submit yourself; it runs in Codex, OpenCode, other AI CLIs or as a Claude Code plugin."
+  },
+  {
+    "id": "0f88f01cc4043ac3",
+    "text": "An agent skill pack for AI short dramas and motion comics, covering novel-to-script, visual design, storyboards, image/video prompts and editing. It targets Claude Code and Codex."
+  },
+  {
+    "id": "1038f93149f1ee9a",
+    "text": "A local-first plugin for the Google Antigravity App that keeps terminal output, build logs and large files out of the conversation history. It claims over 90% context reduction."
+  },
+  {
+    "id": "10ba719313a0c835",
+    "text": "Anthropic's public repository for Agent Skills."
+  },
+  {
+    "id": "116dad2ea71e5d74",
+    "text": "An agent skill that steers the model away from its first, most average choice in creative work such as names, ideas, logos, posters and UI."
+  },
+  {
+    "id": "11f0630cbc7600e5",
+    "text": "A set of 50 agent skills and 12 guided journeys drawn from business, marketing, UX and coding books. They work with Claude Code, Codex, Cursor and other agentskills.io agents."
+  },
+  {
+    "id": "14f321c495182c59",
+    "text": "A skill for producing editorial diagrams as self-contained HTML and SVG, with 45 diagram types. It supports Claude Code, Codex, Copilot, Cursor and others."
+  },
+  {
+    "id": "1578476054924343",
+    "text": "A collection of 410 skills, plus agents and commands, for Claude Code, Codex, Gemini CLI, Cursor and 8 other coding agents. Domains include engineering, marketing, product, compliance and finance."
+  },
+  {
+    "id": "15e141845b06db6a",
+    "text": "A playbook and Three.js code kit for building detailed dioramas in pixel, toon or pixel-plus-stroke styles. It includes intake gates for look and model sourcing, plus per-entity frame QA."
+  },
+  {
+    "id": "1c414ec2b5237063",
+    "text": "A skill that encodes a public figure's thinking framework for university-application, graduate-exam and career-planning advice. It was generated with another skill called Nuwa."
+  },
+  {
+    "id": "1e2e1314ac1121e4",
+    "text": "A library that renders thousands of live DOM nodes on a GPU-drawn infinite canvas with an editor, shaders and transitions. An AI agent can read and point at the nodes."
+  },
+  {
+    "id": "1f96d0661c1531e6",
+    "text": "A skill offering 35 art styles and 9 narration grammars for producing code-driven art animations."
+  },
+  {
+    "id": "244d2e2d102af837",
+    "text": "A set of agents for SaaS growth chores: new-term radar, keyword-to-site discovery, competitor backlinks, directory submissions and a social analysis pack. It works with Claude Code, Codex and several other agents."
+  },
+  {
+    "id": "2519b65e4dae2378",
+    "text": "A free, open-source local file launcher that searches documents, code and screenshots using OCR and semantic search, with MCP access for agents."
+  },
+  {
+    "id": "28a468536f32c3ad",
+    "text": "This paper argues that 3D Gaussian segmentation trained on rendered masks can yield incomplete 3D selections, and proposes volumetric supervision instead."
+  },
+  {
+    "id": "2ac82a9b4f5ff40f",
+    "text": "A HUD that shows quotas, tokens and sessions for Claude Code, Codex and 25 more coding agents. It runs on Mac, Windows and Linux, with phone and watch support."
+  },
+  {
+    "id": "34689cddad5a3350",
+    "text": "A set of 45 agent skills from three shipped products, covering deciding what to build, building with Claude Code or Codex, review by a second model, and release."
+  },
+  {
+    "id": "3b627af7791cfed8",
+    "text": "HiUni is a unified multimodal model that handles visual understanding and generation in a shared visual space rather than separate representations."
+  },
+  {
+    "id": "3c40bebd52407729",
+    "text": "An Expo project for writing an app once and running it natively on web, macOS, iOS and Linux, where an AI agent can build, run, view and test it on each."
+  },
+  {
+    "id": "47ddbf71e00ceb23",
+    "text": "WeVisForensics is a self-evolving agent for detecting AI-generated video from explicit forensic evidence. It targets the weakness of single-pass chain-of-thought and fixed multi-agent workflows."
+  },
+  {
+    "id": "48b46abf2f4bdec3",
+    "text": "A Hacker News thread titled 'Claude Fable 5.2 and Mythos 5.2'; only the title is available."
+  },
+  {
+    "id": "4e4f33a91e8a0857",
+    "text": "An MCP project that connects AI agents to real iPhones and Android devices."
+  },
+  {
+    "id": "52478eb1a864ece1",
+    "text": "A Hacker News thread titled 'Our position on open-weights models'; only the title is available."
+  },
+  {
+    "id": "537bd3ea8f73dce6",
+    "text": "A set of agent skills for researching, cloning, designing, building, optimizing and testing native macOS apps in Swift and SwiftUI."
+  },
+  {
+    "id": "5388f4beff74263a",
+    "text": "A Hacker News thread alleging Nvidia engineered GPU scarcity by funding AI startups to buy its GPUs; only the title is available."
+  },
+  {
+    "id": "5e9d3fd0e59ccb77",
+    "text": "A llama.cpp variant reporting DeepSeek-V4-Flash (284B) running in under 59 GiB RAM on a 64GB CPU-only machine at 9.1 tok/s generation. It also reports 30B MoE models at 22.4 tok/s, or 111.6 tok/s with speculative decoding."
+  },
+  {
+    "id": "63dbb81e2a2d11bd",
+    "text": "Mind2Act World is a diagnostic benchmark for robotic manipulation covering history-based reasoning, physical execution, and their composition."
+  },
+  {
+    "id": "77e0a0e89a0e9524",
+    "text": "EgoCaptioner targets fine-grained egocentric video captioning, addressing missed brief actions, wrong ordering and misread wearer motion in current MLLMs."
+  },
+  {
+    "id": "8e29c138e61ab876",
+    "text": "A Hacker News thread on startup founders urging the U.S. government not to shut off Chinese open-weight AI; only the title is available."
+  },
+  {
+    "id": "95090c9e725edaf8",
+    "text": "A Hacker News post asking whether the author's AI agents found an unmapped Maya site; only the title is available."
+  },
+  {
+    "id": "a3bdd56a3a313bf2",
+    "text": "Posterior Matching Distillation is a diffusion distillation method that matches student and teacher output distributions to cut sampling steps for image and video generation."
+  },
+  {
+    "id": "a7a7773a9f5669fb",
+    "text": "A Hacker News thread titled 'Jensen Huang resigns'; only the title is available."
+  },
+  {
+    "id": "bb82379af066ff25",
+    "text": "A Hacker News thread arguing that China's open-weights AI strategy is winning; only the title is available."
+  },
+  {
+    "id": "d3966b6fd7109579",
+    "text": "A Hacker News thread about 'GPT-6.2 Astra and Sol'; only the title is available."
+  },
+  {
+    "id": "db4bd6cbca203078",
+    "text": "Depth Pro 2 estimates dense metric depth for images and video at full resolution, targeting both temporal consistency and sharp boundaries."
+  },
+  {
+    "id": "eb4d2df7b7187bdc",
+    "text": "This paper probes vision-language models for selective access and global-workspace-like behaviour, using global workspace theory as the frame."
+  },
+  {
+    "id": "f6990214f0b638d6",
+    "text": "Coda-DaVinci studies Code2Video, where agent-authored 3D proxies guide video generation, and examines how to build proxies and prompts for better quality."
+  },
+  {
+    "id": "f836fd200cc1c02e",
+    "text": "A Hacker News thread titled 'AWS emulator'; only the title is available."
+  }
+]

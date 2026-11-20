@@ -4664,7 +4664,7 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 171.5
+        "hf_trending": 172.0
       }
     },
     "use_cases": []
@@ -4731,7 +4731,7 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 45.0
+        "hf_trending": 53.0
       }
     },
     "use_cases": []
@@ -4758,7 +4758,7 @@
     "released": "2026-11-04",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 90.0
+        "hf_trending": 90.5
       }
     },
     "use_cases": []
