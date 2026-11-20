@@ -7,6 +7,7 @@ from augurai.models import Entity, EntityKind, RawItem, StarSnapshot
 MAX_SNAPSHOTS = 60
 NOVELTY_DAYS = 14
 NOVELTY_BONUS = 1.2
+STALE_AFTER_DAYS = 2  # an entity not fetched for this long has dropped out of the sources
 _KIND_PRIORITY: dict[str, int] = {"repo": 0, "agent": 1, "mcp": 2, "skill": 3}
 
 
@@ -67,5 +68,9 @@ def rising(entities: dict[str, Entity], kind: str, top_n: int, today: date) -> l
         score = entity.velocity_7d * (NOVELTY_BONUS if is_new else 1.0)
         return (-score, -entity.first_seen.toordinal(), entity.id)
 
-    candidates = sorted((e for e in entities.values() if e.kind == kind), key=key)
+    def fresh(entity: Entity) -> bool:
+        last_seen = max((s.day for s in entity.star_snapshots), default=entity.first_seen)
+        return (today - last_seen).days <= STALE_AFTER_DAYS
+
+    candidates = sorted((e for e in entities.values() if e.kind == kind and fresh(e)), key=key)
     return [e.id for e in candidates[:top_n]]

@@ -205,10 +205,11 @@ def merge(
     drafts, bad = _validate_list(raw.get("practices"), PracticeDraft)
     dropped += bad
     people = store.read_map("people", Person)
+    work_urls = {w.url for w in input_.new_people_work}
     practices = store.read_map("practices", Practice)
     for draft in drafts:
-        if draft.person_id not in people:
-            dropped += 1
+        if draft.person_id not in people or draft.source_url not in work_urls:
+            dropped += 1  # unknown person, or a source link that is not one of the input's own
             continue
         target = practices.get(draft.reinforces) if draft.reinforces else None
         if target is not None:

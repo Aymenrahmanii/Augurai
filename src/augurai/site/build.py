@@ -4,6 +4,7 @@ import json
 import shutil
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
@@ -59,6 +60,11 @@ NAV = [
     ("archive", "Archive", "archive/"),
     ("about", "About", "about/"),
 ]
+
+
+def safe_url(url: str) -> str:
+    """Allow only http(s) links; anything else (javascript:, data:, ...) becomes a dead link."""
+    return url if urlsplit(url).scheme.lower() in ("http", "https") else "#"
 
 
 def _score(model: Model, key: str) -> float | None:
@@ -132,6 +138,7 @@ def build_site(root: Path, out: Path, settings: Settings) -> list[Path]:
         trim_blocks=True,
         lstrip_blocks=True,
     )
+    env.filters["safe_url"] = safe_url
     base = settings.site_base_path
     common = {
         "base": base,

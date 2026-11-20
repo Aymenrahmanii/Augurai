@@ -187,3 +187,52 @@ def test_candidate_signals_weights():
     ]
     signals = candidate_signals(items, entities, ["e1", "e2", "e3"])
     assert signals == {"alice": 3.0, "carol": 1.0, "dave": 1.0}
+
+
+def test_signals_ignore_items_older_than_two_days():
+    from datetime import UTC
+
+    fresh = datetime(2026, 11, 18, 12, tzinfo=UTC)
+    old = datetime(2026, 11, 10, tzinfo=UTC)
+    items = [
+        RawItem(
+            id="a",
+            source="hackernews",
+            kind="hn",
+            title="t",
+            url="u1",
+            published=fresh,
+            extra={"linked_url": "https://github.com/newer/x"},
+        ),
+        RawItem(
+            id="b",
+            source="hackernews",
+            kind="hn",
+            title="t",
+            url="u2",
+            published=old,
+            extra={"linked_url": "https://github.com/older/x"},
+        ),
+        RawItem(
+            id="c",
+            source="feeds",
+            kind="post",
+            title="t",
+            url="u3",
+            published=old,
+            extra={"person_id": "x", "linked_people": ["olderlink"]},
+        ),
+    ]
+    assert candidate_signals(items, {}, [], today=date(2026, 11, 18)) == {"newer": 1.0}
+
+
+def test_new_candidates_must_pass_the_user_check():
+    seen = []
+
+    def is_user(login: str) -> bool:
+        seen.append(login)
+        return login == "realperson"
+
+    signals = {"realperson": 3.0, "someorg": 3.0, "low": 1.0}
+    p, _, _ = update_discovery({}, signals, D1, S, is_user=is_user)
+    assert set(p) == {"realperson"} and "low" not in seen

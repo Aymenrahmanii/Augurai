@@ -27,6 +27,6 @@
 {% endfor %}
 {% if model.links %}
 <h2>Sources</h2>
-<ul>{% for source, url in model.links.items() %}<li><a href="{{ url }}">{{ source }}</a></li>{% endfor %}</ul>
+<ul>{% for source, url in model.links.items() %}<li><a href="{{ url|safe_url }}">{{ source }}</a></li>{% endfor %}</ul>
 {% endif %}
 {% endblock %}

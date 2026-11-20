@@ -94,3 +94,29 @@ def compute(
             name for name, h in run.health.items() if h.consecutive_failures >= FAILING_AFTER
         ),
     )
+
+
+def _union(first: list, second: list) -> list:
+    return list(dict.fromkeys([*first, *second]))
+
+
+def merge_changes(pending: Changes, latest: Changes) -> Changes:
+    """Fold one run's changes into everything still waiting for the next briefing."""
+    moves = {
+        (m.model_id, m.category, m.change): m
+        for m in [*pending.benchmark_moves, *latest.benchmark_moves]
+    }
+    work = {w.url: w for w in [*pending.people_work, *latest.people_work]}
+    return Changes(
+        day=latest.day,
+        first_run=pending.first_run or latest.first_run,
+        new_models=_union(pending.new_models, latest.new_models),
+        benchmark_moves=list(moves.values()),
+        rising=latest.rising,
+        promoted=_union(pending.promoted, latest.promoted),
+        demoted=_union(pending.demoted, latest.demoted),
+        people_work=list(work.values()),
+        top_hn=latest.top_hn,
+        top_papers=latest.top_papers,
+        failing_sources=latest.failing_sources,
+    )

@@ -1,5 +1,6 @@
 """People: seeding, recent work, and autonomous discovery (promotion and dormancy)."""
 
+from collections.abc import Callable
 from datetime import date, timedelta
 
 from augurai.config import Settings
@@ -12,6 +13,7 @@ NEW_CANDIDATE_MIN_SIGNAL = 2.0
 RISING_OWNER_WEIGHT = 3.0
 HN_AUTHOR_WEIGHT = 1.0
 LINKED_WEIGHT = 1.0
+SIGNAL_MAX_AGE_DAYS = 2
 
 
 def _login(person: Person) -> str | None:
@@ -65,8 +67,17 @@ def attach_work(people: dict[str, Person], items: list[RawItem]) -> dict[str, Pe
     return result
 
 
+def _is_recent(item: RawItem, today: date | None) -> bool:
+    if today is None or item.published is None:
+        return True
+    return (today - item.published.date()).days <= SIGNAL_MAX_AGE_DAYS
+
+
 def candidate_signals(
-    items: list[RawItem], entities: dict[str, Entity], rising_ids: list[str]
+    items: list[RawItem],
+    entities: dict[str, Entity],
+    rising_ids: list[str],
+    today: date | None = None,
 ) -> dict[str, float]:
     signals: dict[str, float] = {}
 
@@ -78,6 +89,8 @@ def candidate_signals(
         if entity and entity.kind != "mcp" and entity.owner_type == "User" and entity.owner:
             add(entity.owner, RISING_OWNER_WEIGHT)
     for item in items:
+        if not _is_recent(item, today):
+            continue  # feeds and HN lists repeat old entries every run; count only fresh ones
         if item.kind == "hn":
             # The submitter's HN username is not a GitHub login; the linked repo's owner is.
             for login in linked_logins(str(item.extra.get("linked_url") or "")):
@@ -116,7 +129,11 @@ def _resolve(people: dict[str, Person], key: str) -> str | None:
 
 
 def update_discovery(
-    people: dict[str, Person], signals: dict[str, float], today: date, settings: Settings
+    people: dict[str, Person],
+    signals: dict[str, float],
+    today: date,
+    settings: Settings,
+    is_user: Callable[[str], bool] | None = None,
 ) -> tuple[dict[str, Person], list[str], list[str]]:
     result = dict(people)
     todays: dict[str, float] = {}
@@ -125,6 +142,8 @@ def update_discovery(
         if person_id is None:
             if signal < NEW_CANDIDATE_MIN_SIGNAL:
                 continue
+            if is_user is not None and not is_user(key):
+                continue  # organisations and unknown accounts are never "people"
             person_id = key
             result[person_id] = Person(
                 id=key,

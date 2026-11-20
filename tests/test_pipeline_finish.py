@@ -126,3 +126,57 @@ def test_runs_are_capped_at_two_hundred(tmp_path, settings, fake_send, monkeypat
     for n in range(205):
         finish(tmp_path, settings, "refresh", NOW + timedelta(minutes=n), ENV)
     assert len(runs(tmp_path)) == 200
+
+
+class FakeExtra:
+    name = "fake-extra"
+    required_env: tuple[str, ...] = ()
+
+    def fetch(self, ctx):
+        return [
+            RawItem(
+                id="e",
+                source="openrouter",
+                kind="model",
+                title="Extra",
+                url="https://x/extra",
+                extra={"model_key": "extra", "provider": "p"},
+            )
+        ]
+
+
+def pending(root):
+    return json.loads((root / "data" / "pending_changes.json").read_text(encoding="utf-8"))
+
+
+def collect_extra(root, settings):
+    return collect(
+        root,
+        settings,
+        "morning",
+        NOW + timedelta(minutes=5),
+        sources=[FakeModels(), FakeExtra()],
+        env={},
+        http=httpx.Client(),
+    )
+
+
+def test_pending_changes_cleared_after_the_briefing_is_sent(collected_root, settings, fake_send):
+    changes = collect_extra(collected_root, settings)
+    assert changes.new_models == ["extra"] and pending(collected_root)["new_models"] == ["extra"]
+    finish(collected_root, settings, "morning", NOW + timedelta(minutes=10), ENV)
+    assert pending(collected_root)["new_models"] == []
+
+
+def test_pending_changes_kept_when_the_email_fails(collected_root, settings, fake_send):
+    collect_extra(collected_root, settings)
+    fake_send.results = [False]
+    record = finish(collected_root, settings, "morning", NOW + timedelta(minutes=10), ENV)
+    assert record.email_failed is True and record.email_sent is False
+    assert pending(collected_root)["new_models"] == ["extra"]
+
+
+def test_a_second_run_that_skips_the_email_is_not_a_failure(collected_root, settings, fake_send):
+    finish(collected_root, settings, "morning", NOW, ENV)
+    second = finish(collected_root, settings, "morning", NOW + timedelta(minutes=40), ENV)
+    assert second.email_failed is False

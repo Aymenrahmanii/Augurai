@@ -134,3 +134,26 @@ def test_morning_collect_writes_enrich_input_but_refresh_does_not(tmp_path, sett
     assert data["day"] == "2026-11-20" and "items" in data
     info = json.loads((tmp_path / "b" / "work" / "run.json").read_text(encoding="utf-8"))
     assert info["mode"] == "morning" and "fake-models" in info["sources_ok"]
+
+
+def test_work_changes_accumulate_until_a_briefing_clears_them(tmp_path, settings):
+    class WithSonnet(FakeModels):
+        name = "with-sonnet"
+
+        def fetch(self, ctx):
+            base = super().fetch(ctx)[0]
+            extra = base.model_copy(
+                update={
+                    "id": "m2",
+                    "url": "https://x/sonnet",
+                    "extra": {"model_key": "sonnet", "provider": "anthropic"},
+                }
+            )
+            return [base, extra]
+
+    run_collect(tmp_path, settings, [FakeModels()])
+    run_collect(tmp_path, settings, [WithSonnet()])  # sonnet first seen here
+    run_collect(tmp_path, settings, [WithSonnet()])  # nothing new in this run
+    accumulated = json.loads((tmp_path / "work" / "changes.json").read_text(encoding="utf-8"))
+    assert accumulated["new_models"] == ["sonnet"]
+    assert (tmp_path / "data" / "pending_changes.json").exists()

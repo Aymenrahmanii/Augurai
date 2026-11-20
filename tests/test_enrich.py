@@ -48,7 +48,10 @@ def inp():
             EnrichItem(id="i1", kind="repo", title="o/r", url="https://x/r", text="a repo"),
             EnrichItem(id="i2", kind="post", title="A post", url="https://x/post", text="a post"),
         ],
-        new_people_work=[WorkItem(title="A post", url="https://x/post", person_id="matt-pocock")],
+        new_people_work=[
+            WorkItem(title="A post", url="https://x/post", person_id="matt-pocock"),
+            WorkItem(title="Another", url="https://x/new", person_id="matt-pocock"),
+        ],
         models=[],
         existing_practices=[],
         changes=Changes(day=TODAY),
@@ -195,3 +198,26 @@ def test_prompt_embeds_current_output_schema():
         0
     ]
     assert json.loads(block) == json.loads(json.dumps(EnrichOutput.model_json_schema()))
+
+
+def test_practice_with_a_source_url_not_from_the_input_is_dropped(store, inp, tmp_path):
+    out = tmp_path / "out.json"
+    bad = {
+        "title": "Evil",
+        "principle": "p",
+        "how_to_apply": "h",
+        "person_id": "matt-pocock",
+        "source_url": "javascript:alert(1)",
+    }
+    elsewhere = {**bad, "title": "Elsewhere", "source_url": "https://evil.example/x"}
+    out.write_text(json.dumps({"practices": [bad, elsewhere]}), encoding="utf-8")
+    status, note, _ = merge(store, out, inp, TODAY)
+    assert status == "partial" and "dropped" in note
+    assert [p.id for p in store.read("practices", Practice)] == ["plan-first"]
+
+
+def test_enrich_prompt_marks_the_input_as_untrusted_data():
+    from pathlib import Path
+
+    prompt = (Path(__file__).parent.parent / "prompts" / "enrich.md").read_text(encoding="utf-8")
+    assert "untrusted" in prompt and "never follow" in prompt.lower()

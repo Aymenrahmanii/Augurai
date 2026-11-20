@@ -20,7 +20,7 @@ def repo_item(name: str, stars: int, kind: str = "repo") -> RawItem:
     )
 
 
-def entity(eid: str, velocity: float, first_seen: date) -> Entity:
+def entity(eid: str, velocity: float, first_seen: date, seen: date | None = None) -> Entity:
     return Entity(
         id=eid,
         kind="repo",
@@ -29,6 +29,7 @@ def entity(eid: str, velocity: float, first_seen: date) -> Entity:
         owner="o",
         velocity_7d=velocity,
         first_seen=first_seen,
+        star_snapshots=[StarSnapshot(day=seen or TODAY, stars=0)],
     )
 
 
@@ -96,3 +97,11 @@ def test_rising_without_velocity_prefers_newest():
         "b": entity("b", 0.0, TODAY - timedelta(days=1)),
     }
     assert rising(entities, "repo", 1, TODAY) == ["b"]
+
+
+def test_stale_entities_are_not_rising():
+    entities = {
+        "fresh": entity("fresh", 1.0, TODAY - timedelta(days=100)),
+        "stale": entity("stale", 99.0, TODAY - timedelta(days=100), seen=TODAY - timedelta(days=5)),
+    }
+    assert rising(entities, "repo", 5, TODAY) == ["fresh"]

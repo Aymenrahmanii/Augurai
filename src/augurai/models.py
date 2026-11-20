@@ -149,6 +149,7 @@ class RunRecord(BaseModel):
     enrichment: EnrichmentStatus = "skipped"
     enrichment_note: str | None = None
     email_sent: bool = False
+    email_failed: bool = False
 
 
 class Summary(BaseModel):

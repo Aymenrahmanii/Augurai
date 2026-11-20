@@ -29,7 +29,11 @@ jobs:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
+      # Always start from the branch head, never the event SHA: a re-run of an old run must
+      # see the runs.json that records "email already sent" or it would send a second email.
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
 
       - uses: astral-sh/setup-uv@v5
 
@@ -52,6 +56,13 @@ jobs:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
 
+      - name: Snapshot state before Claude runs
+        if: env.MODE == 'morning' && hashFiles('work/enrich_input.json') != ''
+        run: |
+          rm -rf "$RUNNER_TEMP/before" && mkdir -p "$RUNNER_TEMP/before"
+          cp -r data "$RUNNER_TEMP/before/data"
+          [ -d briefings ] && cp -r briefings "$RUNNER_TEMP/before/briefings" || true
+
       - name: Enrich with Claude
         if: env.MODE == 'morning' && hashFiles('work/enrich_input.json') != ''
         continue-on-error: true
@@ -61,9 +72,27 @@ jobs:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           prompt: "Follow the instructions in prompts/enrich.md exactly. Read work/enrich_input.json and write work/enrich_output.json."
-          claude_args: '--allowedTools "Read,Write" --max-turns 15'
+          # Claude reads untrusted web text: it may read the prompt and the input, and write one file.
+          claude_args: '--allowedTools "Read(prompts/enrich.md),Read(work/**),Write(work/enrich_output.json)" --max-turns 15'
+
+      # The next step runs this repository's code with mail secrets, so undo anything Claude
+      # might have written outside work/ (a tampered prompt, source file or data file).
+      - name: Discard changes made outside work/
+        if: env.MODE == 'morning' && hashFiles('work/enrich_input.json') != ''
+        run: |
+          git checkout HEAD -- src prompts scripts config .github pyproject.toml uv.lock
+          git clean -fdq src prompts scripts config .github
+          if [ -d "$RUNNER_TEMP/before/data" ]; then
+            rm -rf data && cp -r "$RUNNER_TEMP/before/data" data
+          fi
+          if [ -d "$RUNNER_TEMP/before/briefings" ]; then
+            rm -rf briefings && cp -r "$RUNNER_TEMP/before/briefings" briefings
+          fi
 
       - name: Finish (briefing, email, site)
+        id: finish
+        # Exit code 3 means only the email failed: still commit and deploy, then fail the job below.
+        continue-on-error: true
         run: uv run augurai finish --mode "$MODE"
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
@@ -72,11 +101,17 @@ jobs:
 
       - name: Commit data
         run: |
+          mkdir -p briefings
           git config user.name "augurai-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data briefings
           git diff --cached --quiet || git commit -m "chore(data): update $(date -u +%FT%H:%MZ)"
-          git push
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${{ github.event.repository.default_branch }}" || true
+            git push && exit 0
+            sleep 5
+          done
+          exit 1
 
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -84,3 +119,10 @@ jobs:
 
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      # GitHub only emails you about failed jobs, so make a failed briefing email a failed job.
+      - name: Fail if the finish step failed
+        if: steps.finish.outcome == 'failure'
+        run: |
+          echo "::error::The finish step failed (most often: the briefing email could not be sent). Check the Gmail secrets."
+          exit 1

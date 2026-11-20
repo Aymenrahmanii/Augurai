@@ -25,7 +25,7 @@
     <span class="meta">{{ names.get(p.person_id, p.person_id) }}{% if p.reinforced_by %} · seen {{ p.reinforced_by|length + 1 }} times{% endif %}{% if p.related_skill %} · skill: {{ p.related_skill }}{% endif %}</span>
     <p>{{ p.principle }}</p>
     <p><strong>Try it:</strong> {{ p.how_to_apply }}</p>
-    <p class="meta"><a href="{{ p.source_url }}">Source</a>{% for t in p.tags %} <span class="chip">{{ t }}</span>{% endfor %}</p>
+    <p class="meta"><a href="{{ p.source_url|safe_url }}">Source</a>{% for t in p.tags %} <span class="chip">{{ t }}</span>{% endfor %}</p>
   </li>
   {% endfor %}
 </ul>

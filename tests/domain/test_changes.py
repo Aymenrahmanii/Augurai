@@ -1,6 +1,6 @@
 from datetime import date
 
-from augurai.domain.changes import Changes, Snapshot, compute
+from augurai.domain.changes import BenchmarkMove, Changes, Snapshot, compute, merge_changes
 from augurai.models import Model, Person, RawItem, SourceHealth, WorkItem
 from augurai.sources.base import SourceRun
 
@@ -96,3 +96,39 @@ def test_passes_through_rising_and_promotions():
     )
     assert changes.rising == {"repo": ["x"]} and changes.promoted == ["newdev"]
     assert isinstance(changes, Changes)
+
+
+def test_merge_changes_accumulates_across_runs():
+    move = BenchmarkMove(model_id="a", category="coding", change="entered")
+    a = Changes(
+        day=TODAY,
+        new_models=["a"],
+        promoted=["x"],
+        rising={"repo": ["old"]},
+        benchmark_moves=[move],
+        people_work=[WorkItem(title="t1", url="https://x/1", person_id="p")],
+        top_hn=["h1"],
+    )
+    b = Changes(
+        day=TODAY,
+        new_models=["b", "a"],
+        demoted=["y"],
+        rising={"repo": ["new"]},
+        benchmark_moves=[move],
+        people_work=[
+            WorkItem(title="t2", url="https://x/2", person_id="p"),
+            WorkItem(title="t1", url="https://x/1", person_id="p"),
+        ],
+        top_hn=["h2"],
+        failing_sources=["bad"],
+    )
+    merged = merge_changes(a, b)
+    assert merged.new_models == ["a", "b"] and merged.promoted == ["x"] and merged.demoted == ["y"]
+    assert len(merged.benchmark_moves) == 1
+    assert [w.url for w in merged.people_work] == ["https://x/1", "https://x/2"]
+    assert merged.rising == {"repo": ["new"]} and merged.top_hn == ["h2"]
+    assert merged.failing_sources == ["bad"]
+
+
+def test_merge_changes_keeps_baseline_flag_until_cleared():
+    assert merge_changes(Changes(day=TODAY, first_run=True), Changes(day=TODAY)).first_run is True

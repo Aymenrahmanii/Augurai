@@ -12,12 +12,12 @@
     {% for p in members %}
     <li>
       <span class="card-title">{{ p.name }}</span>
-      <span class="meta">{% for key, url in p.links.items() %}<a href="{{ url }}">{{ key }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+      <span class="meta">{% for key, url in p.links.items() %}<a href="{{ url|safe_url }}">{{ key }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
       {% if p.why_follow %}<p><strong>Why follow:</strong> {{ p.why_follow }}</p>{% endif %}
       {% if p.what_to_learn %}<p><strong>Learn:</strong> {{ p.what_to_learn }}</p>{% endif %}
       {% if p.recent_work %}
       <ul class="work">
-        {% for w in p.recent_work[:3] %}<li><a href="{{ w.url }}">{{ w.title }}</a></li>{% endfor %}
+        {% for w in p.recent_work[:3] %}<li><a href="{{ w.url|safe_url }}">{{ w.title }}</a></li>{% endfor %}
       </ul>
       {% endif %}
     </li>

@@ -109,3 +109,17 @@ def test_load_practices_falls_back_to_local_file_then_empty(settings, tmp_path):
         encoding="utf-8",
     )
     assert [p.id for p in load_practices(settings, tmp_path, httpx.Client())] == ["local"]
+
+
+def test_run_claude_denies_tools():
+    seen = {}
+
+    def runner(args, stdin):
+        seen["args"] = args
+        return "ok"
+
+    run_claude("x", runner=runner)
+    args = seen["args"]
+    assert "--disallowedTools" in args
+    denied = args[args.index("--disallowedTools") + 1 :]
+    assert {"Bash", "Edit", "Write", "WebFetch", "WebSearch"} <= set(denied)

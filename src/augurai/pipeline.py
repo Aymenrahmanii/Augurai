@@ -2,7 +2,7 @@
 
 import json
 import os
-from collections.abc import Mapping, Sequence
+from collections.abc import Callable, Mapping, Sequence
 from datetime import date, datetime
 from pathlib import Path
 from typing import Literal
@@ -14,7 +14,7 @@ from augurai.briefing import build as build_briefing
 from augurai.briefing import save as save_briefing
 from augurai.config import Settings
 from augurai.domain.catalog import compute_best_at, merge_models
-from augurai.domain.changes import Changes, Snapshot, compute
+from augurai.domain.changes import Changes, Snapshot, compute, merge_changes
 from augurai.domain.ecosystem import merge_entities, rising
 from augurai.domain.jobs import merge_snapshots, snapshot
 from augurai.domain.people import attach_work, candidate_signals, seed, update_discovery
@@ -22,7 +22,13 @@ from augurai.enrich import BriefingText, EnrichInput, EnrichStatus, merge, prepa
 from augurai.models import Entity, JobSnapshot, Model, Person, RunRecord, SourceHealth
 from augurai.site.build import build_site
 from augurai.sources import all_sources
-from augurai.sources.base import Source, SourceContext, make_client, run_sources
+from augurai.sources.base import (
+    Source,
+    SourceContext,
+    github_headers,
+    make_client,
+    run_sources,
+)
 from augurai.store import Store
 from augurai.timeutil import local_date
 
@@ -67,9 +73,12 @@ def collect(
     rising_by_kind = {k: rising(entities, k, settings.rising_top_n, today) for k in ENTITY_KINDS}
     people = attach_work(people, run.items)
     signals = candidate_signals(
-        run.items, entities, [eid for ids in rising_by_kind.values() for eid in ids]
+        run.items, entities, [eid for ids in rising_by_kind.values() for eid in ids], today
     )
-    people, promoted, demoted = update_discovery(people, signals, today, settings)
+    known_users = {e.owner.lower() for e in entities.values() if e.owner_type == "User"}
+    people, promoted, demoted = update_discovery(
+        people, signals, today, settings, is_user=_user_check(ctx, known_users)
+    )
     job_items = [i for i in run.items if i.kind == "job"]
     if job_items:
         month = f"{today:%Y-%m}"
@@ -90,9 +99,12 @@ def collect(
         promoted=promoted,
         demoted=demoted,
     )
+    # The briefing must cover everything since the last email, not just this run's diff.
+    pending = merge_changes(load_pending(store.root, today), changes)
+    save_pending(store.root, pending)
     work = root / "work"
     work.mkdir(parents=True, exist_ok=True)
-    (work / "changes.json").write_text(changes.model_dump_json(indent=2), encoding="utf-8")
+    (work / "changes.json").write_text(pending.model_dump_json(indent=2), encoding="utf-8")
     items = [i.model_dump(mode="json") for i in run.items if i.kind != "job"]
     (work / "items.json").write_text(json.dumps(items, indent=2), encoding="utf-8")
     run_info = {
@@ -104,8 +116,48 @@ def collect(
     }
     (work / "run.json").write_text(json.dumps(run_info, indent=2), encoding="utf-8")
     if mode == "morning":
-        prepare(store, changes, run.items, settings, work / "enrich_input.json")
+        prepare(store, pending, run.items, settings, work / "enrich_input.json")
     return changes
+
+
+PENDING_FILE = "pending_changes.json"
+
+
+def load_pending(data_dir: Path, today: date) -> Changes:
+    path = data_dir / PENDING_FILE
+    if path.exists():
+        try:
+            return Changes.model_validate_json(path.read_text(encoding="utf-8"))
+        except ValueError:
+            pass  # a corrupt accumulator must not stop the pipeline; start over
+    return Changes(day=today)
+
+
+def save_pending(data_dir: Path, changes: Changes) -> None:
+    data_dir.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(changes.model_dump(mode="json"), indent=2, sort_keys=True) + "\n"
+    (data_dir / PENDING_FILE).write_text(text, encoding="utf-8", newline="\n")
+
+
+def _user_check(ctx: SourceContext, known_users: set[str]) -> Callable[[str], bool]:
+    """True when a GitHub login is a person; organisations and unknown accounts are rejected."""
+    cache: dict[str, bool] = {}
+
+    def check(login: str) -> bool:
+        key = login.lower()
+        if key in known_users:
+            return True
+        if key not in cache:
+            try:
+                response = ctx.http.get(
+                    f"https://api.github.com/users/{login}", headers=github_headers(ctx.env)
+                )
+                cache[key] = response.status_code == 200 and response.json().get("type") == "User"
+            except (httpx.HTTPError, ValueError):
+                cache[key] = False
+        return cache[key]
+
+    return check
 
 
 def _load_changes(path: Path, today: date) -> Changes:
@@ -145,12 +197,17 @@ def finish(
     enrichment: EnrichStatus = "skipped"
     note: str | None = None
     email_sent = False
+    email_failed = False
     if mode == "morning":
         enrichment, note, text = _enrich(store, work, today)
-        if not mailer.already_sent(root, today, settings.timezone):
+        sent_before = mailer.already_sent(root, today, settings.timezone)
+        if not sent_before:
             briefing = build_briefing(changes, store, text, note, settings)
             save_briefing(briefing, root)
             email_sent = mailer.send(mailer.render(briefing, settings), env)
+            email_failed = not email_sent
+        if email_sent or sent_before:
+            save_pending(store.root, Changes(day=today))  # everything pending has been reported
 
     record = RunRecord(
         id=now.isoformat(),
@@ -162,6 +219,7 @@ def finish(
         enrichment=enrichment,
         enrichment_note=note,
         email_sent=email_sent,
+        email_failed=email_failed,
     )
     runs = sorted([*store.read("runs", RunRecord), record], key=lambda r: r.id)
     store.write("runs", runs[-MAX_RUN_RECORDS:])

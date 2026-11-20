@@ -3,6 +3,7 @@
 import json
 import shutil
 import subprocess
+import tempfile
 from collections.abc import Callable
 from pathlib import Path
 from typing import Literal
@@ -14,6 +15,7 @@ from augurai.config import Settings
 from augurai.models import Practice
 
 MAX_PROPOSALS = 5
+DENIED_TOOLS = ("Bash", "Edit", "Write", "WebFetch", "WebSearch")
 CLAUDE_TIMEOUT_SECONDS = 600
 Runner = Callable[[list[str], str], str]
 
@@ -54,22 +56,25 @@ def default_runner(args: list[str], stdin: str) -> str:
     executable = shutil.which(args[0])
     if executable is None:
         raise RuntimeError("the `claude` command was not found on PATH")
-    result = subprocess.run(
-        [executable, *args[1:]],
-        input=stdin,
-        capture_output=True,
-        text=True,
-        encoding="utf-8",
-        timeout=CLAUDE_TIMEOUT_SECONDS,
-        check=False,
-    )
+    with tempfile.TemporaryDirectory(prefix="augurai-coach-") as scratch:  # no repo files in reach
+        result = subprocess.run(
+            [executable, *args[1:]],
+            input=stdin,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            timeout=CLAUDE_TIMEOUT_SECONDS,
+            check=False,
+            cwd=scratch,
+        )
     if result.returncode != 0:
         raise RuntimeError(f"claude exited with {result.returncode}: {result.stderr.strip()[:300]}")
     return result.stdout
 
 
 def run_claude(prompt: str, runner: Runner = default_runner) -> str:
-    return runner(["claude", "-p", "--output-format", "json"], prompt)
+    args = ["claude", "-p", "--output-format", "json", "--disallowedTools", *DENIED_TOOLS]
+    return runner(args, prompt)
 
 
 def _first_json_object(text: str) -> dict:

@@ -4,6 +4,7 @@ import sys
 from augurai import __version__
 
 COMMANDS = ("collect", "finish", "build", "coach")
+EXIT_EMAIL_FAILED = 3
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -76,6 +77,9 @@ def _finish(mode: str) -> int:
         f"finish ok: enrichment={record.enrichment}, email_sent={record.email_sent}"
         + (f" ({record.enrichment_note})" if record.enrichment_note else "")
     )
+    if record.email_failed:
+        print("the briefing email could not be sent (check the Gmail secrets)", file=sys.stderr)
+        return EXIT_EMAIL_FAILED
     return 0
 
 

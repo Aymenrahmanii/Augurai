@@ -235,3 +235,23 @@ def test_people_page_groups_and_limits_rising(tmp_path, populated_root, settings
     html = (site / "people/index.html").read_text(encoding="utf-8")
     assert "Matt Pocock" in html and "Grill first" in html and "newdev" in html
     assert "Plan then build" in html
+
+
+def test_unsafe_urls_never_become_links(tmp_path, populated_root, settings):
+    store = Store(populated_root / "data")
+    entities = store.read("entities", Entity)
+    entities.append(
+        Entity(
+            id="e3",
+            kind="repo",
+            name="evil",
+            url="javascript:alert(1)",
+            owner="x",
+            first_seen=TODAY,
+        )
+    )
+    store.write("entities", entities)
+    site = tmp_path / "_site"
+    build_site(populated_root, site, settings)
+    html = (site / "ecosystem/index.html").read_text(encoding="utf-8")
+    assert "javascript:" not in html.lower()

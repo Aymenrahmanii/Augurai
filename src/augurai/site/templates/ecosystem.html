@@ -10,7 +10,7 @@
   <ul class="cards">
     {% for e in group.entries %}
     <li>
-      <a class="card-title" href="{{ e.url }}">{{ e.name }}</a>
+      <a class="card-title" href="{{ e.url|safe_url }}">{{ e.name }}</a>
       <span class="meta">{{ e.owner }}{% if e.stars %} · {{ "{:,}".format(e.stars) }} stars{% endif %}{% if e.velocity_7d %} · +{{ "%.1f"|format(e.velocity_7d) }}/day{% endif %}</span>
       <p>{{ e.summary or e.description }}</p>
     </li>
