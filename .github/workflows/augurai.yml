@@ -71,7 +71,6 @@ jobs:
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          show_full_output: true # TEMPORARY: debugging a silent failure; remove after
           prompt: "Follow the instructions in prompts/enrich.md exactly. Read work/enrich_input.json and write work/enrich_output.json."
           # Claude reads untrusted web text: it may read the prompt and the input, and write one file.
           claude_args: '--allowedTools "Read(prompts/enrich.md),Read(work/**),Write(work/enrich_output.json)" --max-turns 15'
