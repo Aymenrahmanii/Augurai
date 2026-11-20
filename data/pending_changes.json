@@ -44,6 +44,96 @@
       "category": "speed",
       "change": "entered",
       "model_id": "muse-ember"
+    },
+    {
+      "category": "economics",
+      "change": "entered",
+      "model_id": "claude-fable-5-2"
+    },
+    {
+      "category": "engineering",
+      "change": "entered",
+      "model_id": "claude-fable-5-2"
+    },
+    {
+      "category": "finance",
+      "change": "entered",
+      "model_id": "claude-fable-5-2"
+    },
+    {
+      "category": "healthcare",
+      "change": "entered",
+      "model_id": "claude-fable-5-2"
+    },
+    {
+      "category": "legal",
+      "change": "entered",
+      "model_id": "claude-fable-5-2"
+    },
+    {
+      "category": "strategy",
+      "change": "entered",
+      "model_id": "claude-fable-5-2"
+    },
+    {
+      "category": "economics",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-high"
+    },
+    {
+      "category": "engineering",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-high"
+    },
+    {
+      "category": "strategy",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-high"
+    },
+    {
+      "category": "economics",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "engineering",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "finance",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "strategy",
+      "change": "entered",
+      "model_id": "claude-fable-5-2-xhigh"
+    },
+    {
+      "category": "finance",
+      "change": "entered",
+      "model_id": "gemini-4-neon"
+    },
+    {
+      "category": "healthcare",
+      "change": "entered",
+      "model_id": "gemini-4-neon"
+    },
+    {
+      "category": "legal",
+      "change": "entered",
+      "model_id": "gemini-4-neon"
+    },
+    {
+      "category": "healthcare",
+      "change": "entered",
+      "model_id": "gemini-4-neon-high"
+    },
+    {
+      "category": "legal",
+      "change": "entered",
+      "model_id": "gemini-4-neon-high"
     }
   ],
   "day": "2026-11-20",

@@ -1146,7 +1146,14 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "engineering",
+      "finance",
+      "legal",
+      "healthcare",
+      "strategy",
+      "economics"
+    ],
     "context_window": 1000000,
     "first_seen": "2026-11-20",
     "id": "claude-fable-5-2",
@@ -1181,7 +1188,11 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "engineering",
+      "strategy",
+      "economics"
+    ],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "claude-fable-5-2-high",
@@ -1268,7 +1279,12 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "engineering",
+      "finance",
+      "strategy",
+      "economics"
+    ],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "claude-fable-5-2-xhigh",
@@ -3950,7 +3966,7 @@
     "released": "2026-10-30",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 46.5
+        "hf_trending": 46.400000000000006
       }
     },
     "use_cases": []
@@ -6094,7 +6110,11 @@
       "High-volume cheap classification or extraction",
       "Relying on it for a specific skill, since no scores are given"
     ],
-    "best_at": [],
+    "best_at": [
+      "finance",
+      "legal",
+      "healthcare"
+    ],
     "context_window": 1048576,
     "first_seen": "2026-11-20",
     "id": "gemini-4-neon",
@@ -6134,7 +6154,10 @@
   },
   {
     "avoid_for": [],
-    "best_at": [],
+    "best_at": [
+      "legal",
+      "healthcare"
+    ],
     "context_window": null,
     "first_seen": "2026-11-20",
     "id": "gemini-4-neon-high",
@@ -12772,7 +12795,7 @@
         "strategy_and_ops": 35.2
       },
       "huggingface-models": {
-        "hf_trending": 119.0
+        "hf_trending": 125.0
       }
     },
     "use_cases": [
@@ -12797,7 +12820,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 49.0
+        "hf_trending": 51.0
       }
     },
     "use_cases": []
