@@ -33,6 +33,7 @@ def repo_item(row: dict, source: str, kind: ItemKind) -> RawItem:
         metrics={"stars": float(row.get("stargazers_count") or 0)},
         extra={
             "owner": (row.get("owner") or {}).get("login", ""),
+            "owner_type": (row.get("owner") or {}).get("type", "User"),
             "description": row.get("description") or "",
             "topics": row.get("topics") or [],
         },

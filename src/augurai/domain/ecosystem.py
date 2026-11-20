@@ -31,6 +31,7 @@ def _upsert(existing: Entity | None, item: RawItem, today: date) -> Entity:
         name=item.title,
         url=item.url,
         owner=str(item.extra.get("owner", "")),
+        owner_type=str(item.extra.get("owner_type", "User")),
         first_seen=today,
     )
     kind: EntityKind = entity.kind

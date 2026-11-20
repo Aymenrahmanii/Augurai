@@ -74,6 +74,7 @@ class Entity(BaseModel):
     name: str
     url: str
     owner: str
+    owner_type: str = "User"
     description: str = ""
     stars: int = 0
     star_snapshots: list[StarSnapshot] = Field(default_factory=list)
