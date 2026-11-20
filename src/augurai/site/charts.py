@@ -1,9 +1,20 @@
 """Tiny dependency-free SVG line charts for the Jobs page."""
 
+import itertools
 from html import escape
 
 WIDTH, HEIGHT = 640, 260
-PAD_LEFT, PAD_RIGHT, PAD_TOP, PAD_BOTTOM = 44, 120, 16, 32
+PAD_LEFT, PAD_RIGHT, PAD_TOP, PAD_BOTTOM = 48, 160, 16, 36
+LEGEND_GAP = 18
+
+
+def _spread(ys: list[float]) -> list[float]:
+    """Nudge label positions apart so close series keep readable, non-overlapping legends."""
+    order = sorted(range(len(ys)), key=lambda i: ys[i])
+    placed = list(ys)
+    for prev, cur in itertools.pairwise(order):
+        placed[cur] = max(placed[cur], placed[prev] + LEGEND_GAP)
+    return placed
 
 
 def line_chart_svg(series: dict[str, list[float]], months: list[str], label: str) -> str:
@@ -32,6 +43,7 @@ def line_chart_svg(series: dict[str, list[float]], months: list[str], label: str
         parts.append(
             f'<text class="tick" x="{x(i):.1f}" y="{HEIGHT - 10}" text-anchor="middle">{escape(month)}</text>'
         )
+    label_ys = _spread([y(values[-1]) + 4 for values in series.values()])
     for index, (keyword, values) in enumerate(series.items()):
         cls = f"s{index % 6}"
         points = " ".join(f"{x(i):.1f},{y(v):.1f}" for i, v in enumerate(values))
@@ -39,9 +51,8 @@ def line_chart_svg(series: dict[str, list[float]], months: list[str], label: str
             parts.append(f'<polyline class="line {cls}" points="{points}"/>')
         for i, value in enumerate(values):
             parts.append(f'<circle class="dot {cls}" cx="{x(i):.1f}" cy="{y(value):.1f}" r="3.5"/>')
-        last = values[-1]
         parts.append(
-            f'<text class="legend {cls}" x="{WIDTH - PAD_RIGHT + 8}" y="{y(last) + 4:.1f}">{escape(keyword)}</text>'
+            f'<text class="legend {cls}" x="{WIDTH - PAD_RIGHT + 8}" y="{label_ys[index]:.1f}">{escape(keyword)}</text>'
         )
     parts.append("</svg>")
     return "".join(parts)

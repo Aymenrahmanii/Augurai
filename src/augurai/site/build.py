@@ -68,8 +68,9 @@ def _score(model: Model, key: str) -> float | None:
     return None
 
 
-def _model_sort_key(model: Model) -> tuple[float, str]:
-    return (-(_score(model, "intelligence") or -1.0), model.name.lower())
+def _model_sort_key(model: Model) -> tuple[float, int, str]:
+    released = model.released.toordinal() if model.released else 0
+    return (-(_score(model, "intelligence") or -1.0), -released, model.name.lower())
 
 
 def _updated(runs: list[RunRecord], tz: str) -> str:

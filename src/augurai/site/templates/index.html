@@ -5,8 +5,8 @@
 <p class="glance">Tracking <strong>{{ counts.models }}</strong> models, <strong>{{ counts.projects }}</strong> projects and <strong>{{ counts.people }}</strong> people.</p>
 {% if briefing_html %}
 <article class="briefing">
-  <p class="eyebrow">Briefing for {{ briefing_day }}</p>
   {{ briefing_html }}
+  <p class="dateline">Briefing for {{ briefing_day }} · <a href="{{ base }}archive/">Earlier briefings</a></p>
 </article>
 {% else %}
 <article class="briefing empty">

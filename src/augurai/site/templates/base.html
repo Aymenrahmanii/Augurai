@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Augurai{% endblock %}</title>
   <meta name="description" content="Augurai tracks AI models, benchmarks, projects, people and jobs, and turns them into a daily briefing.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Fira+Sans:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="{{ base }}static/site.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-row">
       <a class="brand" href="{{ base }}">Augurai</a>
@@ -18,7 +22,7 @@
       </nav>
     </div>
   </header>
-  <main class="wrap">
+  <main class="wrap" id="main">
     {% block content %}{% endblock %}
   </main>
   <footer class="site-footer">
