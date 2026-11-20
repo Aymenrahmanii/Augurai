@@ -1,0 +1,1589 @@
+[
+  {
+    "above_threshold_runs": 0,
+    "id": "Domush",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/Domush"
+    },
+    "name": "Domush",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "NiazMorshed2007",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/NiazMorshed2007"
+    },
+    "name": "NiazMorshed2007",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "Pluviobyte",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/Pluviobyte"
+    },
+    "name": "Pluviobyte",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 1,
+    "id": "alchaincyf",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/alchaincyf"
+    },
+    "name": "alchaincyf",
+    "recent_work": [],
+    "score": 6.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 6.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "alirezarezvani",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/alirezarezvani"
+    },
+    "name": "alirezarezvani",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "andrej-karpathy",
+    "last_active": "2026-10-31",
+    "links": {
+      "github": "https://github.com/karpathy",
+      "rss": "https://karpathy.bearblog.dev/feed/"
+    },
+    "name": "Andrej Karpathy",
+    "recent_work": [
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2026-10-31T17:00:00Z",
+        "title": "HackerTube",
+        "url": "https://karpathy.bearblog.dev/hacker-tube/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2026-04-30T16:00:00Z",
+        "title": "Sequoia Ascent 2026 summary",
+        "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-12-19T18:00:00Z",
+        "title": "2025 LLM Year in Review",
+        "url": "https://karpathy.bearblog.dev/year-in-review-2025/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-12-18T18:00:00Z",
+        "title": "Chemical hygiene",
+        "url": "https://karpathy.bearblog.dev/chemical-hygiene/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-12-10T15:00:00Z",
+        "title": "Auto-grading decade-old Hacker News discussions with hindsight",
+        "url": "https://karpathy.bearblog.dev/auto-grade-hn/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-11-29T18:00:00Z",
+        "title": "The space of minds",
+        "url": "https://karpathy.bearblog.dev/the-space-of-minds/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-11-17T17:00:00Z",
+        "title": "Verifiability",
+        "url": "https://karpathy.bearblog.dev/verifiability/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-10-01T17:00:00Z",
+        "title": "Animals vs Ghosts",
+        "url": "https://karpathy.bearblog.dev/animals-vs-ghosts/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-04-27T12:00:00Z",
+        "title": "Vibe coding MenuGen",
+        "url": "https://karpathy.bearblog.dev/vibe-coding-menugen/"
+      },
+      {
+        "person_id": "andrej-karpathy",
+        "published": "2025-04-07T18:00:00Z",
+        "title": "Power to the people: How LLMs flip the script on technology diffusion",
+        "url": "https://karpathy.bearblog.dev/power-to-the-people/"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "First-principles understanding; keep the model on a leash with small steps.",
+    "why_follow": "Explains how LLMs work and how to work with them."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "armin-ronacher",
+    "last_active": "2026-11-19",
+    "links": {
+      "github": "https://github.com/mitsuhiko",
+      "rss": "https://lucumr.pocoo.org/feed.atom",
+      "web": "https://lucumr.pocoo.org/"
+    },
+    "name": "Armin Ronacher",
+    "recent_work": [
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-19T00:41:49Z",
+        "title": "Active in mitsuhiko/tvpipe",
+        "url": "https://github.com/mitsuhiko/tvpipe"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-18T22:28:07Z",
+        "title": "Active in earendil-works/djs",
+        "url": "https://github.com/earendil-works/djs"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-09T00:00:00Z",
+        "title": "AI and Irontown",
+        "url": "https://lucumr.pocoo.org/2026/11/9/irontown/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-10-29T00:00:00Z",
+        "title": "Custom Voices With Qwen3-TTS",
+        "url": "https://lucumr.pocoo.org/2026/10/29/qwen3-custom-voices/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-10-06T00:00:00Z",
+        "title": "What is Codemode",
+        "url": "https://lucumr.pocoo.org/2026/10/6/codemode/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-09-29T00:00:00Z",
+        "title": "Deser: Rethinking Rust Serialization",
+        "url": "https://lucumr.pocoo.org/2026/9/29/deser/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-09-14T00:00:00Z",
+        "title": "Interpreting Pangram",
+        "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-09-12T00:00:00Z",
+        "title": "P(doom)",
+        "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-09-07T00:00:00Z",
+        "title": "Astra for Coding: Why Are We Doing This Again?",
+        "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-09-05T00:00:00Z",
+        "title": "Latent Powers",
+        "url": "https://lucumr.pocoo.org/2026/9/5/latent-powers/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-08-24T00:00:00Z",
+        "title": "Anger, Anxiety and Agency",
+        "url": "https://lucumr.pocoo.org/2026/8/24/anger-anxiety-agency/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-08-22T00:00:00Z",
+        "title": "Fast and Hard Code",
+        "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "How an experienced engineer shapes codebases and prompts so agents succeed.",
+    "why_follow": "Creator of Flask; writes frankly about agentic coding in real projects."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "berkantay",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/berkantay"
+    },
+    "name": "berkantay",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "boris-cherny",
+    "last_active": "2026-09-19",
+    "links": {
+      "github": "https://github.com/bcherny",
+      "rss": "https://borischerny.com/feed.xml",
+      "web": "https://borischerny.com"
+    },
+    "name": "Boris Cherny",
+    "recent_work": [
+      {
+        "person_id": "boris-cherny",
+        "published": "2026-09-19T00:00:00Z",
+        "title": "I am often wrong",
+        "url": "https://borischerny.com/management,/product/2026/09/19/I-am-often-wrong.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2024-06-19T00:00:00Z",
+        "title": "NPM and NodeJS should do more to make ES Modules easy to use",
+        "url": "https://borischerny.com/javascript,/typescript/2024/06/19/ES-Modules-Are-A-Mess.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2023-12-10T00:00:00Z",
+        "title": "Learning to work (very) remotely",
+        "url": "https://borischerny.com/tech/2023/12/10/Working-Remotely.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2022-09-07T00:00:00Z",
+        "title": "Time and Timing",
+        "url": "https://borischerny.com/2022/09/07/time-and-timing.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2022-01-17T00:00:00Z",
+        "title": "Dinosaur Food: 100 million year old foods we still eat today",
+        "url": "https://borischerny.com/food/2022/01/17/Dinosaur-food.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2021-03-13T00:00:00Z",
+        "title": "Data Management on the Web Still Sucks",
+        "url": "https://borischerny.com/javascript/2021/03/13/Data-Fetching.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2019-12-24T00:00:00Z",
+        "title": "React+TypeScript: Use unions of objects for props",
+        "url": "https://borischerny.com/typescript/react/2019/12/24/Use-unions-of-objects.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2019-09-08T00:00:00Z",
+        "title": "On Contagion",
+        "url": "https://borischerny.com/philosophy/of/programming/2019/09/08/On-Contagion.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2019-05-26T00:00:00Z",
+        "title": "13 Tips for Writing a Technical Book",
+        "url": "https://borischerny.com/writing/2019/05/26/Tips-For-Writing-A-Technical-Book.html"
+      },
+      {
+        "person_id": "boris-cherny",
+        "published": "2018-08-10T00:00:00Z",
+        "title": "On Derived State",
+        "url": "https://borischerny.com/javascript/typescript/react/2018/08/10/On-Derived-State.html"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Parallel sessions, plan mode, and verification loops in daily Claude Code use.",
+    "why_follow": "Built Claude Code; shows how its creator uses it."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "cathrynlavery",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/cathrynlavery"
+    },
+    "name": "cathrynlavery",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "chip-huyen",
+    "last_active": "2025-01-16",
+    "links": {
+      "github": "https://github.com/chiphuyen",
+      "rss": "https://huyenchip.com/feed.xml",
+      "web": "https://huyenchip.com"
+    },
+    "name": "Chip Huyen",
+    "recent_work": [
+      {
+        "person_id": "chip-huyen",
+        "published": "2025-01-16T00:00:00Z",
+        "title": "Common pitfalls when building generative AI applications",
+        "url": "https://huyenchip.com//2025/01/16/ai-engineering-pitfalls.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2025-01-07T00:00:00Z",
+        "title": "Agents",
+        "url": "https://huyenchip.com//2025/01/07/agents.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2024-07-25T00:00:00Z",
+        "title": "Building A Generative AI Platform",
+        "url": "https://huyenchip.com//2024/07/25/genai-platform.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2024-04-17T00:00:00Z",
+        "title": "Measuring personal growth",
+        "url": "https://huyenchip.com//2024/04/17/personal-growth.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2024-03-14T00:00:00Z",
+        "title": "What I learned from looking at 900 most popular open source AI tools",
+        "url": "https://huyenchip.com//2024/03/14/ai-oss.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2024-02-28T00:00:00Z",
+        "title": "Predictive Human Preference: From Model Ranking to Model Routing",
+        "url": "https://huyenchip.com//2024/02/28/predictive-human-preference.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2024-01-16T00:00:00Z",
+        "title": "Generation configurations: temperature, top-k, top-p, and test time compute",
+        "url": "https://huyenchip.com//2024/01/16/sampling.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2023-10-10T00:00:00Z",
+        "title": "Multimodality and Large Multimodal Models (LMMs)",
+        "url": "https://huyenchip.com//2023/10/10/multimodal.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2023-08-16T00:00:00Z",
+        "title": "Open challenges in LLM research",
+        "url": "https://huyenchip.com//2023/08/16/llm-research-open-challenges.html"
+      },
+      {
+        "person_id": "chip-huyen",
+        "published": "2023-06-07T00:00:00Z",
+        "title": "Generative AI Strategy",
+        "url": "https://huyenchip.com//2023/06/07/generative-ai-strategy.html"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Systems thinking for AI products: data, evaluation, deployment.",
+    "why_follow": "Author of AI Engineering and Designing ML Systems."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "daveebbelaar",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/daveebbelaar"
+    },
+    "name": "daveebbelaar",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "eugene-yan",
+    "last_active": "2026-11-08",
+    "links": {
+      "github": "https://github.com/eugeneyan",
+      "rss": "https://eugeneyan.com/rss/",
+      "web": "https://eugeneyan.com"
+    },
+    "name": "Eugene Yan",
+    "recent_work": [
+      {
+        "person_id": "eugene-yan",
+        "published": "2026-11-08T05:17:08Z",
+        "title": "Active in eugeneyan/eugeneyan",
+        "url": "https://github.com/eugeneyan/eugeneyan"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2026-11-06T00:57:02Z",
+        "title": "Active in eugeneyan/reasoning-from-scratch",
+        "url": "https://github.com/eugeneyan/reasoning-from-scratch"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2026-06-30T00:00:00Z",
+        "title": "AI Engineer 2026 - Using LLMs to Secure Source Code",
+        "url": "https://eugeneyan.com/speaking/aie-2026"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2026-06-21T00:00:00Z",
+        "title": "Patterns for Building Cybersecurity Evals",
+        "url": "https://eugeneyan.com/writing/cybersecurity-evals"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2026-05-27T00:00:00Z",
+        "title": "Using LLMs to Secure Source Code",
+        "url": "https://eugeneyan.com/writing/secure-source-code"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2026-05-03T00:00:00Z",
+        "title": "How to Work and Compound with AI",
+        "url": "https://eugeneyan.com/writing/working-with-ai"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2025-12-14T00:00:00Z",
+        "title": "2025 Year in Review",
+        "url": "https://eugeneyan.com/writing/2025-review"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2025-11-23T00:00:00Z",
+        "title": "Product Evals in Three Simple Steps",
+        "url": "https://eugeneyan.com/writing/product-evals"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2025-10-19T00:00:00Z",
+        "title": "Advice for New Principal Tech ICs (i.e., Notes to Myself)",
+        "url": "https://eugeneyan.com/writing/principal"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2025-09-14T00:00:00Z",
+        "title": "Training an LLM-RecSys Hybrid for Steerable Recs with Semantic IDs",
+        "url": "https://eugeneyan.com/writing/semantic-ids"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2025-06-22T00:00:00Z",
+        "title": "Evaluating Long-Context Question & Answer Systems",
+        "url": "https://eugeneyan.com/writing/qa-evals"
+      },
+      {
+        "person_id": "eugene-yan",
+        "published": "2025-06-04T00:00:00Z",
+        "title": "AI Engineer 2025 - Improving RecSys & Search with LLM techniques",
+        "url": "https://eugeneyan.com/speaking/aie-2025"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Evals, guardrails and retrieval patterns that hold up outside demos.",
+    "why_follow": "Writes applied ML and LLM system patterns from real production work."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "geoffrey-huntley",
+    "last_active": "2026-11-11",
+    "links": {
+      "github": "https://github.com/ghuntley",
+      "rss": "https://ghuntley.com/rss/",
+      "web": "https://www.ghuntley.com/"
+    },
+    "name": "Geoffrey Huntley",
+    "recent_work": [
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-11-11T19:38:58Z",
+        "title": "the answer to ai is engineering",
+        "url": "https://ghuntley.com/answer/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-11-06T22:50:00Z",
+        "title": "Active in ghuntley/overalls",
+        "url": "https://github.com/ghuntley/overalls"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-11-02T10:08:19Z",
+        "title": "Active in ghuntley/underclass",
+        "url": "https://github.com/ghuntley/underclass"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-11-02T06:39:21Z",
+        "title": "Active in ghuntley/overalls-website",
+        "url": "https://github.com/ghuntley/overalls-website"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-11-02T06:15:58Z",
+        "title": "Active in ghuntley/skills",
+        "url": "https://github.com/ghuntley/skills"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-20T16:41:12Z",
+        "title": "patch the planet",
+        "url": "https://ghuntley.com/patch/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-17T08:01:21Z",
+        "title": "pooling OpenAI subscriptions and bypassing regional inference capacity limits",
+        "url": "https://ghuntley.com/underclass/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-16T11:41:01Z",
+        "title": "state of agentic coding #11: the curiosity test, lisp, and labs that can't fail",
+        "url": "https://ghuntley.com/toronto/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-16T09:26:33Z",
+        "title": "revisiting some of my priors about openclaw",
+        "url": "https://ghuntley.com/bot/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-14T23:30:12Z",
+        "title": "a new model for open source: closed to pull requests, open to remix.",
+        "url": "https://ghuntley.com/remix/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-13T06:32:04Z",
+        "title": "nobody should type code by hand anymore. here's what's left.",
+        "url": "https://ghuntley.com/agency/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-10T14:23:33Z",
+        "title": "unikernels were hard. key word: were.",
+        "url": "https://ghuntley.com/unikernels/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-09T09:07:26Z",
+        "title": "if your team is too busy doing their 'normal job' to experiment with AI, you're preparing them to be replaced",
+        "url": "https://ghuntley.com/replaced/"
+      },
+      {
+        "person_id": "geoffrey-huntley",
+        "published": "2026-10-09T07:07:33Z",
+        "title": "--help on your CLI is all you need for LLM context until you don't.",
+        "url": "https://ghuntley.com/tier/"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Loop design, context discipline and specs that let agents run unattended.",
+    "why_follow": "Pushes autonomous coding-agent loops to their limits."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "hamel-husain",
+    "last_active": "2026-11-06",
+    "links": {
+      "github": "https://github.com/hamelsmu",
+      "rss": "https://hamel.dev/index.xml",
+      "web": "http://hamel.dev"
+    },
+    "name": "Hamel Husain",
+    "recent_work": [
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-11-06T18:47:34Z",
+        "title": "Active in kubeflow/blog",
+        "url": "https://github.com/kubeflow/blog"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-10-20T07:00:00Z",
+        "title": "How To Use Decision Models for Evals",
+        "url": "https://hamel.dev/blog/posts/decision-model-evals/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-09-30T07:00:00Z",
+        "title": "Claude’s new auto eval tool",
+        "url": "https://hamel.dev/blog/posts/claude-auto-evals/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-09-18T07:00:00Z",
+        "title": "AI Evals: Everything You Need to Know",
+        "url": "https://hamel.dev/blog/posts/evals-faq/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-08-12T07:00:00Z",
+        "title": "AI Product Engineering Notes",
+        "url": "https://hamel.dev/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-06-29T07:00:00Z",
+        "title": "“It’s Hard to Eval” Is a Product Smell",
+        "url": "https://hamel.dev/blog/posts/eval-smell/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-03-26T07:00:00Z",
+        "title": "The Revenge of the Data Scientist",
+        "url": "https://hamel.dev/blog/posts/revenge/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-03-02T08:00:00Z",
+        "title": "Evals Skills for Coding Agents",
+        "url": "https://hamel.dev/blog/posts/evals-skills/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2026-01-18T08:00:00Z",
+        "title": "Why I Stopped Using nbdev",
+        "url": "https://hamel.dev/blog/posts/ai-stack/"
+      },
+      {
+        "person_id": "hamel-husain",
+        "published": "2025-10-01T07:00:00Z",
+        "title": "Selecting The Right AI Evals Tool",
+        "url": "https://hamel.dev/blog/posts/eval-tools/"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Look at your data, build evals from real failures, iterate against them.",
+    "why_follow": "Practical LLM evals and error analysis."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "harrison-chase",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/hwchase17"
+    },
+    "name": "Harrison Chase",
+    "recent_work": [],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Agent architecture patterns and what production teams actually run.",
+    "why_follow": "Founder of LangChain; tracks how agent frameworks evolve."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "himanshu231204",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/himanshu231204"
+    },
+    "name": "himanshu231204",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "hyeonsang010716",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/hyeonsang010716"
+    },
+    "name": "hyeonsang010716",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "jason-liu",
+    "last_active": "2026-11-15",
+    "links": {
+      "github": "https://github.com/jxnl",
+      "web": "http://jxnl.co"
+    },
+    "name": "Jason Liu",
+    "recent_work": [
+      {
+        "person_id": "jason-liu",
+        "published": "2026-11-15T18:14:05Z",
+        "title": "Active in 567-labs/instructor",
+        "url": "https://github.com/567-labs/instructor"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Treat retrieval as a product problem with measurable feedback loops.",
+    "why_follow": "Structured outputs, RAG consulting and Instructor."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "jazzenchen",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/jazzenchen"
+    },
+    "name": "jazzenchen",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "jesse-vincent",
+    "last_active": "2026-11-20",
+    "links": {
+      "github": "https://github.com/obra",
+      "web": "http://fsck.com"
+    },
+    "name": "Jesse Vincent",
+    "recent_work": [
+      {
+        "person_id": "jesse-vincent",
+        "published": "2026-11-20T20:23:06Z",
+        "title": "Active in prime-radiant-inc/evener",
+        "url": "https://github.com/prime-radiant-inc/evener"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Skill-driven workflows: brainstorm, plan, test-first, review.",
+    "why_follow": "Author of the Superpowers skills you already use."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "lauren-tan",
+    "last_active": "2026-11-19",
+    "links": {
+      "github": "https://github.com/poteto"
+    },
+    "name": "Lauren Tan",
+    "recent_work": [
+      {
+        "person_id": "lauren-tan",
+        "published": "2026-11-19T22:12:08Z",
+        "title": "Active in cursor/plugins",
+        "url": "https://github.com/cursor/plugins"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Treat the model as a collaborator inside strict, verifiable tooling.",
+    "why_follow": "Works on React's compiler and thinks carefully about tooling and correctness."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "lucia-huang7",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/lucia-huang7"
+    },
+    "name": "lucia-huang7",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "mankidev",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/mankidev"
+    },
+    "name": "mankidev",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "matt-pocock",
+    "last_active": "2026-11-20",
+    "links": {
+      "github": "https://github.com/mattpocock",
+      "rss": "https://www.aihero.dev/rss.xml",
+      "web": "https://aihero.dev"
+    },
+    "name": "Matt Pocock",
+    "recent_work": [
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-11-20T16:52:56Z",
+        "title": "Active in mattpocock/course-video-manager",
+        "url": "https://github.com/mattpocock/course-video-manager"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-11-18T15:50:19Z",
+        "title": "Active in mattpocock/sandcastle",
+        "url": "https://github.com/mattpocock/sandcastle"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-11-06T04:07:32Z",
+        "title": "AI SDK v6 Crash Course",
+        "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-08-17T21:46:41Z",
+        "title": "AI Coding Crash Course",
+        "url": "https://www.aihero.dev/workshops/ai-coding-crash-course"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-07-06T16:04:48Z",
+        "title": "AI Skills for Real Engineers",
+        "url": "https://www.aihero.dev/skills-catalog"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-05-16T00:00:00Z",
+        "title": "AI Hero Newsletter by Matt Pocock",
+        "url": "https://www.aihero.dev/newsletter"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-05-16T00:00:00Z",
+        "title": "AI Skills for Real Engineers",
+        "url": "https://www.aihero.dev/skills"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-05-16T00:00:00Z",
+        "title": "Skills Newsletter",
+        "url": "https://www.aihero.dev/skills/subscribe"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2025-09-30T09:46:28Z",
+        "title": "LLM Fundamentals",
+        "url": "https://www.aihero.dev/llm-fundamentals"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2025-09-09T14:47:27Z",
+        "title": "Generating Objects via Output",
+        "url": "https://www.aihero.dev/workshops/ai-sdk-v6-crash-course/generating-objects-via-output~dkm2k"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2025-03-18T11:28:44Z",
+        "title": "The AI Engineer Roadmap",
+        "url": "https://www.aihero.dev/ai-engineer-roadmap"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2025-03-12T11:01:44Z",
+        "title": "Model Context Protocol Tutorial",
+        "url": "https://www.aihero.dev/model-context-protocol-tutorial"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Grill the idea before building; write specs, split into tickets, test-first loops.",
+    "why_follow": "Turns TypeScript and AI-assisted coding into small, repeatable workflows."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "parcadei",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/parcadei"
+    },
+    "name": "parcadei",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "phuryn",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/phuryn"
+    },
+    "name": "phuryn",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "sebastian-raschka",
+    "last_active": "2026-11-20",
+    "links": {
+      "github": "https://github.com/rasbt",
+      "rss": "https://magazine.sebastianraschka.com/feed",
+      "web": "https://sebastianraschka.com"
+    },
+    "name": "Sebastian Raschka",
+    "recent_work": [
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-11-20T18:10:49Z",
+        "title": "Active in rasbt/LLMs-from-scratch",
+        "url": "https://github.com/rasbt/LLMs-from-scratch"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-11-15T12:10:37Z",
+        "title": "Understanding Positional Embeddings in Modern LLMs",
+        "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-11-11T01:50:17Z",
+        "title": "Active in rasbt/llm-architecture-gallery",
+        "url": "https://github.com/rasbt/llm-architecture-gallery"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-11-06T21:05:25Z",
+        "title": "Active in io-prashant/LLMs-from-scratch",
+        "url": "https://github.com/io-prashant/LLMs-from-scratch"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-10-24T11:14:32Z",
+        "title": "Building Reasoning Models from the Ground Up: A Full Video Course",
+        "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-09-29T10:50:25Z",
+        "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+        "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-09-09T11:14:25Z",
+        "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+        "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-08-22T11:11:39Z",
+        "title": "How Claude Watermarks AI-Generated Text",
+        "url": "https://magazine.sebastianraschka.com/p/claude-watermarking"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-08-15T11:54:24Z",
+        "title": "Building an AI Text Detector From Scratch",
+        "url": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-07-18T11:16:09Z",
+        "title": "Controlling Reasoning Effort in LLMs",
+        "url": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-06-27T11:21:58Z",
+        "title": "Using Local Coding Agents",
+        "url": "https://magazine.sebastianraschka.com/p/using-local-coding-agents"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-06-06T11:16:22Z",
+        "title": "LLM Research Papers: The 2026 List (January to May)",
+        "url": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1"
+      },
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-05-16T11:33:51Z",
+        "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+        "url": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Read model papers by rebuilding the key pieces yourself.",
+    "why_follow": "Clear, code-first explanations of LLM internals and research."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "shashikantdev3",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/shashikantdev3"
+    },
+    "name": "shashikantdev3",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "shekharmaheshwari",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/shekharmaheshwari"
+    },
+    "name": "shekharmaheshwari",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "shreya-shankar",
+    "last_active": "2026-11-20",
+    "links": {
+      "github": "https://github.com/shreyashankar",
+      "rss": "https://sh-reya.com/rss.xml",
+      "web": "https://sh-reya.com"
+    },
+    "name": "Shreya Shankar",
+    "recent_work": [
+      {
+        "person_id": "shreya-shankar",
+        "published": "2026-11-20T06:10:21Z",
+        "title": "Released fsdatalab/quail",
+        "url": "https://github.com/fsdatalab/quail"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2026-11-19T01:34:00Z",
+        "title": "Active in fsdatalab/fsdatalab.github.io",
+        "url": "https://github.com/fsdatalab/fsdatalab.github.io"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2026-11-18T23:30:20Z",
+        "title": "Active in fsdatalab/quail-bench",
+        "url": "https://github.com/fsdatalab/quail-bench"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2026-05-21T00:00:00Z",
+        "title": "Exploring Agent-Assisted Qualitative Analysis",
+        "url": "https://www.sh-reya.com/blog/ai-qual-analysis/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2025-12-01T00:00:00Z",
+        "title": "On the Consumption of AI-Generated Content at Scale",
+        "url": "https://www.sh-reya.com/blog/consumption-ai-scale/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2025-09-05T00:00:00Z",
+        "title": "In Defense of AI Evals, for Everyone",
+        "url": "https://www.sh-reya.com/blog/in-defense-ai-evals/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2025-06-16T00:00:00Z",
+        "title": "Writing in the Age of LLMs",
+        "url": "https://www.sh-reya.com/blog/ai-writing/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2024-07-01T00:00:00Z",
+        "title": "Data Flywheels for LLM Applications",
+        "url": "https://www.sh-reya.com/blog/ai-engineering-flywheel/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2024-06-24T00:00:00Z",
+        "title": "Short Musings on AI Engineering and \"Failed AI Projects\"",
+        "url": "https://www.sh-reya.com/blog/ai-engineering-short/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2024-04-08T00:00:00Z",
+        "title": "Comparing LLMs on \"Real-World\" Retrieval",
+        "url": "https://www.sh-reya.com/blog/needle-in-the-real-world/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2023-11-16T00:00:00Z",
+        "title": "Mid-PhD Research Talk",
+        "url": "https://www.sh-reya.com/blog/phd-halfway-talk/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2022-09-12T00:00:00Z",
+        "title": "Study Notes for the Berkeley Databases Prelim Exam",
+        "url": "https://www.sh-reya.com/blog/db-prelim-notes/"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2022-07-18T00:00:00Z",
+        "title": "Thoughts on ML Engineering After a Year of my PhD",
+        "url": "https://www.sh-reya.com/blog/phd-year-one/"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Validate the validators; criteria drift as you look at outputs.",
+    "why_follow": "Researches LLM pipelines, evals and human-in-the-loop quality."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "simon-willison",
+    "last_active": "2026-11-20",
+    "links": {
+      "github": "https://github.com/simonw",
+      "rss": "https://simonwillison.net/atom/everything/",
+      "web": "https://simonwillison.net/"
+    },
+    "name": "Simon Willison",
+    "recent_work": [
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-20T19:21:49Z",
+        "title": "Quoting Ravi Vakil",
+        "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-20T16:30:48Z",
+        "title": "Quoting Levent Alpöge",
+        "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-20T03:01:57Z",
+        "title": "Released simonw/llm-gemini",
+        "url": "https://github.com/simonw/llm-gemini"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-20T02:49:57Z",
+        "title": "Token fraud is here and it’s BAD (YouTube)",
+        "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-19T20:43:57Z",
+        "title": "PostgreSQL 19 Released",
+        "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-19T00:05:32Z",
+        "title": "Active in simonw/datasette",
+        "url": "https://github.com/simonw/datasette"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-18T23:59:20Z",
+        "title": "llm-gemini 0.38",
+        "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-18T23:06:11Z",
+        "title": "Active in simonw/llm-prices",
+        "url": "https://github.com/simonw/llm-prices"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-18T17:09:59Z",
+        "title": "datasette-arrows 0.1a0",
+        "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-18T15:58:27Z",
+        "title": "Quoting Daniel Stenberg",
+        "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-18T14:44:48Z",
+        "title": "The PSF end-of-year fundraiser",
+        "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-17T22:52:29Z",
+        "title": "External sandboxes for coding agents",
+        "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-17T22:38:52Z",
+        "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+        "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+      }
+    ],
+    "score": 1.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 1.0
+      }
+    ],
+    "status": "seed",
+    "what_to_learn": "Build small tools with LLMs, publish what you learn, and test claims yourself.",
+    "why_follow": "Documents LLM experiments daily, with working code and honest limits."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "sloemo01",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/sloemo01"
+    },
+    "name": "sloemo01",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "swyx",
+    "last_active": "2026-11-20",
+    "links": {
+      "github": "https://github.com/swyxio",
+      "rss": "https://www.swyx.io/rss.xml",
+      "web": "https://learninpublic.org"
+    },
+    "name": "swyx",
+    "recent_work": [
+      {
+        "person_id": "swyx",
+        "published": "2026-11-20T07:52:24Z",
+        "title": "Active in swyxio/papra",
+        "url": "https://github.com/swyxio/papra"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-11-18T18:18:24Z",
+        "title": "Active in swyxio/swyxdotio",
+        "url": "https://github.com/swyxio/swyxdotio"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-11-18T07:34:20Z",
+        "title": "Active in smol-ai/ainews-web-2025",
+        "url": "https://github.com/smol-ai/ainews-web-2025"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-11-17T22:52:35Z",
+        "title": "Active in swyxio/supertwitter",
+        "url": "https://github.com/swyxio/supertwitter"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-11-16T21:36:59Z",
+        "title": "Active in swyxio/skills",
+        "url": "https://github.com/swyxio/skills"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-07-05T05:07:51Z",
+        "title": "What America has meant to me",
+        "url": "https://swyx.io/america250"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-05-17T00:39:17Z",
+        "title": "AIE Singapore: The Agentic Nation",
+        "url": "https://swyx.io/aie-singapore-the-agentic-nation"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-04-22T00:00:00Z",
+        "title": "What you can do in a decade",
+        "url": "https://swyx.io/decade"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-03-14T18:48:21Z",
+        "title": "How to Thought Lead (2026)",
+        "url": "https://swyx.io/lead"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-02-27T01:54:50Z",
+        "title": "Constance Crozier: Forecasting s-curves is hard",
+        "url": "https://swyx.io/scurves"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2026-02-16T20:10:54Z",
+        "title": "Take a hard game, and make it shorter",
+        "url": "https://swyx.io/shorter"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2025-12-07T05:31:41Z",
+        "title": "How To Podcast",
+        "url": "https://swyx.io/podcast"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2025-11-06T19:47:03Z",
+        "title": "The Impossible Triangle of LLM Infra",
+        "url": "https://swyx.io/impossible-triangle"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2025-10-20T01:02:22Z",
+        "title": "The only Permanent Underclass are the ones who believe it is permanent",
+        "url": "https://swyx.io/permanent-underclass"
+      },
+      {
+        "person_id": "swyx",
+        "published": "2025-09-23T14:46:13Z",
+        "title": "The Year in Agents - AI Engineer Paris",
+        "url": "https://swyx.io/aie-paris"
+      }
+    ],
+    "score": 0.0,
+    "score_history": [],
+    "status": "seed",
+    "what_to_learn": "Spot the shape of the field early and learn in public.",
+    "why_follow": "Founder of Latent Space; maps the AI engineering field."
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "synchopate",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/synchopate"
+    },
+    "name": "synchopate",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "yjid",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/yjid"
+    },
+    "name": "yjid",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "zhanghao123vip",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/zhanghao123vip"
+    },
+    "name": "zhanghao123vip",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  }
+]

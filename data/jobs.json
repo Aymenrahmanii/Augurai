@@ -1,0 +1,54 @@
+[
+  {
+    "id": "global-jobs-hn-2026-11",
+    "keyword_counts": {
+      "LLM": 17,
+      "LangChain": 2,
+      "MCP": 11,
+      "MLOps": 2,
+      "PyTorch": 9,
+      "RAG": 4,
+      "agents": 44,
+      "evals": 6,
+      "fine-tuning": 1,
+      "vector database": 0
+    },
+    "market": "global",
+    "month": "2026-11",
+    "notable_roles": [
+      "outgoing | software engineer | lisbon, portugal | hybrid | €25k–€35k + meal allowance + health insurance",
+      "new product | full stack engineer (mostly backend + api) | meet in the bay area / work remotely | currently employed but",
+      "early-stage startup | software engineer & data analyst | full-time | remote (us & us citizen) | $100,000 - $180,000 usd",
+      "seeking freelance - egypt (utc+2, full eu/uk overlap) - remote",
+      "common prefix | senior software engineer | athens, greece / remote | full-time | $80k to $160k + equity + bonus"
+    ],
+    "source": "jobs-hn",
+    "total_posts": 242
+  },
+  {
+    "id": "global-jobs-remoteok-2026-11",
+    "keyword_counts": {
+      "LLM": 4,
+      "LangChain": 0,
+      "MCP": 4,
+      "MLOps": 0,
+      "PyTorch": 1,
+      "RAG": 0,
+      "agents": 18,
+      "evals": 1,
+      "fine-tuning": 0,
+      "vector database": 0
+    },
+    "market": "global",
+    "month": "2026-11",
+    "notable_roles": [
+      "customer success manager",
+      "senior software engineer",
+      "engineering manager",
+      "senior software engineer: assets",
+      "engineering lead, growth"
+    ],
+    "source": "jobs-remoteok",
+    "total_posts": 98
+  }
+]
