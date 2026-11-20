@@ -117,6 +117,7 @@ class Practice(BaseModel):
     person_id: str
     source_url: str
     related_skill: str | None = None
+    exercise: str | None = None
     tags: list[str] = Field(default_factory=list)
     first_seen: date
     reinforced_by: list[str] = Field(default_factory=list)

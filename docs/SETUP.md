@@ -66,6 +66,5 @@ If the PC is off at 10:00 the task runs as soon as it is back on.
 
 ## Things to check once
 
-- **Lauren Tan's GitHub login** is set to `poteto` in `config/augurai.toml`. Confirm it is the right person, or fix the link.
 - **Jobs:** Tunisian job boards are not tracked because their terms and robots.txt do not allow it. The France market uses Adzuna.
 - **Credits:** the site footer credits Artificial Analysis and Remote OK, as their terms require. Keep those links.

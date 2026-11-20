@@ -14,11 +14,15 @@ def _markdown(proposals: Proposals) -> str:
             "",
             f"**What I saw:** {item.observation}",
             "",
+            f"**Why it works:** {item.why}",
+            "",
+            f"**Try it yourself first:** {item.try_first}",
+            "",
             f"**Practice{source}:** {item.practice_id or 'none in the library yet'}",
             "",
             f"**Type:** {item.change_kind.replace('_', ' ')}",
             "",
-            f"**How to apply it:** `{item.apply}`",
+            f"**How to apply it, once you have tried:** `{item.apply}`",
             "",
         ]
     lines.append(

@@ -1,6 +1,7 @@
 """Render the static site from data/ and briefings/."""
 
 import json
+import re
 import shutil
 from datetime import datetime
 from pathlib import Path
@@ -50,6 +51,7 @@ RISING_PEOPLE_LIMIT = 20
 CHART_KEYWORDS = 5
 JOB_MARKETS = [("global", "Global / remote"), ("fr", "France")]
 ARCHIVE_LIMIT = 365
+SIDE_LIST = 5
 NAV = [
     ("today", "Today", ""),
     ("models", "Models", "models/"),
@@ -65,6 +67,22 @@ NAV = [
 def safe_url(url: str) -> str:
     """Allow only http(s) links; anything else (javascript:, data:, ...) becomes a dead link."""
     return url if urlsplit(url).scheme.lower() in ("http", "https") else "#"
+
+
+_LOGIN = re.compile(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$")
+
+
+def github_login(url: str) -> str:
+    """The login in a github.com profile URL, or "" when the URL is not one."""
+    parts = urlsplit(url or "")
+    segments = [seg for seg in parts.path.split("/") if seg]
+    if parts.netloc.lower() not in ("github.com", "www.github.com") or len(segments) != 1:
+        return ""
+    return segments[0] if _LOGIN.match(segments[0]) else ""
+
+
+def avatar_url(login: str) -> str:
+    return f"https://github.com/{login}.png?size=96" if login and _LOGIN.match(login) else ""
 
 
 def _score(model: Model, key: str) -> float | None:
@@ -139,6 +157,8 @@ def build_site(root: Path, out: Path, settings: Settings) -> list[Path]:
         lstrip_blocks=True,
     )
     env.filters["safe_url"] = safe_url
+    env.filters["avatar"] = avatar_url
+    env.filters["github_login"] = github_login
     base = settings.site_base_path
     common = {
         "base": base,
@@ -159,19 +179,6 @@ def build_site(root: Path, out: Path, settings: Settings) -> list[Path]:
     def as_html(markdown: str) -> Markup:
         return Markup(render_markdown(markdown))
 
-    latest = briefings[0] if briefings else None
-    render(
-        "index.html",
-        "index.html",
-        "today",
-        briefing_html=as_html(latest[1]) if latest else None,
-        briefing_day=latest[0] if latest else None,
-        counts={"models": len(models), "projects": len(entities), "people": len(people)},
-    )
-    render("models.html", "models/index.html", "models", models=models, categories=CATEGORIES)
-    for model in models:
-        render("model.html", f"models/{model.id}/index.html", "models", model=model)
-
     today = (
         max((r.started.date() for r in runs), default=None) or datetime.now(ZoneInfo("UTC")).date()
     )
@@ -179,6 +186,25 @@ def build_site(root: Path, out: Path, settings: Settings) -> list[Path]:
     for kind, label in ECOSYSTEM_KINDS:
         ids = rising(entities, kind, ECOSYSTEM_LIMIT, today)
         groups.append({"label": label, "kind": kind, "entries": [entities[i] for i in ids]})
+    latest = briefings[0] if briefings else None
+    newest = sorted((m for m in models if m.released), key=lambda m: m.released, reverse=True)[
+        :SIDE_LIST
+    ]
+    rising_now = [e for g in groups if g["kind"] != "mcp" for e in g["entries"][:2]][:SIDE_LIST]
+    render(
+        "index.html",
+        "index.html",
+        "today",
+        briefing_html=as_html(latest[1]) if latest else None,
+        briefing_day=latest[0] if latest else None,
+        counts={"models": len(models), "projects": len(entities), "people": len(people)},
+        newest_models=newest,
+        rising_now=rising_now,
+    )
+    render("models.html", "models/index.html", "models", models=models, categories=CATEGORIES)
+    for model in models:
+        render("model.html", f"models/{model.id}/index.html", "models", model=model)
+
     render("ecosystem.html", "ecosystem/index.html", "ecosystem", groups=groups)
 
     by_status = {

@@ -12,6 +12,8 @@ VALID_ITEM = {
     "person": "Matt Pocock",
     "change_kind": "skill_use",
     "change": "Start each feature with /grill-me",
+    "why": "A short interview exposes gaps while they are still cheap to fix.",
+    "try_first": "Write down three things you do not know yet about the next feature.",
     "apply": "/grill-me",
 }
 WEEK = "2026-W47"
@@ -123,3 +125,11 @@ def test_run_claude_denies_tools():
     assert "--disallowedTools" in args
     denied = args[args.index("--disallowedTools") + 1 :]
     assert {"Bash", "Edit", "Write", "WebFetch", "WebSearch"} <= set(denied)
+
+
+def test_parse_drops_proposals_that_do_not_teach():
+    no_why = {k: v for k, v in VALID_ITEM.items() if k != "why"}
+    no_exercise = {k: v for k, v in VALID_ITEM.items() if k != "try_first"}
+    blank_why = VALID_ITEM | {"why": "   "}
+    raw = json.dumps({"items": [no_why, no_exercise, blank_why, VALID_ITEM]})
+    assert len(parse(raw, WEEK, set()).items) == 1

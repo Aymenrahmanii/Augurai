@@ -2,30 +2,42 @@
 {% block title %}Playbook · Augurai{% endblock %}
 {% block content %}
 <h1>Playbook</h1>
-<p class="lede">Ways of thinking and working with AI, taken from the people you follow. The ones seen again and again come first.</p>
+<p class="lede">Ways of thinking and working with AI, taken from the people you follow. Read the idea, then do the exercise yourself before you reach for a tool. The ones seen again and again come first.</p>
 {% if practices %}
-<div class="controls">
-  <label>Person
+<div class="toolbar">
+  <label class="field grow"><span>Search</span>
+    <input type="search" data-filter-text placeholder="Idea, person or topic" autocomplete="off">
+  </label>
+  <label class="field"><span>Person</span>
     <select data-filter="person">
       <option value="">Everyone</option>
       {% for a in authors %}<option value="{{ a|replace(' ', '-')|lower }}">{{ a }}</option>{% endfor %}
     </select>
   </label>
-  <label>Topic
+  <label class="field"><span>Topic</span>
     <select data-filter="tag">
       <option value="">All topics</option>
       {% for t in tags %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
     </select>
   </label>
 </div>
-<ul class="cards">
+<p class="count" data-count="practices" aria-live="polite"></p>
+<ul class="rows stacked">
   {% for p in practices %}
-  <li data-item data-person="{{ names.get(p.person_id, p.person_id)|replace(' ', '-')|lower }}" data-tag="{{ p.tags|join(' ') }}">
-    <span class="card-title">{{ p.title }}</span>
-    <span class="meta">{{ names.get(p.person_id, p.person_id) }}{% if p.reinforced_by %} · seen {{ p.reinforced_by|length + 1 }} times{% endif %}{% if p.related_skill %} · skill: {{ p.related_skill }}{% endif %}</span>
-    <p>{{ p.principle }}</p>
-    <p><strong>Try it:</strong> {{ p.how_to_apply }}</p>
-    <p class="meta"><a href="{{ p.source_url|safe_url }}">Source</a>{% for t in p.tags %} <span class="chip">{{ t }}</span>{% endfor %}</p>
+  <li data-item
+      data-person="{{ names.get(p.person_id, p.person_id)|replace(' ', '-')|lower }}"
+      data-tag="{{ p.tags|join(' ') }}"
+      data-text="{{ (p.title ~ ' ' ~ p.principle ~ ' ' ~ names.get(p.person_id, p.person_id))|lower }}">
+    <div class="row-body">
+      <span class="row-title">{{ p.title }}</span>
+      <span class="meta">{{ names.get(p.person_id, p.person_id) }}{% if p.reinforced_by %} · seen {{ p.reinforced_by|length + 1 }} times{% endif %}{% if p.related_skill %} · skill: {{ p.related_skill }}{% endif %}</span>
+      <p>{{ p.principle }}</p>
+      <p><strong>How to apply it:</strong> {{ p.how_to_apply }}</p>
+      {% if p.exercise %}
+      <div class="exercise"><strong>Try it yourself first</strong><p>{{ p.exercise }}</p></div>
+      {% endif %}
+      <p class="meta"><a href="{{ p.source_url|safe_url }}">Source</a>{% for t in p.tags %} <span class="chip">{{ t }}</span>{% endfor %}</p>
+    </div>
   </li>
   {% endfor %}
 </ul>

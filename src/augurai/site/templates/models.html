@@ -4,8 +4,11 @@
 <h1>Models</h1>
 <p class="lede">Which model is best at what. "Best at" marks a model that ranks in the top 3 on that measure.</p>
 {% if models %}
-<div class="controls">
-  <label>Best at
+<div class="toolbar">
+  <label class="field grow"><span>Search</span>
+    <input type="search" data-filter-text placeholder="Model or provider" autocomplete="off">
+  </label>
+  <label class="field"><span>Best at</span>
     <select data-filter="category">
       <option value="">Everything</option>
       {% for c in categories %}
@@ -13,17 +16,35 @@
       {% endfor %}
     </select>
   </label>
+  <label class="field"><span>Sort by</span>
+    <select data-sort="models">
+      <option value="intelligence:desc">Intelligence</option>
+      <option value="released:desc">Newest</option>
+      <option value="price:asc">Cheapest</option>
+      <option value="context:desc">Longest context</option>
+    </select>
+  </label>
 </div>
+<p class="count" data-count="models" aria-live="polite"></p>
 <div class="table-scroll">
   <table>
     <thead>
-      <tr><th>Model</th><th>Provider</th><th>Best at</th><th class="num">Intelligence</th><th class="num">Coding</th><th class="num">Context</th><th class="num">$ in / out per 1M</th></tr>
+      <tr><th>Model</th><th>Best at</th><th class="num">Intelligence</th><th class="num">Coding</th><th class="num">Context</th><th class="num">$ in / out per 1M</th></tr>
     </thead>
-    <tbody>
+    <tbody data-sortable="models">
       {% for m in models %}
-      <tr data-item data-category="{{ m.best_at|join(' ') }}">
-        <td><a href="{{ base }}models/{{ m.id }}/">{{ m.name }}</a></td>
-        <td>{{ m.provider }}</td>
+      <tr data-item
+          data-category="{{ m.best_at|join(' ') }}"
+          data-text="{{ (m.name ~ ' ' ~ m.provider ~ ' ' ~ m.best_at|join(' '))|lower }}"
+          data-sort-intelligence="{{ score(m, 'intelligence') if score(m, 'intelligence') is not none else '' }}"
+          data-sort-released="{{ m.released.toordinal() if m.released else '' }}"
+          data-sort-price="{{ m.price_in if m.price_in is not none else '' }}"
+          data-sort-context="{{ m.context_window or '' }}">
+        <td>
+          <span class="who"><span class="mono" aria-hidden="true">{{ m.provider[:1]|upper }}</span>
+            <span><a href="{{ base }}models/{{ m.id }}/">{{ m.name }}</a><span class="meta block">{{ m.provider }}</span></span>
+          </span>
+        </td>
         <td>{% for c in m.best_at %}<span class="chip">{{ c.replace("_", " ") }}</span> {% endfor %}</td>
         <td class="num">{{ score(m, "intelligence") or "–" }}</td>
         <td class="num">{{ score(m, "coding") or "–" }}</td>

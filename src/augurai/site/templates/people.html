@@ -3,23 +3,32 @@
 {% block content %}
 <h1>People</h1>
 <p class="lede">The people worth learning from. New names are added automatically when their work keeps showing up.</p>
+<div class="toolbar">
+  <label class="field grow"><span>Search</span>
+    <input type="search" data-filter-text placeholder="Name or topic" autocomplete="off">
+  </label>
+</div>
 {% set labels = {"seed": "Core list", "followed": "Discovered and followed", "rising": "Rising", "dormant": "Gone quiet"} %}
 {% for status, members in groups.items() %}
 {% if members %}
 <section>
   <h2>{{ labels[status] }}</h2>
-  <ul class="cards">
+  <ul class="rows">
     {% for p in members %}
-    <li>
-      <span class="card-title">{{ p.name }}</span>
-      <span class="meta">{% for key, url in p.links.items() %}<a href="{{ url|safe_url }}">{{ key }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
-      {% if p.why_follow %}<p><strong>Why follow:</strong> {{ p.why_follow }}</p>{% endif %}
-      {% if p.what_to_learn %}<p><strong>Learn:</strong> {{ p.what_to_learn }}</p>{% endif %}
-      {% if p.recent_work %}
-      <ul class="work">
-        {% for w in p.recent_work[:3] %}<li><a href="{{ w.url|safe_url }}">{{ w.title }}</a></li>{% endfor %}
-      </ul>
-      {% endif %}
+    {% set login = (p.links.get("github", ""))|github_login %}
+    <li data-item data-text="{{ (p.name ~ ' ' ~ p.why_follow ~ ' ' ~ p.what_to_learn)|lower }}">
+      <span class="avatar large" data-initial="{{ p.name[:1]|upper }}">{% if login %}<img src="{{ login|avatar }}" alt="" width="48" height="48" loading="lazy" onerror="this.remove()">{% endif %}</span>
+      <div class="row-body">
+        <span class="row-title">{{ p.name }}</span>
+        <span class="meta">{% for key, url in p.links.items() %}<a href="{{ url|safe_url }}">{{ key }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</span>
+        {% if p.why_follow %}<p><strong>Why follow:</strong> {{ p.why_follow }}</p>{% endif %}
+        {% if p.what_to_learn %}<p><strong>Learn:</strong> {{ p.what_to_learn }}</p>{% endif %}
+        {% if p.recent_work %}
+        <ul class="work">
+          {% for w in p.recent_work[:3] %}<li><a href="{{ w.url|safe_url }}">{{ w.title }}</a></li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
     </li>
     {% endfor %}
   </ul>

@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Literal
 
 import httpx
-from pydantic import BaseModel, Field, ValidationError
+from pydantic import BaseModel, Field, ValidationError, field_validator
 
 from augurai.config import Settings
 from augurai.models import Practice
@@ -26,7 +26,16 @@ class Proposal(BaseModel):
     person: str | None = None
     change_kind: Literal["habit", "skill_use", "skill_install", "claude_md"]
     change: str
+    why: str
+    try_first: str
     apply: str
+
+    @field_validator("why", "try_first")
+    @classmethod
+    def _must_teach(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("a proposal must explain why and give something to try first")
+        return value.strip()
 
 
 class Proposals(BaseModel):

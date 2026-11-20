@@ -3,16 +3,27 @@
 {% block content %}
 <h1>Ecosystem</h1>
 <p class="lede">Repos, skills, agents and MCP servers that are moving. Ranked by new stars per day over the last week; new projects get a small boost.</p>
+<div class="toolbar">
+  <label class="field grow"><span>Search</span>
+    <input type="search" data-filter-text placeholder="Project, owner or description" autocomplete="off">
+  </label>
+</div>
+<nav class="jump" aria-label="Sections">
+  {% for group in groups %}<a href="#{{ group.kind }}">{{ group.label }}</a>{% endfor %}
+</nav>
 {% for group in groups %}
-<section>
+<section id="{{ group.kind }}">
   <h2>{{ group.label }}</h2>
   {% if group.entries %}
-  <ul class="cards">
+  <ul class="rows">
     {% for e in group.entries %}
-    <li>
-      <a class="card-title" href="{{ e.url|safe_url }}">{{ e.name }}</a>
-      <span class="meta">{{ e.owner }}{% if e.stars %} · {{ "{:,}".format(e.stars) }} stars{% endif %}{% if e.velocity_7d %} · +{{ "%.1f"|format(e.velocity_7d) }}/day{% endif %}</span>
-      <p>{{ e.summary or e.description }}</p>
+    <li data-item data-text="{{ (e.name ~ ' ' ~ e.owner ~ ' ' ~ (e.summary or e.description))|lower }}">
+      <span class="avatar" data-initial="{{ e.owner[:1]|upper }}">{% if e.owner|avatar %}<img src="{{ e.owner|avatar }}" alt="" width="40" height="40" loading="lazy" onerror="this.remove()">{% endif %}</span>
+      <div class="row-body">
+        <a class="row-title" href="{{ e.url|safe_url }}">{{ e.name }}</a>
+        <span class="meta">{{ e.owner }}{% if e.stars %} · {{ "{:,}".format(e.stars) }} stars{% endif %}{% if e.velocity_7d %} · +{{ "%.1f"|format(e.velocity_7d) }}/day{% endif %}</span>
+        <p>{{ e.summary or e.description }}</p>
+      </div>
     </li>
     {% endfor %}
   </ul>

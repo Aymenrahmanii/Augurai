@@ -2,16 +2,50 @@
 {% block title %}Augurai: your AI radar{% endblock %}
 {% block content %}
 <h1 class="visually-hidden">Today</h1>
-<p class="glance">Tracking <strong>{{ counts.models }}</strong> models, <strong>{{ counts.projects }}</strong> projects and <strong>{{ counts.people }}</strong> people.</p>
-{% if briefing_html %}
-<article class="briefing">
-  {{ briefing_html }}
-  <p class="dateline">Briefing for {{ briefing_day }} · <a href="{{ base }}archive/">Earlier briefings</a></p>
-</article>
-{% else %}
-<article class="briefing empty">
-  <h2>No briefing yet</h2>
-  <p>The first morning briefing appears here after the next morning run.</p>
-</article>
-{% endif %}
+<div class="home">
+  <div class="home-main">
+    {% if briefing_html %}
+    <article class="briefing">
+      {{ briefing_html }}
+      <p class="dateline">Briefing for {{ briefing_day }} · <a href="{{ base }}archive/">Earlier briefings</a></p>
+    </article>
+    {% else %}
+    <article class="briefing empty">
+      <h2>No briefing yet</h2>
+      <p>The first morning briefing appears here after the next morning run.</p>
+    </article>
+    {% endif %}
+  </div>
+  <aside class="home-side" aria-label="At a glance">
+    <section>
+      <h2>Tracking</h2>
+      <dl class="tally">
+        <div><dt>Models</dt><dd>{{ counts.models }}</dd></div>
+        <div><dt>Projects</dt><dd>{{ counts.projects }}</dd></div>
+        <div><dt>People</dt><dd>{{ counts.people }}</dd></div>
+      </dl>
+    </section>
+    {% if newest_models %}
+    <section>
+      <h2>Newest models</h2>
+      <ul class="side-list">
+        {% for m in newest_models %}
+        <li><a href="{{ base }}models/{{ m.id }}/">{{ m.name }}</a><span class="meta">{{ m.provider }}</span></li>
+        {% endfor %}
+      </ul>
+    </section>
+    {% endif %}
+    {% if rising_now %}
+    <section>
+      <h2>Rising now</h2>
+      <ul class="side-list">
+        {% for e in rising_now %}
+        <li><a href="{{ e.url|safe_url }}">{{ e.name }}</a><span class="meta">{{ e.kind }}{% if e.velocity_7d %} · +{{ "%.0f"|format(e.velocity_7d) }}/day{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+      <p class="meta"><a href="{{ base }}ecosystem/">See the full list</a></p>
+    </section>
+    {% endif %}
+  </aside>
+</div>
 {% endblock %}

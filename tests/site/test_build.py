@@ -46,6 +46,7 @@ def populated_root(tmp_path):
                 id="opus",
                 name="Claude Opus",
                 provider="anthropic",
+                released=TODAY,
                 first_seen=TODAY,
                 context_window=1_000_000,
                 price_in=5.0,
@@ -255,3 +256,68 @@ def test_unsafe_urls_never_become_links(tmp_path, populated_root, settings):
     build_site(populated_root, site, settings)
     html = (site / "ecosystem/index.html").read_text(encoding="utf-8")
     assert "javascript:" not in html.lower()
+
+
+def page(site, name):
+    return (site / name).read_text(encoding="utf-8")
+
+
+def built(tmp_path, populated_root, settings):
+    site = tmp_path / "_site"
+    build_site(populated_root, site, settings)
+    return site
+
+
+def test_models_page_has_search_sort_count_and_monograms(tmp_path, populated_root, settings):
+    html = page(built(tmp_path, populated_root, settings), "models/index.html")
+    assert 'type="search"' in html and "data-filter-text" in html
+    assert 'data-sort="models"' in html and "data-count" in html
+    assert 'data-text="claude opus anthropic' in html  # searchable text per row
+    assert 'data-sort-intelligence="72.5"' in html
+    assert 'class="mono"' in html  # provider monogram
+    assert "<label" in html  # every control is labelled
+
+
+def test_people_page_shows_github_avatars_and_search(tmp_path, populated_root, settings):
+    html = page(built(tmp_path, populated_root, settings), "people/index.html")
+    assert "https://github.com/mattpocock.png" in html and 'loading="lazy"' in html
+    assert "data-filter-text" in html
+
+
+def test_ecosystem_has_section_jump_links_search_and_owner_avatars(
+    tmp_path, populated_root, settings
+):
+    html = page(built(tmp_path, populated_root, settings), "ecosystem/index.html")
+    assert 'href="#repo"' in html and 'id="repo"' in html
+    assert "https://github.com/o.png" in html and "data-filter-text" in html
+
+
+def test_every_page_has_a_theme_toggle_and_skip_link(tmp_path, populated_root, settings):
+    site = built(tmp_path, populated_root, settings)
+    for name in ("index.html", "models/index.html", "jobs/index.html", "about/index.html"):
+        html = page(site, name)
+        assert 'id="theme-toggle"' in html and 'class="skip"' in html
+
+
+def test_home_page_has_a_side_panel_with_newest_models_and_rising_projects(
+    tmp_path, populated_root, settings
+):
+    html = page(built(tmp_path, populated_root, settings), "index.html")
+    assert "Newest models" in html and "Rising now" in html
+    assert "/Augurai/models/opus/" in html and "o/hot" in html
+
+
+def test_playbook_shows_the_exercise_when_there_is_one(tmp_path, populated_root, settings):
+    store = Store(populated_root / "data")
+    practices = store.read("practices", Practice)
+    practices[0] = practices[0].model_copy(
+        update={"exercise": "Grill your next idea for ten minutes"}
+    )
+    store.write("practices", practices)
+    html = page(built(tmp_path, populated_root, settings), "playbook/index.html")
+    assert "Try it yourself" in html and "Grill your next idea for ten minutes" in html
+
+
+def test_about_page_explains_how_to_learn_with_ai(tmp_path, populated_root, settings):
+    html = page(built(tmp_path, populated_root, settings), "about/index.html")
+    assert "Learning with AI" in html and "predict" in html.lower()

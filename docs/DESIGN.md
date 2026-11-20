@@ -1,37 +1,37 @@
 # Augurai site design
 
-Chosen with the UI/UX Pro Max and Impeccable skills on 2026-11-20. The site is a reading and reference tool for one AI engineer, so scanability and a comfortable long-form briefing outrank decoration.
+A reading and reference tool for one AI engineer, so scanability, search and a comfortable briefing outrank decoration. Revised 2026-11-20 to be quieter: neutral greys plus one accent colour.
 
 ## Direction
 
-Swiss / minimal. Plain surfaces, hairline rules, one blue, one amber. Data tables are dense and quiet; the daily briefing is a single narrow reading column. No cards-in-boxes: lists are rows separated by 1px rules. No kickers above headings, no gradients, no glass.
+Swiss / minimal, monochrome. Hairline rules, plain surfaces, one blue accent used only for links, the active tab, focus rings and one chart series. No gradients, no glass, no coloured stripes, no boxed cards: lists are rows separated by 1px rules. Imagery is functional: GitHub avatars for people and project owners (with an initial as the fallback), and a neutral monogram for model providers.
 
 ## Tokens (`src/augurai/site/static/site.css`, `:root`)
 
 | Token | Light | Dark | Use |
 |---|---|---|---|
-| `--bg` | `#f8fafc` | `#0b1220` | page |
-| `--surface` | `#ffffff` | `#111a2c` | header, table body |
-| `--fg` | `#0f172a` | `#e6ebf5` | text |
-| `--muted` | `#475569` | `#a3b0c4` | secondary text (contrast above 4.5:1 on both backgrounds) |
-| `--link` / `--primary` | `#1e40af` | `#9bb8ff` / `#8fb0ff` | links, selection |
-| `--accent` | `#b45309` | `#fbbf24` | active-nav underline only |
-| `--c0`..`--c5` | blue, amber, green, purple, rose, cyan | lighter variants | chart series |
+| `--bg` | `#f6f7f8` | `#0e1013` | page |
+| `--surface` | `#ffffff` | `#15181c` | header, tables, inputs |
+| `--fg` | `#111418` | `#eceef1` | text |
+| `--muted` | `#5b6370` | `#9aa1ad` | secondary text |
+| `--line` / `--line-strong` | `#e3e5e9` / `#c9cdd4` | `#262a30` / `#3a3f47` | rules, borders |
+| `--tint` | `#eef0f3` | `#1c2025` | table headers, hover, monograms |
+| `--accent` | `#1d4ed8` | `#8ab0ff` | links, active nav, focus, first chart series |
 
-Light or dark follows the visitor's system (`prefers-color-scheme`); there is no toggle.
+The theme follows the system and can be switched with the header button; the choice is remembered in `localStorage`.
 
-## Type
+## Type and layout
 
-Fira Sans (text) and Fira Code (numbers in tables and charts, inline code), loaded from Google Fonts. Body 16px / 1.6; briefing measure 68ch; headings use balanced wrapping and slight negative tracking; `h1` scales 1.75-2.5rem.
+Fira Sans for text, Fira Code for numbers. Body 16px / 1.6, briefing measure 68ch. Single column up to 960px; on the home page the briefing sits beside a side panel (counts, newest models, rising projects). The header is sticky; navigation scrolls inside it on narrow screens; wide tables scroll inside their own container with a sticky header row. Verified with no horizontal page scroll at 375px on every page.
 
-## Layout
+## Interaction (progressive enhancement, `filter.js`)
 
-Single column, max width 1040px, 16px gutter. Navigation scrolls horizontally inside the header on narrow screens instead of wrapping. Wide tables scroll inside their own container, so the page itself never scrolls sideways (checked at 375px). Project and people lists become two columns from 820px.
+Live search (`input[data-filter-text]`) over each `[data-item]`'s `data-text`; select filters (`select[data-filter]`); sorting (`select[data-sort]` with `data-sort-<key>` values, rows without a value always last); a live "N of M" count; the theme toggle. Without JavaScript every list stays complete and readable.
 
-## Behaviour
+## Charts
 
-Filters (`select[data-filter]`) are progressive enhancement: without JavaScript every row stays visible. Focus rings are visible everywhere, there is a skip link, motion is limited to 160ms colour transitions and is disabled under `prefers-reduced-motion`.
+One accent series, the rest neutral and told apart by weight and dash; legends are labelled directly at the line ends and spaced so they do not overlap.
 
 ## Constraints that shape the HTML
 
-Templates expose these hooks and the CSS depends on them: `data-item`, `data-filter`, `.chip`, `.cards`, `.table-scroll`, `.num`, and `svg.chart` with series classes `s0`-`s5`.
+Templates expose `data-item`, `data-text`, `data-filter`, `data-sort`, `data-sortable`, `data-count`, `.chip`, `.rows`, `.table-scroll`, `.avatar`, `.mono`, `.num` and `svg.chart` series classes `s0`-`s5`; the CSS and script depend on them. Every control has a visible label, targets are at least 44px, focus rings are visible, and motion is limited to 150ms colour transitions (off under `prefers-reduced-motion`).

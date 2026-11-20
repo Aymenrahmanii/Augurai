@@ -16,6 +16,7 @@ from augurai.store import Store
 
 ITEM_TEXT_LIMIT = 1500
 SUMMARY_LIMIT = 300
+EXERCISE_LIMIT = 400
 SECTION_LIMIT = 1200
 NOTE_LIMIT = 5
 MAX_WORK_ITEMS = 20
@@ -64,6 +65,7 @@ class PracticeDraft(BaseModel):
     person_id: str
     source_url: str
     related_skill: str | None = None
+    exercise: str | None = None
     tags: list[str] = Field(default_factory=list)
     reinforces: str | None = None
 
@@ -249,6 +251,7 @@ def merge(
                 person_id=draft.person_id,
                 source_url=draft.source_url,
                 related_skill=draft.related_skill,
+                exercise=(draft.exercise or "").strip()[:EXERCISE_LIMIT] or None,
                 tags=draft.tags,
                 first_seen=today,
             )

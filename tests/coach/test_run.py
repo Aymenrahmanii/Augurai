@@ -18,6 +18,8 @@ REPLY = json.dumps(
                         "person": None,
                         "change_kind": "habit",
                         "change": "c",
+                        "why": "w",
+                        "try_first": "t",
                         "apply": "a",
                     }
                 ]
@@ -72,3 +74,15 @@ def test_coach_prompt_embeds_current_proposals_schema():
         0
     ]
     assert json.loads(block) == json.loads(json.dumps(Proposals.model_json_schema()))
+
+
+def test_coach_review_skill_is_learning_first():
+    from pathlib import Path
+
+    skill = (
+        (Path(__file__).parents[2] / ".claude" / "skills" / "coach-review" / "SKILL.md")
+        .read_text(encoding="utf-8")
+        .lower()
+    )
+    for phrase in ("explain", "try it yourself", "predict", "never apply"):
+        assert phrase in skill, phrase

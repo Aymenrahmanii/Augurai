@@ -34,6 +34,10 @@ uv run augurai finish --mode morning     # briefing and site (the workflow runs 
 uv run augurai coach                     # weekly coach (private suggestions)
 ```
 
+## Learning, not outsourcing
+
+Augurai is designed to teach: practices come with an exercise to try by hand, and the coach explains why before it suggests a change. See [docs/LEARNING.md](docs/LEARNING.md) for the habits and a `CLAUDE.md` snippet you can adopt.
+
 ## Setup
 
 The Claude token, API keys, GitHub Pages and the coach schedule are one-time steps for you: see [docs/SETUP.md](docs/SETUP.md).

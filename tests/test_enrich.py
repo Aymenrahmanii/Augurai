@@ -252,3 +252,26 @@ def test_prepare_caps_the_model_briefs_and_keeps_changed_models_first(tmp_path, 
     changes = Changes(day=TODAY, new_models=["fresh"])
     result = prepare(store, changes, [], settings, tmp_path / "in.json")
     assert len(result.models) == 15 and result.models[0].id == "fresh"
+
+
+def test_practice_exercise_is_stored(store, inp, tmp_path):
+    out = tmp_path / "out.json"
+    draft = {
+        "title": "Grill the idea",
+        "principle": "Interrogate a plan before building.",
+        "how_to_apply": "Run /grill-me first.",
+        "exercise": "List five questions you cannot answer about your next task, then answer them.",
+        "person_id": "matt-pocock",
+        "source_url": "https://x/post",
+    }
+    out.write_text(json.dumps({"practices": [draft]}), encoding="utf-8")
+    assert merge(store, out, inp, TODAY)[0] == "ran"
+    stored = store.read_map("practices", Practice)
+    assert stored["grill-the-idea"].exercise.startswith("List five questions")
+
+
+def test_enrich_prompt_asks_for_an_exercise_and_teaching_tone():
+    from pathlib import Path
+
+    prompt = (Path(__file__).parent.parent / "prompts" / "enrich.md").read_text(encoding="utf-8")
+    assert "exercise" in prompt and "teach" in prompt.lower()
