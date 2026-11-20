@@ -50,8 +50,8 @@ def test_rerun_same_day_keeps_one_point_and_does_not_double_count():
     assert len(p["newdev"].score_history) == 1 and p["newdev"].above_threshold_runs == 1
 
 
-def test_new_candidate_needs_signal_of_one():
-    p, _, _ = update_discovery({}, {"weak": 0.5, "strong": 1.5}, D1, S)
+def test_new_candidate_needs_signal_of_two():
+    p, _, _ = update_discovery({}, {"weak": 1.5, "strong": 2.5}, D1, S)
     assert "weak" not in p and p["strong"].status == "rising"
     assert p["strong"].links["github"] == "https://github.com/strong"
 
@@ -150,7 +150,24 @@ def test_candidate_signals_weights():
         "e3": Entity(id="e3", kind="mcp", name="n", url="u", owner="io.github.bob", first_seen=D1),
     }
     items = [
-        RawItem(id="h", source="hackernews", kind="hn", title="t", url="u", author="carol"),
+        RawItem(
+            id="h",
+            source="hackernews",
+            kind="hn",
+            title="t",
+            url="u",
+            author="submitter",
+            extra={"linked_url": "https://github.com/carol/proj"},
+        ),
+        RawItem(
+            id="h2",
+            source="hackernews",
+            kind="hn",
+            title="t",
+            url="u9",
+            author="other",
+            extra={"linked_url": "https://example.com/post"},
+        ),
         RawItem(
             id="p",
             source="feeds",

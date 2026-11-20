@@ -4,10 +4,11 @@ from datetime import date, timedelta
 
 from augurai.config import Settings
 from augurai.models import Entity, Person, RawItem, ScorePoint, WorkItem
+from augurai.sources.feeds import linked_logins
 
 WINDOW_DAYS = 30
 MAX_WORK_ITEMS = 20
-NEW_CANDIDATE_MIN_SIGNAL = 1.0
+NEW_CANDIDATE_MIN_SIGNAL = 2.0
 RISING_OWNER_WEIGHT = 3.0
 HN_AUTHOR_WEIGHT = 1.0
 LINKED_WEIGHT = 1.0
@@ -77,8 +78,10 @@ def candidate_signals(
         if entity and entity.kind != "mcp" and entity.owner_type == "User" and entity.owner:
             add(entity.owner, RISING_OWNER_WEIGHT)
     for item in items:
-        if item.kind == "hn" and item.author:
-            add(item.author, HN_AUTHOR_WEIGHT)
+        if item.kind == "hn":
+            # The submitter's HN username is not a GitHub login; the linked repo's owner is.
+            for login in linked_logins(str(item.extra.get("linked_url") or "")):
+                add(login, HN_AUTHOR_WEIGHT)
         if item.extra.get("person_id"):
             for login in set(item.extra.get("linked_people", [])):
                 add(login, LINKED_WEIGHT)
