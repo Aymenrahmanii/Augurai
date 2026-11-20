@@ -8,6 +8,9 @@ from augurai.sources.github_skills import GitHubSkillsSource
 from augurai.sources.hackernews import HackerNewsSource
 from augurai.sources.hf_papers import HfPapersSource
 from augurai.sources.huggingface import HuggingFaceModelsSource
+from augurai.sources.jobs_adzuna import AdzunaSource
+from augurai.sources.jobs_hn import HnHiringSource
+from augurai.sources.jobs_remoteok import RemoteOkSource
 from augurai.sources.mcp_registry import McpRegistrySource
 from augurai.sources.openrouter import OpenRouterSource
 
@@ -24,4 +27,7 @@ def all_sources(settings: Settings) -> list[Source]:
         FeedsSource(),
         HfPapersSource(),
         GitHubPeopleSource(),
+        HnHiringSource(),
+        RemoteOkSource(),
+        AdzunaSource(),
     ]
