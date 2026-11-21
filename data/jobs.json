@@ -34,7 +34,7 @@
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
-      "agents": 11,
+      "agents": 10,
       "evals": 0,
       "fine-tuning": 0,
       "vector database": 0
@@ -44,9 +44,9 @@
     "notable_roles": [
       "customer success manager",
       "senior software engineer",
-      "senior manager, product analytics (growth)",
-      "inside sales specialist-temp",
-      "sea p2p business development specialist"
+      "quality engineer",
+      "account director",
+      "senior manager, product analytics (growth)"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

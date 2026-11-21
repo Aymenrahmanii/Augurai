@@ -142,12 +142,43 @@
   {
     "above_threshold_runs": 2,
     "id": "alchaincyf",
-    "last_active": null,
+    "last_active": "2026-11-21",
     "links": {
       "github": "https://github.com/alchaincyf"
     },
     "name": "alchaincyf",
-    "recent_work": [],
+    "recent_work": [
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-21T09:58:04Z",
+        "title": "Active in alchaincyf/claude-code-orange-book",
+        "url": "https://github.com/alchaincyf/claude-code-orange-book"
+      },
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-21T09:57:56Z",
+        "title": "Active in alchaincyf/nuwa-skill",
+        "url": "https://github.com/alchaincyf/nuwa-skill"
+      },
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-21T02:26:32Z",
+        "title": "Released alchaincyf/huashu-design",
+        "url": "https://github.com/alchaincyf/huashu-design"
+      },
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-19T19:12:37Z",
+        "title": "Active in alchaincyf/huashu-bird-sticker",
+        "url": "https://github.com/alchaincyf/huashu-bird-sticker"
+      },
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-19T07:56:47Z",
+        "title": "Active in alchaincyf/CoderWithAI",
+        "url": "https://github.com/alchaincyf/CoderWithAI"
+      }
+    ],
     "score": 9.0,
     "score_history": [
       {
@@ -293,15 +324,15 @@
     "recent_work": [
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-20T12:24:14Z",
-        "title": "Active in mitsuhiko/tvpipe",
-        "url": "https://github.com/mitsuhiko/tvpipe"
-      },
-      {
-        "person_id": "armin-ronacher",
         "published": "2026-11-19T19:36:47Z",
         "title": "Active in earendil-works/pi",
         "url": "https://github.com/earendil-works/pi"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-19T18:09:15Z",
+        "title": "Active in mitsuhiko/tvpipe",
+        "url": "https://github.com/mitsuhiko/tvpipe"
       },
       {
         "person_id": "armin-ronacher",
@@ -675,6 +706,26 @@
     "score_history": [
       {
         "day": "2026-11-20",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "emanuele-em",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/emanuele-em"
+    },
+    "name": "emanuele-em",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-21",
         "score": 3.0
       }
     ],
@@ -1128,7 +1179,7 @@
     "recent_work": [
       {
         "person_id": "jesse-vincent",
-        "published": "2026-11-21T12:54:39Z",
+        "published": "2026-11-20T16:03:28Z",
         "title": "Active in prime-radiant-inc/evener",
         "url": "https://github.com/prime-radiant-inc/evener"
       }
@@ -1232,6 +1283,12 @@
     },
     "name": "Matt Pocock",
     "recent_work": [
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-11-19T13:33:00Z",
+        "title": "Active in mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills"
+      },
       {
         "person_id": "matt-pocock",
         "published": "2026-11-19T07:49:46Z",
@@ -1398,7 +1455,7 @@
   {
     "above_threshold_runs": 0,
     "id": "sebastian-raschka",
-    "last_active": "2026-11-20",
+    "last_active": "2026-11-21",
     "links": {
       "github": "https://github.com/rasbt",
       "rss": "https://magazine.sebastianraschka.com/feed",
@@ -1408,7 +1465,7 @@
     "recent_work": [
       {
         "person_id": "sebastian-raschka",
-        "published": "2026-11-20T18:10:49Z",
+        "published": "2026-11-21T16:06:07Z",
         "title": "Active in rasbt/LLMs-from-scratch",
         "url": "https://github.com/rasbt/LLMs-from-scratch"
       },
@@ -1544,7 +1601,7 @@
     "recent_work": [
       {
         "person_id": "shreya-shankar",
-        "published": "2026-11-21T07:17:28Z",
+        "published": "2026-11-21T01:19:24Z",
         "title": "Active in fsdatalab/quail",
         "url": "https://github.com/fsdatalab/quail"
       },
@@ -1765,15 +1822,15 @@
     "recent_work": [
       {
         "person_id": "swyx",
-        "published": "2026-11-21T02:03:16Z",
-        "title": "Active in smol-ai/ainews-web-2025",
-        "url": "https://github.com/smol-ai/ainews-web-2025"
+        "published": "2026-11-21T16:42:52Z",
+        "title": "Active in swyxio/papra",
+        "url": "https://github.com/swyxio/papra"
       },
       {
         "person_id": "swyx",
-        "published": "2026-11-20T07:52:24Z",
-        "title": "Active in swyxio/papra",
-        "url": "https://github.com/swyxio/papra"
+        "published": "2026-11-21T02:03:16Z",
+        "title": "Active in smol-ai/ainews-web-2025",
+        "url": "https://github.com/smol-ai/ainews-web-2025"
       },
       {
         "person_id": "swyx",
@@ -1905,7 +1962,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 0,
     "id": "yjid",
     "last_active": null,
     "links": {
@@ -1913,14 +1970,10 @@
     },
     "name": "yjid",
     "recent_work": [],
-    "score": 6.0,
+    "score": 3.0,
     "score_history": [
       {
         "day": "2026-11-20",
-        "score": 3.0
-      },
-      {
-        "day": "2026-11-21",
         "score": 3.0
       }
     ],
