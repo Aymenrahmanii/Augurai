@@ -32,9 +32,9 @@
       "LangChain": 0,
       "MCP": 5,
       "MLOps": 0,
-      "PyTorch": 1,
+      "PyTorch": 0,
       "RAG": 0,
-      "agents": 19,
+      "agents": 17,
       "evals": 1,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
+      "senior software engineer",
       "customer success manager",
-      "senior atlassian cloud admininstrator",
-      "senior manager, commercial learning and development",
-      "principal devsecops engineer",
-      "infrastructure software engineer"
+      "p2p regional operations - africa",
+      "international people ops analyst, benefits",
+      "senior atlassian cloud administrator"
     ],
     "source": "jobs-remoteok",
     "total_posts": 98

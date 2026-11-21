@@ -256,7 +256,7 @@
       "model_id": "grok-4-20"
     }
   ],
-  "day": "2026-11-20",
+  "day": "2026-11-21",
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
@@ -864,22 +864,30 @@
     "trinity-large-thinking",
     "tulu3-405b"
   ],
-  "people_work": [],
+  "people_work": [
+    {
+      "person_id": "armin-ronacher",
+      "published": "2026-11-20T23:55:22Z",
+      "title": "Active in earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi"
+    }
+  ],
   "promoted": [],
   "rising": {
     "agent": [
-      "15e141845b06db6a",
-      "1e2e1314ac1121e4",
-      "244d2e2d102af837",
-      "2519b65e4dae2378",
-      "2ac82a9b4f5ff40f",
-      "34689cddad5a3350",
+      "969dd462482a25e8",
       "3c40bebd52407729",
-      "4e4f33a91e8a0857",
-      "537bd3ea8f73dce6",
-      "5e9d3fd0e59ccb77"
+      "34689cddad5a3350",
+      "e9a68a300e49f431",
+      "dff6badb68da67f9",
+      "5e9d3fd0e59ccb77",
+      "9d8099e6e6efd209",
+      "8b8c39f972c22059",
+      "94e71a77453c33e5",
+      "15e141845b06db6a"
     ],
     "mcp": [
+      "071ec772bc18600f",
       "006803f870ac1aa8",
       "015e12a23d2fb07c",
       "01a0e5ca68bc1778",
@@ -888,32 +896,31 @@
       "070953677a6891e6",
       "07d89bac7c6a81d8",
       "08bbe111dca6be09",
-      "095539c5813d82cb",
-      "0a4ef99df2afb099"
+      "095539c5813d82cb"
     ],
     "repo": [
-      "000bc52c34a8c5de",
-      "04a506b8b3ccb73c",
-      "0667a519c65042ee",
-      "069c01a3a1c6d0a6",
-      "0982b209ff56a87e",
-      "0b6ea5fa9098b228",
-      "0d67183d9957047b",
-      "0dba818753f02bf2",
-      "1038f93149f1ee9a",
-      "116dad2ea71e5d74"
+      "97d62433e020c780",
+      "8129f68e260304e7",
+      "b086318dbacd470d",
+      "97c28dfefe84e078",
+      "e204919d55639b1d",
+      "eb40edb5ed8830b7",
+      "e172218020358f3c",
+      "65599008ca0f9586",
+      "f25cfa09a16ab511",
+      "aaf7562402ff5384"
     ],
     "skill": [
-      "0c16e31c5bb47281",
-      "0c600aca31767b69",
-      "0f638e8a8f10e599",
-      "0f88f01cc4043ac3",
-      "10ba719313a0c835",
-      "11f0630cbc7600e5",
+      "92705331275526a8",
+      "dbd5adafc4073948",
+      "fa4361846156ed46",
       "14f321c495182c59",
-      "1578476054924343",
-      "1c414ec2b5237063",
-      "1f96d0661c1531e6"
+      "e331123fcba6ff57",
+      "f7cfdfd7bcc39abd",
+      "10ba719313a0c835",
+      "c9baa337d843cc05",
+      "db09b457282c5683",
+      "0c600aca31767b69"
     ]
   },
   "top_hn": [
