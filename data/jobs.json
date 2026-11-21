@@ -28,27 +28,27 @@
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
-      "LLM": 5,
+      "LLM": 3,
       "LangChain": 0,
-      "MCP": 5,
+      "MCP": 3,
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
-      "agents": 17,
-      "evals": 1,
+      "agents": 11,
+      "evals": 0,
       "fine-tuning": 0,
       "vector database": 0
     },
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "senior software engineer",
       "customer success manager",
-      "p2p regional operations - africa",
-      "international people ops analyst, benefits",
-      "senior atlassian cloud administrator"
+      "senior software engineer",
+      "senior manager, product analytics (growth)",
+      "inside sales specialist-temp",
+      "sea p2p business development specialist"
     ],
     "source": "jobs-remoteok",
-    "total_posts": 98
+    "total_posts": 100
   }
 ]

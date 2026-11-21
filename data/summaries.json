@@ -40,6 +40,10 @@
     "text": "An MCP server for buying travel eSIMs, gift cards and mobile top-ups with crypto, with user confirmation before any order."
   },
   {
+    "id": "071ec772bc18600f",
+    "text": "MCP server that checks ad creative against brand rules, helps plan ad placement and timing, and monitors live campaigns."
+  },
+  {
     "id": "07706832bb39f07a",
     "text": "A Hacker News thread claiming Claude Code sends your email address to websites; only the title is available, so the claim is unverified here."
   },
@@ -62,6 +66,10 @@
   {
     "id": "0a4ef99df2afb099",
     "text": "An MCP server for shopping Korean skincare in the UAE from chat, with AED prices, ordering and payment."
+  },
+  {
+    "id": "0ae7a146eb9ef505",
+    "text": "Hacker News post titled 'Claude Fable 5.2 and Mythos 5.2'. The input contains only the title."
   },
   {
     "id": "0b6ea5fa9098b228",
@@ -196,47 +204,151 @@
     "text": "Mind2Act World is a diagnostic benchmark for robotic manipulation covering history-based reasoning, physical execution, and their composition."
   },
   {
+    "id": "6cd333e9aa7f3347",
+    "text": "Vercel Labs library of behaviors for agents that build user interfaces."
+  },
+  {
     "id": "77e0a0e89a0e9524",
     "text": "EgoCaptioner targets fine-grained egocentric video captioning, addressing missed brief actions, wrong ordering and misread wearer motion in current MLLMs."
+  },
+  {
+    "id": "78e219711e827886",
+    "text": "Agent skill that draws animated icons in one consistent style. Includes over 2,600 open-source icons for React, Vue and SVG, and a browsing site."
+  },
+  {
+    "id": "8129f68e260304e7",
+    "text": "Tool for rewriting an app in Rust one piece at a time, checking each step against the original's recorded behavior. Covers CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java."
   },
   {
     "id": "8e29c138e61ab876",
     "text": "A Hacker News thread on startup founders urging the U.S. government not to shut off Chinese open-weight AI; only the title is available."
   },
   {
+    "id": "92705331275526a8",
+    "text": "Skill for reverse engineering with agents, from app behavior down to native binaries."
+  },
+  {
     "id": "95090c9e725edaf8",
     "text": "A Hacker News post asking whether the author's AI agents found an unmapped Maya site; only the title is available."
+  },
+  {
+    "id": "969dd462482a25e8",
+    "text": "Lets a command-line agent pick up work and follow it through in the background, only sending a card to the user when it needs a decision."
+  },
+  {
+    "id": "97c28dfefe84e078",
+    "text": "dsh-go is a DeepSeek harness that runs locally on a phone and can also remote-control a computer."
+  },
+  {
+    "id": "97d62433e020c780",
+    "text": "Blender add-on and MCP server offering visual chat, scene tools and multi-agent workflows. It lists support for ChatGPT/GPT, Claude, Gemini, Ollama and OpenCode."
+  },
+  {
+    "id": "9d8099e6e6efd209",
+    "text": "Live map shown beside the Claude Code chat that visualizes tool calls, model steps, hooks, skills and subagents as they happen. Runs locally."
   },
   {
     "id": "a3bdd56a3a313bf2",
     "text": "Posterior Matching Distillation is a diffusion distillation method that matches student and teacher output distributions to cut sampling steps for image and video generation."
   },
   {
+    "id": "a4ea85254a88a379",
+    "text": "Eugene Yan's post on how public evals work and fail, based on a teardown of 12 benchmarks. It covers how to read eval scores and what to question."
+  },
+  {
+    "id": "a70cae4c16f0fdc6",
+    "text": "Agent skill for iteratively improving local LLM serving speed, covering decode, speculative decoding, prefill, KV cache, startup and time to first token, across hardware and quantizations."
+  },
+  {
     "id": "a7a7773a9f5669fb",
     "text": "A Hacker News thread titled 'Jensen Huang resigns'; only the title is available."
+  },
+  {
+    "id": "b086318dbacd470d",
+    "text": "Self-hosted engine for teams and their agents, described as multi-harness and multi-agent."
+  },
+  {
+    "id": "b3718af977585a65",
+    "text": "Activity from Armin Ronacher in the earendil-works/pi repository. The input gives no details beyond the activity itself."
+  },
+  {
+    "id": "b6fd0b8828215940",
+    "text": "Open-source, local-first bot app that routes to many models (GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and more) through one paid key. Bots are reachable in the app, WeChat or Feishu."
   },
   {
     "id": "bb82379af066ff25",
     "text": "A Hacker News thread arguing that China's open-weights AI strategy is winning; only the title is available."
   },
   {
+    "id": "c9baa337d843cc05",
+    "text": "Agent skill that turns an idea, plan or codebase into an interactive diagram, for Claude Code, Codex and others."
+  },
+  {
     "id": "d3966b6fd7109579",
     "text": "A Hacker News thread about 'GPT-6.2 Astra and Sol'; only the title is available."
+  },
+  {
+    "id": "d7d35dd967091d67",
+    "text": "Activity from Armin Ronacher in the mitsuhiko/rtc repository. The input gives no details beyond the activity itself."
+  },
+  {
+    "id": "da293a3ba3da8d47",
+    "text": "HTML-native design skill (version 3.4) for Claude Code, Codex, Cursor and other agents. Produces web pages, app prototypes, slides and infographics, offering six candidate directions and a 92-style library."
+  },
+  {
+    "id": "db09b457282c5683",
+    "text": "Agent skill that removes signs of AI-generated writing from text."
   },
   {
     "id": "db4bd6cbca203078",
     "text": "Depth Pro 2 estimates dense metric depth for images and video at full resolution, targeting both temporal consistency and sharp boundaries."
   },
   {
+    "id": "dbd5adafc4073948",
+    "text": "Skill that pushes an AI agent to prefer writing less code, in the style of a minimalist senior developer."
+  },
+  {
+    "id": "dff6badb68da67f9",
+    "text": "Workstation app for running and orchestrating multiple AI agents in one place."
+  },
+  {
+    "id": "e204919d55639b1d",
+    "text": "Turns an old Android phone into a desk panel and touch control deck for Windows, Linux and macOS. Ships 124 widgets and 30 templates, connects over USB or Wi-Fi, and needs no cloud."
+  },
+  {
+    "id": "e331123fcba6ff57",
+    "text": "Agent skills that add art direction, reference images and a browser check, aiming to avoid generic AI-generated pages."
+  },
+  {
+    "id": "e9a68a300e49f431",
+    "text": "Collection of 32 free, MIT-licensed marketing skills for agents, covering research, copy, SEO, ads and email, plus a local-business pack."
+  },
+  {
+    "id": "eb40edb5ed8830b7",
+    "text": "Breaks a video down shot by shot, saying whether each shot was filmed, AI-generated or coded, and how to remake it. Output uses the open VIDEO.md format."
+  },
+  {
     "id": "eb4d2df7b7187bdc",
     "text": "This paper probes vision-language models for selective access and global-workspace-like behaviour, using global workspace theory as the frame."
+  },
+  {
+    "id": "f25cfa09a16ab511",
+    "text": "Generates an interactive plain-English map of a codebase, drawn by Claude or Codex."
   },
   {
     "id": "f6990214f0b638d6",
     "text": "Coda-DaVinci studies Code2Video, where agent-authored 3D proxies guide video generation, and examines how to build proxies and prompts for better quality."
   },
   {
+    "id": "f7cfdfd7bcc39abd",
+    "text": "Alibaba's code review tool combining deterministic pipelines with an LLM agent. It gives line-level comments, has built-in rules for NPE, thread safety, XSS and SQL injection, and works with OpenAI and Anthropic APIs."
+  },
+  {
     "id": "f836fd200cc1c02e",
     "text": "A Hacker News thread titled 'AWS emulator'; only the title is available."
+  },
+  {
+    "id": "fa4361846156ed46",
+    "text": "Design vocabulary for coding agents, with commands to steer (polish, bolder) and to review (critique, audit) so generic AI output is caught before shipping."
   }
 ]
