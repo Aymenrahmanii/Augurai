@@ -28,7 +28,7 @@
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
-      "LLM": 3,
+      "LLM": 4,
       "LangChain": 0,
       "MCP": 3,
       "MLOps": 0,
@@ -44,9 +44,9 @@
     "notable_roles": [
       "customer success manager",
       "senior software engineer",
-      "quality engineer",
-      "account director",
-      "senior manager, product analytics (growth)"
+      "manager, product design",
+      "staff scientist, machine learning (genomics)",
+      "manager, network contracting (southeast region)"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

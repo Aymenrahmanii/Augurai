@@ -1,11 +1,12 @@
 {
   "benchmark_moves": [],
-  "day": "2026-11-21",
+  "day": "2026-11-22",
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
   "new_models": [
-    "inkling-2-mini-uncensored-gguf"
+    "inkling-2-mini-uncensored-gguf",
+    "inkling-2-mini-uncensored"
   ],
   "people_work": [
     {
@@ -43,23 +44,52 @@
       "published": "2026-11-19T07:56:47Z",
       "title": "Active in alchaincyf/CoderWithAI",
       "url": "https://github.com/alchaincyf/CoderWithAI"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-21T23:56:28Z",
+      "title": "Muru",
+      "url": "https://simonwillison.net/2026/Nov/21/muru/"
+    },
+    {
+      "person_id": "alchaincyf",
+      "published": "2026-11-21T18:42:51Z",
+      "title": "Released alchaincyf/huashu-motion",
+      "url": "https://github.com/alchaincyf/huashu-motion"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-20T03:01:57Z",
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
+    },
+    {
+      "person_id": "jesse-vincent",
+      "published": "2026-11-19T22:06:05Z",
+      "title": "Active in prime-radiant-inc/slackline",
+      "url": "https://github.com/prime-radiant-inc/slackline"
     }
   ],
-  "promoted": [],
+  "promoted": [
+    "cathrynlavery",
+    "phuryn",
+    "sloemo01"
+  ],
   "rising": {
     "agent": [
       "969dd462482a25e8",
-      "9d8099e6e6efd209",
       "34689cddad5a3350",
       "3c40bebd52407729",
+      "9d8099e6e6efd209",
       "78e219711e827886",
+      "a02a79030c2a0d11",
       "e9a68a300e49f431",
       "dff6badb68da67f9",
-      "a02a79030c2a0d11",
       "15e141845b06db6a",
-      "5e9d3fd0e59ccb77"
+      "94e71a77453c33e5"
     ],
     "mcp": [
+      "55b5541bbe935604",
       "071ec772bc18600f",
       "006803f870ac1aa8",
       "015e12a23d2fb07c",
@@ -68,32 +98,31 @@
       "0403a139614fc039",
       "070953677a6891e6",
       "07d89bac7c6a81d8",
-      "08bbe111dca6be09",
-      "095539c5813d82cb"
+      "08bbe111dca6be09"
     ],
     "repo": [
       "8129f68e260304e7",
-      "97c28dfefe84e078",
       "97d62433e020c780",
+      "97c28dfefe84e078",
       "b086318dbacd470d",
       "e204919d55639b1d",
       "eb40edb5ed8830b7",
       "f25cfa09a16ab511",
       "a70cae4c16f0fdc6",
-      "b6fd0b8828215940",
-      "6cd333e9aa7f3347"
+      "6cd333e9aa7f3347",
+      "f72111f2a530cac6"
     ],
     "skill": [
       "92705331275526a8",
       "dbd5adafc4073948",
       "14f321c495182c59",
       "fa4361846156ed46",
-      "e331123fcba6ff57",
       "10ba719313a0c835",
+      "e331123fcba6ff57",
       "f7cfdfd7bcc39abd",
       "db09b457282c5683",
-      "da293a3ba3da8d47",
-      "c9baa337d843cc05"
+      "c9baa337d843cc05",
+      "da293a3ba3da8d47"
     ]
   },
   "top_hn": [

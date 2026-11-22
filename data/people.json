@@ -1,6 +1,6 @@
 [
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "DietrichGebert",
     "last_active": null,
     "links": {
@@ -8,10 +8,14 @@
     },
     "name": "DietrichGebert",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -40,7 +44,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "JuneYaooo",
     "last_active": null,
     "links": {
@@ -48,10 +52,14 @@
     },
     "name": "JuneYaooo",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -60,7 +68,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "KKKKhazix",
     "last_active": null,
     "links": {
@@ -68,10 +76,14 @@
     },
     "name": "KKKKhazix",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -80,7 +92,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "Leonxlnx",
     "last_active": null,
     "links": {
@@ -88,10 +100,14 @@
     },
     "name": "Leonxlnx",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -140,7 +156,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 2,
+    "above_threshold_runs": 3,
     "id": "alchaincyf",
     "last_active": "2026-11-21",
     "links": {
@@ -148,6 +164,12 @@
     },
     "name": "alchaincyf",
     "recent_work": [
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-21T18:42:51Z",
+        "title": "Released alchaincyf/huashu-motion",
+        "url": "https://github.com/alchaincyf/huashu-motion"
+      },
       {
         "person_id": "alchaincyf",
         "published": "2026-11-21T09:58:04Z",
@@ -168,7 +190,7 @@
       },
       {
         "person_id": "alchaincyf",
-        "published": "2026-11-19T19:12:37Z",
+        "published": "2026-11-20T18:33:25Z",
         "title": "Active in alchaincyf/huashu-bird-sticker",
         "url": "https://github.com/alchaincyf/huashu-bird-sticker"
       },
@@ -179,7 +201,7 @@
         "url": "https://github.com/alchaincyf/CoderWithAI"
       }
     ],
-    "score": 9.0,
+    "score": 12.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -188,6 +210,10 @@
       {
         "day": "2026-11-21",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -195,7 +221,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "alexeyw",
     "last_active": null,
     "links": {
@@ -203,10 +229,14 @@
     },
     "name": "alexeyw",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -324,15 +354,15 @@
     "recent_work": [
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-19T19:36:47Z",
-        "title": "Active in earendil-works/pi",
-        "url": "https://github.com/earendil-works/pi"
+        "published": "2026-11-19T23:33:40Z",
+        "title": "Active in mitsuhiko/tvpipe",
+        "url": "https://github.com/mitsuhiko/tvpipe"
       },
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-19T18:09:15Z",
-        "title": "Active in mitsuhiko/tvpipe",
-        "url": "https://github.com/mitsuhiko/tvpipe"
+        "published": "2026-11-19T19:36:47Z",
+        "title": "Active in earendil-works/pi",
+        "url": "https://github.com/earendil-works/pi"
       },
       {
         "person_id": "armin-ronacher",
@@ -342,15 +372,15 @@
       },
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-18T22:28:07Z",
-        "title": "Active in earendil-works/djs",
-        "url": "https://github.com/earendil-works/djs"
-      },
-      {
-        "person_id": "armin-ronacher",
         "published": "2026-11-09T00:00:00Z",
         "title": "AI and Irontown",
         "url": "https://lucumr.pocoo.org/2026/11/9/irontown/"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-05T04:11:15Z",
+        "title": "Active in earendil-works/djs",
+        "url": "https://github.com/earendil-works/djs"
       },
       {
         "person_id": "armin-ronacher",
@@ -434,7 +464,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "blader",
     "last_active": null,
     "links": {
@@ -442,10 +472,14 @@
     },
     "name": "blader",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -454,7 +488,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "bookwjitchieni1986",
     "last_active": null,
     "links": {
@@ -462,10 +496,14 @@
     },
     "name": "bookwjitchieni1986",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -474,7 +512,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "boringmarketer",
     "last_active": null,
     "links": {
@@ -482,10 +520,14 @@
     },
     "name": "boringmarketer",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -572,7 +614,7 @@
     "why_follow": "Built Claude Code; shows how its creator uses it."
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 2,
     "id": "cathrynlavery",
     "last_active": null,
     "links": {
@@ -580,7 +622,7 @@
     },
     "name": "cathrynlavery",
     "recent_work": [],
-    "score": 6.0,
+    "score": 9.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -589,14 +631,18 @@
       {
         "day": "2026-11-21",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
+        "score": 3.0
       }
     ],
-    "status": "rising",
+    "status": "followed",
     "what_to_learn": "",
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "ccch1mneyyy",
     "last_active": null,
     "links": {
@@ -604,10 +650,14 @@
     },
     "name": "ccch1mneyyy",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -714,7 +764,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "emanuele-em",
     "last_active": null,
     "links": {
@@ -722,10 +772,14 @@
     },
     "name": "emanuele-em",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -734,7 +788,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "erkamyaman",
     "last_active": null,
     "links": {
@@ -742,10 +796,14 @@
     },
     "name": "erkamyaman",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -754,7 +812,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "ersinkoc",
     "last_active": null,
     "links": {
@@ -762,10 +820,14 @@
     },
     "name": "ersinkoc",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -1065,7 +1127,7 @@
     "why_follow": "Founder of LangChain; tracks how agent frameworks evolve."
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "haydenschmitty",
     "last_active": null,
     "links": {
@@ -1073,10 +1135,14 @@
     },
     "name": "haydenschmitty",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -1179,9 +1245,15 @@
     "recent_work": [
       {
         "person_id": "jesse-vincent",
-        "published": "2026-11-20T16:03:28Z",
+        "published": "2026-11-20T22:16:13Z",
         "title": "Active in prime-radiant-inc/evener",
         "url": "https://github.com/prime-radiant-inc/evener"
+      },
+      {
+        "person_id": "jesse-vincent",
+        "published": "2026-11-19T22:06:05Z",
+        "title": "Active in prime-radiant-inc/slackline",
+        "url": "https://github.com/prime-radiant-inc/slackline"
       }
     ],
     "score": 0.0,
@@ -1191,7 +1263,7 @@
     "why_follow": "Author of the Superpowers skills you already use."
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "kubai087",
     "last_active": null,
     "links": {
@@ -1199,10 +1271,14 @@
     },
     "name": "kubai087",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -1221,7 +1297,7 @@
     "recent_work": [
       {
         "person_id": "lauren-tan",
-        "published": "2026-11-19T06:52:20Z",
+        "published": "2026-11-19T22:05:05Z",
         "title": "Active in cursor/plugins",
         "url": "https://github.com/cursor/plugins"
       }
@@ -1285,15 +1361,15 @@
     "recent_work": [
       {
         "person_id": "matt-pocock",
-        "published": "2026-11-19T13:33:00Z",
-        "title": "Active in mattpocock/skills",
-        "url": "https://github.com/mattpocock/skills"
+        "published": "2026-11-20T16:52:58Z",
+        "title": "Active in mattpocock/course-video-manager",
+        "url": "https://github.com/mattpocock/course-video-manager"
       },
       {
         "person_id": "matt-pocock",
-        "published": "2026-11-19T07:49:46Z",
-        "title": "Active in mattpocock/course-video-manager",
-        "url": "https://github.com/mattpocock/course-video-manager"
+        "published": "2026-11-19T13:33:00Z",
+        "title": "Active in mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills"
       },
       {
         "person_id": "matt-pocock",
@@ -1369,7 +1445,7 @@
     "why_follow": "Turns TypeScript and AI-assisted coding into small, repeatable workflows."
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "morluto",
     "last_active": null,
     "links": {
@@ -1377,10 +1453,14 @@
     },
     "name": "morluto",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -1409,7 +1489,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "pbakaus",
     "last_active": null,
     "links": {
@@ -1417,10 +1497,14 @@
     },
     "name": "pbakaus",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -1429,7 +1513,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 2,
     "id": "phuryn",
     "last_active": null,
     "links": {
@@ -1437,7 +1521,7 @@
     },
     "name": "phuryn",
     "recent_work": [],
-    "score": 6.0,
+    "score": 9.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -1446,9 +1530,13 @@
       {
         "day": "2026-11-21",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
+        "score": 3.0
       }
     ],
-    "status": "rising",
+    "status": "followed",
     "what_to_learn": "",
     "why_follow": ""
   },
@@ -1465,7 +1553,7 @@
     "recent_work": [
       {
         "person_id": "sebastian-raschka",
-        "published": "2026-11-21T16:06:07Z",
+        "published": "2026-11-21T17:08:50Z",
         "title": "Active in rasbt/LLMs-from-scratch",
         "url": "https://github.com/rasbt/LLMs-from-scratch"
       },
@@ -1601,7 +1689,7 @@
     "recent_work": [
       {
         "person_id": "shreya-shankar",
-        "published": "2026-11-21T01:19:24Z",
+        "published": "2026-11-21T23:53:28Z",
         "title": "Active in fsdatalab/quail",
         "url": "https://github.com/fsdatalab/quail"
       },
@@ -1687,7 +1775,7 @@
   {
     "above_threshold_runs": 0,
     "id": "simon-willison",
-    "last_active": "2026-11-20",
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/simonw",
       "rss": "https://simonwillison.net/atom/everything/",
@@ -1695,6 +1783,18 @@
     },
     "name": "Simon Willison",
     "recent_work": [
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-22T01:37:24Z",
+        "title": "Active in simonw/datasette",
+        "url": "https://github.com/simonw/datasette"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-21T23:56:28Z",
+        "title": "Muru",
+        "url": "https://simonwillison.net/2026/Nov/21/muru/"
+      },
       {
         "person_id": "simon-willison",
         "published": "2026-11-20T19:21:49Z",
@@ -1715,6 +1815,12 @@
       },
       {
         "person_id": "simon-willison",
+        "published": "2026-11-20T03:01:57Z",
+        "title": "llm-gemini 0.38.1",
+        "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
+      },
+      {
+        "person_id": "simon-willison",
         "published": "2026-11-20T02:49:57Z",
         "title": "Token fraud is here and it’s BAD (YouTube)",
         "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/"
@@ -1724,12 +1830,6 @@
         "published": "2026-11-19T20:43:57Z",
         "title": "PostgreSQL 19 Released",
         "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/"
-      },
-      {
-        "person_id": "simon-willison",
-        "published": "2026-11-19T00:05:32Z",
-        "title": "Active in simonw/datasette",
-        "url": "https://github.com/simonw/datasette"
       },
       {
         "person_id": "simon-willison",
@@ -1774,10 +1874,14 @@
         "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
       }
     ],
-    "score": 1.0,
+    "score": 2.0,
     "score_history": [
       {
         "day": "2026-11-20",
+        "score": 1.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 1.0
       }
     ],
@@ -1786,7 +1890,7 @@
     "why_follow": "Documents LLM experiments daily, with working code and honest limits."
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 2,
     "id": "sloemo01",
     "last_active": null,
     "links": {
@@ -1794,7 +1898,7 @@
     },
     "name": "sloemo01",
     "recent_work": [],
-    "score": 6.0,
+    "score": 9.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -1803,9 +1907,13 @@
       {
         "day": "2026-11-21",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
+        "score": 3.0
       }
     ],
-    "status": "rising",
+    "status": "followed",
     "what_to_learn": "",
     "why_follow": ""
   },
@@ -1822,7 +1930,7 @@
     "recent_work": [
       {
         "person_id": "swyx",
-        "published": "2026-11-21T16:42:52Z",
+        "published": "2026-11-21T23:27:14Z",
         "title": "Active in swyxio/papra",
         "url": "https://github.com/swyxio/papra"
       },
@@ -1918,7 +2026,7 @@
     "why_follow": "Founder of Latent Space; maps the AI engineering field."
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 0,
     "id": "synchopate",
     "last_active": null,
     "links": {
@@ -1942,7 +2050,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "tt-a1i",
     "last_active": null,
     "links": {
@@ -1950,10 +2058,34 @@
     },
     "name": "tt-a1i",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-21",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 0,
+    "id": "wangzan101",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/wangzan101"
+    },
+    "name": "wangzan101",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
