@@ -17,13 +17,13 @@
     "month": "2026-11",
     "notable_roles": [
       "outgoing | software engineer | lisbon, portugal | hybrid | €25k–€35k + meal allowance + health insurance",
-      "new product | full stack engineer (mostly backend + api) | meet in the bay area / work remotely | currently employed but",
       "early-stage startup | software engineer & data analyst | full-time | remote (us & us citizen) | $100,000 - $180,000 usd",
       "seeking freelance - egypt (utc+2, full eu/uk overlap) - remote",
-      "common prefix | senior software engineer | athens, greece / remote | full-time | $80k to $160k + equity + bonus"
+      "common prefix | senior software engineer | athens, greece / remote | full-time | $80k to $160k + equity + bonus",
+      "joulent | ai engineer, company brain | san francisco | onsite | full-time | $175k-$230k base plus bonus and equity"
     ],
     "source": "jobs-hn",
-    "total_posts": 242
+    "total_posts": 241
   },
   {
     "id": "global-jobs-remoteok-2026-11",

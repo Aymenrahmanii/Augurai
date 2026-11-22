@@ -4,10 +4,96 @@
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
-  "new_models": [],
-  "people_work": [],
+  "new_models": [
+    "lingsante-3-1-flash"
+  ],
+  "people_work": [
+    {
+      "person_id": "armin-ronacher",
+      "published": "2026-11-22T16:08:04Z",
+      "title": "Active in earendil-works/psh",
+      "url": "https://github.com/earendil-works/psh"
+    },
+    {
+      "person_id": "jesse-vincent",
+      "published": "2026-11-21T12:17:13Z",
+      "title": "Active in obra/muse-skills",
+      "url": "https://github.com/obra/muse-skills"
+    }
+  ],
   "promoted": [],
-  "rising": {},
-  "top_hn": [],
-  "top_papers": []
+  "rising": {
+    "agent": [
+      "969dd462482a25e8",
+      "78e219711e827886",
+      "3c40bebd52407729",
+      "34689cddad5a3350",
+      "9d8099e6e6efd209",
+      "a02a79030c2a0d11",
+      "e9a68a300e49f431",
+      "dff6badb68da67f9",
+      "537bd3ea8f73dce6",
+      "94e71a77453c33e5"
+    ],
+    "mcp": [
+      "0c0b0bd7215cf706",
+      "21c77919334c9e13",
+      "55b5541bbe935604",
+      "90780b0321ef5a02",
+      "ee184b3874f1ba17",
+      "071ec772bc18600f",
+      "006803f870ac1aa8",
+      "015e12a23d2fb07c",
+      "01a0e5ca68bc1778",
+      "0315535623695125"
+    ],
+    "repo": [
+      "8129f68e260304e7",
+      "97d62433e020c780",
+      "97c28dfefe84e078",
+      "b086318dbacd470d",
+      "eb40edb5ed8830b7",
+      "e204919d55639b1d",
+      "a70cae4c16f0fdc6",
+      "f25cfa09a16ab511",
+      "f72111f2a530cac6",
+      "6cd333e9aa7f3347"
+    ],
+    "skill": [
+      "92705331275526a8",
+      "dbd5adafc4073948",
+      "14f321c495182c59",
+      "fa4361846156ed46",
+      "10ba719313a0c835",
+      "e331123fcba6ff57",
+      "db09b457282c5683",
+      "f7cfdfd7bcc39abd",
+      "c9baa337d843cc05",
+      "0c600aca31767b69"
+    ]
+  },
+  "top_hn": [
+    "a7a7773a9f5669fb",
+    "07706832bb39f07a",
+    "d3966b6fd7109579",
+    "bb82379af066ff25",
+    "52478eb1a864ece1",
+    "61e15db8fd33eda9",
+    "8e29c138e61ab876",
+    "95090c9e725edaf8",
+    "48b46abf2f4bdec3",
+    "f836fd200cc1c02e"
+  ],
+  "top_papers": [
+    "47ddbf71e00ceb23",
+    "63dbb81e2a2d11bd",
+    "0cdac5c6e4a67a41",
+    "eb4d2df7b7187bdc",
+    "a3bdd56a3a313bf2",
+    "f6990214f0b638d6",
+    "28a468536f32c3ad",
+    "db4bd6cbca203078",
+    "3b627af7791cfed8",
+    "77e0a0e89a0e9524"
+  ]
 }

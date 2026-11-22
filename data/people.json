@@ -156,7 +156,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 0,
     "id": "alchaincyf",
     "last_active": "2026-11-22",
     "links": {
@@ -178,6 +178,12 @@
       },
       {
         "person_id": "alchaincyf",
+        "published": "2026-11-21T11:38:12Z",
+        "title": "Active in alchaincyf/huashu-bird-sticker",
+        "url": "https://github.com/alchaincyf/huashu-bird-sticker"
+      },
+      {
+        "person_id": "alchaincyf",
         "published": "2026-11-21T09:58:04Z",
         "title": "Active in alchaincyf/claude-code-orange-book",
         "url": "https://github.com/alchaincyf/claude-code-orange-book"
@@ -187,12 +193,6 @@
         "published": "2026-11-21T09:57:56Z",
         "title": "Active in alchaincyf/nuwa-skill",
         "url": "https://github.com/alchaincyf/nuwa-skill"
-      },
-      {
-        "person_id": "alchaincyf",
-        "published": "2026-11-20T18:33:25Z",
-        "title": "Active in alchaincyf/huashu-bird-sticker",
-        "url": "https://github.com/alchaincyf/huashu-bird-sticker"
       },
       {
         "person_id": "alchaincyf",
@@ -207,7 +207,7 @@
         "url": "https://github.com/alchaincyf/CoderWithAI"
       }
     ],
-    "score": 12.0,
+    "score": 9.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -215,10 +215,6 @@
       },
       {
         "day": "2026-11-21",
-        "score": 3.0
-      },
-      {
-        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -350,7 +346,7 @@
   {
     "above_threshold_runs": 0,
     "id": "armin-ronacher",
-    "last_active": "2026-11-20",
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/mitsuhiko",
       "rss": "https://lucumr.pocoo.org/feed.atom",
@@ -360,27 +356,33 @@
     "recent_work": [
       {
         "person_id": "armin-ronacher",
+        "published": "2026-11-22T16:23:36Z",
+        "title": "Active in mitsuhiko/tvpipe",
+        "url": "https://github.com/mitsuhiko/tvpipe"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-22T16:08:04Z",
+        "title": "Active in earendil-works/psh",
+        "url": "https://github.com/earendil-works/psh"
+      },
+      {
+        "person_id": "armin-ronacher",
         "published": "2026-11-20T22:56:44Z",
         "title": "Active in mitsuhiko/ronacher.eu",
         "url": "https://github.com/mitsuhiko/ronacher.eu"
       },
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-20T14:53:21Z",
-        "title": "Active in mitsuhiko/tvpipe",
-        "url": "https://github.com/mitsuhiko/tvpipe"
+        "published": "2026-11-20T14:07:05Z",
+        "title": "Active in earendil-works/pi",
+        "url": "https://github.com/earendil-works/pi"
       },
       {
         "person_id": "armin-ronacher",
         "published": "2026-11-20T12:46:47Z",
         "title": "Active in mitsuhiko/lucumr",
         "url": "https://github.com/mitsuhiko/lucumr"
-      },
-      {
-        "person_id": "armin-ronacher",
-        "published": "2026-11-20T06:49:59Z",
-        "title": "Active in earendil-works/pi",
-        "url": "https://github.com/earendil-works/pi"
       },
       {
         "person_id": "armin-ronacher",
@@ -1304,9 +1306,15 @@
     "recent_work": [
       {
         "person_id": "jesse-vincent",
-        "published": "2026-11-21T09:15:03Z",
+        "published": "2026-11-21T13:35:43Z",
         "title": "Active in prime-radiant-inc/evener",
         "url": "https://github.com/prime-radiant-inc/evener"
+      },
+      {
+        "person_id": "jesse-vincent",
+        "published": "2026-11-21T12:17:13Z",
+        "title": "Active in obra/muse-skills",
+        "url": "https://github.com/obra/muse-skills"
       },
       {
         "person_id": "jesse-vincent",
@@ -1410,7 +1418,7 @@
   {
     "above_threshold_runs": 0,
     "id": "matt-pocock",
-    "last_active": "2026-11-20",
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/mattpocock",
       "rss": "https://www.aihero.dev/rss.xml",
@@ -1420,7 +1428,7 @@
     "recent_work": [
       {
         "person_id": "matt-pocock",
-        "published": "2026-11-20T16:52:58Z",
+        "published": "2026-11-22T17:20:37Z",
         "title": "Active in mattpocock/course-video-manager",
         "url": "https://github.com/mattpocock/course-video-manager"
       },
@@ -1582,7 +1590,7 @@
     "recent_work": [
       {
         "person_id": "phuryn",
-        "published": "2026-11-22T08:44:42Z",
+        "published": "2026-11-22T16:20:17Z",
         "title": "Released phuryn/grok-build-vscode",
         "url": "https://github.com/phuryn/grok-build-vscode"
       },
@@ -1621,7 +1629,7 @@
   {
     "above_threshold_runs": 0,
     "id": "sebastian-raschka",
-    "last_active": "2026-11-21",
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/rasbt",
       "rss": "https://magazine.sebastianraschka.com/feed",
@@ -1631,7 +1639,7 @@
     "recent_work": [
       {
         "person_id": "sebastian-raschka",
-        "published": "2026-11-21T17:30:22Z",
+        "published": "2026-11-22T13:19:21Z",
         "title": "Active in MohammadHijjawi97/LLMs-from-scratch",
         "url": "https://github.com/MohammadHijjawi97/LLMs-from-scratch"
       },
@@ -1773,7 +1781,7 @@
     "recent_work": [
       {
         "person_id": "shreya-shankar",
-        "published": "2026-11-20T06:28:05Z",
+        "published": "2026-11-21T23:53:05Z",
         "title": "Active in fsdatalab/quail",
         "url": "https://github.com/fsdatalab/quail"
       },
@@ -1869,6 +1877,12 @@
     "recent_work": [
       {
         "person_id": "simon-willison",
+        "published": "2026-11-22T01:37:26Z",
+        "title": "Active in simonw/datasette",
+        "url": "https://github.com/simonw/datasette"
+      },
+      {
+        "person_id": "simon-willison",
         "published": "2026-11-21T23:56:28Z",
         "title": "Muru",
         "url": "https://simonwillison.net/2026/Nov/21/muru/"
@@ -1884,12 +1898,6 @@
         "published": "2026-11-20T16:30:48Z",
         "title": "Quoting Levent Alpöge",
         "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
-      },
-      {
-        "person_id": "simon-willison",
-        "published": "2026-11-20T03:13:37Z",
-        "title": "Active in simonw/datasette",
-        "url": "https://github.com/simonw/datasette"
       },
       {
         "person_id": "simon-willison",
@@ -1974,7 +1982,7 @@
     "why_follow": "Documents LLM experiments daily, with working code and honest limits."
   },
   {
-    "above_threshold_runs": 2,
+    "above_threshold_runs": 0,
     "id": "sloemo01",
     "last_active": "2026-11-21",
     "links": {
@@ -1996,12 +2004,12 @@
       },
       {
         "person_id": "sloemo01",
-        "published": "2026-11-20T07:20:01Z",
+        "published": "2026-11-20T08:36:12Z",
         "title": "Active in sloemo01/wakely",
         "url": "https://github.com/sloemo01/wakely"
       }
     ],
-    "score": 9.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -2009,10 +2017,6 @@
       },
       {
         "day": "2026-11-21",
-        "score": 3.0
-      },
-      {
-        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -2033,13 +2037,13 @@
     "recent_work": [
       {
         "person_id": "swyx",
-        "published": "2026-11-21T21:18:07Z",
+        "published": "2026-11-20T07:49:26Z",
         "title": "Active in swyxio/papra",
         "url": "https://github.com/swyxio/papra"
       },
       {
         "person_id": "swyx",
-        "published": "2026-11-21T02:03:16Z",
+        "published": "2026-11-20T06:46:36Z",
         "title": "Active in smol-ai/ainews-web-2025",
         "url": "https://github.com/smol-ai/ainews-web-2025"
       },
