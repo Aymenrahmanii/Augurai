@@ -28,9 +28,9 @@
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
-      "LLM": 4,
+      "LLM": 2,
       "LangChain": 0,
-      "MCP": 3,
+      "MCP": 2,
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "customer success manager",
-      "senior software engineer",
-      "manager, product design",
-      "staff scientist, machine learning (genomics)",
-      "manager, network contracting (southeast region)"
+      "sr analyst, analytics & insights",
+      "deal desk analyst (eastern time zone preferred)",
+      "director, revenue accounting",
+      "corporate counsel, commercial",
+      "release strategist, professional services"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

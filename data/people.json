@@ -158,12 +158,18 @@
   {
     "above_threshold_runs": 3,
     "id": "alchaincyf",
-    "last_active": "2026-11-21",
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/alchaincyf"
     },
     "name": "alchaincyf",
     "recent_work": [
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-22T06:56:02Z",
+        "title": "Released alchaincyf/huashu-design",
+        "url": "https://github.com/alchaincyf/huashu-design"
+      },
       {
         "person_id": "alchaincyf",
         "published": "2026-11-21T18:42:51Z",
@@ -184,15 +190,15 @@
       },
       {
         "person_id": "alchaincyf",
-        "published": "2026-11-21T02:26:32Z",
-        "title": "Released alchaincyf/huashu-design",
-        "url": "https://github.com/alchaincyf/huashu-design"
-      },
-      {
-        "person_id": "alchaincyf",
         "published": "2026-11-20T18:33:25Z",
         "title": "Active in alchaincyf/huashu-bird-sticker",
         "url": "https://github.com/alchaincyf/huashu-bird-sticker"
+      },
+      {
+        "person_id": "alchaincyf",
+        "published": "2026-11-20T01:29:33Z",
+        "title": "Active in alchaincyf/cat-photo-admin-boundaries",
+        "url": "https://github.com/alchaincyf/cat-photo-admin-boundaries"
       },
       {
         "person_id": "alchaincyf",
@@ -354,13 +360,25 @@
     "recent_work": [
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-19T23:33:40Z",
+        "published": "2026-11-20T22:56:44Z",
+        "title": "Active in mitsuhiko/ronacher.eu",
+        "url": "https://github.com/mitsuhiko/ronacher.eu"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-20T14:53:21Z",
         "title": "Active in mitsuhiko/tvpipe",
         "url": "https://github.com/mitsuhiko/tvpipe"
       },
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-19T19:36:47Z",
+        "published": "2026-11-20T12:46:47Z",
+        "title": "Active in mitsuhiko/lucumr",
+        "url": "https://github.com/mitsuhiko/lucumr"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-20T06:49:59Z",
         "title": "Active in earendil-works/pi",
         "url": "https://github.com/earendil-works/pi"
       },
@@ -616,12 +634,49 @@
   {
     "above_threshold_runs": 2,
     "id": "cathrynlavery",
-    "last_active": null,
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/cathrynlavery"
     },
     "name": "cathrynlavery",
-    "recent_work": [],
+    "recent_work": [
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-22T01:44:31Z",
+        "title": "Active in cathrynlavery/diagram-design",
+        "url": "https://github.com/cathrynlavery/diagram-design"
+      },
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-22T00:50:11Z",
+        "title": "Active in cathrynlavery/skills",
+        "url": "https://github.com/cathrynlavery/skills"
+      },
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-22T00:50:08Z",
+        "title": "Active in cathrynlavery/tailscale-superpowers",
+        "url": "https://github.com/cathrynlavery/tailscale-superpowers"
+      },
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-19T04:27:33Z",
+        "title": "Active in cathrynlavery/yap-studio",
+        "url": "https://github.com/cathrynlavery/yap-studio"
+      },
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-19T00:16:01Z",
+        "title": "Active in mvanhorn/diagram-design",
+        "url": "https://github.com/mvanhorn/diagram-design"
+      },
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-18T13:07:21Z",
+        "title": "Active in danielmcquillen/diagram-design",
+        "url": "https://github.com/danielmcquillen/diagram-design"
+      }
+    ],
     "score": 9.0,
     "score_history": [
       {
@@ -744,7 +799,7 @@
     "why_follow": "Author of AI Engineering and Designing ML Systems."
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "daveebbelaar",
     "last_active": null,
     "links": {
@@ -752,10 +807,14 @@
     },
     "name": "daveebbelaar",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-20",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-22",
         "score": 3.0
       }
     ],
@@ -1245,7 +1304,7 @@
     "recent_work": [
       {
         "person_id": "jesse-vincent",
-        "published": "2026-11-20T22:16:13Z",
+        "published": "2026-11-21T09:15:03Z",
         "title": "Active in prime-radiant-inc/evener",
         "url": "https://github.com/prime-radiant-inc/evener"
       },
@@ -1515,12 +1574,31 @@
   {
     "above_threshold_runs": 2,
     "id": "phuryn",
-    "last_active": null,
+    "last_active": "2026-11-22",
     "links": {
       "github": "https://github.com/phuryn"
     },
     "name": "phuryn",
-    "recent_work": [],
+    "recent_work": [
+      {
+        "person_id": "phuryn",
+        "published": "2026-11-22T08:44:42Z",
+        "title": "Released phuryn/grok-build-vscode",
+        "url": "https://github.com/phuryn/grok-build-vscode"
+      },
+      {
+        "person_id": "phuryn",
+        "published": "2026-11-21T18:33:21Z",
+        "title": "Released phuryn/product-engineering",
+        "url": "https://github.com/phuryn/product-engineering"
+      },
+      {
+        "person_id": "phuryn",
+        "published": "2026-11-21T18:11:06Z",
+        "title": "Active in phuryn/staygreen",
+        "url": "https://github.com/phuryn/staygreen"
+      }
+    ],
     "score": 9.0,
     "score_history": [
       {
@@ -1551,6 +1629,12 @@
     },
     "name": "Sebastian Raschka",
     "recent_work": [
+      {
+        "person_id": "sebastian-raschka",
+        "published": "2026-11-21T17:30:22Z",
+        "title": "Active in MohammadHijjawi97/LLMs-from-scratch",
+        "url": "https://github.com/MohammadHijjawi97/LLMs-from-scratch"
+      },
       {
         "person_id": "sebastian-raschka",
         "published": "2026-11-21T17:08:50Z",
@@ -1689,7 +1773,7 @@
     "recent_work": [
       {
         "person_id": "shreya-shankar",
-        "published": "2026-11-21T23:53:28Z",
+        "published": "2026-11-20T06:28:05Z",
         "title": "Active in fsdatalab/quail",
         "url": "https://github.com/fsdatalab/quail"
       },
@@ -1785,12 +1869,6 @@
     "recent_work": [
       {
         "person_id": "simon-willison",
-        "published": "2026-11-22T01:37:24Z",
-        "title": "Active in simonw/datasette",
-        "url": "https://github.com/simonw/datasette"
-      },
-      {
-        "person_id": "simon-willison",
         "published": "2026-11-21T23:56:28Z",
         "title": "Muru",
         "url": "https://simonwillison.net/2026/Nov/21/muru/"
@@ -1809,15 +1887,21 @@
       },
       {
         "person_id": "simon-willison",
-        "published": "2026-11-20T03:01:57Z",
-        "title": "Released simonw/llm-gemini",
-        "url": "https://github.com/simonw/llm-gemini"
+        "published": "2026-11-20T03:13:37Z",
+        "title": "Active in simonw/datasette",
+        "url": "https://github.com/simonw/datasette"
       },
       {
         "person_id": "simon-willison",
         "published": "2026-11-20T03:01:57Z",
         "title": "llm-gemini 0.38.1",
         "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-20T02:59:12Z",
+        "title": "Active in simonw/llm-gemini",
+        "url": "https://github.com/simonw/llm-gemini"
       },
       {
         "person_id": "simon-willison",
@@ -1892,12 +1976,31 @@
   {
     "above_threshold_runs": 2,
     "id": "sloemo01",
-    "last_active": null,
+    "last_active": "2026-11-21",
     "links": {
       "github": "https://github.com/sloemo01"
     },
     "name": "sloemo01",
-    "recent_work": [],
+    "recent_work": [
+      {
+        "person_id": "sloemo01",
+        "published": "2026-11-21T20:05:19Z",
+        "title": "Released sloemo01/thin-stt",
+        "url": "https://github.com/sloemo01/thin-stt"
+      },
+      {
+        "person_id": "sloemo01",
+        "published": "2026-11-21T07:50:42Z",
+        "title": "Active in sloemo01/repowise",
+        "url": "https://github.com/sloemo01/repowise"
+      },
+      {
+        "person_id": "sloemo01",
+        "published": "2026-11-20T07:20:01Z",
+        "title": "Active in sloemo01/wakely",
+        "url": "https://github.com/sloemo01/wakely"
+      }
+    ],
     "score": 9.0,
     "score_history": [
       {
@@ -1930,7 +2033,7 @@
     "recent_work": [
       {
         "person_id": "swyx",
-        "published": "2026-11-21T23:27:14Z",
+        "published": "2026-11-21T21:18:07Z",
         "title": "Active in swyxio/papra",
         "url": "https://github.com/swyxio/papra"
       },

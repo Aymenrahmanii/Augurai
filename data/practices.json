@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "exercise": "Take one question you can judge yourself. Predict by hand which of two settings or models you expect to do better and roughly how many tokens each will use. Only then run both and compare.",
+    "first_seen": "2026-11-22",
+    "how_to_apply": "1. Choose one fixed prompt. 2. Run it at each available setting or model. 3. Record output tokens, cost and a quick quality judgment in a grid. 4. Pick the cheapest setting whose result you accept. 5. Re-run the grid when a new model or setting appears.",
+    "id": "compare-settings-by-cost-and-output-not-by-name",
+    "person_id": "simon-willison",
+    "principle": "A model's settings, such as reasoning level, trade quality against cost and tokens in ways the names do not reveal. Running the same prompt across settings and recording tokens, cost and result shows where extra spend stops paying off.",
+    "reinforced_by": [],
+    "related_skill": null,
+    "source_url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+    "tags": [
+      "evaluation",
+      "cost",
+      "reasoning-levels"
+    ],
+    "title": "Compare settings by cost and output, not by name"
+  },
+  {
+    "exercise": "Pick a small piece of code you wrote recently. In 10 minutes, write a dated note covering what it does, one alternative you rejected, and why. Do it without an AI tool.",
+    "first_seen": "2026-11-22",
+    "how_to_apply": "1. After each work session, write a short dated note: what you tried, what you chose, what you rejected and why. 2. Give each note one topic. 3. Before accepting AI-generated code, check it against what your notes say you intended. 4. Publish or share the notes if you can, since an audience raises the bar.",
+    "id": "document-the-project-as-you-build-it",
+    "person_id": "simon-willison",
+    "principle": "Writing a dated account while you work forces you to state what you decided and why. That makes weak decisions visible, and it keeps you, not the AI, in charge of the design. The written trail also lets you check the AI's output against your own stated intent.",
+    "reinforced_by": [],
+    "related_skill": null,
+    "source_url": "https://simonwillison.net/2026/Nov/21/muru/",
+    "tags": [
+      "documentation",
+      "ai-assisted-development",
+      "judgment"
+    ],
+    "title": "Document the project as you build it"
+  }
+]
