@@ -4,10 +4,163 @@
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
-  "new_models": [],
-  "people_work": [],
+  "new_models": [
+    "lingsante-3-1-air-vl",
+    "tml-d24-varloop-research"
+  ],
+  "people_work": [
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T21:46:35Z",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-23T21:42:27Z",
+      "title": "Active in agezt/agezt",
+      "url": "https://github.com/agezt/agezt"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-23T21:01:54Z",
+      "title": "Active in erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T20:19:15Z",
+      "title": "Released simonw/llm-glm",
+      "url": "https://github.com/simonw/llm-glm"
+    },
+    {
+      "person_id": "sebastian-raschka",
+      "published": "2026-11-23T18:29:51Z",
+      "title": "Active in rasbt/reasoning-from-scratch",
+      "url": "https://github.com/rasbt/reasoning-from-scratch"
+    },
+    {
+      "person_id": "kubai087",
+      "published": "2026-11-23T18:20:25Z",
+      "title": "Released kubai087/vibedesign-skills",
+      "url": "https://github.com/kubai087/vibedesign-skills"
+    },
+    {
+      "person_id": "phuryn",
+      "published": "2026-11-23T15:37:13Z",
+      "title": "Active in phuryn/bug-hunt-bench",
+      "url": "https://github.com/phuryn/bug-hunt-bench"
+    },
+    {
+      "person_id": "matt-pocock",
+      "published": "2026-11-23T14:12:17Z",
+      "title": "Active in mattpocock/cookout",
+      "url": "https://github.com/mattpocock/cookout"
+    },
+    {
+      "person_id": "Leonxlnx",
+      "published": "2026-11-22T14:33:00Z",
+      "title": "Active in lachlan1234564/tastecode",
+      "url": "https://github.com/lachlan1234564/tastecode"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-21T12:54:20Z",
+      "title": "Active in AnubisWatch/AnubisWatch",
+      "url": "https://github.com/AnubisWatch/AnubisWatch"
+    },
+    {
+      "person_id": "tt-a1i",
+      "published": "2026-11-21T11:45:05Z",
+      "title": "Active in goatliamia/archify",
+      "url": "https://github.com/goatliamia/archify"
+    },
+    {
+      "person_id": "alchaincyf",
+      "published": "2026-11-21T09:58:08Z",
+      "title": "Active in alchaincyf/agent-skills-orange-book",
+      "url": "https://github.com/alchaincyf/agent-skills-orange-book"
+    },
+    {
+      "person_id": "sloemo01",
+      "published": "2026-11-21T06:16:34Z",
+      "title": "Active in sloemo01/agentscope",
+      "url": "https://github.com/sloemo01/agentscope"
+    }
+  ],
   "promoted": [],
-  "rising": {},
-  "top_hn": [],
-  "top_papers": []
+  "rising": {
+    "agent": [
+      "3400785e003329cf",
+      "969dd462482a25e8",
+      "3c40bebd52407729",
+      "78e219711e827886",
+      "0131b89b3075d16b",
+      "34689cddad5a3350",
+      "9d8099e6e6efd209",
+      "dff6badb68da67f9",
+      "e9a68a300e49f431",
+      "a02a79030c2a0d11"
+    ],
+    "mcp": [
+      "e3ea1ac5d326018b",
+      "0c0b0bd7215cf706",
+      "21c77919334c9e13",
+      "55b5541bbe935604",
+      "90780b0321ef5a02",
+      "ee184b3874f1ba17",
+      "071ec772bc18600f",
+      "006803f870ac1aa8",
+      "015e12a23d2fb07c",
+      "01a0e5ca68bc1778"
+    ],
+    "repo": [
+      "8129f68e260304e7",
+      "fd90ea8c5875644b",
+      "97c28dfefe84e078",
+      "eb40edb5ed8830b7",
+      "e204919d55639b1d",
+      "97d62433e020c780",
+      "b086318dbacd470d",
+      "f25cfa09a16ab511",
+      "a70cae4c16f0fdc6",
+      "6cd333e9aa7f3347"
+    ],
+    "skill": [
+      "92705331275526a8",
+      "dbd5adafc4073948",
+      "14f321c495182c59",
+      "fa4361846156ed46",
+      "10ba719313a0c835",
+      "e331123fcba6ff57",
+      "db09b457282c5683",
+      "f7cfdfd7bcc39abd",
+      "0c600aca31767b69",
+      "c9baa337d843cc05"
+    ]
+  },
+  "top_hn": [
+    "a7a7773a9f5669fb",
+    "07706832bb39f07a",
+    "bb82379af066ff25",
+    "61e15db8fd33eda9",
+    "52478eb1a864ece1",
+    "8e29c138e61ab876",
+    "95090c9e725edaf8",
+    "48b46abf2f4bdec3",
+    "f836fd200cc1c02e",
+    "8415bce77abcc276"
+  ],
+  "top_papers": [
+    "b8477994b9d0bbec",
+    "93e90517ac8ed1c1",
+    "d8a3338ebd25d234",
+    "eb4d2df7b7187bdc",
+    "3b627af7791cfed8",
+    "399e786b295dfb8e",
+    "f138e148bb7c9a5e",
+    "3976a6719c927750",
+    "5153e6ba27113aec",
+    "cb6d83b7295ce64c"
+  ]
 }
