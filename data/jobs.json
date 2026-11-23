@@ -8,7 +8,7 @@
       "MLOps": 2,
       "PyTorch": 9,
       "RAG": 4,
-      "agents": 44,
+      "agents": 43,
       "evals": 6,
       "fine-tuning": 1,
       "vector database": 0
@@ -23,7 +23,7 @@
       "joulent | ai engineer, company brain | san francisco | onsite | full-time | $175k-$230k base plus bonus and equity"
     ],
     "source": "jobs-hn",
-    "total_posts": 241
+    "total_posts": 240
   },
   {
     "id": "global-jobs-remoteok-2026-11",

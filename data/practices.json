@@ -32,5 +32,23 @@
       "judgment"
     ],
     "title": "Document the project as you build it"
+  },
+  {
+    "exercise": "Pick one small UI element you dislike, such as a button, a select box or a link style. In 10 minutes, hand-write a page with four variants of it side by side. View it in two browsers and note which one you prefer and why, before asking any AI tool for options.",
+    "first_seen": "2026-11-23",
+    "how_to_apply": "1. Name the thing you are unhappy with and the environments it must work in. 2. Build one page that shows every reasonable variant side by side. 3. View it in each target environment, such as browsers or devices. 4. Pick a favourite and write down why. 5. Keep the winning snippet as your default.",
+    "id": "generate-a-specimen-sheet-of-every-option-then-choose-by-eye",
+    "person_id": "simon-willison",
+    "principle": "Judging a design choice in the abstract is unreliable because the differences only show up when options sit side by side in the real environment. Producing all the variants at once turns a vague preference into a quick comparison, and the choice becomes yours.",
+    "reinforced_by": [],
+    "related_skill": null,
+    "source_url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+    "tags": [
+      "frontend",
+      "css",
+      "workflow",
+      "comparison"
+    ],
+    "title": "Generate a specimen sheet of every option, then choose by eye"
   }
 ]

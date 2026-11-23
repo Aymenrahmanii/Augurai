@@ -8,6 +8,10 @@
     "text": "An MCP server offering pay-per-call x402 tools for a locale cluster, paid in USDC with no API keys."
   },
   {
+    "id": "0131b89b3075d16b",
+    "text": "An agent-based video studio that deconstructs scripts, replicates their structure, and exports editable projects and costed variants."
+  },
+  {
     "id": "015e12a23d2fb07c",
     "text": "An MCP server exposing 500+ typed UI components that an agent can compose into rendered interfaces. It is free and needs no API key."
   },
@@ -76,6 +80,10 @@
     "text": "A converter that turns PDF, Office, HWP/HWPX, OpenDocument, RTF, EPUB, HTML, email and image files into Markdown for LLM use."
   },
   {
+    "id": "0c0b0bd7215cf706",
+    "text": "A read-only MCP server exposing EASA regulations (with AMC and GM) and EASA definitions, each with the page to cite."
+  },
+  {
     "id": "0c16e31c5bb47281",
     "text": "Context management for Claude Code using hooks that keep state in ledgers and handoffs. It also runs MCP calls without polluting context and orchestrates agents with isolated context windows."
   },
@@ -98,6 +106,10 @@
   {
     "id": "0dba818753f02bf2",
     "text": "A self-hosted search and chat platform on Typesense and FastAPI, using hybrid BM25 plus vector search and RAG product chat. Rule-based query understanding skips the LLM when it is not needed, and it works with OpenAI, Claude, Gemini, Groq, Ollama or LiteLLM."
+  },
+  {
+    "id": "0ef6e87ef14bb6a8",
+    "text": "Recent activity in the alexeyw/alexeyw repository; no description was given."
   },
   {
     "id": "0f216be72ca33ce9",
@@ -168,6 +180,10 @@
     "text": "phuryn released grok-build-vscode; no description was provided."
   },
   {
+    "id": "22a265baeba79c4a",
+    "text": "Recent activity in the datasette/datasette-charts repository; no description was given."
+  },
+  {
     "id": "244d2e2d102af837",
     "text": "A set of agents for SaaS growth chores: new-term radar, keyword-to-site discovery, competitor backlinks, directory submissions and a social analysis pack. It works with Claude Code, Codex and several other agents."
   },
@@ -188,12 +204,40 @@
     "text": "Recent activity in alchaincyf/nuwa-skill; no further detail was provided."
   },
   {
+    "id": "3175ddbd94acab2f",
+    "text": "A release of simonw/datasette-remote-metadata was recorded; no details were given."
+  },
+  {
+    "id": "3400785e003329cf",
+    "text": "An agent project that profiles Python, Node or Ruby apps and ports only the slow hot functions with a coding agent. It then checks that behaviour stays the same, instead of rewriting everything in Rust."
+  },
+  {
     "id": "34689cddad5a3350",
     "text": "A set of 45 agent skills from three shipped products, covering deciding what to build, building with Claude Code or Codex, review by a second model, and release."
   },
   {
+    "id": "3976a6719c927750",
+    "text": "Asks whether a language model can rewrite its own weights, after earlier work showed a frontier model editing a much smaller one. Motivation: a frozen model cannot improve without another training run."
+  },
+  {
+    "id": "39802efdedd55f98",
+    "text": "Recent activity in the alexeyw/alexeyw.github.io repository; no description was given."
+  },
+  {
+    "id": "399e786b295dfb8e",
+    "text": "Proposes AltRA-Test, an extension of the Alternative Annotator Test for deciding when an LLM judge can replace human annotators. It targets settings where annotators do not share the same items."
+  },
+  {
+    "id": "3abc31c9034e0ad4",
+    "text": "Recent activity in the KKKKhazix/AIHOT repository; no description was given."
+  },
+  {
     "id": "3b627af7791cfed8",
     "text": "HiUni is a unified multimodal model that handles visual understanding and generation in a shared visual space rather than separate representations."
+  },
+  {
+    "id": "3c1bf33e8a65d2d4",
+    "text": "Recent activity in the argszero/agent-autoloop repository; no description was given."
   },
   {
     "id": "3c218274741b02a5",
@@ -202,6 +246,14 @@
   {
     "id": "3c40bebd52407729",
     "text": "An Expo project for writing an app once and running it natively on web, macOS, iOS and Linux, where an AI agent can build, run, view and test it on each."
+  },
+  {
+    "id": "3fd180609c9e4b0e",
+    "text": "Recent activity in the tt-a1i/pickup repository; no description was given."
+  },
+  {
+    "id": "422d3fe1c21667df",
+    "text": "Recent activity in the JuneYaooo/capsule-cinema repository; no description was given."
   },
   {
     "id": "47ddbf71e00ceb23",
@@ -216,6 +268,10 @@
     "text": "A Hacker News thread titled 'Claude Fable 5.2 and Mythos 5.2'; only the title is available."
   },
   {
+    "id": "4a02076b10384ce7",
+    "text": "Recent activity in the Leonxlnx/sable repository; no description was given."
+  },
+  {
     "id": "4e4f33a91e8a0857",
     "text": "An MCP project that connects AI agents to real iPhones and Android devices."
   },
@@ -224,8 +280,20 @@
     "text": "Recent activity in mvanhorn/diagram-design; no further detail was provided."
   },
   {
+    "id": "4ed8c42374396992",
+    "text": "Recent activity in the heymrun/heym repository; no description was given."
+  },
+  {
+    "id": "5153e6ba27113aec",
+    "text": "Argues that text-aware image super-resolution needs reasoning, because badly degraded text often cannot be read from local visual evidence alone. It contrasts this with treating the task as pure visual restoration."
+  },
+  {
     "id": "52478eb1a864ece1",
     "text": "A Hacker News thread titled 'Our position on open-weights models'; only the title is available."
+  },
+  {
+    "id": "528d52debb81cc6c",
+    "text": "Recent activity in the morluto/reef repository; no description was given."
   },
   {
     "id": "537bd3ea8f73dce6",
@@ -242,6 +310,10 @@
   {
     "id": "55b5541bbe935604",
     "text": "An MCP server for Google Ads reporting and reviewable change plans, using the user's own Google authorization."
+  },
+  {
+    "id": "5b692648d95a7e00",
+    "text": "Recent activity in the JuneYaooo/medical-jev-train repository; no description was given."
   },
   {
     "id": "5e9d3fd0e59ccb77",
@@ -296,20 +368,64 @@
     "text": "Recent activity in the mitsuhiko/ronacher.eu repository; no further detail was provided."
   },
   {
+    "id": "85576ac0909c5ff5",
+    "text": "Recent activity in the JuneYaooo/awesome-ai-media repository; no description was given."
+  },
+  {
+    "id": "8924fb8ebfff3837",
+    "text": "A release of datasette/datasette-agent-edit was recorded; no details were given."
+  },
+  {
+    "id": "892578858d51cce7",
+    "text": "A release of datasette/ready-for-datasette was recorded; no details were given."
+  },
+  {
+    "id": "8cc270b184708c4b",
+    "text": "Simon Willison had Claude Fable 5.2 build a page showing every way an HTML select box can be styled, so he could screenshot it in desktop and mobile browsers. He settled on a CSS recipe using appearance: none, a thin border, rounded corners and an inline SVG arrow."
+  },
+  {
     "id": "8e29c138e61ab876",
     "text": "A Hacker News thread on startup founders urging the U.S. government not to shut off Chinese open-weight AI; only the title is available."
+  },
+  {
+    "id": "90780b0321ef5a02",
+    "text": "An MCP server that stages Meta ads from an AI assistant. Ads are launched paused with every Advantage+ enhancement turned off."
+  },
+  {
+    "id": "91cbb9d77a6577b0",
+    "text": "Recent activity in the earendil-works/psh repository; no description was given."
   },
   {
     "id": "92705331275526a8",
     "text": "Skill for reverse engineering with agents, from app behavior down to native binaries."
   },
   {
+    "id": "93e90517ac8ed1c1",
+    "text": "Introduces NoPeBench, a benchmark for whether interactive video world models stop objects passing through physical obstacles. The authors report that none of the open-source models they tested handled this."
+  },
+  {
     "id": "95090c9e725edaf8",
     "text": "A Hacker News post asking whether the author's AI agents found an unmapped Maya site; only the title is available."
   },
   {
+    "id": "95b44d7a2126fd28",
+    "text": "Recent activity in the ersinkoc/heym repository; no description was given."
+  },
+  {
+    "id": "95efc5344fe96ca0",
+    "text": "Recent activity in the datasette/datasette-agent repository; no description was given."
+  },
+  {
+    "id": "9670fd728ade1b2a",
+    "text": "Recent activity in the simonw/github-zip-cors-proxy repository; no description was given."
+  },
+  {
     "id": "969dd462482a25e8",
     "text": "Lets a command-line agent pick up work and follow it through in the background, only sending a card to the user when it needs a decision."
+  },
+  {
+    "id": "970fac7f919c170f",
+    "text": "Recent activity in the NothingDNS/NothingDNS repository; no description was given."
   },
   {
     "id": "97c28dfefe84e078",
@@ -376,8 +492,24 @@
     "text": "Recent activity in sloemo01/repowise; no further detail was provided."
   },
   {
+    "id": "b8477994b9d0bbec",
+    "text": "Builds on Manifold-constrained Hyper-Connections (mHC), which constrain stream-mixing residual matrices to doubly stochastic matrices. The paper, cmHC, studies how to mix residual streams effectively using geometric contraction."
+  },
+  {
     "id": "bb82379af066ff25",
     "text": "A Hacker News thread arguing that China's open-weights AI strategy is winning; only the title is available."
+  },
+  {
+    "id": "bdb91ff75ced6f0b",
+    "text": "Recent activity in the JuneYaooo/awesome-medical-ai repository; no description was given."
+  },
+  {
+    "id": "c5b9ab69afd6a715",
+    "text": "Recent activity in the ersinkoc/Agora repository; no description was given."
+  },
+  {
+    "id": "c90e29ff7b97b876",
+    "text": "Recent activity in the openpi-dev/openpi repository; no description was given."
   },
   {
     "id": "c9baa337d843cc05",
@@ -388,12 +520,24 @@
     "text": "A Hacker News thread about 'GPT-6.2 Astra and Sol'; only the title is available."
   },
   {
+    "id": "d74cacb97ad1a7ee",
+    "text": "Recent activity in the obra/episodic-memory repository; no description was given."
+  },
+  {
     "id": "d7d35dd967091d67",
     "text": "Activity from Armin Ronacher in the mitsuhiko/rtc repository. The input gives no details beyond the activity itself."
   },
   {
+    "id": "d8a3338ebd25d234",
+    "text": "Technical report for Clover-35B-A3B-Preview, a mixture-of-experts diffusion language model with 35B total and 3B active parameters. It supports thinking-mode generation and adapts Gated Delta Networks to block diffusion."
+  },
+  {
     "id": "da293a3ba3da8d47",
     "text": "HTML-native design skill (version 3.4) for Claude Code, Codex, Cursor and other agents. Produces web pages, app prototypes, slides and infographics, offering six candidate directions and a 92-style library."
+  },
+  {
+    "id": "dacc3273423df6fd",
+    "text": "Recent activity in the JuneYaooo/rea-toon repository; no description was given."
   },
   {
     "id": "db09b457282c5683",
@@ -402,6 +546,10 @@
   {
     "id": "db4bd6cbca203078",
     "text": "Depth Pro 2 estimates dense metric depth for images and video at full resolution, targeting both temporal consistency and sharp boundaries."
+  },
+  {
+    "id": "db7a7e74cd6b13f6",
+    "text": "Recent activity in the storybookjs/web repository; no description was given."
   },
   {
     "id": "dbd5adafc4073948",
@@ -420,8 +568,24 @@
     "text": "Agent skills that add art direction, reference images and a browser check, aiming to avoid generic AI-generated pages."
   },
   {
+    "id": "e3ea1ac5d326018b",
+    "text": "An MCP server offering an automation catalogue and a free 48-hour diagnosis for businesses in the UAE and Spain."
+  },
+  {
+    "id": "e6cc9b0ff3b5b1a8",
+    "text": "Recent activity in the cathrynlavery/cathrynlavery repository; no description was given."
+  },
+  {
+    "id": "e84aec6ba6201dea",
+    "text": "Recent activity in the JuneYaooo/awesome-ai-media-skills repository; no description was given."
+  },
+  {
     "id": "e9a68a300e49f431",
     "text": "Collection of 32 free, MIT-licensed marketing skills for agents, covering research, copy, SEO, ads and email, plus a local-business pack."
+  },
+  {
+    "id": "e9e4cc2132edb606",
+    "text": "Recent activity in the Leonxlnx/tastecode repository; no description was given."
   },
   {
     "id": "eb40edb5ed8830b7",
@@ -436,8 +600,20 @@
     "text": "Recent activity in sloemo01/wakely; no further detail was provided."
   },
   {
+    "id": "ed65fbd11c149e2b",
+    "text": "Recent activity in the emanuele-em/proxelar repository; no description was given."
+  },
+  {
     "id": "ee184b3874f1ba17",
     "text": "An MCP server for AdLab to track paid traffic and run campaigns, routing, postbacks and optimization rules."
+  },
+  {
+    "id": "f138e148bb7c9a5e",
+    "text": "Argues that RL post-training of diffusion transformers acts as activation steering. It starts from the observation that capabilities such as text rendering and multi-object composition depend on the prompt."
+  },
+  {
+    "id": "f1f731c6ae0f0da3",
+    "text": "Recent activity in the simonw/tools repository; no description was given."
   },
   {
     "id": "f25cfa09a16ab511",
@@ -460,7 +636,27 @@
     "text": "A Hacker News thread titled 'AWS emulator'; only the title is available."
   },
   {
+    "id": "fa3e9d20e34be058",
+    "text": "Recent activity in the haydenschmitty/haydenschmitty repository; no description was given."
+  },
+  {
     "id": "fa4361846156ed46",
     "text": "Design vocabulary for coding agents, with commands to steer (polish, bolder) and to review (critique, audit) so generic AI output is caught before shipping."
+  },
+  {
+    "id": "fc105bbed308ce37",
+    "text": "Recent activity in the Leonxlnx/cinetic repository; no description was given."
+  },
+  {
+    "id": "fcc3dce3b49a33cd",
+    "text": "Recent activity in the ersinkoc/pursae repository; no description was given."
+  },
+  {
+    "id": "fcf257c7baa3d3e8",
+    "text": "Recent activity in the simonw/micropython-wasm repository; no description was given."
+  },
+  {
+    "id": "fd90ea8c5875644b",
+    "text": "MR Office is an open-source browser suite for documents, spreadsheets, presentations, PDF and code, with a copilot in each editor. Its MCP server lets Claude, ChatGPT, Cursor and Codex create and edit Word, Excel and PowerPoint files."
   }
 ]
