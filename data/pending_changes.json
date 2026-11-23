@@ -1,6 +1,6 @@
 {
   "benchmark_moves": [],
-  "day": "2026-11-22",
+  "day": "2026-11-23",
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
@@ -19,21 +19,57 @@
       "published": "2026-11-21T12:17:13Z",
       "title": "Active in obra/muse-skills",
       "url": "https://github.com/obra/muse-skills"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T00:37:20Z",
+      "title": "Released datasette/datasette-charts",
+      "url": "https://github.com/datasette/datasette-charts"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T00:31:02Z",
+      "title": "Released datasette/datasette-enrichments",
+      "url": "https://github.com/datasette/datasette-enrichments"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-22T19:45:06Z",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/"
     }
   ],
-  "promoted": [],
+  "promoted": [
+    "DietrichGebert",
+    "JuneYaooo",
+    "KKKKhazix",
+    "Leonxlnx",
+    "alexeyw",
+    "blader",
+    "bookwjitchieni1986",
+    "boringmarketer",
+    "ccch1mneyyy",
+    "emanuele-em",
+    "erkamyaman",
+    "ersinkoc",
+    "haydenschmitty",
+    "kubai087",
+    "morluto",
+    "pbakaus",
+    "tt-a1i"
+  ],
   "rising": {
     "agent": [
+      "3400785e003329cf",
       "969dd462482a25e8",
       "78e219711e827886",
       "3c40bebd52407729",
       "34689cddad5a3350",
       "9d8099e6e6efd209",
-      "a02a79030c2a0d11",
-      "e9a68a300e49f431",
       "dff6badb68da67f9",
-      "537bd3ea8f73dce6",
-      "94e71a77453c33e5"
+      "a02a79030c2a0d11",
+      "0131b89b3075d16b",
+      "e9a68a300e49f431"
     ],
     "mcp": [
       "0c0b0bd7215cf706",
@@ -49,15 +85,15 @@
     ],
     "repo": [
       "8129f68e260304e7",
-      "97d62433e020c780",
       "97c28dfefe84e078",
+      "97d62433e020c780",
       "b086318dbacd470d",
-      "eb40edb5ed8830b7",
       "e204919d55639b1d",
-      "a70cae4c16f0fdc6",
+      "eb40edb5ed8830b7",
       "f25cfa09a16ab511",
-      "f72111f2a530cac6",
-      "6cd333e9aa7f3347"
+      "a70cae4c16f0fdc6",
+      "fd90ea8c5875644b",
+      "f72111f2a530cac6"
     ],
     "skill": [
       "92705331275526a8",
@@ -68,8 +104,8 @@
       "e331123fcba6ff57",
       "db09b457282c5683",
       "f7cfdfd7bcc39abd",
-      "c9baa337d843cc05",
-      "0c600aca31767b69"
+      "0c600aca31767b69",
+      "c9baa337d843cc05"
     ]
   },
   "top_hn": [
@@ -77,8 +113,8 @@
     "07706832bb39f07a",
     "d3966b6fd7109579",
     "bb82379af066ff25",
-    "52478eb1a864ece1",
     "61e15db8fd33eda9",
+    "52478eb1a864ece1",
     "8e29c138e61ab876",
     "95090c9e725edaf8",
     "48b46abf2f4bdec3",

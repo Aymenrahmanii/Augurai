@@ -19,6 +19,10 @@
       {
         "day": "2026-11-22",
         "stars": 2
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2
       }
     ],
     "stars": 2,
@@ -46,6 +50,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -64,6 +72,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 469
+      },
+      {
+        "day": "2026-11-23",
         "stars": 469
       }
     ],
@@ -84,12 +96,16 @@
       {
         "day": "2026-11-22",
         "stars": 520
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 540
       }
     ],
-    "stars": 520,
+    "stars": 540,
     "summary": null,
     "url": "https://github.com/fendouai/ViralForge",
-    "velocity_7d": 0.0
+    "velocity_7d": 20.0
   },
   {
     "description": "500+ typed UI atoms an agent composes into real rendered interfaces. Free, no API key.",
@@ -110,6 +126,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -138,11 +158,34 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
     "summary": "A remote MCP API for GitHub trending repos, Hugging Face trending models and arXiv paper search.",
     "url": "https://mcp.agentapigate.ai/mcp",
+    "velocity_7d": 0.0
+  },
+  {
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "first_seen": "2026-11-23",
+    "id": "01e478ba125afa0c",
+    "kind": "skill",
+    "name": "mvanhorn/last30days-skill",
+    "owner": "mvanhorn",
+    "owner_type": "User",
+    "star_snapshots": [
+      {
+        "day": "2026-11-23",
+        "stars": 72780
+      }
+    ],
+    "stars": 72780,
+    "summary": null,
+    "url": "https://github.com/mvanhorn/last30days-skill",
     "velocity_7d": 0.0
   },
   {
@@ -164,6 +207,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -192,6 +239,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -215,12 +266,16 @@
       {
         "day": "2026-11-22",
         "stars": 548
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 549
       }
     ],
-    "stars": 548,
+    "stars": 549,
     "summary": null,
     "url": "https://github.com/molly554/whiteboard-ai-tutor",
-    "velocity_7d": 35.0
+    "velocity_7d": 18.0
   },
   {
     "description": "Stateful ride-support agent: versioned claims, evidence-backed RAG, durable memory and guarded MCP tools.",
@@ -261,12 +316,16 @@
       {
         "day": "2026-11-22",
         "stars": 1105
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1109
       }
     ],
-    "stars": 1105,
+    "stars": 1109,
     "summary": "A project aimed at running different LLMs on the smallest devices possible.",
     "url": "https://github.com/hyperionaidev/smolmaxxing",
-    "velocity_7d": 25.5
+    "velocity_7d": 18.333333333333332
   },
   {
     "description": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek",
@@ -288,12 +347,16 @@
       {
         "day": "2026-11-22",
         "stars": 979
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 980
       }
     ],
-    "stars": 979,
+    "stars": 980,
     "summary": "A collection of 21 genre-specific skills for AI comic-drama production, from a one-line idea to a plan, asset prompts, episode scripts, storyboards and video prompts. Usable with Claude Code, WorkBuddy and DeepSeek.",
     "url": "https://github.com/zhanghao123vip/ai-manju-skills",
-    "velocity_7d": 5.0
+    "velocity_7d": 3.6666666666666665
   },
   {
     "description": "Buy travel eSIMs, gift cards and mobile top-ups with crypto — user confirms before any order.",
@@ -314,6 +377,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -337,6 +404,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -364,6 +435,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -411,6 +486,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -437,6 +516,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -465,6 +548,10 @@
       {
         "day": "2026-11-22",
         "stars": 2
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2
       }
     ],
     "stars": 2,
@@ -491,6 +578,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -519,12 +610,16 @@
       {
         "day": "2026-11-22",
         "stars": 42
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 44
       }
     ],
-    "stars": 42,
+    "stars": 44,
     "summary": "A converter that turns PDF, Office, HWP/HWPX, OpenDocument, RTF, EPUB, HTML, email and image files into Markdown for LLM use.",
     "url": "https://github.com/hyeonsang010716/OpenDocKit",
-    "velocity_7d": 2.5
+    "velocity_7d": 2.3333333333333335
   },
   {
     "description": "EASA regulations with AMC and GM, and EASA definitions, read-only, each with its page to cite",
@@ -537,6 +632,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -565,12 +664,16 @@
       {
         "day": "2026-11-22",
         "stars": 3950
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3950
       }
     ],
     "stars": 3950,
     "summary": "Context management for Claude Code using hooks that keep state in ledgers and handoffs. It also runs MCP calls without polluting context and orchestrates agents with isolated context windows.",
     "url": "https://github.com/parcadei/Continuous-Claude-v3",
-    "velocity_7d": -1.0
+    "velocity_7d": -0.6666666666666666
   },
   {
     "description": "The open-source app everyone uses to manage agents at work",
@@ -592,12 +695,16 @@
       {
         "day": "2026-11-22",
         "stars": 115887
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 115989
       }
     ],
-    "stars": 115887,
+    "stars": 115989,
     "summary": "An open-source app for managing agents at work; the listing gives no further detail.",
     "url": "https://github.com/paperclipai/paperclip",
-    "velocity_7d": 216.5
+    "velocity_7d": 178.33333333333334
   },
   {
     "description": "Free AEO visibility report MCP — run AI search audits for any domain.",
@@ -618,6 +725,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -646,12 +757,16 @@
       {
         "day": "2026-11-22",
         "stars": 2147
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2228
       }
     ],
-    "stars": 2147,
+    "stars": 2228,
     "summary": "A Claude Code skill that reverse-engineers an animation frame by frame and then checks that the copy moves the same way.",
     "url": "https://github.com/NiazMorshed2007/reanimate",
-    "velocity_7d": 97.0
+    "velocity_7d": 91.66666666666667
   },
   {
     "description": "Self-hosted AI search + chat platform that keeps LLM costs low: hybrid (BM25 + vector) search, RAG product chat, and rule-based query understanding that skips the LLM when it isn't needed. Works with OpenAI, Claude, Gemini, Groq, Ollama, or LiteLLM. Built on Typesense + FastAPI. ",
@@ -673,6 +788,25 @@
     "velocity_7d": 0.0
   },
   {
+    "description": "Visual soft-workflow plugin for DeepSeek Harness (dsh-workflow-lite 0.11.0): canvas-to-plan-prompt engine paired with Minglink/dsh-workflows for LLM red-teaming & safety research.",
+    "first_seen": "2026-11-23",
+    "id": "0e2401d88076b0d2",
+    "kind": "agent",
+    "name": "Minglink/dsh-jailbreak-workflow",
+    "owner": "Minglink",
+    "owner_type": "User",
+    "star_snapshots": [
+      {
+        "day": "2026-11-23",
+        "stars": 1213
+      }
+    ],
+    "stars": 1213,
+    "summary": null,
+    "url": "https://github.com/Minglink/dsh-jailbreak-workflow",
+    "velocity_7d": 0.0
+  },
+  {
     "description": "Generate images, video and audio from 120+ AI models, plus lipsync, headshot and cast-swap studios.",
     "first_seen": "2026-11-20",
     "id": "0e3451cdbe6a3b2d",
@@ -691,6 +825,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -715,12 +853,16 @@
       {
         "day": "2026-11-22",
         "stars": 493
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 493
       }
     ],
     "stars": 493,
     "summary": null,
     "url": "https://github.com/ysunyang4/Nexus",
-    "velocity_7d": 19.0
+    "velocity_7d": 9.5
   },
   {
     "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.",
@@ -742,12 +884,16 @@
       {
         "day": "2026-11-22",
         "stars": 84162
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 84233
       }
     ],
-    "stars": 84162,
+    "stars": 84233,
     "summary": "An open-source job-search agent that scans job boards, scores each job 1-5 against your CV, and tailors resumes and cover letters. You press Submit yourself; it runs in Codex, OpenCode, other AI CLIs or as a Claude Code plugin.",
     "url": "https://github.com/career-ops-hq/career-ops",
-    "velocity_7d": 108.5
+    "velocity_7d": 96.0
   },
   {
     "description": "The public message board for AI agents: register in one call, introduce yourself, ask, read replies.",
@@ -768,6 +914,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -796,12 +946,16 @@
       {
         "day": "2026-11-22",
         "stars": 4700
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4750
       }
     ],
-    "stars": 4700,
+    "stars": 4750,
     "summary": "An agent skill pack for AI short dramas and motion comics, covering novel-to-script, visual design, storyboards, image/video prompts and editing. It targets Claude Code and Codex.",
     "url": "https://github.com/zenstory-ai/drama-skills",
-    "velocity_7d": 65.0
+    "velocity_7d": 60.0
   },
   {
     "description": "Reduce context size by 90%+ *and* make your agent smarter. Antigravity Context Mode is a local-first plugin built specifically for the Google Antigravity App. It prevents terminal commands, build logs, and multi-megabyte files from flooding your conversation history, saving thousands of tokens per turn and stopping \"agent amnesia\" in its tracks.",
@@ -823,12 +977,16 @@
       {
         "day": "2026-11-22",
         "stars": 121
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 125
       }
     ],
-    "stars": 121,
+    "stars": 125,
     "summary": "A local-first plugin for the Google Antigravity App that keeps terminal output, build logs and large files out of the conversation history. It claims over 90% context reduction.",
     "url": "https://github.com/Domush/antigravity-plugin-context-mode",
-    "velocity_7d": 11.0
+    "velocity_7d": 8.666666666666666
   },
   {
     "description": "Public repository for Agent Skills",
@@ -850,12 +1008,16 @@
       {
         "day": "2026-11-22",
         "stars": 198892
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 199038
       }
     ],
-    "stars": 198892,
+    "stars": 199038,
     "summary": "Anthropic's public repository for Agent Skills.",
     "url": "https://github.com/anthropics/skills",
-    "velocity_7d": 432.5
+    "velocity_7d": 337.0
   },
   {
     "description": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
@@ -877,12 +1039,16 @@
       {
         "day": "2026-11-22",
         "stars": 676
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 711
       }
     ],
-    "stars": 676,
+    "stars": 711,
     "summary": "An agent skill that steers the model away from its first, most average choice in creative work such as names, ideas, logos, posters and UI.",
     "url": "https://github.com/mankidev/antialgorithm",
-    "velocity_7d": 54.5
+    "velocity_7d": 48.0
   },
   {
     "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
@@ -904,12 +1070,16 @@
       {
         "day": "2026-11-22",
         "stars": 470
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 470
       }
     ],
     "stars": 470,
     "summary": null,
     "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
-    "velocity_7d": -1.5
+    "velocity_7d": -1.0
   },
   {
     "description": "Wondel.ai Agent Skills — Business, Marketing, UX & Coding Frameworks from Bestselling Books. 50 skills + 12 guided journeys for Claude Code, Codex, Cursor & other agentskills.io agents.",
@@ -931,12 +1101,16 @@
       {
         "day": "2026-11-22",
         "stars": 2765
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2767
       }
     ],
-    "stars": 2765,
+    "stars": 2767,
     "summary": "A set of 50 agent skills and 12 guided journeys drawn from business, marketing, UX and coding books. They work with Claude Code, Codex, Cursor and other agentskills.io agents.",
     "url": "https://github.com/wondelai/skills",
-    "velocity_7d": 8.0
+    "velocity_7d": 6.0
   },
   {
     "description": "MCP server for the @agentutility model-router cluster — pay-per-call x402 tools, no API keys, USDC…",
@@ -985,12 +1159,16 @@
       {
         "day": "2026-11-22",
         "stars": 2192
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2208
       }
     ],
-    "stars": 2192,
+    "stars": 2208,
     "summary": null,
     "url": "https://github.com/lexifina/global-law",
-    "velocity_7d": 24.5
+    "velocity_7d": 21.666666666666668
   },
   {
     "description": "Draft, schedule and publish social posts and videos; delivery receipts, read-back where available.",
@@ -1011,6 +1189,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1039,6 +1221,10 @@
       {
         "day": "2026-11-22",
         "stars": 51
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 51
       }
     ],
     "stars": 51,
@@ -1066,12 +1252,16 @@
       {
         "day": "2026-11-22",
         "stars": 70174
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 70340
       }
     ],
-    "stars": 70174,
+    "stars": 70340,
     "summary": "A skill for producing editorial diagrams as self-contained HTML and SVG, with 45 diagram types. It supports Claude Code, Codex, Copilot, Cursor and others.",
     "url": "https://github.com/cathrynlavery/diagram-design",
-    "velocity_7d": 475.0
+    "velocity_7d": 372.0
   },
   {
     "description": "A sanctuary for AI agents and humans: attend a service, reflect, read, search, and ask. No auth.",
@@ -1092,6 +1282,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1120,12 +1314,16 @@
       {
         "day": "2026-11-22",
         "stars": 30279
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 30295
       }
     ],
-    "stars": 30279,
+    "stars": 30295,
     "summary": "A collection of 410 skills, plus agents and commands, for Claude Code, Codex, Gemini CLI, Cursor and 8 other coding agents. Domains include engineering, marketing, product, compliance and finance.",
     "url": "https://github.com/alirezarezvani/claude-skills",
-    "velocity_7d": 42.0
+    "velocity_7d": 33.333333333333336
   },
   {
     "description": "bevGTIN — the beverage alcohol sourcing GTIN confirmation.",
@@ -1146,6 +1344,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1201,6 +1403,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1228,12 +1434,16 @@
       {
         "day": "2026-11-22",
         "stars": 804
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 804
       }
     ],
     "stars": 804,
     "summary": "Recent activity in alchaincyf/huashu-bird-sticker; no further detail was provided.",
     "url": "https://github.com/alchaincyf/huashu-bird-sticker",
-    "velocity_7d": 3.0
+    "velocity_7d": 2.0
   },
   {
     "description": "Unofficial GTA 6 guide: sourced facts on characters, places, vehicles and release times.",
@@ -1254,6 +1464,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1282,6 +1496,10 @@
       {
         "day": "2026-11-22",
         "stars": 7
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 7
       }
     ],
     "stars": 7,
@@ -1308,6 +1526,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 2
+      },
+      {
+        "day": "2026-11-23",
         "stars": 2
       }
     ],
@@ -1336,6 +1558,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1362,6 +1588,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 3
+      },
+      {
+        "day": "2026-11-23",
         "stars": 3
       }
     ],
@@ -1390,6 +1620,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1416,6 +1650,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 38
+      },
+      {
+        "day": "2026-11-23",
         "stars": 38
       }
     ],
@@ -1444,6 +1682,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1471,12 +1713,16 @@
       {
         "day": "2026-11-22",
         "stars": 10814
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 10815
       }
     ],
-    "stars": 10814,
+    "stars": 10815,
     "summary": "A skill that encodes a public figure's thinking framework for university-application, graduate-exam and career-planning advice. It was generated with another skill called Nuwa.",
     "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
-    "velocity_7d": 7.0
+    "velocity_7d": 5.0
   },
   {
     "description": "Open-source embodied agent framework: execution, feedback, and continual improvement",
@@ -1490,12 +1736,16 @@
       {
         "day": "2026-11-22",
         "stars": 485
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 488
       }
     ],
-    "stars": 485,
+    "stars": 488,
     "summary": null,
     "url": "https://github.com/eust-w/opengeniemaster",
-    "velocity_7d": 0.0
+    "velocity_7d": 3.0
   },
   {
     "description": "The editors' index of AI-native software, from AI agents to the models and frameworks behind them.",
@@ -1516,6 +1766,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1543,6 +1797,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 4
+      },
+      {
+        "day": "2026-11-23",
         "stars": 4
       }
     ],
@@ -1594,12 +1852,16 @@
       {
         "day": "2026-11-22",
         "stars": 548
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 549
       }
     ],
-    "stars": 548,
+    "stars": 549,
     "summary": "A library that renders thousands of live DOM nodes on a GPU-drawn infinite canvas with an editor, shaders and transitions. An AI agent can read and point at the nodes.",
     "url": "https://github.com/berkantay/gpucanvas",
-    "velocity_7d": 2.5
+    "velocity_7d": 2.0
   },
   {
     "description": "LLM, Local LLM Manager, a TUI for setting up LLM service",
@@ -1644,12 +1906,16 @@
       {
         "day": "2026-11-22",
         "stars": 7454
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 7479
       }
     ],
-    "stars": 7454,
+    "stars": 7479,
     "summary": "A skill offering 35 art styles and 9 narration grammars for producing code-driven art animations.",
     "url": "https://github.com/alchaincyf/huashu-art-motion",
-    "velocity_7d": 58.0
+    "velocity_7d": 47.0
   },
   {
     "description": "Bulk-launch and manage ads across many Meta, TikTok and Snapchat ad accounts for agencies.",
@@ -1670,6 +1936,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1698,6 +1968,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1725,6 +1999,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1743,6 +2021,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1771,6 +2053,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1798,12 +2084,16 @@
       {
         "day": "2026-11-22",
         "stars": 552
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 552
       }
     ],
     "stars": 552,
     "summary": "A set of agents for SaaS growth chores: new-term radar, keyword-to-site discovery, competitor backlinks, directory submissions and a social analysis pack. It works with Claude Code, Codex and several other agents.",
     "url": "https://github.com/Pluviobyte/saas-growth-agents",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "B2B sales intelligence: companies with a fresh buying trigger, dossiers, decision makers, sources.",
@@ -1824,6 +2114,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1879,12 +2173,16 @@
       {
         "day": "2026-11-22",
         "stars": 133
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 135
       }
     ],
-    "stars": 133,
+    "stars": 135,
     "summary": null,
     "url": "https://github.com/glincker/awesome-selfhosted-ai",
-    "velocity_7d": 0.5
+    "velocity_7d": 1.0
   },
   {
     "description": "Recall and calibrate policy-compliant tool-call arguments before execution. Does not run the tool.",
@@ -1905,6 +2203,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -1933,6 +2235,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -1959,6 +2265,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 2
+      },
+      {
+        "day": "2026-11-23",
         "stars": 2
       }
     ],
@@ -1987,12 +2297,16 @@
       {
         "day": "2026-11-22",
         "stars": 4701
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4723
       }
     ],
-    "stars": 4701,
+    "stars": 4723,
     "summary": null,
     "url": "https://github.com/michael-denyer/pstack-claude",
-    "velocity_7d": 41.5
+    "velocity_7d": 35.0
   },
   {
     "description": "Find and book a location sound recordist / production sound mixer in Dubai and the UAE.",
@@ -2013,6 +2327,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2041,6 +2359,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -2067,6 +2389,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2095,6 +2421,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -2121,6 +2451,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2176,12 +2510,16 @@
       {
         "day": "2026-11-22",
         "stars": 114
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 114
       }
     ],
     "stars": 114,
     "summary": null,
     "url": "https://github.com/Kimberlying/ai-engineering-interview-100",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "SEC EDGAR filings, insider trades, XBRL facts, DEXScreener token pairs & DefiLlama TVL MCP.",
@@ -2202,6 +2540,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2230,12 +2572,16 @@
       {
         "day": "2026-11-22",
         "stars": 263
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 263
       }
     ],
     "stars": 263,
     "summary": null,
     "url": "https://github.com/yanstd888/9routerx",
-    "velocity_7d": 3.0
+    "velocity_7d": 2.0
   },
   {
     "description": "A HUD for Claude Code, Codex and 25 more coding agents. Know your quotas, tokens and sessions at a glance, answer requests and jump back in one click. On Mac, Windows and Linux, your phone and your watch.",
@@ -2295,12 +2641,16 @@
       {
         "day": "2026-11-22",
         "stars": 4224
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4226
       }
     ],
-    "stars": 4224,
+    "stars": 4226,
     "summary": null,
     "url": "https://github.com/jangviktor-web/nihaixia",
-    "velocity_7d": 17.5
+    "velocity_7d": 12.333333333333334
   },
   {
     "description": "Can AI agents rebuild websites through browser exploration?",
@@ -2322,12 +2672,16 @@
       {
         "day": "2026-11-22",
         "stars": 638
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 652
       }
     ],
-    "stars": 638,
+    "stars": 652,
     "summary": null,
     "url": "https://github.com/TIGER-AI-Lab/WebsiteBench",
-    "velocity_7d": 36.5
+    "velocity_7d": 29.0
   },
   {
     "description": "Real-time X/Twitter search, tweets, threads, replies & profiles MCP (-87% compact tokens & x402).",
@@ -2348,6 +2702,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2376,6 +2734,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -2402,6 +2764,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2430,6 +2796,10 @@
       {
         "day": "2026-11-22",
         "stars": 43
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 43
       }
     ],
     "stars": 43,
@@ -2456,6 +2826,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2484,12 +2858,16 @@
       {
         "day": "2026-11-22",
         "stars": 95
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 96
       }
     ],
-    "stars": 95,
+    "stars": 96,
     "summary": null,
     "url": "https://github.com/yzsind/mydb",
-    "velocity_7d": 8.0
+    "velocity_7d": 5.666666666666667
   },
   {
     "description": "AST-Aware, Personalized-PageRank-Ranked, Token-Budgeted Codebase Compressor for LLMs",
@@ -2530,12 +2908,16 @@
       {
         "day": "2026-11-22",
         "stars": 119718
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 119789
       }
     ],
-    "stars": 119718,
+    "stars": 119789,
     "summary": null,
     "url": "https://github.com/addyosmani/agent-skills",
-    "velocity_7d": 169.5
+    "velocity_7d": 136.66666666666666
   },
   {
     "description": "Walmart, Shopee, TikTok Shop, Shopify & WooCommerce live product & pricing MCP (x402 USDC or key).",
@@ -2556,6 +2938,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2584,12 +2970,16 @@
       {
         "day": "2026-11-22",
         "stars": 471
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 471
       }
     ],
     "stars": 471,
     "summary": null,
     "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
-    "velocity_7d": -1.5
+    "velocity_7d": -1.0
   },
   {
     "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
@@ -2611,12 +3001,16 @@
       {
         "day": "2026-11-22",
         "stars": 38805
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 38817
       }
     ],
-    "stars": 38805,
+    "stars": 38817,
     "summary": "Recent activity in alchaincyf/nuwa-skill; no further detail was provided.",
     "url": "https://github.com/alchaincyf/nuwa-skill",
-    "velocity_7d": 53.0
+    "velocity_7d": 39.333333333333336
   },
   {
     "description": "Awesome AI agent recovery: papers, benchmarks, and production patterns for self-healing agents, safe retries, rollback, and durable execution.",
@@ -2637,6 +3031,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 2
+      },
+      {
+        "day": "2026-11-23",
         "stars": 2
       }
     ],
@@ -2665,6 +3063,10 @@
       {
         "day": "2026-11-22",
         "stars": 516
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 516
       }
     ],
     "stars": 516,
@@ -2692,12 +3094,16 @@
       {
         "day": "2026-11-22",
         "stars": 42789
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 42807
       }
     ],
-    "stars": 42789,
+    "stars": 42807,
     "summary": null,
     "url": "https://github.com/wshobson/agents",
-    "velocity_7d": 26.5
+    "velocity_7d": 23.666666666666668
   },
   {
     "description": "Awesome AI gateways: open source and commercial LLM gateways, MCP gateways, agent (A2A) gateways, model routers, specs, and guides.",
@@ -2719,12 +3125,16 @@
       {
         "day": "2026-11-22",
         "stars": 47
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 47
       }
     ],
     "stars": 47,
     "summary": null,
     "url": "https://github.com/ai-gateways/awesome-ai-gateways",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "Google Maps places, Trustpilot, Yelp & G2 software reviews, and US real estate listings MCP.",
@@ -2745,6 +3155,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2773,12 +3187,16 @@
       {
         "day": "2026-11-22",
         "stars": 2324
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2327
       }
     ],
-    "stars": 2324,
+    "stars": 2327,
     "summary": null,
     "url": "https://github.com/alchaincyf/huashu-skills",
-    "velocity_7d": 6.0
+    "velocity_7d": 5.0
   },
   {
     "description": "Actwise Ideation helps founders benchmark startup and product ideas before they build.",
@@ -2799,6 +3217,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2827,6 +3249,10 @@
       {
         "day": "2026-11-22",
         "stars": 5
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 5
       }
     ],
     "stars": 5,
@@ -2846,12 +3272,16 @@
       {
         "day": "2026-11-22",
         "stars": 1459
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1971
       }
     ],
-    "stars": 1459,
+    "stars": 1971,
     "summary": null,
     "url": "https://github.com/EL4CTEO/fast-anything",
-    "velocity_7d": 0.0
+    "velocity_7d": 512.0
   },
   {
     "description": "Build and edit WordPress websites for local service businesses and run Lead Gen demo-site batches.",
@@ -2872,6 +3302,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -2900,6 +3334,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -2927,12 +3365,16 @@
       {
         "day": "2026-11-22",
         "stars": 757
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 765
       }
     ],
-    "stars": 757,
+    "stars": 765,
     "summary": "A set of 45 agent skills from three shipped products, covering deciding what to build, building with Claude Code or Codex, review by a second model, and release.",
     "url": "https://github.com/phuryn/product-engineering",
-    "velocity_7d": 38.5
+    "velocity_7d": 28.333333333333332
   },
   {
     "description": "Self-hosted runtime for LLM agents: crash-safe durable runs, approvals and spend caps, checked learning, and typed workflows. One SQLite file, zero runtime dependencies.",
@@ -2954,12 +3396,16 @@
       {
         "day": "2026-11-22",
         "stars": 5
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6
       }
     ],
-    "stars": 5,
+    "stars": 6,
     "summary": null,
     "url": "https://github.com/win4r/runwright",
-    "velocity_7d": 1.5
+    "velocity_7d": 1.3333333333333333
   },
   {
     "description": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types and swipes in real apps with your own model account.",
@@ -2981,12 +3427,16 @@
       {
         "day": "2026-11-22",
         "stars": 1827
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1839
       }
     ],
-    "stars": 1827,
+    "stars": 1839,
     "summary": null,
     "url": "https://github.com/JosssphZhou/poki",
-    "velocity_7d": 65.5
+    "velocity_7d": 47.666666666666664
   },
   {
     "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
@@ -3008,12 +3458,16 @@
       {
         "day": "2026-11-22",
         "stars": 58099
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 58118
       }
     ],
-    "stars": 58099,
+    "stars": 58118,
     "summary": null,
     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-    "velocity_7d": 82.0
+    "velocity_7d": 61.0
   },
   {
     "description": "lomi. payments. https://mcp.lomi.africa/mcp and guest https://mcp.lomi.africa/mcp/guest",
@@ -3034,6 +3488,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3062,6 +3520,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3089,12 +3551,16 @@
       {
         "day": "2026-11-22",
         "stars": 1658
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1658
       }
     ],
     "stars": 1658,
     "summary": null,
     "url": "https://github.com/RunanywhereAI/trnrt",
-    "velocity_7d": 4.5
+    "velocity_7d": 3.0
   },
   {
     "description": "Real-time US stocks quote, stock & crypto OHLCV candles, Fear & Greed index and Polymarket MCP API.",
@@ -3115,6 +3581,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3143,6 +3613,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3169,6 +3643,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3197,6 +3675,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3224,12 +3706,16 @@
       {
         "day": "2026-11-22",
         "stars": 4907
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4920
       }
     ],
-    "stars": 4907,
+    "stars": 4920,
     "summary": "An Expo project for writing an app once and running it natively on web, macOS, iOS and Linux, where an AI agent can build, run, view and test it on each.",
     "url": "https://github.com/expo/exact",
-    "velocity_7d": 42.0
+    "velocity_7d": 32.333333333333336
   },
   {
     "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
@@ -3251,12 +3737,16 @@
       {
         "day": "2026-11-22",
         "stars": 45986
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 45994
       }
     ],
-    "stars": 45986,
+    "stars": 45994,
     "summary": null,
     "url": "https://github.com/reactive-resume/reactive-resume",
-    "velocity_7d": 19.5
+    "velocity_7d": 15.666666666666666
   },
   {
     "description": "run any ai model. compose agents, stack knowledge, connect tools. one api, pay per run.",
@@ -3277,6 +3767,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3305,12 +3799,16 @@
       {
         "day": "2026-11-22",
         "stars": 912
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 918
       }
     ],
-    "stars": 912,
+    "stars": 918,
     "summary": null,
     "url": "https://github.com/Banan1cee/whale_girl",
-    "velocity_7d": 47.5
+    "velocity_7d": 33.666666666666664
   },
   {
     "description": "Evaluate AI models against a JSONL dataset through OpenAI-compatible chat endpoints and report heuristic quality coverage. Standard-library-only runner. Not model retraining.",
@@ -3332,12 +3830,16 @@
       {
         "day": "2026-11-22",
         "stars": 4
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4
       }
     ],
     "stars": 4,
     "summary": null,
     "url": "https://github.com/gravion-ux/gravion-trainner",
-    "velocity_7d": 1.0
+    "velocity_7d": 0.6666666666666666
   },
   {
     "description": "A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials and parenting assemble in ordered steps, with approvals, named undo and a built-in MCP server. · blender-ai-copilot-forge · blender · blender 3d · blender addon · blender plugin · blender extension · blender scripting · blender automation",
@@ -3358,6 +3860,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 509
+      },
+      {
+        "day": "2026-11-23",
         "stars": 509
       }
     ],
@@ -3386,12 +3892,16 @@
       {
         "day": "2026-11-22",
         "stars": 2671
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2677
       }
     ],
-    "stars": 2671,
+    "stars": 2677,
     "summary": null,
     "url": "https://github.com/DIYgod/pinky",
-    "velocity_7d": 44.0
+    "velocity_7d": 31.333333333333332
   },
   {
     "description": "Be an agent on the AgentMesh network: find agents, hire them, be hired, and read your mesh inbox.",
@@ -3412,6 +3922,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3440,6 +3954,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3466,6 +3984,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3494,6 +4016,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3521,12 +4047,16 @@
       {
         "day": "2026-11-22",
         "stars": 515
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 515
       }
     ],
     "stars": 515,
     "summary": null,
     "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
@@ -3571,12 +4101,16 @@
       {
         "day": "2026-11-22",
         "stars": 2730
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2736
       }
     ],
-    "stars": 2730,
+    "stars": 2736,
     "summary": null,
     "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
-    "velocity_7d": 13.5
+    "velocity_7d": 11.0
   },
   {
     "description": "Read your team's chats, decisions and wiki in Agent NEO, and save meeting notes back to a thread.",
@@ -3597,6 +4131,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3625,6 +4163,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3652,12 +4194,16 @@
       {
         "day": "2026-11-22",
         "stars": 149
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 149
       }
     ],
     "stars": 149,
     "summary": null,
     "url": "https://github.com/jackulau/coding.sh",
-    "velocity_7d": 6.5
+    "velocity_7d": 4.333333333333333
   },
   {
     "description": "Startup books from live bank and billing feeds: P&L, balances, approvals, period close.",
@@ -3678,6 +4224,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3706,6 +4256,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3733,11 +4287,53 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
     "summary": null,
     "url": "https://api.adside.ai/mcp",
+    "velocity_7d": 0.0
+  },
+  {
+    "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+    "first_seen": "2026-11-23",
+    "id": "4a5a9b50a2385544",
+    "kind": "repo",
+    "name": "pierridotite/mobile-agent-testers",
+    "owner": "pierridotite",
+    "owner_type": "User",
+    "star_snapshots": [
+      {
+        "day": "2026-11-23",
+        "stars": 585
+      }
+    ],
+    "stars": 585,
+    "summary": null,
+    "url": "https://github.com/pierridotite/mobile-agent-testers",
+    "velocity_7d": 0.0
+  },
+  {
+    "description": "Your team of AI agents, on your Mac, Windows or Linux. Agents that talk in channels, write code, review each other and use your tools, on the Claude Code, Codex, OpenCode or Pi you already have. Anything that touches the real world waits for your yes.",
+    "first_seen": "2026-11-23",
+    "id": "4abb9268ffff54cf",
+    "kind": "agent",
+    "name": "eduwxyz/tucano",
+    "owner": "eduwxyz",
+    "owner_type": "User",
+    "star_snapshots": [
+      {
+        "day": "2026-11-23",
+        "stars": 447
+      }
+    ],
+    "stars": 447,
+    "summary": null,
+    "url": "https://github.com/eduwxyz/tucano",
     "velocity_7d": 0.0
   },
   {
@@ -3760,12 +4356,16 @@
       {
         "day": "2026-11-22",
         "stars": 3721
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3722
       }
     ],
-    "stars": 3721,
+    "stars": 3722,
     "summary": null,
     "url": "https://github.com/wesammustafa/Claude-Code-Quest",
-    "velocity_7d": 2.5
+    "velocity_7d": 2.0
   },
   {
     "description": "Zero-signup x402 Base USDC & API-key MCP hub for Search, X, Video, Commerce, Jobs & SEC EDGAR.",
@@ -3786,6 +4386,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3814,12 +4418,16 @@
       {
         "day": "2026-11-22",
         "stars": 2589
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2592
       }
     ],
-    "stars": 2589,
+    "stars": 2592,
     "summary": null,
     "url": "https://github.com/Weizhena/Deep-Research-skills",
-    "velocity_7d": 4.0
+    "velocity_7d": 3.6666666666666665
   },
   {
     "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
@@ -3841,12 +4449,16 @@
       {
         "day": "2026-11-22",
         "stars": 1934
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1956
       }
     ],
-    "stars": 1934,
+    "stars": 1956,
     "summary": null,
     "url": "https://github.com/agentes-chat/agentes-chat",
-    "velocity_7d": 47.0
+    "velocity_7d": 38.666666666666664
   },
   {
     "description": "Search 254 premium .ai domains for sale, get free .ai value estimates and real .ai sales data.",
@@ -3867,6 +4479,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3895,6 +4511,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3921,6 +4541,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -3972,6 +4596,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -3999,12 +4627,16 @@
       {
         "day": "2026-11-22",
         "stars": 509
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 509
       }
     ],
     "stars": 509,
     "summary": null,
     "url": "https://github.com/zovulrira1974/blender-ai-copilot-assets",
-    "velocity_7d": -1.0
+    "velocity_7d": -0.6666666666666666
   },
   {
     "description": "What to plant in Dubai, indoor plants, plant care in the heat, garden styles and Garden Care prices.",
@@ -4025,6 +4657,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4053,6 +4689,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4079,6 +4719,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4107,12 +4751,16 @@
       {
         "day": "2026-11-22",
         "stars": 46
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 46
       }
     ],
     "stars": 46,
     "summary": null,
     "url": "https://github.com/eliransu/enterplace",
-    "velocity_7d": 22.0
+    "velocity_7d": 14.666666666666666
   },
   {
     "description": "BAMA: Build Any Mac App. Agent skills to research, clone, design, build, optimize, and test native macOS apps with Swift and SwiftUI.",
@@ -4161,12 +4809,16 @@
       {
         "day": "2026-11-22",
         "stars": 2284
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2284
       }
     ],
     "stars": 2284,
     "summary": null,
     "url": "https://github.com/JuneYaooo/nihaisha-nishi-tcm",
-    "velocity_7d": 2.0
+    "velocity_7d": 1.3333333333333333
   },
   {
     "description": "Identity oracle and trust layer for autonomous AI agents. Bidirectional KYA and trust scoring.",
@@ -4188,6 +4840,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4206,6 +4862,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4234,6 +4894,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4260,6 +4924,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4288,6 +4956,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4315,12 +4987,16 @@
       {
         "day": "2026-11-22",
         "stars": 1076
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1085
       }
     ],
-    "stars": 1076,
+    "stars": 1085,
     "summary": null,
     "url": "https://github.com/Dodaios/ste80-humanizer",
-    "velocity_7d": 31.5
+    "velocity_7d": 24.0
   },
   {
     "description": "MCP server for the @agentutility mediakit cluster — pay-per-call x402 tools, no API keys, USDC on…",
@@ -4368,6 +5044,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4419,6 +5099,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4445,6 +5129,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4473,6 +5161,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4500,12 +5192,16 @@
       {
         "day": "2026-11-22",
         "stars": 1403
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1404
       }
     ],
-    "stars": 1403,
+    "stars": 1404,
     "summary": "A llama.cpp variant reporting DeepSeek-V4-Flash (284B) running in under 59 GiB RAM on a 64GB CPU-only machine at 9.1 tok/s generation. It also reports 30B MoE models at 22.4 tok/s, or 111.6 tok/s with speculative decoding.",
     "url": "https://github.com/synchopate/llama-modchip",
-    "velocity_7d": 7.0
+    "velocity_7d": 5.0
   },
   {
     "description": "Hosted text-to-speech MCP server: 66 voices in 9 languages, long-form narration, podcasts.",
@@ -4526,6 +5222,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4554,12 +5254,16 @@
       {
         "day": "2026-11-22",
         "stars": 53750
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 53759
       }
     ],
-    "stars": 53750,
+    "stars": 53759,
     "summary": null,
     "url": "https://github.com/CherryHQ/cherry-studio",
-    "velocity_7d": 25.0
+    "velocity_7d": 19.666666666666668
   },
   {
     "description": "Real-time Google Trends breakout queries, calibrated daily interest, keyword volume & SERP MCP.",
@@ -4580,6 +5284,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4627,12 +5335,16 @@
       {
         "day": "2026-11-22",
         "stars": 4
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4
       }
     ],
     "stars": 4,
     "summary": null,
     "url": "https://github.com/gravion-ux/preference-data-doctor",
-    "velocity_7d": 2.0
+    "velocity_7d": 1.0
   },
   {
     "description": "Telegram channel messages, Discord server stats, Twitch, Kick, Medium & Pinterest scraper MCP API.",
@@ -4653,6 +5365,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4681,12 +5397,16 @@
       {
         "day": "2026-11-22",
         "stars": 150
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 147
       }
     ],
-    "stars": 150,
+    "stars": 147,
     "summary": null,
     "url": "https://github.com/kenzz-devv/open-webui-talora-ai-workspace",
-    "velocity_7d": 27.5
+    "velocity_7d": 17.333333333333332
   },
   {
     "description": "Read AFMR failure modes and discover scoped attestation and lift-evidence contracts.",
@@ -4707,6 +5427,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4735,6 +5459,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4762,12 +5490,16 @@
       {
         "day": "2026-11-22",
         "stars": 19595
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 19605
       }
     ],
-    "stars": 19595,
+    "stars": 19605,
     "summary": null,
     "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
-    "velocity_7d": 34.0
+    "velocity_7d": 26.0
   },
   {
     "description": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Markdown、在线与离线 HTML。Chinese course notes.",
@@ -4789,12 +5521,16 @@
       {
         "day": "2026-11-22",
         "stars": 663
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 663
       }
     ],
     "stars": 663,
     "summary": null,
     "url": "https://github.com/wanghao-SunSky/cs329z-chinese",
-    "velocity_7d": 7.5
+    "velocity_7d": 5.0
   },
   {
     "description": "Automated DOCX Redlining Engine",
@@ -4815,6 +5551,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4843,6 +5583,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4870,12 +5614,16 @@
       {
         "day": "2026-11-22",
         "stars": 740
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 740
       }
     ],
     "stars": 740,
     "summary": null,
     "url": "https://github.com/SAOS-3624/dsh-see-now",
-    "velocity_7d": 7.5
+    "velocity_7d": 5.0
   },
   {
     "description": "Dubai property prices, AED/sqft, sales, rents, yields and projects from DLD registered transactions.",
@@ -4896,6 +5644,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -4943,6 +5695,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -4970,12 +5726,16 @@
       {
         "day": "2026-11-22",
         "stars": 41447
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 41450
       }
     ],
-    "stars": 41447,
+    "stars": 41450,
     "summary": null,
     "url": "https://github.com/github/awesome-copilot",
-    "velocity_7d": 26.0
+    "velocity_7d": 18.333333333333332
   },
   {
     "description": "一个企业级、功能完备的智能体平台，可以帮助完成企业的智能化转型。平台内置了飞书机器人，能将整个智能化能力接入飞书，进一步提高企业的智能化提效",
@@ -4996,6 +5756,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 3
+      },
+      {
+        "day": "2026-11-23",
         "stars": 3
       }
     ],
@@ -5024,12 +5788,16 @@
       {
         "day": "2026-11-22",
         "stars": 62009
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 62077
       }
     ],
-    "stars": 62009,
+    "stars": 62077,
     "summary": null,
     "url": "https://github.com/coreyhaines31/marketingskills",
-    "velocity_7d": 150.0
+    "velocity_7d": 122.66666666666667
   },
   {
     "description": "Screen regulated-health marketing copy against source-cited rulesets, all 50 states.",
@@ -5050,6 +5818,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5078,12 +5850,16 @@
       {
         "day": "2026-11-22",
         "stars": 4719
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4718
       }
     ],
-    "stars": 4719,
+    "stars": 4718,
     "summary": null,
     "url": "https://github.com/zebbern/claude-code-guide",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.0
   },
   {
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
@@ -5105,12 +5881,16 @@
       {
         "day": "2026-11-22",
         "stars": 80052
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 80076
       }
     ],
-    "stars": 80052,
+    "stars": 80076,
     "summary": null,
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-    "velocity_7d": 53.0
+    "velocity_7d": 43.333333333333336
   },
   {
     "description": "UAE restaurant picks and live discounts across Fazaa, The Entertainer, Talabat and more.",
@@ -5131,6 +5911,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5159,6 +5943,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5185,6 +5973,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5213,12 +6005,16 @@
       {
         "day": "2026-11-22",
         "stars": 6521
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6570
       }
     ],
-    "stars": 6521,
+    "stars": 6570,
     "summary": "Vercel Labs library of behaviors for agents that build user interfaces.",
     "url": "https://github.com/vercel-labs/ui",
-    "velocity_7d": 123.0
+    "velocity_7d": 98.33333333333333
   },
   {
     "description": "Practices for building software with coding agents, each with a test you check on your repo.",
@@ -5239,6 +6035,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5267,6 +6067,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5293,6 +6097,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5321,12 +6129,16 @@
       {
         "day": "2026-11-22",
         "stars": 8836
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 8838
       }
     ],
-    "stars": 8836,
+    "stars": 8838,
     "summary": null,
     "url": "https://github.com/zenstory-ai/oh-story-claudecode",
-    "velocity_7d": 21.5
+    "velocity_7d": 15.0
   },
   {
     "description": "Learn LLM engineering by building and measuring every layer: tokenizer, transformer, pre-training, LoRA/DPO/GRPO, quantization, RAG, agents, observability and MCP. Bilingual docs (EN/ES).",
@@ -5347,6 +6159,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 3
+      },
+      {
+        "day": "2026-11-23",
         "stars": 3
       }
     ],
@@ -5375,6 +6191,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5402,12 +6222,16 @@
       {
         "day": "2026-11-22",
         "stars": 1089
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1101
       }
     ],
-    "stars": 1089,
+    "stars": 1101,
     "summary": null,
     "url": "https://github.com/artemnovitckii/claude-animation-skills",
-    "velocity_7d": 47.5
+    "velocity_7d": 35.666666666666664
   },
   {
     "description": "MCP server for the @agentutility bestiary cluster — pay-per-call x402 tools, no API keys, USDC on…",
@@ -5428,6 +6252,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5456,6 +6284,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5483,12 +6315,16 @@
       {
         "day": "2026-11-22",
         "stars": 1156
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1168
       }
     ],
-    "stars": 1156,
+    "stars": 1168,
     "summary": "Agent skill that draws animated icons in one consistent style. Includes over 2,600 open-source icons for React, Vue and SVG, and a browsing site.",
     "url": "https://github.com/kubai087/kubai-icons",
-    "velocity_7d": 47.5
+    "velocity_7d": 35.666666666666664
   },
   {
     "description": "LOOM — LLM Orchestration & Operations Mesh: centrally-managed, decentrally-executed inference pooling for research workstations (Rust + React)",
@@ -5509,6 +6345,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 2
+      },
+      {
+        "day": "2026-11-23",
         "stars": 2
       }
     ],
@@ -5537,6 +6377,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5563,6 +6407,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5591,12 +6439,16 @@
       {
         "day": "2026-11-22",
         "stars": 3333
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3335
       }
     ],
-    "stars": 3333,
+    "stars": 3335,
     "summary": null,
     "url": "https://github.com/ciembor/agent-rules-books",
-    "velocity_7d": 5.5
+    "velocity_7d": 4.333333333333333
   },
   {
     "description": "Did this contractor's licence change? Observed lapses and reinstatements, not a snapshot.",
@@ -5617,6 +6469,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5663,6 +6519,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5729,6 +6589,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5755,6 +6619,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5783,12 +6651,16 @@
       {
         "day": "2026-11-22",
         "stars": 7857
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 8033
       }
     ],
-    "stars": 7857,
+    "stars": 8033,
     "summary": "Tool for rewriting an app in Rust one piece at a time, checking each step against the original's recorded behavior. Covers CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
     "url": "https://github.com/erkamyaman/rust-anything",
-    "velocity_7d": 661.5
+    "velocity_7d": 499.6666666666667
   },
   {
     "description": "Describe a store's problem: get the matching service, its fixed price, and a request link.",
@@ -5809,6 +6681,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5837,6 +6713,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5864,12 +6744,16 @@
       {
         "day": "2026-11-22",
         "stars": 1034
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1033
       }
     ],
-    "stars": 1034,
+    "stars": 1033,
     "summary": null,
     "url": "https://github.com/jackwener/DSH-Android",
-    "velocity_7d": 5.5
+    "velocity_7d": 3.3333333333333335
   },
   {
     "description": "3D modeling in Python, built for LLMs.",
@@ -5891,12 +6775,16 @@
       {
         "day": "2026-11-22",
         "stars": 2230
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2233
       }
     ],
-    "stars": 2230,
+    "stars": 2233,
     "summary": null,
     "url": "https://github.com/Sandflow-ai/sand3d",
-    "velocity_7d": 14.0
+    "velocity_7d": 10.333333333333334
   },
   {
     "description": "Evidence-grounded multimodal RAG for industrial maintenance documentation, with hybrid retrieval, citations, conflict resolution, claim verification and abstention. Includes an optional tool-using LLM agent and deterministic offline mode.",
@@ -5918,12 +6806,16 @@
       {
         "day": "2026-11-22",
         "stars": 73
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 73
       }
     ],
     "stars": 73,
     "summary": null,
     "url": "https://github.com/punit2911/meridian-multimodal-rag",
-    "velocity_7d": 2.0
+    "velocity_7d": 1.3333333333333333
   },
   {
     "description": "Medical equipment troubleshooting and spare parts lookup for biomedical and service engineers.",
@@ -5944,6 +6836,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -5972,6 +6868,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -5999,6 +6899,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6021,6 +6925,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 27
+      },
+      {
+        "day": "2026-11-23",
         "stars": 27
       }
     ],
@@ -6049,6 +6957,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6075,6 +6987,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6103,6 +7019,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6130,11 +7050,34 @@
       {
         "day": "2026-11-22",
         "stars": 13
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 13
       }
     ],
     "stars": 13,
     "summary": null,
     "url": "https://github.com/VeloceAI/agent-adapter",
+    "velocity_7d": 0.0
+  },
+  {
+    "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
+    "first_seen": "2026-11-23",
+    "id": "8898dc1fb352feb7",
+    "kind": "skill",
+    "name": "heygen-com/hyperframes",
+    "owner": "heygen-com",
+    "owner_type": "Organization",
+    "star_snapshots": [
+      {
+        "day": "2026-11-23",
+        "stars": 88312
+      }
+    ],
+    "stars": 88312,
+    "summary": null,
+    "url": "https://github.com/heygen-com/hyperframes",
     "velocity_7d": 0.0
   },
   {
@@ -6157,12 +7100,16 @@
       {
         "day": "2026-11-22",
         "stars": 658
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 658
       }
     ],
     "stars": 658,
     "summary": null,
     "url": "https://github.com/jmanico/grim-prompter",
-    "velocity_7d": 23.5
+    "velocity_7d": 15.666666666666666
   },
   {
     "description": "Crypto market signals, technical indicators, and sentiment analysis for AI agents.",
@@ -6183,6 +7130,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6211,11 +7162,34 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
     "summary": null,
     "url": "https://api.agenticblue.ai/mcp",
+    "velocity_7d": 0.0
+  },
+  {
+    "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+    "first_seen": "2026-11-23",
+    "id": "8b4b8bbecfaf4cae",
+    "kind": "repo",
+    "name": "INK-Q/agy-fast",
+    "owner": "INK-Q",
+    "owner_type": "User",
+    "star_snapshots": [
+      {
+        "day": "2026-11-23",
+        "stars": 548
+      }
+    ],
+    "stars": 548,
+    "summary": null,
+    "url": "https://github.com/INK-Q/agy-fast",
     "velocity_7d": 0.0
   },
   {
@@ -6261,6 +7235,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6287,6 +7265,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6315,6 +7297,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6342,6 +7328,10 @@
       {
         "day": "2026-11-22",
         "stars": 3
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3
       }
     ],
     "stars": 3,
@@ -6360,6 +7350,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6388,12 +7382,16 @@
       {
         "day": "2026-11-22",
         "stars": 50151
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 50162
       }
     ],
-    "stars": 50151,
+    "stars": 50162,
     "summary": null,
     "url": "https://github.com/sickn33/agentic-awesome-skills",
-    "velocity_7d": 51.5
+    "velocity_7d": 38.0
   },
   {
     "description": "AI-powered news intelligence — 21 tools for personalized monitoring, briefings, and semantic search",
@@ -6414,6 +7412,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6461,12 +7463,16 @@
       {
         "day": "2026-11-22",
         "stars": 473781
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 474179
       }
     ],
-    "stars": 473781,
+    "stars": 474179,
     "summary": "Skill for reverse engineering with agents, from app behavior down to native binaries.",
     "url": "https://github.com/morluto/rea",
-    "velocity_7d": 1205.0
+    "velocity_7d": 936.0
   },
   {
     "description": "Live MCP catalog for Graffeo Coffee Roasting - Simply the World's Finest Coffee since 1935.",
@@ -6487,6 +7493,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6515,12 +7525,16 @@
       {
         "day": "2026-11-22",
         "stars": 1687
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1689
       }
     ],
-    "stars": 1687,
+    "stars": 1689,
     "summary": null,
     "url": "https://github.com/voyager-so/vork",
-    "velocity_7d": 11.0
+    "velocity_7d": 8.0
   },
   {
     "description": "Farm, trade and learn together: what to plant and when, what ails a crop, prices near you.",
@@ -6541,6 +7555,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6569,6 +7587,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6596,12 +7618,16 @@
       {
         "day": "2026-11-22",
         "stars": 6278
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6297
       }
     ],
-    "stars": 6278,
+    "stars": 6297,
     "summary": "Lets a command-line agent pick up work and follow it through in the background, only sending a card to the user when it needs a decision.",
     "url": "https://github.com/KKKKhazix/agent-autoloop",
-    "velocity_7d": 79.5
+    "velocity_7d": 59.333333333333336
   },
   {
     "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
@@ -6623,12 +7649,16 @@
       {
         "day": "2026-11-22",
         "stars": 30112
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 30222
       }
     ],
-    "stars": 30112,
+    "stars": 30222,
     "summary": "dsh-go is a DeepSeek harness that runs locally on a phone and can also remote-control a computer.",
     "url": "https://github.com/ccch1mneyyy/dsh-Go",
-    "velocity_7d": 565.0
+    "velocity_7d": 413.3333333333333
   },
   {
     "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
@@ -6650,12 +7680,16 @@
       {
         "day": "2026-11-22",
         "stars": 2744
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2749
       }
     ],
-    "stars": 2744,
+    "stars": 2749,
     "summary": "Blender add-on and MCP server offering visual chat, scene tools and multi-agent workflows. It lists support for ChatGPT/GPT, Claude, Gemini, Ollama and OpenCode.",
     "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-    "velocity_7d": 577.0
+    "velocity_7d": 386.3333333333333
   },
   {
     "description": "Google, Meta, LinkedIn and ChatGPT Ads for AI assistants. Every change needs your approval.",
@@ -6676,6 +7710,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6704,12 +7742,16 @@
       {
         "day": "2026-11-22",
         "stars": 22081
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 22120
       }
     ],
-    "stars": 22081,
+    "stars": 22120,
     "summary": null,
     "url": "https://github.com/Vincentwei1021/video-shotcraft",
-    "velocity_7d": 137.5
+    "velocity_7d": 104.66666666666667
   },
   {
     "description": "Find UAE off-plan developments, registered residential sales and research reports.",
@@ -6730,6 +7772,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6758,6 +7804,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -6784,6 +7834,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6812,6 +7866,10 @@
       {
         "day": "2026-11-22",
         "stars": 18
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 18
       }
     ],
     "stars": 18,
@@ -6838,6 +7896,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6866,12 +7928,16 @@
       {
         "day": "2026-11-22",
         "stars": 3762
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3764
       }
     ],
-    "stars": 3762,
+    "stars": 3764,
     "summary": null,
     "url": "https://github.com/ljagiello/ctf-skills",
-    "velocity_7d": 5.0
+    "velocity_7d": 4.0
   },
   {
     "description": "Agent skill for narrated cinematic films built entirely from code: one continuous camera over photos, maps and cards, timed to the voice. Claude Code, Codex, Cursor, Gemini CLI.",
@@ -6893,12 +7959,16 @@
       {
         "day": "2026-11-22",
         "stars": 905
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 918
       }
     ],
-    "stars": 905,
+    "stars": 918,
     "summary": null,
     "url": "https://github.com/Moh4696/cinematic-skill",
-    "velocity_7d": 30.5
+    "velocity_7d": 24.666666666666668
   },
   {
     "description": "Lot Map for Claude Code: a live map beside the chat that shows what the agent is doing. Tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 8 languages.",
@@ -6920,12 +7990,16 @@
       {
         "day": "2026-11-22",
         "stars": 1122
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1128
       }
     ],
-    "stars": 1122,
+    "stars": 1128,
     "summary": "Live map shown beside the Claude Code chat that visualizes tool calls, model steps, hooks, skills and subagents as they happen. Runs locally.",
     "url": "https://github.com/alexeyw/lot-map",
-    "velocity_7d": 35.5
+    "velocity_7d": 25.666666666666668
   },
   {
     "description": "Domain WHOIS/RDAP/DNS/SSL, Shodan ports/CVEs, OpenAlex/arXiv papers & ClinicalTrials.gov MCP.",
@@ -6946,6 +8020,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -6974,6 +8052,10 @@
       {
         "day": "2026-11-22",
         "stars": 2
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2
       }
     ],
     "stars": 2,
@@ -7001,12 +8083,16 @@
       {
         "day": "2026-11-22",
         "stars": 1312
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1314
       }
     ],
-    "stars": 1312,
+    "stars": 1314,
     "summary": "Kanzo is a self-hosted, sharable kanban board for humans and agents, shipped as a 4.7 MB binary. Its author claims 5 MB of RAM, 3 ms startup and 10 to 60 tokens per agent reply.",
     "url": "https://github.com/emanuele-em/kanzo",
-    "velocity_7d": 29.5
+    "velocity_7d": 20.333333333333332
   },
   {
     "description": "MCP server for the @agentutility edge-finance cluster — pay-per-call x402 tools, no API keys, USDC…",
@@ -7027,6 +8113,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7074,12 +8164,16 @@
       {
         "day": "2026-11-22",
         "stars": 796
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 806
       }
     ],
-    "stars": 796,
+    "stars": 806,
     "summary": null,
     "url": "https://github.com/Leonxlnx/cook",
-    "velocity_7d": 17.0
+    "velocity_7d": 13.5
   },
   {
     "description": "RAG over GitHub issues, with a hand-reviewed eval set and an audit of the judge itself. Reports the interval, not just the best number.",
@@ -7101,12 +8195,16 @@
       {
         "day": "2026-11-22",
         "stars": 488
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 489
       }
     ],
-    "stars": 488,
+    "stars": 489,
     "summary": null,
     "url": "https://github.com/zaxiu88888/issue-rag",
-    "velocity_7d": 1.5
+    "velocity_7d": 1.3333333333333333
   },
   {
     "description": "Breathe with Confidence. Live MCP catalog for PuroAir HEPA air purifiers - stock, pricing, details.",
@@ -7127,6 +8225,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7155,6 +8257,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -7181,6 +8287,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7209,6 +8319,10 @@
       {
         "day": "2026-11-22",
         "stars": 34
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 34
       }
     ],
     "stars": 34,
@@ -7235,6 +8349,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7263,12 +8381,16 @@
       {
         "day": "2026-11-22",
         "stars": 38734
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 38771
       }
     ],
-    "stars": 38734,
+    "stars": 38771,
     "summary": null,
     "url": "https://github.com/virgiliojr94/book-to-skill",
-    "velocity_7d": 82.0
+    "velocity_7d": 67.0
   },
   {
     "description": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5B). Not just a tool: evolvable by design. Grow your own fruit on the Nüwa Foundation (Create/Language/History).",
@@ -7290,12 +8412,16 @@
       {
         "day": "2026-11-22",
         "stars": 2550
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2555
       }
     ],
-    "stars": 2550,
+    "stars": 2555,
     "summary": null,
     "url": "https://github.com/N1nEmAn/sapper-v2",
-    "velocity_7d": 18.0
+    "velocity_7d": 13.666666666666666
   },
   {
     "description": "Search UAE beach clubs, day pass prices, amenities, opening hours and events across all 7 emirates.",
@@ -7316,6 +8442,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7344,12 +8474,16 @@
       {
         "day": "2026-11-22",
         "stars": 492
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 492
       }
     ],
     "stars": 492,
     "summary": null,
     "url": "https://github.com/Interactive-Active-AI/NextTransformer",
-    "velocity_7d": 2.5
+    "velocity_7d": 1.6666666666666667
   },
   {
     "description": "Scrape, search and extract the public web. 3,000 free credits at https://vera.waggle.ae/signup",
@@ -7370,6 +8504,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7398,12 +8536,16 @@
       {
         "day": "2026-11-22",
         "stars": 58808
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 58882
       }
     ],
-    "stars": 58808,
+    "stars": 58882,
     "summary": null,
     "url": "https://github.com/emilkowalski/skills",
-    "velocity_7d": 205.5
+    "velocity_7d": 161.66666666666666
   },
   {
     "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
@@ -7425,12 +8567,16 @@
       {
         "day": "2026-11-22",
         "stars": 1905
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1966
       }
     ],
-    "stars": 1905,
+    "stars": 1966,
     "summary": "Agent skill for iteratively improving local LLM serving speed, covering decode, speculative decoding, prefill, KV cache, startup and time to first token, across hardware and quantizations.",
     "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-    "velocity_7d": 290.0
+    "velocity_7d": 213.66666666666666
   },
   {
     "description": "Model Context Protocol (MCP) server for LLM spend & latency intelligence. Ask Claude why our LLM bill jumped.",
@@ -7451,6 +8597,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 3
+      },
+      {
+        "day": "2026-11-23",
         "stars": 3
       }
     ],
@@ -7479,6 +8629,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -7498,12 +8652,16 @@
       {
         "day": "2026-11-22",
         "stars": 25
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 26
       }
     ],
-    "stars": 25,
+    "stars": 26,
     "summary": null,
     "url": "https://github.com/mitdbg/pgvectorfast",
-    "velocity_7d": 0.0
+    "velocity_7d": 1.0
   },
   {
     "description": "Build a Shopify-backed Framer store: sync products, theme, cart, checkout, publish and verify.",
@@ -7524,6 +8682,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7552,12 +8714,16 @@
       {
         "day": "2026-11-22",
         "stars": 6417
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6417
       }
     ],
     "stars": 6417,
     "summary": null,
     "url": "https://github.com/browser-act/skills",
-    "velocity_7d": 19.0
+    "velocity_7d": 12.666666666666666
   },
   {
     "description": "The model router for AI agents — pick the best model at every node and price it in cost per solved task.",
@@ -7579,12 +8745,16 @@
       {
         "day": "2026-11-22",
         "stars": 5
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 5
       }
     ],
     "stars": 5,
     "summary": null,
     "url": "https://github.com/Leizhidong-creator/modelpick",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "Document-grounded chat for Verona - AnythingLLM workspace integration.",
@@ -7606,12 +8776,16 @@
       {
         "day": "2026-11-22",
         "stars": 149
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 146
       }
     ],
-    "stars": 149,
+    "stars": 146,
     "summary": null,
     "url": "https://github.com/chase1225/anythingllm-verona-document-chat",
-    "velocity_7d": 15.0
+    "velocity_7d": 9.0
   },
   {
     "description": "One persona, many coding agents. Replace or inject system prompts across codex, claude, opencode, grok, omp, hermes, pi, zcode - with a local web console.",
@@ -7633,12 +8807,16 @@
       {
         "day": "2026-11-22",
         "stars": 2050
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2053
       }
     ],
-    "stars": 2050,
+    "stars": 2053,
     "summary": null,
     "url": "https://github.com/ZiChuanLan/agent-purge",
-    "velocity_7d": 24.0
+    "velocity_7d": 17.0
   },
   {
     "description": "Bowel is a mihomo client for macOS, Windows, Linux and Android.",
@@ -7660,12 +8838,16 @@
       {
         "day": "2026-11-22",
         "stars": 616
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 618
       }
     ],
-    "stars": 616,
+    "stars": 618,
     "summary": null,
     "url": "https://github.com/21stware/bowel",
-    "velocity_7d": 7.0
+    "velocity_7d": 5.333333333333333
   },
   {
     "description": "A decision-model-based ontology & knowledge-graph builder — builds governed knowledge graphs from your documents, every fact gated and traceable to its evidence.",
@@ -7706,12 +8888,16 @@
       {
         "day": "2026-11-22",
         "stars": 517
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 517
       }
     ],
     "stars": 517,
     "summary": null,
     "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
@@ -7733,12 +8919,16 @@
       {
         "day": "2026-11-22",
         "stars": 6800
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6821
       }
     ],
-    "stars": 6800,
+    "stars": 6821,
     "summary": "Self-hosted engine for teams and their agents, described as multi-harness and multi-agent.",
     "url": "https://github.com/mdiri-ai/SoduWork",
-    "velocity_7d": 438.5
+    "velocity_7d": 299.3333333333333
   },
   {
     "description": "Bluesky posts, profiles, feeds, threads & Substack newsletter search and publication feed MCP API.",
@@ -7759,6 +8949,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7787,6 +8981,10 @@
       {
         "day": "2026-11-22",
         "stars": 128
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 128
       }
     ],
     "stars": 128,
@@ -7814,12 +9012,16 @@
       {
         "day": "2026-11-22",
         "stars": 2985
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3020
       }
     ],
-    "stars": 2985,
+    "stars": 3020,
     "summary": "alchaincyf released huashu-motion; no description was provided.",
     "url": "https://github.com/alchaincyf/huashu-motion",
-    "velocity_7d": 35.5
+    "velocity_7d": 35.333333333333336
   },
   {
     "description": "The meta-skill that improves your skills, including itself. Turns the corrections, judgement calls and repeated workflows of your sessions (autonomous or human-led) into small skill updates and new skill candidates, each with its evidence and reason. Nothing touches a skill until you approve it. Augmented Expertise in practice. CC BY 4.0.",
@@ -7841,12 +9043,16 @@
       {
         "day": "2026-11-22",
         "stars": 3997
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 3999
       }
     ],
-    "stars": 3997,
+    "stars": 3999,
     "summary": null,
     "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
-    "velocity_7d": 6.0
+    "velocity_7d": 4.666666666666667
   },
   {
     "description": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and 70+ more through one Modelflare key. Reach them in the app, WeChat or Feishu; they remember you, work in the background, run commands and use your computer. Pay per use.",
@@ -7868,12 +9074,16 @@
       {
         "day": "2026-11-22",
         "stars": 4972
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 4975
       }
     ],
-    "stars": 4972,
+    "stars": 4975,
     "summary": "Open-source, local-first bot app that routes to many models (GPT, Claude, Gemini, Grok, DeepSeek, Kimi, GLM and more) through one paid key. Bots are reachable in the app, WeChat or Feishu.",
     "url": "https://github.com/modelflare-ai/AnyModelBot",
-    "velocity_7d": 59.0
+    "velocity_7d": 40.333333333333336
   },
   {
     "description": "Regeln und Suchen zur Ausfuhr aus der EU: Kumulierung, Präferenznachweis, Incoterms, Warennummer",
@@ -7894,6 +9104,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -7976,6 +9190,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -8003,12 +9221,16 @@
       {
         "day": "2026-11-22",
         "stars": 1617
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1626
       }
     ],
-    "stars": 1617,
+    "stars": 1626,
     "summary": null,
     "url": "https://github.com/Seagey/couch-tv",
-    "velocity_7d": 31.5
+    "velocity_7d": 24.0
   },
   {
     "description": "Services, prices, inquiries and free analytics, AI and Google visibility scans by JustIdea, Poland.",
@@ -8029,6 +9251,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8057,12 +9283,16 @@
       {
         "day": "2026-11-22",
         "stars": 2967
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2968
       }
     ],
-    "stars": 2967,
+    "stars": 2968,
     "summary": null,
     "url": "https://github.com/rohitg00/pro-workflow",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.6666666666666666
   },
   {
     "description": "Turn designs into shipped parts: quote 3D printing, CNC, and decals, then check out.",
@@ -8083,6 +9313,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8111,6 +9345,10 @@
       {
         "day": "2026-11-22",
         "stars": 2
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2
       }
     ],
     "stars": 2,
@@ -8137,6 +9375,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8165,6 +9407,10 @@
       {
         "day": "2026-11-22",
         "stars": 11
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 11
       }
     ],
     "stars": 11,
@@ -8191,6 +9437,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 104
+      },
+      {
+        "day": "2026-11-23",
         "stars": 104
       }
     ],
@@ -8219,6 +9469,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -8246,12 +9500,16 @@
       {
         "day": "2026-11-22",
         "stars": 522
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 522
       }
     ],
     "stars": 522,
     "summary": null,
     "url": "https://github.com/chutingyean/Agent-Cockpit",
-    "velocity_7d": 3.0
+    "velocity_7d": 2.0
   },
   {
     "description": "Local economics engine to measure the true cost of verified AI workflow outcomes, retries, and human labor.",
@@ -8272,6 +9530,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 3
+      },
+      {
+        "day": "2026-11-23",
         "stars": 3
       }
     ],
@@ -8300,12 +9562,16 @@
       {
         "day": "2026-11-22",
         "stars": 1027
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1052
       }
     ],
-    "stars": 1027,
+    "stars": 1052,
     "summary": null,
     "url": "https://github.com/simpsoka/zigzag",
-    "velocity_7d": 19.0
+    "velocity_7d": 21.0
   },
   {
     "description": "AI-powered life cycle assessment and modelling: connect to LCA databases, build and analyze systems",
@@ -8326,6 +9592,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8354,6 +9624,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -8381,12 +9655,16 @@
       {
         "day": "2026-11-22",
         "stars": 7030
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 7031
       }
     ],
-    "stars": 7030,
+    "stars": 7031,
     "summary": null,
     "url": "https://github.com/alchaincyf/darwin-skill",
-    "velocity_7d": 12.0
+    "velocity_7d": 8.333333333333334
   },
   {
     "description": "All your bookmarks in one library. Share them with your AI agents. Read-only search over your saves.",
@@ -8407,6 +9685,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8435,12 +9717,16 @@
       {
         "day": "2026-11-22",
         "stars": 58584
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 58606
       }
     ],
-    "stars": 58584,
+    "stars": 58606,
     "summary": null,
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "velocity_7d": 69.0
+    "velocity_7d": 53.333333333333336
   },
   {
     "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
@@ -8462,12 +9748,16 @@
       {
         "day": "2026-11-22",
         "stars": 98746
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 98814
       }
     ],
-    "stars": 98746,
+    "stars": 98814,
     "summary": "Agent skill that turns an idea, plan or codebase into an interactive diagram, for Claude Code, Codex and others.",
     "url": "https://github.com/tt-a1i/archify",
-    "velocity_7d": 223.5
+    "velocity_7d": 171.66666666666666
   },
   {
     "description": "Your own team of AI bots in one self-hosted binary: spaces, every account you have, handoffs, approvals and routines. Open-source, self-hosted alternative to Grok Bot, Claude Duet and OpenAI dots. Rust + React.",
@@ -8508,12 +9798,16 @@
       {
         "day": "2026-11-22",
         "stars": 214
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 215
       }
     ],
-    "stars": 214,
+    "stars": 215,
     "summary": null,
     "url": "https://github.com/didilili/mianstack",
-    "velocity_7d": 2.5
+    "velocity_7d": 2.0
   },
   {
     "description": "Source-backed UAE costs: groceries, schools, housing, transport, utilities, telecom and relocation",
@@ -8534,6 +9828,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8562,6 +9860,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -8588,6 +9890,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8616,6 +9922,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -8639,12 +9949,16 @@
       {
         "day": "2026-11-22",
         "stars": 40
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 40
       }
     ],
     "stars": 40,
     "summary": null,
     "url": "https://github.com/Golden-66/agentic-rag-kb",
-    "velocity_7d": 3.0
+    "velocity_7d": 1.5
   },
   {
     "description": "Dubai real estate data: 2,400+ projects, developers, communities, purchase costs and Golden Visa.",
@@ -8665,6 +9979,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8693,6 +10011,10 @@
       {
         "day": "2026-11-22",
         "stars": 8
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 8
       }
     ],
     "stars": 8,
@@ -8719,6 +10041,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8766,6 +10092,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -8793,12 +10123,16 @@
       {
         "day": "2026-11-22",
         "stars": 2651
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2652
       }
     ],
-    "stars": 2651,
+    "stars": 2652,
     "summary": null,
     "url": "https://github.com/amElnagdy/delegate-skills",
-    "velocity_7d": 8.0
+    "velocity_7d": 5.666666666666667
   },
   {
     "description": "Live Polymarket prediction market events, implied probabilities & CLOB L2 orderbook odds MCP ($0.001",
@@ -8819,6 +10153,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8847,12 +10185,16 @@
       {
         "day": "2026-11-22",
         "stars": 2706
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2708
       }
     ],
-    "stars": 2706,
+    "stars": 2708,
     "summary": null,
     "url": "https://github.com/caru-ini/stack-diagram",
-    "velocity_7d": 11.0
+    "velocity_7d": 8.0
   },
   {
     "description": "75+ real-time agent data APIs in 4 meta-tools (-87% compact tokens, x402 USDC on Base or API key).",
@@ -8873,6 +10215,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8900,6 +10246,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -8947,12 +10297,16 @@
       {
         "day": "2026-11-22",
         "stars": 591
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 593
       }
     ],
-    "stars": 591,
+    "stars": 593,
     "summary": null,
     "url": "https://github.com/aa1143/NamiAgent",
-    "velocity_7d": 5.0
+    "velocity_7d": 4.0
   },
   {
     "description": "Fresh, throwaway Windows machines for testing your apps: an MCP server and CLI that automate Windows Sandbox",
@@ -8970,9 +10324,13 @@
       {
         "day": "2026-11-22",
         "stars": 495
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 496
       }
     ],
-    "stars": 495,
+    "stars": 496,
     "summary": null,
     "url": "https://github.com/shanselman/sandbox-mcp",
     "velocity_7d": 1.0
@@ -8996,6 +10354,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9023,6 +10385,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9078,6 +10444,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -9104,6 +10474,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9132,6 +10506,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -9150,6 +10528,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 501
+      },
+      {
+        "day": "2026-11-23",
         "stars": 501
       }
     ],
@@ -9178,6 +10560,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -9204,6 +10590,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9232,12 +10622,16 @@
       {
         "day": "2026-11-22",
         "stars": 30387
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 30446
       }
     ],
-    "stars": 30387,
+    "stars": 30446,
     "summary": "HTML-native design skill (version 3.4) for Claude Code, Codex, Cursor and other agents. Produces web pages, app prototypes, slides and infographics, offering six candidate directions and a 92-style library.",
     "url": "https://github.com/alchaincyf/huashu-design",
-    "velocity_7d": 213.5
+    "velocity_7d": 162.0
   },
   {
     "description": "Human-led MAS toolkit: 16 roles, 6 group templates, four platform bundles, evidence-based review and handoff. 一人成队：一个人统筹多智能体协作。",
@@ -9259,12 +10653,16 @@
       {
         "day": "2026-11-22",
         "stars": 1094
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1096
       }
     ],
-    "stars": 1094,
+    "stars": 1096,
     "summary": null,
     "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
-    "velocity_7d": 8.5
+    "velocity_7d": 6.333333333333333
   },
   {
     "description": "Agent skill that removes signs of AI-generated writing from text",
@@ -9286,12 +10684,16 @@
       {
         "day": "2026-11-22",
         "stars": 72247
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 72358
       }
     ],
-    "stars": 72247,
+    "stars": 72358,
     "summary": "Agent skill that removes signs of AI-generated writing from text.",
     "url": "https://github.com/blader/humanizer",
-    "velocity_7d": 309.0
+    "velocity_7d": 243.0
   },
   {
     "description": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. · blender-ai-copilot-lab · blender · blender 3d · blender addon · blender plugin · blender extension",
@@ -9308,6 +10710,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 505
+      },
+      {
+        "day": "2026-11-23",
         "stars": 505
       }
     ],
@@ -9363,12 +10769,16 @@
       {
         "day": "2026-11-22",
         "stars": 196766
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 196923
       }
     ],
-    "stars": 196766,
+    "stars": 196923,
     "summary": "Skill that pushes an AI agent to prefer writing less code, in the style of a minimalist senior developer.",
     "url": "https://github.com/DietrichGebert/ponytail",
-    "velocity_7d": 616.5
+    "velocity_7d": 463.3333333333333
   },
   {
     "description": "from vibe coding to agentic engineering - practice makes claude perfect",
@@ -9390,12 +10800,16 @@
       {
         "day": "2026-11-22",
         "stars": 69310
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 69322
       }
     ],
-    "stars": 69310,
+    "stars": 69322,
     "summary": null,
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
-    "velocity_7d": 22.5
+    "velocity_7d": 19.0
   },
   {
     "description": "Search and ask across your organization's knowledge: Slack, coding-agent sessions, docs and tickets. Self-hosted.",
@@ -9413,12 +10827,16 @@
       {
         "day": "2026-11-22",
         "stars": 46
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 48
       }
     ],
-    "stars": 46,
+    "stars": 48,
     "summary": null,
     "url": "https://github.com/bluesky-social/diderot",
-    "velocity_7d": 14.0
+    "velocity_7d": 8.0
   },
   {
     "description": "The world's largest agentic B2B hub for beer, wine and spirits. Powered by CUVEE. Trade only.",
@@ -9439,6 +10857,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9467,12 +10889,16 @@
       {
         "day": "2026-11-22",
         "stars": 105
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 105
       }
     ],
     "stars": 105,
     "summary": null,
     "url": "https://github.com/dodo-labs-ai/mem-forge",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "Timon is an Agentic Workstation who let you orchestrates all your AI agents in the same place",
@@ -9494,12 +10920,16 @@
       {
         "day": "2026-11-22",
         "stars": 690
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 704
       }
     ],
-    "stars": 690,
+    "stars": 704,
     "summary": "Workstation app for running and orchestrating multiple AI agents in one place.",
     "url": "https://github.com/ai-timon/timon",
-    "velocity_7d": 25.5
+    "velocity_7d": 21.666666666666668
   },
   {
     "description": "Open-source NotebookLM alternative. Chat with your sources with citations, and turn them into reports, flashcards, quizzes, mind maps and slide decks, with your own OpenAI, Anthropic or Gemini key or local Ollama / LM Studio models. Local-first, no account.",
@@ -9540,12 +10970,16 @@
       {
         "day": "2026-11-22",
         "stars": 505
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 505
       }
     ],
     "stars": 505,
     "summary": null,
     "url": "https://github.com/fumbdendade19718/blender-ai-copilot-desk",
-    "velocity_7d": -1.0
+    "velocity_7d": -0.5
   },
   {
     "description": "Chat with private AI models locally, powered by Open Webui Private Ai Desk.",
@@ -9567,12 +11001,16 @@
       {
         "day": "2026-11-22",
         "stars": 151
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 148
       }
     ],
-    "stars": 151,
+    "stars": 148,
     "summary": null,
     "url": "https://github.com/han938/open-webui-private-ai-desk",
-    "velocity_7d": 28.5
+    "velocity_7d": 18.0
   },
   {
     "description": "Google Maps places, Trustpilot, Yelp & G2 software reviews, and US real estate listings MCP.",
@@ -9593,6 +11031,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9640,12 +11082,16 @@
       {
         "day": "2026-11-22",
         "stars": 4920
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 5076
       }
     ],
-    "stars": 4920,
+    "stars": 5076,
     "summary": "Turns an old Android phone into a desk panel and touch control deck for Windows, Linux and macOS. Ships 124 widgets and 30 templates, connects over USB or Wi-Fi, and needs no cloud.",
     "url": "https://github.com/ersinkoc/phonebox",
-    "velocity_7d": 359.0
+    "velocity_7d": 291.3333333333333
   },
   {
     "description": "Find B2B leads with verified work emails, find and verify emails, and run cold email outreach.",
@@ -9666,6 +11112,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9694,6 +11144,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -9720,6 +11174,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9748,12 +11206,16 @@
       {
         "day": "2026-11-22",
         "stars": 122
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 123
       }
     ],
-    "stars": 122,
+    "stars": 123,
     "summary": null,
     "url": "https://github.com/HimanshuMohanty-Git24/gitaviswa",
-    "velocity_7d": 2.0
+    "velocity_7d": 1.6666666666666667
   },
   {
     "description": "Query Meta Ads performance data — accounts, campaigns, ad sets, ads, metrics & settings.",
@@ -9774,6 +11236,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9802,12 +11268,16 @@
       {
         "day": "2026-11-22",
         "stars": 28194
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 28195
       }
     ],
-    "stars": 28194,
+    "stars": 28195,
     "summary": null,
     "url": "https://github.com/OthmanAdi/planning-with-files",
-    "velocity_7d": 17.0
+    "velocity_7d": 11.666666666666666
   },
   {
     "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
@@ -9829,12 +11299,16 @@
       {
         "day": "2026-11-22",
         "stars": 119991
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 120158
       }
     ],
-    "stars": 119991,
+    "stars": 120158,
     "summary": "Agent skills that add art direction, reference images and a browser check, aiming to avoid generic AI-generated pages.",
     "url": "https://github.com/Leonxlnx/taste-skill",
-    "velocity_7d": 353.0
+    "velocity_7d": 291.0
   },
   {
     "description": "Check how to contact a business website, and whether that contact path actually works.",
@@ -9855,6 +11329,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9883,12 +11361,16 @@
       {
         "day": "2026-11-22",
         "stars": 534
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 536
       }
     ],
-    "stars": 534,
+    "stars": 536,
     "summary": null,
     "url": "https://github.com/gogoymh/auto-ontology-mcp",
-    "velocity_7d": 9.0
+    "velocity_7d": 6.666666666666667
   },
   {
     "description": "Hire in the UAE without a local company: guide, quotes and accounts via an Employer of Record.",
@@ -9909,6 +11391,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -9937,6 +11423,10 @@
       {
         "day": "2026-11-22",
         "stars": 48
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 48
       }
     ],
     "stars": 48,
@@ -9964,6 +11454,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -9990,6 +11484,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10045,12 +11543,16 @@
       {
         "day": "2026-11-22",
         "stars": 53933
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 53939
       }
     ],
-    "stars": 53933,
+    "stars": 53939,
     "summary": null,
     "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
-    "velocity_7d": 20.5
+    "velocity_7d": 15.666666666666666
   },
   {
     "description": "Create AgentUI data apps: define tables, read and write records, and run programs on your data.",
@@ -10071,6 +11573,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10099,12 +11605,16 @@
       {
         "day": "2026-11-22",
         "stars": 108948
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 108995
       }
     ],
-    "stars": 108948,
+    "stars": 108995,
     "summary": null,
     "url": "https://github.com/nexu-io/open-design",
-    "velocity_7d": 137.0
+    "velocity_7d": 107.0
   },
   {
     "description": "AI security training: hands-on labs, tools and courses for LLM, RAG and agent security. Maintained by Pwned Labs.",
@@ -10121,6 +11631,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 30
+      },
+      {
+        "day": "2026-11-23",
         "stars": 30
       }
     ],
@@ -10176,6 +11690,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -10203,12 +11721,16 @@
       {
         "day": "2026-11-22",
         "stars": 687
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 687
       }
     ],
     "stars": 687,
     "summary": null,
     "url": "https://github.com/ngocanhnckh/renderlint",
-    "velocity_7d": 0.5
+    "velocity_7d": 0.3333333333333333
   },
   {
     "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
@@ -10230,12 +11752,16 @@
       {
         "day": "2026-11-22",
         "stars": 6413
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6427
       }
     ],
-    "stars": 6413,
+    "stars": 6427,
     "summary": null,
     "url": "https://github.com/qybaihe/bla",
-    "velocity_7d": 45.5
+    "velocity_7d": 35.0
   },
   {
     "description": "The Human Ad Network. Campaigns, clipping, and Clip Studio from chat.",
@@ -10256,6 +11782,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10284,6 +11814,10 @@
       {
         "day": "2026-11-22",
         "stars": 153
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 153
       }
     ],
     "stars": 153,
@@ -10311,12 +11845,16 @@
       {
         "day": "2026-11-22",
         "stars": 791
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 796
       }
     ],
-    "stars": 791,
+    "stars": 796,
     "summary": "Collection of 32 free, MIT-licensed marketing skills for agents, covering research, copy, SEO, ads and email, plus a local-business pack.",
     "url": "https://github.com/boringmarketer/boring-marketing-skills",
-    "velocity_7d": 26.0
+    "velocity_7d": 19.0
   },
   {
     "description": "MCP router proxy with tool search and invocation",
@@ -10337,6 +11875,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 36
+      },
+      {
+        "day": "2026-11-23",
         "stars": 36
       }
     ],
@@ -10365,12 +11907,16 @@
       {
         "day": "2026-11-22",
         "stars": 37436
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 37451
       }
     ],
-    "stars": 37436,
+    "stars": 37451,
     "summary": null,
     "url": "https://github.com/VoltAgent/awesome-agent-skills",
-    "velocity_7d": 24.5
+    "velocity_7d": 21.333333333333332
   },
   {
     "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
@@ -10392,12 +11938,16 @@
       {
         "day": "2026-11-22",
         "stars": 469
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 469
       }
     ],
     "stars": 469,
     "summary": null,
     "url": "https://github.com/WinnerSpecialist/Gemini-Config-Checker-",
-    "velocity_7d": -1.5
+    "velocity_7d": -1.0
   },
   {
     "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
@@ -10419,12 +11969,16 @@
       {
         "day": "2026-11-22",
         "stars": 12122
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 12261
       }
     ],
-    "stars": 12122,
+    "stars": 12261,
     "summary": "Breaks a video down shot by shot, saying whether each shot was filmed, AI-generated or coded, and how to remake it. Output uses the open VIDEO.md format.",
     "url": "https://github.com/JuneYaooo/rea-video",
-    "velocity_7d": 363.5
+    "velocity_7d": 288.6666666666667
   },
   {
     "description": "Open-source registry and CLI for Claude Code components: agents, commands, skills, hooks, MCPs, settings and mods",
@@ -10446,12 +12000,16 @@
       {
         "day": "2026-11-22",
         "stars": 34101
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 34111
       }
     ],
-    "stars": 34101,
+    "stars": 34111,
     "summary": null,
     "url": "https://github.com/davila7/claude-code-templates",
-    "velocity_7d": 35.0
+    "velocity_7d": 26.666666666666668
   },
   {
     "description": "Agent communication platform for agent to agent messaging via MCP. Messages, channels, skills.",
@@ -10472,6 +12030,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10500,6 +12062,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -10518,6 +12084,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10546,12 +12116,16 @@
       {
         "day": "2026-11-22",
         "stars": 102
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 103
       }
     ],
-    "stars": 102,
+    "stars": 103,
     "summary": null,
     "url": "https://github.com/saksham10arora-dotcom/everything-claude-codex",
-    "velocity_7d": -0.5
+    "velocity_7d": 0.0
   },
   {
     "description": "Budget-aware model router for Hermes Agent. Picks the cheapest model that fits each task before the session starts, tracks monthly spend, and proves the cost. Claude, OpenAI, Gemini, Grok, OpenRouter or local. Includes the fix for \"You're out of extra usage\" on Claude Max/Ultra API credits.",
@@ -10564,6 +12138,10 @@
     "star_snapshots": [
       {
         "day": "2026-11-22",
+        "stars": 2
+      },
+      {
+        "day": "2026-11-23",
         "stars": 2
       }
     ],
@@ -10592,6 +12170,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -10618,6 +12200,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10646,6 +12232,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -10672,6 +12262,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10700,12 +12294,16 @@
       {
         "day": "2026-11-22",
         "stars": 6173
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 6266
       }
     ],
-    "stars": 6173,
+    "stars": 6266,
     "summary": "Generates an interactive plain-English map of a codebase, drawn by Claude or Codex.",
     "url": "https://github.com/haydenschmitty/floorplan",
-    "velocity_7d": 283.5
+    "velocity_7d": 220.0
   },
   {
     "description": "三个可运行的 AI 工程项目：可追溯 RAG、提示词评测与受守护的 NL2SQL 分析",
@@ -10726,6 +12324,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 106
+      },
+      {
+        "day": "2026-11-23",
         "stars": 106
       }
     ],
@@ -10754,6 +12356,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -10780,6 +12386,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -10808,6 +12418,10 @@
       {
         "day": "2026-11-22",
         "stars": 0
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 0
       }
     ],
     "stars": 0,
@@ -10835,12 +12449,16 @@
       {
         "day": "2026-11-22",
         "stars": 2945
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2982
       }
     ],
-    "stars": 2945,
+    "stars": 2982,
     "summary": null,
     "url": "https://github.com/FrigadeHQ/yogurt",
-    "velocity_7d": 94.5
+    "velocity_7d": 75.33333333333333
   },
   {
     "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
@@ -10862,12 +12480,16 @@
       {
         "day": "2026-11-22",
         "stars": 9607
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 9641
       }
     ],
-    "stars": 9607,
+    "stars": 9641,
     "summary": "Mika is an on-device AI agent for Android that operates apps and the web on the user's behalf.",
     "url": "https://github.com/wangzan101/Mika",
-    "velocity_7d": 156.0
+    "velocity_7d": 115.33333333333333
   },
   {
     "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
@@ -10889,12 +12511,16 @@
       {
         "day": "2026-11-22",
         "stars": 55329
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 55431
       }
     ],
-    "stars": 55329,
+    "stars": 55431,
     "summary": "Alibaba's code review tool combining deterministic pipelines with an LLM agent. It gives line-level comments, has built-in rules for NPE, thread safety, XSS and SQL injection, and works with OpenAI and Anthropic APIs.",
     "url": "https://github.com/alibaba/open-code-review",
-    "velocity_7d": 301.5
+    "velocity_7d": 235.0
   },
   {
     "description": "The universal iOS automation platform",
@@ -10916,12 +12542,16 @@
       {
         "day": "2026-11-22",
         "stars": 564
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 567
       }
     ],
-    "stars": 564,
+    "stars": 567,
     "summary": null,
     "url": "https://github.com/swipt-automation/swipt",
-    "velocity_7d": 6.0
+    "velocity_7d": 5.0
   },
   {
     "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
@@ -10943,12 +12573,16 @@
       {
         "day": "2026-11-22",
         "stars": 114898
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 115057
       }
     ],
-    "stars": 114898,
+    "stars": 115057,
     "summary": "Design vocabulary for coding agents, with commands to steer (polish, bolder) and to review (critique, audit) so generic AI output is caught before shipping.",
     "url": "https://github.com/pbakaus/impeccable",
-    "velocity_7d": 456.5
+    "velocity_7d": 357.3333333333333
   },
   {
     "description": "Unattended agent jobs for your team, defined in Git. The agent never holds your service credentials.",
@@ -10993,15 +12627,19 @@
       {
         "day": "2026-11-22",
         "stars": 1412
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 1419
       }
     ],
-    "stars": 1412,
+    "stars": 1419,
     "summary": null,
     "url": "https://github.com/XiaoyeCodes/code-animation-prompts",
-    "velocity_7d": 30.0
+    "velocity_7d": 22.333333333333332
   },
   {
-    "description": "MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors. https://mroffice.ai",
+    "description": "MR Office — the open-source editors of the AI office suite closest to Microsoft Office: documents, spreadsheets, presentations, PDF and code in the browser. Copilot in every editor edits real Word, Excel and PowerPoint files with you; an MCP server lets Claude, ChatGPT, Cursor and Codex create and edit them; embed it in your app with one line.",
     "first_seen": "2026-11-22",
     "id": "fd90ea8c5875644b",
     "kind": "repo",
@@ -11012,12 +12650,16 @@
       {
         "day": "2026-11-22",
         "stars": 2066
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 2191
       }
     ],
-    "stars": 2066,
+    "stars": 2191,
     "summary": null,
     "url": "https://github.com/XinaTian/MROffice",
-    "velocity_7d": 0.0
+    "velocity_7d": 125.0
   },
   {
     "description": "LinkedIn profiles/companies, Workday/Greenhouse/Lever ATS jobs & GLEIF/Companies House KYB MCP.",
@@ -11038,6 +12680,10 @@
       },
       {
         "day": "2026-11-22",
+        "stars": 0
+      },
+      {
+        "day": "2026-11-23",
         "stars": 0
       }
     ],
@@ -11066,11 +12712,15 @@
       {
         "day": "2026-11-22",
         "stars": 568
+      },
+      {
+        "day": "2026-11-23",
+        "stars": 573
       }
     ],
-    "stars": 568,
+    "stars": 573,
     "summary": null,
     "url": "https://github.com/DuskBotAI/duskbot",
-    "velocity_7d": 12.5
+    "velocity_7d": 10.0
   }
 ]

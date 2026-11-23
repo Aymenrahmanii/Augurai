@@ -30,7 +30,7 @@
     "keyword_counts": {
       "LLM": 2,
       "LangChain": 0,
-      "MCP": 2,
+      "MCP": 1,
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "sr analyst, analytics & insights",
-      "deal desk analyst (eastern time zone preferred)",
-      "director, revenue accounting",
-      "corporate counsel, commercial",
-      "release strategist, professional services"
+      "product manager, developer ecosystem",
+      "manager, technical accounting and equity reporting",
+      "senior sre, site experience",
+      "senior staff sre, site experience",
+      "drg inpatient coding validator"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100
