@@ -1,12 +1,14 @@
 {
   "benchmark_moves": [],
-  "day": "2026-11-23",
+  "day": "2026-11-24",
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
   "new_models": [
     "lingsante-3-1-air-vl",
-    "tml-d24-varloop-research"
+    "tml-d24-varloop-research",
+    "memt-1-0-pro",
+    "qwen3-8-27b-nariq-gguf"
   ],
   "people_work": [
     {
@@ -86,6 +88,90 @@
       "published": "2026-11-21T06:16:34Z",
       "title": "Active in sloemo01/agentscope",
       "url": "https://github.com/sloemo01/agentscope"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-24T04:24:29Z",
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-24T03:45:57Z",
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/"
+    },
+    {
+      "person_id": "alchaincyf",
+      "published": "2026-11-24T02:14:57Z",
+      "title": "Released alchaincyf/fanbox",
+      "url": "https://github.com/alchaincyf/fanbox"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T23:40:49Z",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-23T20:58:52Z",
+      "title": "Active in ersinkoc/AI-Video-Factory",
+      "url": "https://github.com/ersinkoc/AI-Video-Factory"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-23T20:58:11Z",
+      "title": "Active in anhnt256/unslop-anything",
+      "url": "https://github.com/anhnt256/unslop-anything"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-23T20:55:35Z",
+      "title": "Active in erkamyaman/unslop-anything",
+      "url": "https://github.com/erkamyaman/unslop-anything"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-23T20:45:24Z",
+      "title": "Active in ninedeploy/ninedeploy",
+      "url": "https://github.com/ninedeploy/ninedeploy"
+    },
+    {
+      "person_id": "sloemo01",
+      "published": "2026-11-23T18:06:27Z",
+      "title": "Active in sloemo01/grpc-gateway",
+      "url": "https://github.com/sloemo01/grpc-gateway"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T04:58:49Z",
+      "title": "Active in simonw/datasette-cluster-map",
+      "url": "https://github.com/simonw/datasette-cluster-map"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T04:38:49Z",
+      "title": "Active in simonw/datasette-psutil",
+      "url": "https://github.com/simonw/datasette-psutil"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-23T00:37:20Z",
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/"
+    },
+    {
+      "person_id": "Leonxlnx",
+      "published": "2026-11-22T20:31:04Z",
+      "title": "Active in Leonxlnx/Leonxlnx",
+      "url": "https://github.com/Leonxlnx/Leonxlnx"
+    },
+    {
+      "person_id": "tt-a1i",
+      "published": "2026-11-22T17:01:12Z",
+      "title": "Active in tt-a1i/agent-worker",
+      "url": "https://github.com/tt-a1i/agent-worker"
     }
   ],
   "promoted": [],
@@ -95,12 +181,12 @@
       "969dd462482a25e8",
       "3c40bebd52407729",
       "78e219711e827886",
-      "0131b89b3075d16b",
       "34689cddad5a3350",
+      "a02a79030c2a0d11",
       "9d8099e6e6efd209",
       "dff6badb68da67f9",
       "e9a68a300e49f431",
-      "a02a79030c2a0d11"
+      "0131b89b3075d16b"
     ],
     "mcp": [
       "e3ea1ac5d326018b",
@@ -115,15 +201,15 @@
       "01a0e5ca68bc1778"
     ],
     "repo": [
+      "97c28dfefe84e078",
       "8129f68e260304e7",
       "fd90ea8c5875644b",
-      "97c28dfefe84e078",
+      "97d62433e020c780",
       "eb40edb5ed8830b7",
       "e204919d55639b1d",
-      "97d62433e020c780",
       "b086318dbacd470d",
-      "f25cfa09a16ab511",
       "a70cae4c16f0fdc6",
+      "f25cfa09a16ab511",
       "6cd333e9aa7f3347"
     ],
     "skill": [
@@ -142,25 +228,25 @@
   "top_hn": [
     "a7a7773a9f5669fb",
     "07706832bb39f07a",
-    "bb82379af066ff25",
     "61e15db8fd33eda9",
+    "bb82379af066ff25",
     "52478eb1a864ece1",
+    "8415bce77abcc276",
     "8e29c138e61ab876",
     "95090c9e725edaf8",
     "48b46abf2f4bdec3",
-    "f836fd200cc1c02e",
-    "8415bce77abcc276"
+    "f836fd200cc1c02e"
   ],
   "top_papers": [
     "b8477994b9d0bbec",
     "93e90517ac8ed1c1",
+    "ca152729c5ba6c2f",
     "d8a3338ebd25d234",
-    "eb4d2df7b7187bdc",
-    "3b627af7791cfed8",
-    "399e786b295dfb8e",
-    "f138e148bb7c9a5e",
+    "cb6d83b7295ce64c",
+    "d03dc3e7aff4873f",
+    "b7b630b2fe964f78",
     "3976a6719c927750",
-    "5153e6ba27113aec",
-    "cb6d83b7295ce64c"
+    "f138e148bb7c9a5e",
+    "5153e6ba27113aec"
   ]
 }

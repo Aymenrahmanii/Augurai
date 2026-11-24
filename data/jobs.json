@@ -23,7 +23,7 @@
       "joulent | ai engineer, company brain | san francisco | onsite | full-time | $175k-$230k base plus bonus and equity"
     ],
     "source": "jobs-hn",
-    "total_posts": 240
+    "total_posts": 239
   },
   {
     "id": "global-jobs-remoteok-2026-11",
@@ -34,7 +34,7 @@
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
-      "agents": 10,
+      "agents": 11,
       "evals": 0,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
+      "threat research engineer, security factory: threat research",
+      "staff backend engineer, performance enablement",
+      "renewals manager - latam",
       "product manager, developer ecosystem",
-      "manager, technical accounting and equity reporting",
-      "senior sre, site experience",
-      "senior staff sre, site experience",
-      "drg inpatient coding validator"
+      "manager, technical accounting and equity reporting"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100
