@@ -5,9 +5,117 @@
   "failing_sources": [],
   "first_run": false,
   "new_models": [],
-  "people_work": [],
+  "people_work": [
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-24T16:53:59Z",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/"
+    },
+    {
+      "person_id": "morluto",
+      "published": "2026-11-24T15:55:09Z",
+      "title": "Active in mvanhorn/rea",
+      "url": "https://github.com/mvanhorn/rea"
+    },
+    {
+      "person_id": "ccch1mneyyy",
+      "published": "2026-11-24T11:38:30Z",
+      "title": "Active in ccch1mneyyy/dsh-go-market",
+      "url": "https://github.com/ccch1mneyyy/dsh-go-market"
+    },
+    {
+      "person_id": "KKKKhazix",
+      "published": "2026-11-24T10:11:33Z",
+      "title": "Active in ET-yzk/AIHOT",
+      "url": "https://github.com/ET-yzk/AIHOT"
+    },
+    {
+      "person_id": "Leonxlnx",
+      "published": "2026-11-24T06:29:54Z",
+      "title": "Active in Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-24T02:35:58Z",
+      "title": "Open-sourced datasette/dblayer",
+      "url": "https://github.com/datasette/dblayer"
+    }
+  ],
   "promoted": [],
-  "rising": {},
-  "top_hn": [],
-  "top_papers": []
+  "rising": {
+    "agent": [
+      "3400785e003329cf",
+      "969dd462482a25e8",
+      "3c40bebd52407729",
+      "78e219711e827886",
+      "34689cddad5a3350",
+      "9d8099e6e6efd209",
+      "e9a68a300e49f431",
+      "dff6badb68da67f9",
+      "0e2401d88076b0d2",
+      "a02a79030c2a0d11"
+    ],
+    "mcp": [
+      "4cea9c3438543d37",
+      "e3ea1ac5d326018b",
+      "0c0b0bd7215cf706",
+      "21c77919334c9e13",
+      "55b5541bbe935604",
+      "90780b0321ef5a02",
+      "ee184b3874f1ba17",
+      "071ec772bc18600f",
+      "006803f870ac1aa8",
+      "015e12a23d2fb07c"
+    ],
+    "repo": [
+      "fd90ea8c5875644b",
+      "8129f68e260304e7",
+      "97c28dfefe84e078",
+      "e204919d55639b1d",
+      "b086318dbacd470d",
+      "eb40edb5ed8830b7",
+      "97d62433e020c780",
+      "8b4b8bbecfaf4cae",
+      "4a5a9b50a2385544",
+      "a70cae4c16f0fdc6"
+    ],
+    "skill": [
+      "92705331275526a8",
+      "01e478ba125afa0c",
+      "14f321c495182c59",
+      "dbd5adafc4073948",
+      "8898dc1fb352feb7",
+      "fa4361846156ed46",
+      "10ba719313a0c835",
+      "e331123fcba6ff57",
+      "db09b457282c5683",
+      "f7cfdfd7bcc39abd"
+    ]
+  },
+  "top_hn": [
+    "a7a7773a9f5669fb",
+    "07706832bb39f07a",
+    "61e15db8fd33eda9",
+    "bb82379af066ff25",
+    "52478eb1a864ece1",
+    "8415bce77abcc276",
+    "8e29c138e61ab876",
+    "95090c9e725edaf8",
+    "48b46abf2f4bdec3",
+    "f836fd200cc1c02e"
+  ],
+  "top_papers": [
+    "4b17f79747b00f07",
+    "316e6b12da0b19df",
+    "80b6d0407b0410e7",
+    "17137b360eb5d0c0",
+    "f53eb54da6e824d2",
+    "1f3f73bf8ba38b1c",
+    "db5a7352d8a8f936",
+    "22dd9012d9d3f330",
+    "3c2b00179f4c2cf9",
+    "935b5430b854deb8"
+  ]
 }
