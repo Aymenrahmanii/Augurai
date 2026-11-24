@@ -33,7 +33,7 @@
       "MCP": 1,
       "MLOps": 0,
       "PyTorch": 0,
-      "RAG": 0,
+      "RAG": 2,
       "agents": 11,
       "evals": 0,
       "fine-tuning": 0,
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
+      "senior software engineer, agentic ai",
+      "senior software developer, agentic ai - canada",
       "threat research engineer, security factory: threat research",
       "staff backend engineer, performance enablement",
-      "renewals manager - latam",
-      "product manager, developer ecosystem",
-      "manager, technical accounting and equity reporting"
+      "renewals manager - latam"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

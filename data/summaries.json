@@ -20,6 +20,10 @@
     "text": "A remote MCP API for GitHub trending repos, Hugging Face trending models and arXiv paper search."
   },
   {
+    "id": "01e478ba125afa0c",
+    "text": "An agent skill that researches a topic across Reddit, X, YouTube, HN, Polymarket and the web, then writes a grounded summary."
+  },
+  {
     "id": "0315535623695125",
     "text": "An OAuth-based MCP server for acting in a Moha workspace: team, hires, approvals, time off, expenses and payroll."
   },
@@ -192,6 +196,10 @@
     "text": "A free, open-source local file launcher that searches documents, code and screenshots using OCR and semantic search, with MCP access for agents."
   },
   {
+    "id": "289c8aeddacd50cf",
+    "text": "datasette-charts 0.1a0 suggests and builds charts for any Datasette table or SQL query. Each chart compiles to a SQL aggregation over all rows (capped at 5,000 result rows), and chart state lives in the URL fragment so it can be shared."
+  },
+  {
     "id": "28a468536f32c3ad",
     "text": "This paper argues that 3D Gaussian segmentation trained on rendered masks can yield incomplete 3D selections, and proposes volumetric supervision instead."
   },
@@ -232,6 +240,10 @@
     "text": "Recent activity in the KKKKhazix/AIHOT repository; no description was given."
   },
   {
+    "id": "3b1f8072ba2915b1",
+    "text": "datasette-charts 0.2a0 integrates with Datasette Agent, so asking the chat for a chart produces one inline using the same chart suggestion and generation tools. The agent also notices when the user changes the chart in the side panel and describes the new one."
+  },
+  {
     "id": "3b627af7791cfed8",
     "text": "HiUni is a unified multimodal model that handles visual understanding and generation in a shared visual space rather than separate representations."
   },
@@ -270,6 +282,14 @@
   {
     "id": "4a02076b10384ce7",
     "text": "Recent activity in the Leonxlnx/sable repository; no description was given."
+  },
+  {
+    "id": "4a5a9b50a2385544",
+    "text": "A repo that runs 20 Claude Code agents in parallel on iOS Simulators and Android emulators on GitHub's free runners. They look for broken flows plus translation, layout and accessibility bugs."
+  },
+  {
+    "id": "4cea9c3438543d37",
+    "text": "An MCP server that tracks brand mentions, citations and competitor visibility across ChatGPT, Gemini, Perplexity and similar assistants."
   },
   {
     "id": "4e4f33a91e8a0857",
@@ -368,8 +388,16 @@
     "text": "Recent activity in the mitsuhiko/ronacher.eu repository; no further detail was provided."
   },
   {
+    "id": "8415bce77abcc276",
+    "text": "Hacker News discussion of Z.ai's GLM-5.4 announcement, its first loop-transformer coding model."
+  },
+  {
     "id": "85576ac0909c5ff5",
     "text": "Recent activity in the JuneYaooo/awesome-ai-media repository; no description was given."
+  },
+  {
+    "id": "8898dc1fb352feb7",
+    "text": "HeyGen's open-source video editor where you write HTML and render MP4, driven by Claude Code, Codex or a free Studio app."
   },
   {
     "id": "8924fb8ebfff3837",
@@ -492,6 +520,10 @@
     "text": "Recent activity in sloemo01/repowise; no further detail was provided."
   },
   {
+    "id": "b7fc35d5ccf04588",
+    "text": "Ladybird, a from-scratch browser with its own HTML, CSS, JavaScript and WebAssembly implementations, shipped its first alpha for macOS and Linux. The author found it fast and mostly compatible, and shows its multi-process layout."
+  },
+  {
     "id": "b8477994b9d0bbec",
     "text": "Builds on Manifold-constrained Hyper-Connections (mHC), which constrain stream-mixing residual matrices to doubly stochastic matrices. The paper, cmHC, studies how to mix residual streams effectively using geometric contraction."
   },
@@ -608,6 +640,10 @@
     "text": "An MCP server for AdLab to track paid traffic and run campaigns, routing, postbacks and optimization rules."
   },
   {
+    "id": "ef3910f6a7af585b",
+    "text": "Z.ai released GLM 5.4, its first looped-transformer model, where weight-shared layers run several times to refine hidden states without adding parameters. It is not open weights yet and, per the post, is reachable only through the Coding Plan on an OpenAI-compatible Responses API."
+  },
+  {
     "id": "f138e148bb7c9a5e",
     "text": "Argues that RL post-training of diffusion transformers acts as activation steering. It starts from the observation that capabilities such as text rendering and multi-object composition depend on the prompt."
   },
@@ -618,6 +654,10 @@
   {
     "id": "f25cfa09a16ab511",
     "text": "Generates an interactive plain-English map of a codebase, drawn by Claude or Codex."
+  },
+  {
+    "id": "f3349335f15c963a",
+    "text": "datasette-agent 0.7a1 lets the iframe side panel in chat sessions navigate via URL fragment hashes. This helps plugins that store their state in the fragment, and was built to fix bugs in datasette-charts."
   },
   {
     "id": "f6990214f0b638d6",

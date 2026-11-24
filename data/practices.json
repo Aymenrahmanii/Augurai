@@ -50,5 +50,22 @@
       "comparison"
     ],
     "title": "Generate a specimen sheet of every option, then choose by eye"
+  },
+  {
+    "exercise": "For a page you use, list on paper which settings would have to be in the URL for a colleague to see exactly what you see. Then write the fragment format for them by hand.",
+    "first_seen": "2026-11-24",
+    "how_to_apply": "1. List the settings that define a view. 2. Serialize them into the fragment whenever they change. 3. Restore them from the fragment on load. 4. Let other components react to fragment changes.",
+    "id": "keep-shareable-ui-state-in-the-url-fragment",
+    "person_id": "simon-willison",
+    "principle": "When the whole state of a view is encoded in the URL fragment, people can bookmark or send the exact view, and separate components can coordinate by reading and writing the same place without extra plumbing.",
+    "reinforced_by": [],
+    "related_skill": null,
+    "source_url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+    "tags": [
+      "ui",
+      "state",
+      "agents"
+    ],
+    "title": "Keep shareable UI state in the URL fragment"
   }
 ]
