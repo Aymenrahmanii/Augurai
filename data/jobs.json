@@ -6,7 +6,7 @@
       "LangChain": 2,
       "MCP": 11,
       "MLOps": 2,
-      "PyTorch": 9,
+      "PyTorch": 8,
       "RAG": 4,
       "agents": 43,
       "evals": 6,
@@ -23,18 +23,18 @@
       "joulent | ai engineer, company brain | san francisco | onsite | full-time | $175k-$230k base plus bonus and equity"
     ],
     "source": "jobs-hn",
-    "total_posts": 239
+    "total_posts": 238
   },
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
       "LLM": 2,
       "LangChain": 0,
-      "MCP": 1,
+      "MCP": 2,
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 2,
-      "agents": 11,
+      "agents": 12,
       "evals": 0,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "strategic technical advisor",
-      "senior software engineer, agentic ai",
-      "senior software developer, agentic ai - canada",
-      "threat research engineer, security factory: threat research",
-      "staff backend engineer, performance enablement"
+      "senior manager, enterprise application development engineering",
+      "real estate executive assistant 21370",
+      "senior tax associate",
+      "revenue operations manager",
+      "senior cx platform engineer"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

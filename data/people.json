@@ -1,6 +1,26 @@
 [
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 0,
+    "id": "Developing-Gamer",
+    "last_active": null,
+    "links": {
+      "github": "https://github.com/Developing-Gamer"
+    },
+    "name": "Developing-Gamer",
+    "recent_work": [],
+    "score": 3.0,
+    "score_history": [
+      {
+        "day": "2026-11-25",
+        "score": 3.0
+      }
+    ],
+    "status": "rising",
+    "what_to_learn": "",
+    "why_follow": ""
+  },
+  {
+    "above_threshold_runs": 4,
     "id": "DietrichGebert",
     "last_active": "2026-11-21",
     "links": {
@@ -15,7 +35,7 @@
         "url": "https://github.com/DietrichGebert/ponytail"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -31,6 +51,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -59,7 +83,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 2,
     "id": "EL4CTEO",
     "last_active": null,
     "links": {
@@ -67,7 +91,7 @@
     },
     "name": "EL4CTEO",
     "recent_work": [],
-    "score": 8.0,
+    "score": 11.0,
     "score_history": [
       {
         "day": "2026-11-23",
@@ -76,14 +100,18 @@
       {
         "day": "2026-11-24",
         "score": 4.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
-    "status": "rising",
+    "status": "followed",
     "what_to_learn": "",
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "INK-Q",
     "last_active": null,
     "links": {
@@ -91,10 +119,14 @@
     },
     "name": "INK-Q",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -111,11 +143,15 @@
     },
     "name": "ItsNotRexed",
     "recent_work": [],
-    "score": 2.0,
+    "score": 3.0,
     "score_history": [
       {
         "day": "2026-11-24",
         "score": 2.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 1.0
       }
     ],
     "status": "rising",
@@ -123,7 +159,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "JuneYaooo",
     "last_active": "2026-11-24",
     "links": {
@@ -133,7 +169,7 @@
     "recent_work": [
       {
         "person_id": "JuneYaooo",
-        "published": "2026-11-24T15:25:57Z",
+        "published": "2026-11-24T14:48:59Z",
         "title": "Active in JuneYaooo/rea-video",
         "url": "https://github.com/JuneYaooo/rea-video"
       },
@@ -192,7 +228,7 @@
         "url": "https://github.com/JuneYaooo/awesome-medical-ai"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -209,6 +245,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -216,9 +256,9 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "KKKKhazix",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/KKKKhazix"
     },
@@ -226,21 +266,21 @@
     "recent_work": [
       {
         "person_id": "KKKKhazix",
-        "published": "2026-11-24T19:47:48Z",
+        "published": "2026-11-25T01:03:49Z",
+        "title": "Released KKKKhazix/agent-autoloop",
+        "url": "https://github.com/KKKKhazix/agent-autoloop"
+      },
+      {
+        "person_id": "KKKKhazix",
+        "published": "2026-11-24T10:55:12Z",
         "title": "Active in KKKKhazix/AIHOT",
         "url": "https://github.com/KKKKhazix/AIHOT"
       },
       {
         "person_id": "KKKKhazix",
-        "published": "2026-11-24T10:11:33Z",
+        "published": "2026-11-24T10:11:26Z",
         "title": "Active in ET-yzk/AIHOT",
         "url": "https://github.com/ET-yzk/AIHOT"
-      },
-      {
-        "person_id": "KKKKhazix",
-        "published": "2026-11-24T01:26:58Z",
-        "title": "Active in KKKKhazix/agent-autoloop",
-        "url": "https://github.com/KKKKhazix/agent-autoloop"
       },
       {
         "person_id": "KKKKhazix",
@@ -249,7 +289,7 @@
         "url": "https://github.com/argszero/agent-autoloop"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -266,6 +306,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -273,9 +317,9 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "Leonxlnx",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/Leonxlnx"
     },
@@ -283,15 +327,15 @@
     "recent_work": [
       {
         "person_id": "Leonxlnx",
-        "published": "2026-11-24T17:33:27Z",
+        "published": "2026-11-25T03:31:06Z",
         "title": "Released Leonxlnx/sable",
         "url": "https://github.com/Leonxlnx/sable"
       },
       {
         "person_id": "Leonxlnx",
-        "published": "2026-11-24T06:41:36Z",
-        "title": "Active in Leonxlnx/tastecode",
-        "url": "https://github.com/Leonxlnx/tastecode"
+        "published": "2026-11-24T12:15:16Z",
+        "title": "Active in Leonxlnx/cinetic",
+        "url": "https://github.com/Leonxlnx/cinetic"
       },
       {
         "person_id": "Leonxlnx",
@@ -301,9 +345,9 @@
       },
       {
         "person_id": "Leonxlnx",
-        "published": "2026-11-23T09:03:09Z",
-        "title": "Active in Leonxlnx/cinetic",
-        "url": "https://github.com/Leonxlnx/cinetic"
+        "published": "2026-11-23T14:46:06Z",
+        "title": "Active in Leonxlnx/tastecode",
+        "url": "https://github.com/Leonxlnx/tastecode"
       },
       {
         "person_id": "Leonxlnx",
@@ -318,7 +362,7 @@
         "url": "https://github.com/lachlan1234564/tastecode"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -334,6 +378,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -402,7 +450,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 2,
     "id": "XinaTian",
     "last_active": null,
     "links": {
@@ -410,7 +458,7 @@
     },
     "name": "XinaTian",
     "recent_work": [],
-    "score": 6.0,
+    "score": 9.0,
     "score_history": [
       {
         "day": "2026-11-23",
@@ -419,9 +467,13 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
-    "status": "rising",
+    "status": "followed",
     "what_to_learn": "",
     "why_follow": ""
   },
@@ -505,7 +557,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "alexeyw",
     "last_active": "2026-11-23",
     "links": {
@@ -532,7 +584,7 @@
         "url": "https://github.com/alexeyw/lot-map"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -548,6 +600,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -655,7 +711,7 @@
   {
     "above_threshold_runs": 0,
     "id": "armin-ronacher",
-    "last_active": "2026-11-23",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/mitsuhiko",
       "rss": "https://lucumr.pocoo.org/feed.atom",
@@ -663,6 +719,12 @@
     },
     "name": "Armin Ronacher",
     "recent_work": [
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-25T00:00:00Z",
+        "title": "Abolish Lock Poisoning",
+        "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/"
+      },
       {
         "person_id": "armin-ronacher",
         "published": "2026-11-23T19:21:35Z",
@@ -793,7 +855,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "blader",
     "last_active": "2026-11-10",
     "links": {
@@ -808,7 +870,7 @@
         "url": "https://github.com/blader/humanizer"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -825,6 +887,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -832,7 +898,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "bookwjitchieni1986",
     "last_active": "2026-11-22",
     "links": {
@@ -847,7 +913,7 @@
         "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -864,6 +930,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -871,7 +941,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "boringmarketer",
     "last_active": "2026-11-17",
     "links": {
@@ -886,7 +956,7 @@
         "url": "https://github.com/boringmarketer/boring-marketing-skills"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -902,6 +972,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -988,9 +1062,9 @@
     "why_follow": "Built Claude Code; shows how its creator uses it."
   },
   {
-    "above_threshold_runs": 4,
+    "above_threshold_runs": 5,
     "id": "cathrynlavery",
-    "last_active": "2026-11-23",
+    "last_active": "2026-11-24",
     "links": {
       "github": "https://github.com/cathrynlavery"
     },
@@ -998,15 +1072,21 @@
     "recent_work": [
       {
         "person_id": "cathrynlavery",
-        "published": "2026-11-23T18:43:43Z",
-        "title": "Active in cathrynlavery/yap-studio",
-        "url": "https://github.com/cathrynlavery/yap-studio"
+        "published": "2026-11-24T22:22:32Z",
+        "title": "Active in cathrynlavery/diagram-design",
+        "url": "https://github.com/cathrynlavery/diagram-design"
       },
       {
         "person_id": "cathrynlavery",
-        "published": "2026-11-23T11:00:12Z",
-        "title": "Active in cathrynlavery/diagram-design",
-        "url": "https://github.com/cathrynlavery/diagram-design"
+        "published": "2026-11-24T18:57:58Z",
+        "title": "Active in JasonOA888/diagram-design",
+        "url": "https://github.com/JasonOA888/diagram-design"
+      },
+      {
+        "person_id": "cathrynlavery",
+        "published": "2026-11-23T18:43:43Z",
+        "title": "Active in cathrynlavery/yap-studio",
+        "url": "https://github.com/cathrynlavery/yap-studio"
       },
       {
         "person_id": "cathrynlavery",
@@ -1039,7 +1119,7 @@
         "url": "https://github.com/cathrynlavery/tailscale-superpowers"
       }
     ],
-    "score": 15.0,
+    "score": 18.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -1060,6 +1140,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -1067,7 +1151,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "ccch1mneyyy",
     "last_active": "2026-11-24",
     "links": {
@@ -1077,18 +1161,18 @@
     "recent_work": [
       {
         "person_id": "ccch1mneyyy",
-        "published": "2026-11-24T11:38:30Z",
-        "title": "Active in ccch1mneyyy/dsh-go-market",
-        "url": "https://github.com/ccch1mneyyy/dsh-go-market"
+        "published": "2026-11-24T15:26:30Z",
+        "title": "Active in ccch1mneyyy/dsh-Go",
+        "url": "https://github.com/ccch1mneyyy/dsh-Go"
       },
       {
         "person_id": "ccch1mneyyy",
-        "published": "2026-11-24T10:51:45Z",
-        "title": "Active in ccch1mneyyy/dsh-Go",
-        "url": "https://github.com/ccch1mneyyy/dsh-Go"
+        "published": "2026-11-24T11:33:21Z",
+        "title": "Active in ccch1mneyyy/dsh-go-market",
+        "url": "https://github.com/ccch1mneyyy/dsh-go-market"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -1104,6 +1188,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -1214,7 +1302,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "emanuele-em",
     "last_active": "2026-11-23",
     "links": {
@@ -1235,7 +1323,7 @@
         "url": "https://github.com/emanuele-em/kanzo"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -1252,6 +1340,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -1259,7 +1351,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "erkamyaman",
     "last_active": "2026-11-24",
     "links": {
@@ -1269,9 +1361,27 @@
     "recent_work": [
       {
         "person_id": "erkamyaman",
-        "published": "2026-11-24T04:54:37Z",
-        "title": "Active in erkamyaman/unslop-anything",
-        "url": "https://github.com/erkamyaman/unslop-anything"
+        "published": "2026-11-24T20:12:48Z",
+        "title": "Active in erkamyaman/rust-anything",
+        "url": "https://github.com/erkamyaman/rust-anything"
+      },
+      {
+        "person_id": "erkamyaman",
+        "published": "2026-11-24T20:11:13Z",
+        "title": "Active in SPD-RYUK/rust-anything",
+        "url": "https://github.com/SPD-RYUK/rust-anything"
+      },
+      {
+        "person_id": "erkamyaman",
+        "published": "2026-11-24T20:03:08Z",
+        "title": "Active in AyhamJo7/rust-anything",
+        "url": "https://github.com/AyhamJo7/rust-anything"
+      },
+      {
+        "person_id": "erkamyaman",
+        "published": "2026-11-24T16:42:58Z",
+        "title": "Active in erkamyaman/safe-anything",
+        "url": "https://github.com/erkamyaman/safe-anything"
       },
       {
         "person_id": "erkamyaman",
@@ -1293,24 +1403,24 @@
       },
       {
         "person_id": "erkamyaman",
+        "published": "2026-11-23T15:23:24Z",
+        "title": "Active in erkamyaman/unslop-anything",
+        "url": "https://github.com/erkamyaman/unslop-anything"
+      },
+      {
+        "person_id": "erkamyaman",
         "published": "2026-11-23T15:11:04Z",
         "title": "Active in storybookjs/web",
         "url": "https://github.com/storybookjs/web"
       },
       {
         "person_id": "erkamyaman",
-        "published": "2026-11-23T10:51:52Z",
-        "title": "Active in erkamyaman/rust-anything",
-        "url": "https://github.com/erkamyaman/rust-anything"
-      },
-      {
-        "person_id": "erkamyaman",
-        "published": "2026-11-23T09:30:31Z",
-        "title": "Active in erkamyaman/safe-anything",
-        "url": "https://github.com/erkamyaman/safe-anything"
+        "published": "2026-11-23T14:55:54Z",
+        "title": "Active in XiaoBinGan/rust-anything",
+        "url": "https://github.com/XiaoBinGan/rust-anything"
       }
     ],
-    "score": 12.0,
+    "score": 18.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -1327,6 +1437,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 6.0
       }
     ],
     "status": "followed",
@@ -1334,7 +1448,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "ersinkoc",
     "last_active": "2026-11-24",
     "links": {
@@ -1344,39 +1458,51 @@
     "recent_work": [
       {
         "person_id": "ersinkoc",
-        "published": "2026-11-24T20:26:02Z",
-        "title": "Active in ersinkoc/Agora",
-        "url": "https://github.com/ersinkoc/Agora"
-      },
-      {
-        "person_id": "ersinkoc",
-        "published": "2026-11-24T20:09:11Z",
-        "title": "Active in ersinkoc/phonebox",
-        "url": "https://github.com/ersinkoc/phonebox"
-      },
-      {
-        "person_id": "ersinkoc",
         "published": "2026-11-24T19:59:06Z",
         "title": "Released ersinkoc/AI-Video-Factory",
         "url": "https://github.com/ersinkoc/AI-Video-Factory"
       },
       {
         "person_id": "ersinkoc",
-        "published": "2026-11-24T10:36:47Z",
-        "title": "Active in ersinkoc/kiri",
-        "url": "https://github.com/ersinkoc/kiri"
+        "published": "2026-11-24T12:18:19Z",
+        "title": "Active in ersinkoc/Agora",
+        "url": "https://github.com/ersinkoc/Agora"
       },
       {
         "person_id": "ersinkoc",
-        "published": "2026-11-24T07:58:59Z",
+        "published": "2026-11-24T11:17:22Z",
+        "title": "Active in CacheStorm/CacheStorm",
+        "url": "https://github.com/CacheStorm/CacheStorm"
+      },
+      {
+        "person_id": "ersinkoc",
+        "published": "2026-11-24T11:02:38Z",
         "title": "Active in ersinkoc/pursae",
         "url": "https://github.com/ersinkoc/pursae"
+      },
+      {
+        "person_id": "ersinkoc",
+        "published": "2026-11-24T10:13:12Z",
+        "title": "Active in ersinkoc/kiri",
+        "url": "https://github.com/ersinkoc/kiri"
       },
       {
         "person_id": "ersinkoc",
         "published": "2026-11-24T00:25:42Z",
         "title": "Active in RustWTM/RustWTM",
         "url": "https://github.com/RustWTM/RustWTM"
+      },
+      {
+        "person_id": "ersinkoc",
+        "published": "2026-11-23T22:11:38Z",
+        "title": "Active in ersinkoc/heym",
+        "url": "https://github.com/ersinkoc/heym"
+      },
+      {
+        "person_id": "ersinkoc",
+        "published": "2026-11-23T22:02:39Z",
+        "title": "Active in ersinkoc/phonebox",
+        "url": "https://github.com/ersinkoc/phonebox"
       },
       {
         "person_id": "ersinkoc",
@@ -1398,12 +1524,6 @@
       },
       {
         "person_id": "ersinkoc",
-        "published": "2026-11-23T08:13:46Z",
-        "title": "Active in ersinkoc/heym",
-        "url": "https://github.com/ersinkoc/heym"
-      },
-      {
-        "person_id": "ersinkoc",
         "published": "2026-11-22T21:00:10Z",
         "title": "Active in NothingDNS/NothingDNS",
         "url": "https://github.com/NothingDNS/NothingDNS"
@@ -1415,7 +1535,7 @@
         "url": "https://github.com/AnubisWatch/AnubisWatch"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -1431,6 +1551,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -1876,7 +2000,7 @@
   {
     "above_threshold_runs": 0,
     "id": "jesse-vincent",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/obra",
       "web": "http://fsck.com"
@@ -1885,7 +2009,7 @@
     "recent_work": [
       {
         "person_id": "jesse-vincent",
-        "published": "2026-11-24T20:26:32Z",
+        "published": "2026-11-25T04:35:23Z",
         "title": "Active in prime-radiant-inc/evener",
         "url": "https://github.com/prime-radiant-inc/evener"
       },
@@ -1915,9 +2039,9 @@
     "why_follow": "Author of the Superpowers skills you already use."
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "kubai087",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/kubai087"
     },
@@ -1925,18 +2049,18 @@
     "recent_work": [
       {
         "person_id": "kubai087",
-        "published": "2026-11-24T13:57:52Z",
-        "title": "Released kubai087/vibedesign-skills",
-        "url": "https://github.com/kubai087/vibedesign-skills"
+        "published": "2026-11-25T03:57:11Z",
+        "title": "Active in kubai087/kubai-icons",
+        "url": "https://github.com/kubai087/kubai-icons"
       },
       {
         "person_id": "kubai087",
-        "published": "2026-11-23T02:22:17Z",
-        "title": "Active in kubai087/kubai-icons",
-        "url": "https://github.com/kubai087/kubai-icons"
+        "published": "2026-11-24T13:57:52Z",
+        "title": "Released kubai087/vibedesign-skills",
+        "url": "https://github.com/kubai087/vibedesign-skills"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -1952,6 +2076,10 @@
       },
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -1970,7 +2098,7 @@
     "recent_work": [
       {
         "person_id": "lauren-tan",
-        "published": "2026-11-24T00:36:25Z",
+        "published": "2026-11-23T22:14:04Z",
         "title": "Active in cursor/plugins",
         "url": "https://github.com/cursor/plugins"
       }
@@ -2024,7 +2152,7 @@
   {
     "above_threshold_runs": 0,
     "id": "matt-pocock",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/mattpocock",
       "rss": "https://www.aihero.dev/rss.xml",
@@ -2034,15 +2162,15 @@
     "recent_work": [
       {
         "person_id": "matt-pocock",
-        "published": "2026-11-24T15:53:17Z",
-        "title": "Active in mattpocock/course-video-manager",
-        "url": "https://github.com/mattpocock/course-video-manager"
+        "published": "2026-11-25T04:42:31Z",
+        "title": "Active in mattpocock/cookout",
+        "url": "https://github.com/mattpocock/cookout"
       },
       {
         "person_id": "matt-pocock",
-        "published": "2026-11-24T04:59:24Z",
-        "title": "Active in mattpocock/cookout",
-        "url": "https://github.com/mattpocock/cookout"
+        "published": "2026-11-24T15:53:17Z",
+        "title": "Active in mattpocock/course-video-manager",
+        "url": "https://github.com/mattpocock/course-video-manager"
       },
       {
         "person_id": "matt-pocock",
@@ -2124,7 +2252,7 @@
     "why_follow": "Turns TypeScript and AI-assisted coding into small, repeatable workflows."
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "morluto",
     "last_active": "2026-11-24",
     "links": {
@@ -2140,9 +2268,15 @@
       },
       {
         "person_id": "morluto",
-        "published": "2026-11-24T04:57:38Z",
+        "published": "2026-11-24T12:08:08Z",
         "title": "Active in morluto/rea",
         "url": "https://github.com/morluto/rea"
+      },
+      {
+        "person_id": "morluto",
+        "published": "2026-11-24T11:25:45Z",
+        "title": "Active in bqw371/rea",
+        "url": "https://github.com/bqw371/rea"
       },
       {
         "person_id": "morluto",
@@ -2151,7 +2285,7 @@
         "url": "https://github.com/morluto/reef"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -2168,6 +2302,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -2175,7 +2313,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "mvanhorn",
     "last_active": null,
     "links": {
@@ -2183,10 +2321,14 @@
     },
     "name": "mvanhorn",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -2215,7 +2357,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 4,
     "id": "pbakaus",
     "last_active": "2026-11-24",
     "links": {
@@ -2230,7 +2372,7 @@
         "url": "https://github.com/pbakaus/impeccable"
       }
     ],
-    "score": 12.0,
+    "score": 15.0,
     "score_history": [
       {
         "day": "2026-11-21",
@@ -2247,6 +2389,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -2254,9 +2400,9 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 4,
+    "above_threshold_runs": 5,
     "id": "phuryn",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/phuryn"
     },
@@ -2264,13 +2410,13 @@
     "recent_work": [
       {
         "person_id": "phuryn",
-        "published": "2026-11-24T19:50:04Z",
+        "published": "2026-11-25T04:21:30Z",
         "title": "Released phuryn/grok-build-vscode",
         "url": "https://github.com/phuryn/grok-build-vscode"
       },
       {
         "person_id": "phuryn",
-        "published": "2026-11-23T17:02:18Z",
+        "published": "2026-11-23T14:11:40Z",
         "title": "Active in phuryn/bug-hunt-bench",
         "url": "https://github.com/phuryn/bug-hunt-bench"
       },
@@ -2287,7 +2433,7 @@
         "url": "https://github.com/phuryn/staygreen"
       }
     ],
-    "score": 15.0,
+    "score": 18.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -2308,6 +2454,10 @@
       {
         "day": "2026-11-24",
         "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 3.0
       }
     ],
     "status": "followed",
@@ -2315,7 +2465,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 1,
     "id": "pierridotite",
     "last_active": null,
     "links": {
@@ -2323,10 +2473,14 @@
     },
     "name": "pierridotite",
     "recent_work": [],
-    "score": 3.0,
+    "score": 6.0,
     "score_history": [
       {
         "day": "2026-11-24",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-25",
         "score": 3.0
       }
     ],
@@ -2495,15 +2649,15 @@
     "recent_work": [
       {
         "person_id": "shreya-shankar",
-        "published": "2026-11-24T19:30:06Z",
-        "title": "Active in fsdatalab/quail",
-        "url": "https://github.com/fsdatalab/quail"
-      },
-      {
-        "person_id": "shreya-shankar",
         "published": "2026-11-24T00:44:59Z",
         "title": "Active in fsdatalab/fsdatalab.github.io",
         "url": "https://github.com/fsdatalab/fsdatalab.github.io"
+      },
+      {
+        "person_id": "shreya-shankar",
+        "published": "2026-11-23T21:15:26Z",
+        "title": "Active in fsdatalab/quail",
+        "url": "https://github.com/fsdatalab/quail"
       },
       {
         "person_id": "shreya-shankar",
@@ -2579,7 +2733,7 @@
     "why_follow": "Researches LLM pipelines, evals and human-in-the-loop quality."
   },
   {
-    "above_threshold_runs": 1,
+    "above_threshold_runs": 2,
     "id": "simon-willison",
     "last_active": "2026-11-24",
     "links": {
@@ -2589,6 +2743,12 @@
     },
     "name": "Simon Willison",
     "recent_work": [
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-24T23:02:07Z",
+        "title": "Three LLM inflection points in twelve months",
+        "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/"
+      },
       {
         "person_id": "simon-willison",
         "published": "2026-11-24T16:53:59Z",
@@ -2702,15 +2862,9 @@
         "published": "2026-11-23T00:31:02Z",
         "title": "Released datasette/datasette-enrichments",
         "url": "https://github.com/datasette/datasette-enrichments"
-      },
-      {
-        "person_id": "simon-willison",
-        "published": "2026-11-22T20:59:56Z",
-        "title": "Active in simonw/datasette",
-        "url": "https://github.com/simonw/datasette"
       }
     ],
-    "score": 7.0,
+    "score": 11.0,
     "score_history": [
       {
         "day": "2026-11-20",
@@ -2727,6 +2881,10 @@
       {
         "day": "2026-11-24",
         "score": 4.0
+      },
+      {
+        "day": "2026-11-25",
+        "score": 4.0
       }
     ],
     "status": "seed",
@@ -2736,7 +2894,7 @@
   {
     "above_threshold_runs": 0,
     "id": "sloemo01",
-    "last_active": "2026-11-24",
+    "last_active": "2026-11-25",
     "links": {
       "github": "https://github.com/sloemo01"
     },
@@ -2744,7 +2902,13 @@
     "recent_work": [
       {
         "person_id": "sloemo01",
-        "published": "2026-11-24T19:22:50Z",
+        "published": "2026-11-25T02:52:14Z",
+        "title": "Active in open-goat/pequalnp-proofs",
+        "url": "https://github.com/open-goat/pequalnp-proofs"
+      },
+      {
+        "person_id": "sloemo01",
+        "published": "2026-11-25T02:02:58Z",
         "title": "Released sloemo01/thin-stt",
         "url": "https://github.com/sloemo01/thin-stt"
       },
@@ -2762,13 +2926,19 @@
       },
       {
         "person_id": "sloemo01",
+        "published": "2026-11-23T17:49:25Z",
+        "title": "Active in sloemo01/livekit",
+        "url": "https://github.com/sloemo01/livekit"
+      },
+      {
+        "person_id": "sloemo01",
         "published": "2026-11-23T17:45:31Z",
         "title": "Active in sloemo01/repowise",
         "url": "https://github.com/sloemo01/repowise"
       },
       {
         "person_id": "sloemo01",
-        "published": "2026-11-23T16:13:08Z",
+        "published": "2026-11-23T10:53:28Z",
         "title": "Active in sloemo01/wakely",
         "url": "https://github.com/sloemo01/wakely"
       },
@@ -2937,9 +3107,21 @@
     "recent_work": [
       {
         "person_id": "tt-a1i",
-        "published": "2026-11-24T15:40:36Z",
+        "published": "2026-11-24T15:20:31Z",
         "title": "Active in tt-a1i/archify",
         "url": "https://github.com/tt-a1i/archify"
+      },
+      {
+        "person_id": "tt-a1i",
+        "published": "2026-11-24T14:56:20Z",
+        "title": "Active in outlier27-cell/archify",
+        "url": "https://github.com/outlier27-cell/archify"
+      },
+      {
+        "person_id": "tt-a1i",
+        "published": "2026-11-24T14:27:20Z",
+        "title": "Active in tt-a1i/archify-release-video",
+        "url": "https://github.com/tt-a1i/archify-release-video"
       },
       {
         "person_id": "tt-a1i",
