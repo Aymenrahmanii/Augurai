@@ -622,5 +622,31 @@
       "jobs-adzuna"
     ],
     "started": "2026-11-25T04:43:24.456685Z"
+  },
+  {
+    "briefing_written": true,
+    "enrichment": "ran",
+    "enrichment_note": null,
+    "id": "2026-11-25T14:53:06.058746+00:00",
+    "mode": "morning",
+    "sources_failed": [],
+    "sources_ok": [
+      "openrouter",
+      "huggingface-models",
+      "artificial-analysis",
+      "github-repos",
+      "github-skills",
+      "mcp-registry",
+      "hackernews",
+      "feeds",
+      "hf-papers",
+      "github-people",
+      "jobs-hn",
+      "jobs-remoteok"
+    ],
+    "sources_skipped": [
+      "jobs-adzuna"
+    ],
+    "started": "2026-11-25T14:53:06.058746Z"
   }
 ]

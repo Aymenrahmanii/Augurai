@@ -60,6 +60,10 @@
     "text": "An MCP server returning Google search results, forum threads, local and shopping data, keyword ideas and AI answer tracking."
   },
   {
+    "id": "07f574d8899d8e34",
+    "text": "A remote MCP server offering real-time Google Search results, autocomplete and URL/PDF-to-Markdown conversion."
+  },
+  {
     "id": "08bbe111dca6be09",
     "text": "An MCP directory of merchants accepting agentic payments over Lightning, L402, BOLT12 and USDT, with search, verify and pay functions."
   },
@@ -208,12 +212,24 @@
     "text": "A HUD that shows quotas, tokens and sessions for Claude Code, Codex and 25 more coding agents. It runs on Mac, Windows and Linux, with phone and watch support."
   },
   {
+    "id": "2bb19579012c28c6",
+    "text": "Activity note: the datasette/dblayer repository was open-sourced."
+  },
+  {
     "id": "302755d56c3e0872",
     "text": "Recent activity in alchaincyf/nuwa-skill; no further detail was provided."
   },
   {
     "id": "3175ddbd94acab2f",
     "text": "A release of simonw/datasette-remote-metadata was recorded; no details were given."
+  },
+  {
+    "id": "32ad3debcf5d32d7",
+    "text": "Armin Ronacher argues Rust's mutex poisoning should be removed or made the exception. He says he has not seen code that handles a poisoned lock correctly, and cites a Rust libs team member saying no one has reported recovering from poison."
+  },
+  {
+    "id": "3329a08407affbd2",
+    "text": "An MCP server that scans local Next.js, Supabase and Stripe repos for missing row-level security, leaked secrets and unsigned webhooks."
   },
   {
     "id": "3400785e003329cf",
@@ -340,6 +356,10 @@
     "text": "A llama.cpp variant reporting DeepSeek-V4-Flash (284B) running in under 59 GiB RAM on a 64GB CPU-only machine at 9.1 tok/s generation. It also reports 30B MoE models at 22.4 tok/s, or 111.6 tok/s with speculative decoding."
   },
   {
+    "id": "5f2128d111ed145a",
+    "text": "Introduces Nemotron-Labs-VisualCreation, an agentic framework that represents raster images as learned discrete visual tokens (Pixel as Code) to control text, layout and structure."
+  },
+  {
     "id": "61e15db8fd33eda9",
     "text": "Hacker News thread titled 'Lean verification of the Riemann Hypothesis'; only the title was provided."
   },
@@ -356,6 +376,14 @@
     "text": "Vercel Labs library of behaviors for agents that build user interfaces."
   },
   {
+    "id": "6d4a47c2eb45424c",
+    "text": "Proposes loom attention, which lets a Transformer rewire its circuits at each token by combining vertical attention over earlier heads' outputs with horizontal attention over tokens."
+  },
+  {
+    "id": "6ff348e652c905f1",
+    "text": "Simon Willison argues LLM coding agents hit three inflection points in twelve months, starting with Claude Opus 4.5 a year ago. He says it was the first model where Claude Code's default result was usually right, so he stopped having to correct it often."
+  },
+  {
     "id": "76608378b6647553",
     "text": "Recent activity in the mattpocock/skills repository; no further detail was provided."
   },
@@ -366,6 +394,10 @@
   {
     "id": "78e219711e827886",
     "text": "Agent skill that draws animated icons in one consistent style. Includes over 2,600 open-source icons for React, Vue and SVG, and a browsing site."
+  },
+  {
+    "id": "791704e6d743c250",
+    "text": "Provides iOS simulators for AI agents on Linux, as the agent layer for x86Sim."
   },
   {
     "id": "79680f2490d690a7",
@@ -388,6 +420,10 @@
     "text": "Recent activity in the mitsuhiko/ronacher.eu repository; no further detail was provided."
   },
   {
+    "id": "84084d872d88964e",
+    "text": "Argues static computer-use agent benchmarks lose discriminative value due to fixed difficulty ceilings, and introduces self-evolving evaluation environments."
+  },
+  {
     "id": "8415bce77abcc276",
     "text": "Hacker News discussion of Z.ai's GLM-5.4 announcement, its first loop-transformer coding model."
   },
@@ -408,6 +444,10 @@
     "text": "A release of datasette/ready-for-datasette was recorded; no details were given."
   },
   {
+    "id": "8b4b8bbecfaf4cae",
+    "text": "An MCP plugin for Google Antigravity that claims to cut LLM turns by 34%, token quota by 31% and upload traffic by 40%. These figures are the repo's own claims."
+  },
+  {
     "id": "8cc270b184708c4b",
     "text": "Simon Willison had Claude Fable 5.2 build a page showing every way an HTML select box can be styled, so he could screenshot it in desktop and mobile browsers. He settled on a CSS recipe using appearance: none, a thin border, rounded corners and an inline SVG arrow."
   },
@@ -418,6 +458,10 @@
   {
     "id": "90780b0321ef5a02",
     "text": "An MCP server that stages Meta ads from an AI assistant. Ads are launched paused with every Advantage+ enhancement turned off."
+  },
+  {
+    "id": "91c6907223232958",
+    "text": "Presents PartAgent, an agentic approach to 3D part segmentation that combines 3D and 2D expert models with closed-loop refinement."
   },
   {
     "id": "91cbb9d77a6577b0",
@@ -438,6 +482,10 @@
   {
     "id": "95b44d7a2126fd28",
     "text": "Recent activity in the ersinkoc/heym repository; no description was given."
+  },
+  {
+    "id": "95b9273cc84912f4",
+    "text": "Proposes ACAP, which organizes one robot as a team of persistent asynchronous coding agents so independent work is not delayed by a single agent."
   },
   {
     "id": "95efc5344fe96ca0",
@@ -472,6 +520,14 @@
     "text": "Kanzo is a self-hosted, sharable kanban board for humans and agents, shipped as a 4.7 MB binary. Its author claims 5 MB of RAM, 3 ms startup and 10 to 60 tokens per agent reply."
   },
   {
+    "id": "a238dcdd8d9bf03c",
+    "text": "A read-only MCP server with UAE Corporate Tax, VAT and e-invoicing calculators that cite official legal sources."
+  },
+  {
+    "id": "a306cf002b916499",
+    "text": "A free open-source desktop typing-cat pet and OBS overlay built with Tauri v2, Rust and MCP, for Windows, Mac, Linux and Android."
+  },
+  {
     "id": "a3bdd56a3a313bf2",
     "text": "Posterior Matching Distillation is a diffusion distillation method that matches student and teacher output distributions to cut sampling steps for image and video generation."
   },
@@ -492,6 +548,10 @@
     "text": "Recent activity in cathrynlavery/skills; no further detail was provided."
   },
   {
+    "id": "a9deb156f023a43f",
+    "text": "Reports Antom 3-in-1 Transformer, a roughly 7B-parameter payment foundation model (about 1.7B active per task route) combining sequence, tabular and graph representations for payment risk detection."
+  },
+  {
     "id": "ae962e80f83e35a3",
     "text": "Recent activity in alchaincyf/claude-code-orange-book; no further detail was provided."
   },
@@ -502,6 +562,14 @@
   {
     "id": "b0a3abc90e8763ff",
     "text": "sloemo01 released thin-stt; no description was provided."
+  },
+  {
+    "id": "b0d71194e0ab7437",
+    "text": "A Rust vulnerability scanner covering XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups."
+  },
+  {
+    "id": "b291739a17bf36d9",
+    "text": "Technical report on LingSante MedGuard, a system to detect harmful, non-compliant or ethically problematic medical AI responses by checking claims against evidence."
   },
   {
     "id": "b3718af977585a65",
@@ -528,8 +596,16 @@
     "text": "Builds on Manifold-constrained Hyper-Connections (mHC), which constrain stream-mixing residual matrices to doubly stochastic matrices. The paper, cmHC, studies how to mix residual streams effectively using geometric contraction."
   },
   {
+    "id": "b9d9f066ce957d79",
+    "text": "An open, agent- and model-agnostic tool for creating artifacts (slides, UI designs, sheets, docs and more) saved locally as plain files."
+  },
+  {
     "id": "bb82379af066ff25",
     "text": "A Hacker News thread arguing that China's open-weights AI strategy is winning; only the title is available."
+  },
+  {
+    "id": "bd9c6d2eead992d4",
+    "text": "A remote MCP server for real-time Google News headlines, publisher articles and topic search."
   },
   {
     "id": "bdb91ff75ced6f0b",
@@ -546,6 +622,14 @@
   {
     "id": "c9baa337d843cc05",
     "text": "Agent skill that turns an idea, plan or codebase into an interactive diagram, for Claude Code, Codex and others."
+  },
+  {
+    "id": "ccb9331ad40681b7",
+    "text": "Argues computer-use agents lack real-time awareness of screens that change on their own, and proposes proactive perception for them."
+  },
+  {
+    "id": "d136c62c7f61e638",
+    "text": "Hacker News post arguing that LLM agents work for their parent companies rather than for the user. No further text was provided."
   },
   {
     "id": "d3966b6fd7109579",
@@ -664,8 +748,16 @@
     "text": "Coda-DaVinci studies Code2Video, where agent-authored 3D proxies guide video generation, and examines how to build proxies and prompts for better quality."
   },
   {
+    "id": "f717d7d51a9f2328",
+    "text": "Finds long-task agents often commit to an answer while their stated belief still lists several options ('laziness'). Proposes reinforcement learning with verifiable beliefs to fix it."
+  },
+  {
     "id": "f72111f2a530cac6",
     "text": "Mika is an on-device AI agent for Android that operates apps and the web on the user's behalf."
+  },
+  {
+    "id": "f796e127a00ba54d",
+    "text": "Quotes historian Mark Humphries, who reports GPT-6.2 Astra identified the creator of an anonymous 1808 sketchbook at Yale's Beinecke Library in 22 minutes with minimal prompting. Humphries expects a milder 'crisis of confidence' for historians than for mathematicians."
   },
   {
     "id": "f7cfdfd7bcc39abd",
@@ -698,5 +790,9 @@
   {
     "id": "fd90ea8c5875644b",
     "text": "MR Office is an open-source browser suite for documents, spreadsheets, presentations, PDF and code, with a copilot in each editor. Its MCP server lets Claude, ChatGPT, Cursor and Codex create and edit Word, Excel and PowerPoint files."
+  },
+  {
+    "id": "fdd45df45b7d7ead",
+    "text": "Presents S-Mind, a method for giving multimodal LLMs spatial intelligence by internalizing multi-view geometry."
   }
 ]

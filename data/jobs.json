@@ -35,18 +35,18 @@
       "PyTorch": 0,
       "RAG": 2,
       "agents": 12,
-      "evals": 0,
+      "evals": 1,
       "fine-tuning": 0,
       "vector database": 0
     },
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "senior manager, enterprise application development engineering",
-      "real estate executive assistant 21370",
-      "senior tax associate",
-      "revenue operations manager",
-      "senior cx platform engineer"
+      "senior global partner specialist - usa",
+      "senior corporate accountant - tax",
+      "sr ehr implementation manager",
+      "regional vice president, biddable",
+      "security engineer, offensive security"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

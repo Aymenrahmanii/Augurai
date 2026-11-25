@@ -52,6 +52,23 @@
     "title": "Generate a specimen sheet of every option, then choose by eye"
   },
   {
+    "exercise": "Take three small coding tasks from your backlog. Before using any AI tool, write down how long you expect each to take by hand and what a 'right first time' result would look like. Do them, then compare notes to the criteria you set. You now have a baseline to judge any tool against.",
+    "first_seen": "2026-11-25",
+    "how_to_apply": "1. Pick one tool and one kind of daily task. 2. For a week, tally each time you accept the first result as is versus each time you had to correct it. 3. Compare the correction rate with the time you would have spent doing the task yourself. 4. Re-run the tally when a new model ships, and adopt or drop the tool based on the numbers.",
+    "id": "judge-an-ai-tool-by-how-often-you-have-to-correct-it",
+    "person_id": "simon-willison",
+    "principle": "A tool only speeds you up if the time spent checking and fixing its output is smaller than the time it saves. Counting corrections gives you a measurable test of that, instead of a general impression of 'impressive'. It also tells you when a new model has changed things enough to re-adopt a tool you had set aside.",
+    "reinforced_by": [],
+    "related_skill": null,
+    "source_url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "tags": [
+      "evaluation",
+      "coding-agents",
+      "workflow"
+    ],
+    "title": "Judge an AI tool by how often you have to correct it"
+  },
+  {
     "exercise": "For a page you use, list on paper which settings would have to be in the URL for a colleague to see exactly what you see. Then write the fragment format for them by hand.",
     "first_seen": "2026-11-24",
     "how_to_apply": "1. List the settings that define a view. 2. Serialize them into the fragment whenever they change. 3. Restore them from the fragment on load. 4. Let other components react to fragment changes.",
