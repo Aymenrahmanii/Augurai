@@ -11,12 +11,13 @@
       "model_id": "muse-ember-xhigh"
     }
   ],
-  "day": "2026-11-25",
+  "day": "2026-11-26",
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
   "new_models": [
-    "deepseek-r1t2-chimera"
+    "deepseek-r1t2-chimera",
+    "inkling-2-mini-oq4e-mtp"
   ],
   "people_work": [
     {
@@ -48,21 +49,73 @@
       "published": "2026-11-24T18:32:33Z",
       "title": "Active in Prashaxt/safe-anything",
       "url": "https://github.com/Prashaxt/safe-anything"
+    },
+    {
+      "person_id": "sloemo01",
+      "published": "2026-11-26T00:51:44Z",
+      "title": "Active in sloemo01/isom3trics",
+      "url": "https://github.com/sloemo01/isom3trics"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-25T23:26:32Z",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-25T10:34:16Z",
+      "title": "Active in elong365/phonebox",
+      "url": "https://github.com/elong365/phonebox"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-25T10:30:43Z",
+      "title": "Active in WellyngtonSantos/phonebox",
+      "url": "https://github.com/WellyngtonSantos/phonebox"
+    },
+    {
+      "person_id": "geoffrey-huntley",
+      "published": "2026-11-25T03:27:04Z",
+      "title": "Active in ghuntley/nix-compact",
+      "url": "https://github.com/ghuntley/nix-compact"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-24T22:53:25Z",
+      "title": "Active in DarkusK/phonebox",
+      "url": "https://github.com/DarkusK/phonebox"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-24T22:20:36Z",
+      "title": "Active in WrongStack/WrongStack",
+      "url": "https://github.com/WrongStack/WrongStack"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-24T20:09:28Z",
+      "title": "Active in Lewandox/rust-anything",
+      "url": "https://github.com/Lewandox/rust-anything"
     }
   ],
-  "promoted": [],
+  "promoted": [
+    "INK-Q",
+    "mvanhorn",
+    "pierridotite"
+  ],
   "rising": {
     "agent": [
       "3400785e003329cf",
       "969dd462482a25e8",
       "b0d71194e0ab7437",
+      "3c40bebd52407729",
       "b9d9f066ce957d79",
       "791704e6d743c250",
-      "3c40bebd52407729",
       "78e219711e827886",
       "34689cddad5a3350",
-      "a02a79030c2a0d11",
-      "dff6badb68da67f9"
+      "dff6badb68da67f9",
+      "9d8099e6e6efd209"
     ],
     "mcp": [
       "07f574d8899d8e34",
@@ -79,22 +132,22 @@
     "repo": [
       "fd90ea8c5875644b",
       "8129f68e260304e7",
-      "97c28dfefe84e078",
+      "de37ba9f4e662f9a",
       "e204919d55639b1d",
       "b086318dbacd470d",
-      "4a5a9b50a2385544",
-      "97d62433e020c780",
       "eb40edb5ed8830b7",
+      "4a5a9b50a2385544",
       "8b4b8bbecfaf4cae",
-      "a306cf002b916499"
+      "f25cfa09a16ab511",
+      "a70cae4c16f0fdc6"
     ],
     "skill": [
       "92705331275526a8",
-      "01e478ba125afa0c",
       "14f321c495182c59",
+      "01e478ba125afa0c",
       "dbd5adafc4073948",
-      "8898dc1fb352feb7",
       "fa4361846156ed46",
+      "8898dc1fb352feb7",
       "10ba719313a0c835",
       "e331123fcba6ff57",
       "db09b457282c5683",
@@ -108,21 +161,21 @@
     "8415bce77abcc276",
     "8e29c138e61ab876",
     "95090c9e725edaf8",
-    "48b46abf2f4bdec3",
+    "3e6b13f898f63172",
     "d136c62c7f61e638",
-    "f836fd200cc1c02e",
-    "3e6b13f898f63172"
+    "48b46abf2f4bdec3",
+    "f836fd200cc1c02e"
   ],
   "top_papers": [
-    "a9deb156f023a43f",
     "f717d7d51a9f2328",
-    "6d4a47c2eb45424c",
-    "ccb9331ad40681b7",
     "5f2128d111ed145a",
-    "95b9273cc84912f4",
     "84084d872d88964e",
     "b291739a17bf36d9",
     "91c6907223232958",
-    "5bdf8def5044ea19"
+    "5bdf8def5044ea19",
+    "00b1dbe5a0c29055",
+    "6ab67ac03b407a5f",
+    "853993777f319fd1",
+    "66c76a27a7166cf5"
   ]
 }
