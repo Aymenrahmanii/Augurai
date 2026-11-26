@@ -5,9 +5,147 @@
   "failing_sources": [],
   "first_run": false,
   "new_models": [],
-  "people_work": [],
+  "people_work": [
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-26T19:08:47Z",
+      "title": "Active in 0xfurai/peekaping",
+      "url": "https://github.com/0xfurai/peekaping"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-26T18:21:10Z",
+      "title": "Active in morganlinton/BeautifulRust",
+      "url": "https://github.com/morganlinton/BeautifulRust"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-26T18:06:10Z",
+      "title": "Active in simonw/datasette-copyable",
+      "url": "https://github.com/simonw/datasette-copyable"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-26T17:26:53Z",
+      "title": "Active in Gentleman-Programming/gentle-shell",
+      "url": "https://github.com/Gentleman-Programming/gentle-shell"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-26T15:09:31Z",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-26T05:08:46Z",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T13:58:08Z",
+      "title": "Active in mvanhorn/cli-printing-press",
+      "url": "https://github.com/mvanhorn/cli-printing-press"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T10:09:33Z",
+      "title": "Active in mvanhorn/printing-press-library",
+      "url": "https://github.com/mvanhorn/printing-press-library"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T09:33:03Z",
+      "title": "Active in mvanhorn/TablePro",
+      "url": "https://github.com/mvanhorn/TablePro"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T09:12:58Z",
+      "title": "Active in mvanhorn/pipeline",
+      "url": "https://github.com/mvanhorn/pipeline"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T08:39:23Z",
+      "title": "Active in mvanhorn/teslamate",
+      "url": "https://github.com/mvanhorn/teslamate"
+    }
+  ],
   "promoted": [],
-  "rising": {},
-  "top_hn": [],
-  "top_papers": []
+  "rising": {
+    "agent": [
+      "3400785e003329cf",
+      "969dd462482a25e8",
+      "b0d71194e0ab7437",
+      "b9d9f066ce957d79",
+      "3c40bebd52407729",
+      "791704e6d743c250",
+      "78e219711e827886",
+      "dff6badb68da67f9",
+      "34689cddad5a3350",
+      "9d8099e6e6efd209"
+    ],
+    "mcp": [
+      "b1b0a02e118dea12",
+      "07f574d8899d8e34",
+      "3329a08407affbd2",
+      "a238dcdd8d9bf03c",
+      "bd9c6d2eead992d4",
+      "4cea9c3438543d37",
+      "e3ea1ac5d326018b",
+      "0c0b0bd7215cf706",
+      "21c77919334c9e13",
+      "55b5541bbe935604"
+    ],
+    "repo": [
+      "de37ba9f4e662f9a",
+      "8129f68e260304e7",
+      "fd90ea8c5875644b",
+      "e204919d55639b1d",
+      "b086318dbacd470d",
+      "eb40edb5ed8830b7",
+      "4a5a9b50a2385544",
+      "a306cf002b916499",
+      "8b4b8bbecfaf4cae",
+      "f25cfa09a16ab511"
+    ],
+    "skill": [
+      "92705331275526a8",
+      "14f321c495182c59",
+      "01e478ba125afa0c",
+      "dbd5adafc4073948",
+      "8898dc1fb352feb7",
+      "fa4361846156ed46",
+      "10ba719313a0c835",
+      "e331123fcba6ff57",
+      "db09b457282c5683",
+      "c9baa337d843cc05"
+    ]
+  },
+  "top_hn": [
+    "a7a7773a9f5669fb",
+    "bb82379af066ff25",
+    "52478eb1a864ece1",
+    "8415bce77abcc276",
+    "8e29c138e61ab876",
+    "3e6b13f898f63172",
+    "95090c9e725edaf8",
+    "d136c62c7f61e638",
+    "48b46abf2f4bdec3",
+    "f836fd200cc1c02e"
+  ],
+  "top_papers": [
+    "de55fe526105de3b",
+    "6717576b9778057c",
+    "7fc61acd4d15604b",
+    "e44c65cf42c4c921",
+    "79b8f27116994616",
+    "6e19181ac9644dd4",
+    "50feeb157090174b",
+    "284a8b8a895b029a",
+    "87a1cf2bb4958a33",
+    "4b0509310e9e561a"
+  ]
 }
