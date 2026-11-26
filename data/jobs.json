@@ -28,13 +28,13 @@
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
-      "LLM": 1,
+      "LLM": 3,
       "LangChain": 0,
-      "MCP": 2,
+      "MCP": 1,
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 2,
-      "agents": 12,
+      "agents": 10,
       "evals": 1,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "intermediate security engineer, security incident response team (sirt)",
-      "senior executive assistant, office of the cro (est / cst)",
-      "junior talent operations specialist",
-      "senior corporate accountant - tax",
-      "sr ehr implementation manager"
+      "creative director",
+      "account executive",
+      "lifecycle marketing manager",
+      "director of sales, north america",
+      "regional sales manager (automotive software sales)"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

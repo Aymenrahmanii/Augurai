@@ -36,6 +36,10 @@
     "text": "A stateful ride-support agent with versioned claims, evidence-backed RAG, durable memory and guarded MCP tools."
   },
   {
+    "id": "04a9805dfa556873",
+    "text": "Simon Willison quotes Scott Aaronson, who argues that LLMs are opening up a whole new area of mathematical truth in complexity theory, not just one-off solutions. He compares it to the first microscope and telescope."
+  },
+  {
     "id": "0667a519c65042ee",
     "text": "A project aimed at running different LLMs on the smallest devices possible."
   },
@@ -200,6 +204,10 @@
     "text": "A free, open-source local file launcher that searches documents, code and screenshots using OCR and semantic search, with MCP access for agents."
   },
   {
+    "id": "284a8b8a895b029a",
+    "text": "HOG-WAM adds future Histograms of Oriented Gradients as structural supervision to world-action models. The goal is to make policies more robust to visual corruption."
+  },
+  {
     "id": "289c8aeddacd50cf",
     "text": "datasette-charts 0.1a0 suggests and builds charts for any Datasette table or SQL query. Each chart compiles to a SQL aggregation over all rows (capped at 5,000 result rows), and chart state lives in the URL fragment so it can be shared."
   },
@@ -214,6 +222,10 @@
   {
     "id": "2bb19579012c28c6",
     "text": "Activity note: the datasette/dblayer repository was open-sourced."
+  },
+  {
+    "id": "2e6f0f3077d24a40",
+    "text": "DyLoMo-DiT proposes dynamic looped mixture-of-experts diffusion transformers. The aim is to cut the parameter storage that MoE variants still need."
   },
   {
     "id": "302755d56c3e0872",
@@ -276,6 +288,10 @@
     "text": "An Expo project for writing an app once and running it natively on web, macOS, iOS and Linux, where an AI agent can build, run, view and test it on each."
   },
   {
+    "id": "3e6b13f898f63172",
+    "text": "A Hacker News thread linking a PDF paper claiming the matrix multiplication exponent is nine fourths."
+  },
+  {
     "id": "3fd180609c9e4b0e",
     "text": "Recent activity in the tt-a1i/pickup repository; no description was given."
   },
@@ -318,6 +334,10 @@
   {
     "id": "4ed8c42374396992",
     "text": "Recent activity in the heymrun/heym repository; no description was given."
+  },
+  {
+    "id": "50feeb157090174b",
+    "text": "This paper builds image generation on pretrained vision-language models by using their own representations, in a unified understanding-and-generation setup."
   },
   {
     "id": "5153e6ba27113aec",
@@ -368,8 +388,16 @@
     "text": "Mind2Act World is a diagnostic benchmark for robotic manipulation covering history-based reasoning, physical execution, and their composition."
   },
   {
+    "id": "6717576b9778057c",
+    "text": "Sage-Med studies scaling for medical multimodal LLMs. The authors report that existing medical models underperform frontier general-purpose models on a range of medical tasks."
+  },
+  {
     "id": "6a9dc30924159993",
     "text": "Recent activity in the LLMs-from-scratch repository; no further detail was provided."
+  },
+  {
+    "id": "6cb54b6e74313597",
+    "text": "PyRUA-Dex uses coding agents to learn programmatic policies for dexterous bimanual manipulation. It is motivated by the scarcity of high-quality demonstrations."
   },
   {
     "id": "6cd333e9aa7f3347",
@@ -378,6 +406,10 @@
   {
     "id": "6d4a47c2eb45424c",
     "text": "Proposes loom attention, which lets a Transformer rewire its circuits at each token by combining vertical attention over earlier heads' outputs with horizontal attention over tokens."
+  },
+  {
+    "id": "6e19181ac9644dd4",
+    "text": "DocSEAM adds bidirectional cross-page encoding to multi-page document vision-language models, which usually encode each page independently."
   },
   {
     "id": "6ff348e652c905f1",
@@ -404,8 +436,24 @@
     "text": "Recent activity in cathrynlavery/yap-studio; no further detail was provided."
   },
   {
+    "id": "79b8f27116994616",
+    "text": "This paper tries to transfer image-editing capabilities to video editors without collecting new paired source and edited videos."
+  },
+  {
     "id": "7c3cb2f841455371",
     "text": "Recent activity in the mitsuhiko/lucumr repository; no further detail was provided."
+  },
+  {
+    "id": "7dbb1baace413eae",
+    "text": "datasette-charts 0.2a1 makes small UI changes: collapsing suggested charts keeps the chart visible, and the data table is replaced by Copy TSV and Copy CSV buttons. It also removes the 'Chart this data' action menu item."
+  },
+  {
+    "id": "7fc61acd4d15604b",
+    "text": "Mixture-of-Loops Transformer rethinks what is passed between loops in looped transformers, which reuse shared layers but lose efficiency."
+  },
+  {
+    "id": "7fcbebbe6634ec84",
+    "text": "Simon Willison points out that sqlite3_rsync can copy a SQLite snapshot over SSH without first creating a full local duplicate, unlike the backup API or VACUUM INTO. It works like rsync, exchanging page hashes so only differing pages are sent."
   },
   {
     "id": "8129f68e260304e7",
@@ -478,6 +526,10 @@
   {
     "id": "95090c9e725edaf8",
     "text": "A Hacker News post asking whether the author's AI agents found an unmapped Maya site; only the title is available."
+  },
+  {
+    "id": "9527dd371e58cac2",
+    "text": "datasette-charts 0.3a0 adds chart annotations: lines, shaded areas and labels. With Datasette Agent installed, the agent can build annotated charts from a prompt."
   },
   {
     "id": "95b44d7a2126fd28",
@@ -566,6 +618,10 @@
   {
     "id": "b0d71194e0ab7437",
     "text": "A Rust vulnerability scanner covering XSS, SQL injection, leaked secrets, dependency CVEs and AI agent setups."
+  },
+  {
+    "id": "b1b0a02e118dea12",
+    "text": "An MCP server exposing US air conditioner, heat pump and space heater listings with dated store prices and room sizing."
   },
   {
     "id": "b291739a17bf36d9",
@@ -672,6 +728,14 @@
     "text": "Skill that pushes an AI agent to prefer writing less code, in the style of a minimalist senior developer."
   },
   {
+    "id": "de37ba9f4e662f9a",
+    "text": "openset-llm is a repository for local LLM inference on plain CPUs, with no GPU and 8 GB of RAM. It provides an OpenAI-compatible server."
+  },
+  {
+    "id": "de55fe526105de3b",
+    "text": "Real2SimLab is a unified platform for real-to-simulation transfer. It targets coding agents that generate simulation programs from video recordings, an area with several existing benchmarks."
+  },
+  {
     "id": "dff6badb68da67f9",
     "text": "Workstation app for running and orchestrating multiple AI agents in one place."
   },
@@ -686,6 +750,10 @@
   {
     "id": "e3ea1ac5d326018b",
     "text": "An MCP server offering an automation catalogue and a free 48-hour diagnosis for businesses in the UAE and Spain."
+  },
+  {
+    "id": "e44c65cf42c4c921",
+    "text": "VibeVideoAgent addresses code-driven video generation, where a coding agent writes rendering programs. It targets flaws such as overlapping labels that a program can produce even when it exits cleanly."
   },
   {
     "id": "e6cc9b0ff3b5b1a8",
