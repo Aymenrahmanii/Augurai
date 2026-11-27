@@ -1,10 +1,14 @@
 {
   "benchmark_moves": [],
-  "day": "2026-11-26",
+  "day": "2026-11-27",
   "demoted": [],
   "failing_sources": [],
   "first_run": false,
-  "new_models": [],
+  "new_models": [
+    "ccore-web-coder-4b",
+    "ernie-5-5-flash",
+    "inkling-2-mini-gsq-rco-gguf"
+  ],
   "people_work": [
     {
       "person_id": "mvanhorn",
@@ -71,21 +75,139 @@
       "published": "2026-11-25T08:39:23Z",
       "title": "Active in mvanhorn/teslamate",
       "url": "https://github.com/mvanhorn/teslamate"
+    },
+    {
+      "person_id": "swyx",
+      "published": "2026-11-27T02:32:28Z",
+      "title": "A design audit of an AI-built GitHub clone",
+      "url": "https://swyx.io/a-design-audit-of-an-ai-built-github-clone"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-27T01:34:43Z",
+      "title": "Active in v2fly/domain-list-community",
+      "url": "https://github.com/v2fly/domain-list-community"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-27T01:33:57Z",
+      "title": "Active in ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-27T01:19:57Z",
+      "title": "Active in Pilipala9919/MarcoMovie",
+      "url": "https://github.com/Pilipala9919/MarcoMovie"
+    },
+    {
+      "person_id": "simon-willison",
+      "published": "2026-11-27T00:26:17Z",
+      "title": "Released datasette/datasette-mcp",
+      "url": "https://github.com/datasette/datasette-mcp"
+    },
+    {
+      "person_id": "sloemo01",
+      "published": "2026-11-26T21:04:12Z",
+      "title": "Open-sourced sloemo01/edge-atlas",
+      "url": "https://github.com/sloemo01/edge-atlas"
+    },
+    {
+      "person_id": "sebastian-raschka",
+      "published": "2026-11-26T15:22:30Z",
+      "title": "Active in Medamineelkhattabi/LLMs-from-scratch",
+      "url": "https://github.com/Medamineelkhattabi/LLMs-from-scratch"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T23:21:31Z",
+      "title": "Active in mvanhorn/react-native-purchases",
+      "url": "https://github.com/mvanhorn/react-native-purchases"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T23:16:39Z",
+      "title": "Active in mvanhorn/pylint",
+      "url": "https://github.com/mvanhorn/pylint"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T17:51:57Z",
+      "title": "Active in mvanhorn/chrome-devtools-mcp",
+      "url": "https://github.com/mvanhorn/chrome-devtools-mcp"
+    },
+    {
+      "person_id": "ccch1mneyyy",
+      "published": "2026-11-25T17:45:53Z",
+      "title": "Active in ccch1mneyyy/dsh-TUI",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI"
+    },
+    {
+      "person_id": "EL4CTEO",
+      "published": "2026-11-25T16:31:00Z",
+      "title": "Active in EL4CTEO/roblox-skills",
+      "url": "https://github.com/EL4CTEO/roblox-skills"
+    },
+    {
+      "person_id": "EL4CTEO",
+      "published": "2026-11-25T16:06:00Z",
+      "title": "Active in EL4CTEO/anything-anything",
+      "url": "https://github.com/EL4CTEO/anything-anything"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-25T15:27:31Z",
+      "title": "Active in alvaroalonsoparrondo-a11y/rust-anything",
+      "url": "https://github.com/alvaroalonsoparrondo-a11y/rust-anything"
+    },
+    {
+      "person_id": "ersinkoc",
+      "published": "2026-11-25T14:26:22Z",
+      "title": "Active in sszxt/phonebox",
+      "url": "https://github.com/sszxt/phonebox"
+    },
+    {
+      "person_id": "mvanhorn",
+      "published": "2026-11-25T14:19:22Z",
+      "title": "Active in mvanhorn/javacpp-presets",
+      "url": "https://github.com/mvanhorn/javacpp-presets"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-25T13:15:09Z",
+      "title": "Active in Papito084/rust-anything",
+      "url": "https://github.com/Papito084/rust-anything"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-25T12:17:12Z",
+      "title": "Active in aloneangel45/rust-anything",
+      "url": "https://github.com/aloneangel45/rust-anything"
+    },
+    {
+      "person_id": "erkamyaman",
+      "published": "2026-11-25T11:51:25Z",
+      "title": "Active in matavanary/rust-anything",
+      "url": "https://github.com/matavanary/rust-anything"
     }
   ],
-  "promoted": [],
+  "promoted": [
+    "Developing-Gamer",
+    "JimLiu",
+    "qianyiai"
+  ],
   "rising": {
     "agent": [
       "3400785e003329cf",
+      "9a2d977585a641d4",
       "969dd462482a25e8",
       "b0d71194e0ab7437",
       "b9d9f066ce957d79",
       "3c40bebd52407729",
-      "791704e6d743c250",
       "78e219711e827886",
+      "791704e6d743c250",
       "dff6badb68da67f9",
-      "34689cddad5a3350",
-      "9d8099e6e6efd209"
+      "34689cddad5a3350"
     ],
     "mcp": [
       "b1b0a02e118dea12",
@@ -104,20 +226,20 @@
       "8129f68e260304e7",
       "fd90ea8c5875644b",
       "e204919d55639b1d",
-      "b086318dbacd470d",
-      "eb40edb5ed8830b7",
-      "4a5a9b50a2385544",
       "a306cf002b916499",
-      "8b4b8bbecfaf4cae",
-      "f25cfa09a16ab511"
+      "eb40edb5ed8830b7",
+      "b086318dbacd470d",
+      "a519f60a21707bce",
+      "4a5a9b50a2385544",
+      "8b4b8bbecfaf4cae"
     ],
     "skill": [
       "92705331275526a8",
       "14f321c495182c59",
       "01e478ba125afa0c",
       "dbd5adafc4073948",
-      "8898dc1fb352feb7",
       "fa4361846156ed46",
+      "8898dc1fb352feb7",
       "10ba719313a0c835",
       "e331123fcba6ff57",
       "db09b457282c5683",
@@ -138,14 +260,14 @@
   ],
   "top_papers": [
     "de55fe526105de3b",
-    "6717576b9778057c",
     "7fc61acd4d15604b",
-    "e44c65cf42c4c921",
-    "79b8f27116994616",
+    "ec4696bbb02f55d9",
+    "4342d45f5c91eb55",
     "6e19181ac9644dd4",
+    "2a158353075b7c16",
     "50feeb157090174b",
     "284a8b8a895b029a",
     "87a1cf2bb4958a33",
-    "4b0509310e9e561a"
+    "a556368df1d24692"
   ]
 }

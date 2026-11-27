@@ -34,7 +34,7 @@
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 2,
-      "agents": 10,
+      "agents": 9,
       "evals": 1,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "commercial manager - europe",
-      "seo - manager",
-      "manager, account managment",
-      "creative director",
-      "account executive"
+      "brazilian subject matter expert in home & garden",
+      "sales engineer, us east",
+      "manager, technical support",
+      "consultant - people science",
+      "strategic account executive - nyc"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100
