@@ -34,7 +34,7 @@
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
-      "agents": 11,
+      "agents": 12,
       "evals": 1,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "director, demand generation",
-      "senior service delivery manager",
-      "service delivery manager",
-      "customer success manager",
-      "support operations lead"
+      "partner sales manager - emea central (eastern europe)",
+      "district manager, majors financial services",
+      "msp account executive - dach",
+      "account manager - uk/i",
+      "account executive, japan"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

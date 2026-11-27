@@ -10,7 +10,7 @@
     "recent_work": [
       {
         "person_id": "Developing-Gamer",
-        "published": "2026-11-25T20:54:47Z",
+        "published": "2026-11-25T20:55:05Z",
         "title": "Active in Developing-Gamer/agent-sim",
         "url": "https://github.com/Developing-Gamer/agent-sim"
       }
@@ -108,7 +108,7 @@
   {
     "above_threshold_runs": 4,
     "id": "EL4CTEO",
-    "last_active": "2026-11-26",
+    "last_active": "2026-11-27",
     "links": {
       "github": "https://github.com/EL4CTEO"
     },
@@ -116,9 +116,15 @@
     "recent_work": [
       {
         "person_id": "EL4CTEO",
-        "published": "2026-11-26T21:41:20Z",
+        "published": "2026-11-27T19:01:25Z",
         "title": "Active in EL4CTEO/fast-anything",
         "url": "https://github.com/EL4CTEO/fast-anything"
+      },
+      {
+        "person_id": "EL4CTEO",
+        "published": "2026-11-27T14:24:55Z",
+        "title": "Released EL4CTEO/blender-skills",
+        "url": "https://github.com/EL4CTEO/blender-skills"
       },
       {
         "person_id": "EL4CTEO",
@@ -179,7 +185,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 0,
+    "above_threshold_runs": 3,
     "id": "INK-Q",
     "last_active": "2026-11-26",
     "links": {
@@ -189,12 +195,12 @@
     "recent_work": [
       {
         "person_id": "INK-Q",
-        "published": "2026-11-26T05:32:23Z",
+        "published": "2026-11-26T06:11:31Z",
         "title": "Active in INK-Q/agy-fast",
         "url": "https://github.com/INK-Q/agy-fast"
       }
     ],
-    "score": 9.0,
+    "score": 12.0,
     "score_history": [
       {
         "day": "2026-11-24",
@@ -206,6 +212,10 @@
       },
       {
         "day": "2026-11-26",
+        "score": 3.0
+      },
+      {
+        "day": "2026-11-27",
         "score": 3.0
       }
     ],
@@ -244,7 +254,7 @@
   {
     "above_threshold_runs": 2,
     "id": "JimLiu",
-    "last_active": "2026-11-26",
+    "last_active": "2026-11-27",
     "links": {
       "github": "https://github.com/JimLiu"
     },
@@ -252,13 +262,19 @@
     "recent_work": [
       {
         "person_id": "JimLiu",
-        "published": "2026-11-26T03:05:15Z",
+        "published": "2026-11-27T05:45:26Z",
         "title": "Active in JimLiu/open-artifact",
         "url": "https://github.com/JimLiu/open-artifact"
       },
       {
         "person_id": "JimLiu",
-        "published": "2026-11-26T02:53:01Z",
+        "published": "2026-11-26T05:10:37Z",
+        "title": "Active in JimLiu/baocut",
+        "url": "https://github.com/JimLiu/baocut"
+      },
+      {
+        "person_id": "JimLiu",
+        "published": "2026-11-26T02:12:04Z",
         "title": "Active in JimLiu/open-artifact-update-drill-20261125-a1cd84",
         "url": "https://github.com/JimLiu/open-artifact-update-drill-20261125-a1cd84"
       }
@@ -285,12 +301,18 @@
   {
     "above_threshold_runs": 6,
     "id": "JuneYaooo",
-    "last_active": "2026-11-26",
+    "last_active": "2026-11-27",
     "links": {
       "github": "https://github.com/JuneYaooo"
     },
     "name": "JuneYaooo",
     "recent_work": [
+      {
+        "person_id": "JuneYaooo",
+        "published": "2026-11-27T02:31:47Z",
+        "title": "Active in JuneYaooo/awesome-ai-media-cn",
+        "url": "https://github.com/JuneYaooo/awesome-ai-media-cn"
+      },
       {
         "person_id": "JuneYaooo",
         "published": "2026-11-26T12:39:13Z",
@@ -326,12 +348,6 @@
         "published": "2026-11-23T03:31:01Z",
         "title": "Active in JuneYaooo/medical-jev-train",
         "url": "https://github.com/JuneYaooo/medical-jev-train"
-      },
-      {
-        "person_id": "JuneYaooo",
-        "published": "2026-11-23T03:05:01Z",
-        "title": "Active in JuneYaooo/awesome-ai-media-cn",
-        "url": "https://github.com/JuneYaooo/awesome-ai-media-cn"
       },
       {
         "person_id": "JuneYaooo",
@@ -398,21 +414,21 @@
     "recent_work": [
       {
         "person_id": "KKKKhazix",
-        "published": "2026-11-27T01:13:19Z",
-        "title": "Active in KKKKhazix/agent-autoloop",
-        "url": "https://github.com/KKKKhazix/agent-autoloop"
-      },
-      {
-        "person_id": "KKKKhazix",
         "published": "2026-11-27T01:11:42Z",
         "title": "Active in xdAsaah/agent-autoloop",
         "url": "https://github.com/xdAsaah/agent-autoloop"
       },
       {
         "person_id": "KKKKhazix",
-        "published": "2026-11-26T07:15:23Z",
+        "published": "2026-11-26T07:11:59Z",
         "title": "Active in KKKKhazix/AIHOT",
         "url": "https://github.com/KKKKhazix/AIHOT"
+      },
+      {
+        "person_id": "KKKKhazix",
+        "published": "2026-11-26T01:12:29Z",
+        "title": "Active in KKKKhazix/agent-autoloop",
+        "url": "https://github.com/KKKKhazix/agent-autoloop"
       },
       {
         "person_id": "KKKKhazix",
@@ -479,7 +495,7 @@
     "recent_work": [
       {
         "person_id": "Leonxlnx",
-        "published": "2026-11-27T08:35:56Z",
+        "published": "2026-11-27T17:59:37Z",
         "title": "Released Leonxlnx/sable",
         "url": "https://github.com/Leonxlnx/sable"
       },
@@ -497,7 +513,7 @@
       },
       {
         "person_id": "Leonxlnx",
-        "published": "2026-11-26T07:57:02Z",
+        "published": "2026-11-26T06:45:51Z",
         "title": "Active in Leonxlnx/tastecode",
         "url": "https://github.com/Leonxlnx/tastecode"
       },
@@ -754,12 +770,18 @@
   {
     "above_threshold_runs": 0,
     "id": "alexeyw",
-    "last_active": "2026-11-23",
+    "last_active": "2026-11-26",
     "links": {
       "github": "https://github.com/alexeyw"
     },
     "name": "alexeyw",
     "recent_work": [
+      {
+        "person_id": "alexeyw",
+        "published": "2026-11-26T01:46:36Z",
+        "title": "Active in alexeyw/a2ui-xray",
+        "url": "https://github.com/alexeyw/a2ui-xray"
+      },
       {
         "person_id": "alexeyw",
         "published": "2026-11-23T13:00:46Z",
@@ -916,13 +938,19 @@
     "recent_work": [
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-26T13:41:14Z",
+        "published": "2026-11-26T10:19:19Z",
+        "title": "Active in mitsuhiko/lucumr",
+        "url": "https://github.com/mitsuhiko/lucumr"
+      },
+      {
+        "person_id": "armin-ronacher",
+        "published": "2026-11-26T00:08:56Z",
         "title": "Active in earendil-works/pi",
         "url": "https://github.com/earendil-works/pi"
       },
       {
         "person_id": "armin-ronacher",
-        "published": "2026-11-26T00:24:18Z",
+        "published": "2026-11-25T23:49:18Z",
         "title": "Active in mitsuhiko/tvpipe",
         "url": "https://github.com/mitsuhiko/tvpipe"
       },
@@ -937,12 +965,6 @@
         "published": "2026-11-25T00:00:00Z",
         "title": "Abolish Lock Poisoning",
         "url": "https://lucumr.pocoo.org/2026/11/25/poisoning/"
-      },
-      {
-        "person_id": "armin-ronacher",
-        "published": "2026-11-24T23:05:21Z",
-        "title": "Active in mitsuhiko/lucumr",
-        "url": "https://github.com/mitsuhiko/lucumr"
       },
       {
         "person_id": "armin-ronacher",
@@ -1277,7 +1299,7 @@
     "recent_work": [
       {
         "person_id": "cathrynlavery",
-        "published": "2026-11-26T01:56:58Z",
+        "published": "2026-11-26T02:35:19Z",
         "title": "Active in cathrynlavery/yap-studio",
         "url": "https://github.com/cathrynlavery/yap-studio"
       },
@@ -1386,7 +1408,13 @@
       },
       {
         "person_id": "ccch1mneyyy",
-        "published": "2026-11-27T05:06:18Z",
+        "published": "2026-11-27T04:48:52Z",
+        "title": "Active in wsdzwx2001/dsh-go-market",
+        "url": "https://github.com/wsdzwx2001/dsh-go-market"
+      },
+      {
+        "person_id": "ccch1mneyyy",
+        "published": "2026-11-27T04:47:31Z",
         "title": "Active in ccch1mneyyy/dsh-go-market",
         "url": "https://github.com/ccch1mneyyy/dsh-go-market"
       },
@@ -1395,6 +1423,12 @@
         "published": "2026-11-27T04:37:38Z",
         "title": "Released ccch1mneyyy/dsh-Go",
         "url": "https://github.com/ccch1mneyyy/dsh-Go"
+      },
+      {
+        "person_id": "ccch1mneyyy",
+        "published": "2026-11-27T04:30:34Z",
+        "title": "Active in YOUNG-FELIX/dsh-go-market",
+        "url": "https://github.com/YOUNG-FELIX/dsh-go-market"
       },
       {
         "person_id": "ccch1mneyyy",
@@ -1757,7 +1791,7 @@
     "recent_work": [
       {
         "person_id": "ersinkoc",
-        "published": "2026-11-27T13:48:16Z",
+        "published": "2026-11-27T19:02:06Z",
         "title": "Active in ersinkoc/phonebox",
         "url": "https://github.com/ersinkoc/phonebox"
       },
@@ -1775,21 +1809,21 @@
       },
       {
         "person_id": "ersinkoc",
+        "published": "2026-11-26T02:08:53Z",
+        "title": "Active in ersinkoc/Agora",
+        "url": "https://github.com/ersinkoc/Agora"
+      },
+      {
+        "person_id": "ersinkoc",
         "published": "2026-11-25T23:01:09Z",
         "title": "Active in ninedeploy/ninedeploy",
         "url": "https://github.com/ninedeploy/ninedeploy"
       },
       {
         "person_id": "ersinkoc",
-        "published": "2026-11-25T22:56:08Z",
+        "published": "2026-11-25T20:43:57Z",
         "title": "Active in WrongStack/WrongStack",
         "url": "https://github.com/WrongStack/WrongStack"
-      },
-      {
-        "person_id": "ersinkoc",
-        "published": "2026-11-25T20:33:04Z",
-        "title": "Active in ersinkoc/Agora",
-        "url": "https://github.com/ersinkoc/Agora"
       },
       {
         "person_id": "ersinkoc",
@@ -2040,7 +2074,7 @@
     "recent_work": [
       {
         "person_id": "geoffrey-huntley",
-        "published": "2026-11-27T00:29:56Z",
+        "published": "2026-11-27T05:47:32Z",
         "title": "Active in ghuntley/labs",
         "url": "https://github.com/ghuntley/labs"
       },
@@ -2374,7 +2408,7 @@
     "recent_work": [
       {
         "person_id": "jesse-vincent",
-        "published": "2026-11-27T00:33:42Z",
+        "published": "2026-11-26T02:38:08Z",
         "title": "Active in prime-radiant-inc/evener",
         "url": "https://github.com/prime-radiant-inc/evener"
       },
@@ -2438,7 +2472,7 @@
       },
       {
         "person_id": "kubai087",
-        "published": "2026-11-26T02:01:41Z",
+        "published": "2026-11-26T02:33:03Z",
         "title": "Active in kubai087/kubai-icons",
         "url": "https://github.com/kubai087/kubai-icons"
       },
@@ -2559,9 +2593,15 @@
     "recent_work": [
       {
         "person_id": "matt-pocock",
-        "published": "2026-11-27T13:53:31Z",
+        "published": "2026-11-27T19:05:48Z",
         "title": "Active in mattpocock/cookout",
         "url": "https://github.com/mattpocock/cookout"
+      },
+      {
+        "person_id": "matt-pocock",
+        "published": "2026-11-27T18:40:39Z",
+        "title": "Active in mattpocock/sandcastle",
+        "url": "https://github.com/mattpocock/sandcastle"
       },
       {
         "person_id": "matt-pocock",
@@ -2574,12 +2614,6 @@
         "published": "2026-11-19T13:33:00Z",
         "title": "Active in mattpocock/skills",
         "url": "https://github.com/mattpocock/skills"
-      },
-      {
-        "person_id": "matt-pocock",
-        "published": "2026-11-18T15:50:19Z",
-        "title": "Active in mattpocock/sandcastle",
-        "url": "https://github.com/mattpocock/sandcastle"
       },
       {
         "person_id": "matt-pocock",
@@ -2677,7 +2711,7 @@
       },
       {
         "person_id": "morluto",
-        "published": "2026-11-26T03:52:04Z",
+        "published": "2026-11-26T02:31:16Z",
         "title": "Active in morluto/rea",
         "url": "https://github.com/morluto/rea"
       },
@@ -2746,6 +2780,36 @@
     "recent_work": [
       {
         "person_id": "mvanhorn",
+        "published": "2026-11-27T19:15:18Z",
+        "title": "Active in GuillaumeBAUD-coder/open-math-agents",
+        "url": "https://github.com/GuillaumeBAUD-coder/open-math-agents"
+      },
+      {
+        "person_id": "mvanhorn",
+        "published": "2026-11-27T18:57:07Z",
+        "title": "Active in morluto/rea",
+        "url": "https://github.com/morluto/rea"
+      },
+      {
+        "person_id": "mvanhorn",
+        "published": "2026-11-27T13:57:03Z",
+        "title": "Active in mvanhorn/rea",
+        "url": "https://github.com/mvanhorn/rea"
+      },
+      {
+        "person_id": "mvanhorn",
+        "published": "2026-11-27T13:50:07Z",
+        "title": "Active in mvanhorn/vfox",
+        "url": "https://github.com/mvanhorn/vfox"
+      },
+      {
+        "person_id": "mvanhorn",
+        "published": "2026-11-27T05:16:47Z",
+        "title": "Active in mvanhorn/cli-printing-press",
+        "url": "https://github.com/mvanhorn/cli-printing-press"
+      },
+      {
+        "person_id": "mvanhorn",
         "published": "2026-11-27T01:34:43Z",
         "title": "Active in v2fly/domain-list-community",
         "url": "https://github.com/v2fly/domain-list-community"
@@ -2761,12 +2825,6 @@
         "published": "2026-11-27T01:19:57Z",
         "title": "Active in Pilipala9919/MarcoMovie",
         "url": "https://github.com/Pilipala9919/MarcoMovie"
-      },
-      {
-        "person_id": "mvanhorn",
-        "published": "2026-11-26T19:15:19Z",
-        "title": "Active in morluto/rea",
-        "url": "https://github.com/morluto/rea"
       },
       {
         "person_id": "mvanhorn",
@@ -2830,39 +2888,15 @@
       },
       {
         "person_id": "mvanhorn",
-        "published": "2026-11-25T23:54:41Z",
-        "title": "Active in mvanhorn/rea",
-        "url": "https://github.com/mvanhorn/rea"
+        "published": "2026-11-26T07:01:06Z",
+        "title": "Active in mvanhorn/pr-demo-assets",
+        "url": "https://github.com/mvanhorn/pr-demo-assets"
       },
       {
         "person_id": "mvanhorn",
-        "published": "2026-11-25T23:21:31Z",
-        "title": "Active in mvanhorn/react-native-purchases",
-        "url": "https://github.com/mvanhorn/react-native-purchases"
-      },
-      {
-        "person_id": "mvanhorn",
-        "published": "2026-11-25T23:16:39Z",
-        "title": "Active in mvanhorn/pylint",
-        "url": "https://github.com/mvanhorn/pylint"
-      },
-      {
-        "person_id": "mvanhorn",
-        "published": "2026-11-25T22:12:45Z",
-        "title": "Active in mvanhorn/paseo",
-        "url": "https://github.com/mvanhorn/paseo"
-      },
-      {
-        "person_id": "mvanhorn",
-        "published": "2026-11-25T17:51:57Z",
-        "title": "Active in mvanhorn/chrome-devtools-mcp",
-        "url": "https://github.com/mvanhorn/chrome-devtools-mcp"
-      },
-      {
-        "person_id": "mvanhorn",
-        "published": "2026-11-25T14:19:22Z",
-        "title": "Active in mvanhorn/javacpp-presets",
-        "url": "https://github.com/mvanhorn/javacpp-presets"
+        "published": "2026-11-26T02:11:06Z",
+        "title": "Active in mvanhorn/catalyst",
+        "url": "https://github.com/mvanhorn/catalyst"
       }
     ],
     "score": 12.0,
@@ -2911,7 +2945,7 @@
   {
     "above_threshold_runs": 6,
     "id": "pbakaus",
-    "last_active": "2026-11-26",
+    "last_active": "2026-11-27",
     "links": {
       "github": "https://github.com/pbakaus"
     },
@@ -2919,7 +2953,7 @@
     "recent_work": [
       {
         "person_id": "pbakaus",
-        "published": "2026-11-26T00:22:26Z",
+        "published": "2026-11-27T18:49:31Z",
         "title": "Active in pbakaus/impeccable",
         "url": "https://github.com/pbakaus/impeccable"
       }
@@ -3033,7 +3067,7 @@
     "why_follow": ""
   },
   {
-    "above_threshold_runs": 3,
+    "above_threshold_runs": 0,
     "id": "pierridotite",
     "last_active": "2026-11-26",
     "links": {
@@ -3043,18 +3077,18 @@
     "recent_work": [
       {
         "person_id": "pierridotite",
-        "published": "2026-11-25T22:10:31Z",
-        "title": "Active in pierridotite/explore-compile-replay",
-        "url": "https://github.com/pierridotite/explore-compile-replay"
+        "published": "2026-11-26T10:31:33Z",
+        "title": "Active in pierridotite/mobile-agent-testers",
+        "url": "https://github.com/pierridotite/mobile-agent-testers"
       },
       {
         "person_id": "pierridotite",
-        "published": "2026-11-25T20:38:46Z",
-        "title": "Active in pierridotite/mobile-agent-testers",
-        "url": "https://github.com/pierridotite/mobile-agent-testers"
+        "published": "2026-11-25T22:10:31Z",
+        "title": "Active in pierridotite/explore-compile-replay",
+        "url": "https://github.com/pierridotite/explore-compile-replay"
       }
     ],
-    "score": 12.0,
+    "score": 9.0,
     "score_history": [
       {
         "day": "2026-11-24",
@@ -3066,10 +3100,6 @@
       },
       {
         "day": "2026-11-26",
-        "score": 3.0
-      },
-      {
-        "day": "2026-11-27",
         "score": 3.0
       }
     ],
@@ -3088,13 +3118,13 @@
     "recent_work": [
       {
         "person_id": "qianyiai",
-        "published": "2026-11-27T00:50:53Z",
+        "published": "2026-11-26T10:31:27Z",
         "title": "Active in qianyiai/KuroCat",
         "url": "https://github.com/qianyiai/KuroCat"
       },
       {
         "person_id": "qianyiai",
-        "published": "2026-11-26T00:52:15Z",
+        "published": "2026-11-26T00:52:13Z",
         "title": "Active in qianyiai/homebrew-tap",
         "url": "https://github.com/qianyiai/homebrew-tap"
       }
@@ -3137,7 +3167,7 @@
       },
       {
         "person_id": "sebastian-raschka",
-        "published": "2026-11-25T22:25:12Z",
+        "published": "2026-11-25T22:23:05Z",
         "title": "Active in rasbt/reasoning-from-scratch",
         "url": "https://github.com/rasbt/reasoning-from-scratch"
       },
@@ -3291,7 +3321,7 @@
     "recent_work": [
       {
         "person_id": "shreya-shankar",
-        "published": "2026-11-25T18:22:54Z",
+        "published": "2026-11-25T19:14:11Z",
         "title": "Active in fsdatalab/quail",
         "url": "https://github.com/fsdatalab/quail"
       },
@@ -3387,6 +3417,12 @@
     "recent_work": [
       {
         "person_id": "simon-willison",
+        "published": "2026-11-27T18:48:56Z",
+        "title": "Active in datasette/datasette-charts",
+        "url": "https://github.com/datasette/datasette-charts"
+      },
+      {
+        "person_id": "simon-willison",
         "published": "2026-11-27T00:26:17Z",
         "title": "Released datasette/datasette-mcp",
         "url": "https://github.com/datasette/datasette-mcp"
@@ -3417,15 +3453,15 @@
       },
       {
         "person_id": "simon-willison",
-        "published": "2026-11-26T05:41:35Z",
-        "title": "Active in simonw/datasette",
-        "url": "https://github.com/simonw/datasette"
-      },
-      {
-        "person_id": "simon-willison",
         "published": "2026-11-26T05:08:46Z",
         "title": "The New York Times warns photographers not to update Photoshop over AI features",
         "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/"
+      },
+      {
+        "person_id": "simon-willison",
+        "published": "2026-11-26T04:34:22Z",
+        "title": "Active in simonw/datasette",
+        "url": "https://github.com/simonw/datasette"
       },
       {
         "person_id": "simon-willison",
@@ -3450,12 +3486,6 @@
         "published": "2026-11-25T16:06:59Z",
         "title": "Active in datasette/datasette-agent",
         "url": "https://github.com/datasette/datasette-agent"
-      },
-      {
-        "person_id": "simon-willison",
-        "published": "2026-11-25T15:54:20Z",
-        "title": "Active in datasette/datasette-charts",
-        "url": "https://github.com/datasette/datasette-charts"
       },
       {
         "person_id": "simon-willison",
@@ -3554,7 +3584,7 @@
       },
       {
         "person_id": "sloemo01",
-        "published": "2026-11-26T03:02:55Z",
+        "published": "2026-11-26T01:02:06Z",
         "title": "Active in sloemo01/isom3trics",
         "url": "https://github.com/sloemo01/isom3trics"
       },
@@ -3635,15 +3665,15 @@
     "recent_work": [
       {
         "person_id": "swyx",
-        "published": "2026-11-27T02:32:28Z",
-        "title": "A design audit of an AI-built GitHub clone",
-        "url": "https://swyx.io/a-design-audit-of-an-ai-built-github-clone"
+        "published": "2026-11-27T02:45:04Z",
+        "title": "Active in swyxio/skills",
+        "url": "https://github.com/swyxio/skills"
       },
       {
         "person_id": "swyx",
-        "published": "2026-11-25T22:01:49Z",
-        "title": "Active in swyxio/skills",
-        "url": "https://github.com/swyxio/skills"
+        "published": "2026-11-27T02:32:28Z",
+        "title": "A design audit of an AI-built GitHub clone",
+        "url": "https://swyx.io/a-design-audit-of-an-ai-built-github-clone"
       },
       {
         "person_id": "swyx",
@@ -3771,15 +3801,15 @@
     "recent_work": [
       {
         "person_id": "tt-a1i",
-        "published": "2026-11-26T00:13:32Z",
-        "title": "Active in tt-a1i/tt-a1i",
-        "url": "https://github.com/tt-a1i/tt-a1i"
+        "published": "2026-11-26T01:45:06Z",
+        "title": "Active in tt-a1i/archify",
+        "url": "https://github.com/tt-a1i/archify"
       },
       {
         "person_id": "tt-a1i",
-        "published": "2026-11-26T00:07:43Z",
-        "title": "Active in tt-a1i/archify",
-        "url": "https://github.com/tt-a1i/archify"
+        "published": "2026-11-26T00:13:32Z",
+        "title": "Active in tt-a1i/tt-a1i",
+        "url": "https://github.com/tt-a1i/tt-a1i"
       },
       {
         "person_id": "tt-a1i",

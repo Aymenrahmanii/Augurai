@@ -86,7 +86,7 @@
         "finance_and_accounting": 36.4,
         "intelligence": 24.1,
         "legal": 33.1,
-        "output_tps": 151.25,
+        "output_tps": 151.33,
         "strategy_and_ops": 40.2
       }
     },
@@ -320,7 +320,7 @@
         "finance_and_accounting": 21.4,
         "intelligence": 13.7,
         "legal": 20.6,
-        "output_tps": 143.75,
+        "output_tps": 143.22,
         "strategy_and_ops": 24.7
       }
     },
@@ -611,7 +611,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 71.0
+        "hf_trending": 74.0
       }
     },
     "use_cases": [
@@ -642,7 +642,7 @@
     "released": "2026-07-24",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 728.25
+        "output_tps": 721.4
       }
     },
     "use_cases": [
@@ -1337,7 +1337,7 @@
         "healthcare_and_medical": 65.4,
         "intelligence": 64.8,
         "legal": 63.3,
-        "output_tps": 113.01,
+        "output_tps": 112.77,
         "strategy_and_ops": 67.4
       }
     },
@@ -1373,7 +1373,7 @@
         "finance_and_accounting": 62.7,
         "intelligence": 61.9,
         "legal": 60.3,
-        "output_tps": 112.0,
+        "output_tps": 111.56,
         "strategy_and_ops": 63.8
       }
     },
@@ -1410,7 +1410,7 @@
         "finance_and_accounting": 58.3,
         "intelligence": 53.9,
         "legal": 57.1,
-        "output_tps": 111.84,
+        "output_tps": 111.1,
         "strategy_and_ops": 61.2
       }
     },
@@ -1446,7 +1446,7 @@
         "finance_and_accounting": 59.9,
         "intelligence": 56.3,
         "legal": 58.4,
-        "output_tps": 109.83,
+        "output_tps": 109.12,
         "strategy_and_ops": 62.0
       }
     },
@@ -1483,7 +1483,7 @@
         "finance_and_accounting": 63.3,
         "intelligence": 62.2,
         "legal": 61.8,
-        "output_tps": 112.77,
+        "output_tps": 112.47,
         "strategy_and_ops": 65.4
       }
     },
@@ -1572,7 +1572,7 @@
         "healthcare_and_medical": 37.5,
         "intelligence": 36.5,
         "legal": 38.7,
-        "output_tps": 258.15,
+        "output_tps": 246.39,
         "strategy_and_ops": 39.1
       }
     },
@@ -1605,7 +1605,7 @@
         "healthcare_and_medical": 32.2,
         "intelligence": 30.0,
         "legal": 35.0,
-        "output_tps": 230.72,
+        "output_tps": 229.95,
         "strategy_and_ops": 37.1
       }
     },
@@ -1635,7 +1635,7 @@
         "healthcare_and_medical": 24.8,
         "intelligence": 18.6,
         "legal": 27.1,
-        "output_tps": 221.74,
+        "output_tps": 218.65,
         "strategy_and_ops": 27.3
       }
     },
@@ -1665,7 +1665,7 @@
         "healthcare_and_medical": 30.7,
         "intelligence": 24.6,
         "legal": 32.6,
-        "output_tps": 223.99,
+        "output_tps": 222.35,
         "strategy_and_ops": 33.0
       }
     },
@@ -1695,7 +1695,7 @@
         "healthcare_and_medical": 34.1,
         "intelligence": 34.6,
         "legal": 37.1,
-        "output_tps": 236.41,
+        "output_tps": 235.08,
         "strategy_and_ops": 39.1
       }
     },
@@ -2023,7 +2023,7 @@
         "healthcare_and_medical": 57.9,
         "intelligence": 59.1,
         "legal": 58.0,
-        "output_tps": 117.18,
+        "output_tps": 116.66,
         "strategy_and_ops": 61.4
       }
     },
@@ -2060,7 +2060,7 @@
         "healthcare_and_medical": 52.5,
         "intelligence": 51.8,
         "legal": 52.0,
-        "output_tps": 111.04,
+        "output_tps": 110.5,
         "strategy_and_ops": 57.6
       }
     },
@@ -2094,7 +2094,7 @@
         "healthcare_and_medical": 45.1,
         "intelligence": 34.8,
         "legal": 43.5,
-        "output_tps": 109.45,
+        "output_tps": 108.7,
         "strategy_and_ops": 47.5
       }
     },
@@ -2127,7 +2127,7 @@
         "healthcare_and_medical": 51.4,
         "intelligence": 48.3,
         "legal": 49.7,
-        "output_tps": 108.27,
+        "output_tps": 107.49,
         "strategy_and_ops": 56.0
       }
     },
@@ -2163,7 +2163,7 @@
         "healthcare_and_medical": 55.5,
         "intelligence": 57.5,
         "legal": 54.7,
-        "output_tps": 111.71,
+        "output_tps": 111.26,
         "strategy_and_ops": 59.0
       }
     },
@@ -2445,7 +2445,7 @@
         "healthcare_and_medical": 54.2,
         "intelligence": 54.7,
         "legal": 52.2,
-        "output_tps": 153.62,
+        "output_tps": 153.16,
         "strategy_and_ops": 58.1
       }
     },
@@ -2479,7 +2479,7 @@
         "healthcare_and_medical": 43.9,
         "intelligence": 41.5,
         "legal": 44.1,
-        "output_tps": 142.15,
+        "output_tps": 141.09,
         "strategy_and_ops": 51.2
       }
     },
@@ -2509,7 +2509,7 @@
         "healthcare_and_medical": 37.3,
         "intelligence": 25.6,
         "legal": 36.9,
-        "output_tps": 135.71,
+        "output_tps": 134.4,
         "strategy_and_ops": 41.7
       }
     },
@@ -2539,7 +2539,7 @@
         "healthcare_and_medical": 40.2,
         "intelligence": 30.9,
         "legal": 38.8,
-        "output_tps": 140.01,
+        "output_tps": 139.21,
         "strategy_and_ops": 46.7
       }
     },
@@ -2572,7 +2572,7 @@
         "healthcare_and_medical": 47.4,
         "intelligence": 49.9,
         "legal": 47.4,
-        "output_tps": 148.62,
+        "output_tps": 147.98,
         "strategy_and_ops": 54.1
       }
     },
@@ -2815,7 +2815,7 @@
         "healthcare_and_medical": 10.7,
         "intelligence": 6.2,
         "legal": 15.9,
-        "output_tps": 199.94,
+        "output_tps": 199.25,
         "strategy_and_ops": 7.4
       }
     },
@@ -3778,11 +3778,11 @@
         "healthcare_and_medical": 41.3,
         "intelligence": 32.4,
         "legal": 37.7,
-        "output_tps": 179.34,
+        "output_tps": 175.22,
         "strategy_and_ops": 49.2
       },
       "huggingface-models": {
-        "hf_trending": 72.0
+        "hf_trending": 73.0
       }
     },
     "use_cases": [
@@ -3814,7 +3814,7 @@
         "finance_and_accounting": 39.5,
         "intelligence": 28.7,
         "legal": 33.9,
-        "output_tps": 182.04,
+        "output_tps": 179.84,
         "strategy_and_ops": 48.4
       }
     },
@@ -3843,7 +3843,7 @@
         "finance_and_accounting": 37.2,
         "intelligence": 18.5,
         "legal": 31.7,
-        "output_tps": 170.18,
+        "output_tps": 165.12,
         "strategy_and_ops": 39.7
       }
     },
@@ -4019,7 +4019,7 @@
     "released": "2026-08-21",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 175.51
+        "output_tps": 173.66
       }
     },
     "use_cases": []
@@ -4072,7 +4072,7 @@
         "finance_and_accounting": 30.4,
         "intelligence": 23.1,
         "legal": 27.5,
-        "output_tps": 75.2,
+        "output_tps": 74.57,
         "strategy_and_ops": 41.1
       }
     },
@@ -4187,7 +4187,7 @@
         "finance_and_accounting": 28.0,
         "intelligence": 20.8,
         "legal": 26.3,
-        "output_tps": 78.71,
+        "output_tps": 78.15,
         "strategy_and_ops": 36.6
       }
     },
@@ -4216,7 +4216,7 @@
         "finance_and_accounting": 19.7,
         "intelligence": 12.6,
         "legal": 19.1,
-        "output_tps": 77.79,
+        "output_tps": 77.23,
         "strategy_and_ops": 27.6
       }
     },
@@ -4530,7 +4530,7 @@
         "finance_and_accounting": 43.3,
         "intelligence": 31.3,
         "legal": 37.8,
-        "output_tps": 182.95,
+        "output_tps": 177.09,
         "strategy_and_ops": 49.5
       }
     },
@@ -4561,7 +4561,7 @@
     "released": "2026-11-23",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 110.0
+        "hf_trending": 111.0
       }
     },
     "use_cases": [
@@ -5655,7 +5655,7 @@
     "released": "2026-02-19",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 111.84
+        "output_tps": 110.74
       }
     },
     "use_cases": []
@@ -5746,7 +5746,7 @@
         "healthcare_and_medical": 20.5,
         "intelligence": 11.7,
         "legal": 23.9,
-        "output_tps": 308.3,
+        "output_tps": 303.5,
         "strategy_and_ops": 20.7
       }
     },
@@ -6195,7 +6195,7 @@
         "healthcare_and_medical": 51.3,
         "intelligence": 50.5,
         "legal": 54.6,
-        "output_tps": 77.79,
+        "output_tps": 78.03,
         "strategy_and_ops": 57.2
       }
     },
@@ -6231,7 +6231,7 @@
         "finance_and_accounting": 52.9,
         "intelligence": 47.7,
         "legal": 52.0,
-        "output_tps": 67.06,
+        "output_tps": 65.75,
         "strategy_and_ops": 55.8
       }
     },
@@ -6278,7 +6278,7 @@
         "healthcare_and_medical": 56.8,
         "intelligence": 60.1,
         "legal": 62.0,
-        "output_tps": 50.43,
+        "output_tps": 49.38,
         "strategy_and_ops": 60.9
       }
     },
@@ -6316,7 +6316,7 @@
         "healthcare_and_medical": 51.7,
         "intelligence": 54.2,
         "legal": 54.0,
-        "output_tps": 49.53,
+        "output_tps": 48.58,
         "strategy_and_ops": 53.0
       }
     },
@@ -6352,7 +6352,7 @@
         "healthcare_and_medical": 54.8,
         "intelligence": 58.4,
         "legal": 59.5,
-        "output_tps": 59.38,
+        "output_tps": 59.18,
         "strategy_and_ops": 57.8
       }
     },
@@ -6396,7 +6396,7 @@
         "healthcare_and_medical": 53.3,
         "intelligence": 54.1,
         "legal": 56.7,
-        "output_tps": 176.53,
+        "output_tps": 175.39,
         "strategy_and_ops": 57.7
       }
     },
@@ -6434,7 +6434,7 @@
         "healthcare_and_medical": 52.4,
         "intelligence": 51.0,
         "legal": 54.8,
-        "output_tps": 183.05,
+        "output_tps": 181.71,
         "strategy_and_ops": 55.4
       }
     },
@@ -6468,7 +6468,7 @@
         "healthcare_and_medical": 39.0,
         "intelligence": 26.9,
         "legal": 42.4,
-        "output_tps": 151.14,
+        "output_tps": 151.23,
         "strategy_and_ops": 41.7
       }
     },
@@ -6498,7 +6498,7 @@
         "healthcare_and_medical": 47.2,
         "intelligence": 41.1,
         "legal": 51.4,
-        "output_tps": 169.86,
+        "output_tps": 168.17,
         "strategy_and_ops": 51.8
       }
     },
@@ -6545,7 +6545,7 @@
         "healthcare_and_medical": 60.1,
         "intelligence": 61.5,
         "legal": 63.8,
-        "output_tps": 85.16,
+        "output_tps": 86.98,
         "strategy_and_ops": 63.8
       }
     },
@@ -6581,7 +6581,7 @@
         "healthcare_and_medical": 58.7,
         "intelligence": 59.8,
         "legal": 63.3,
-        "output_tps": 101.67,
+        "output_tps": 100.55,
         "strategy_and_ops": 62.2
       }
     },
@@ -6619,7 +6619,7 @@
         "healthcare_and_medical": 50.7,
         "intelligence": 44.1,
         "legal": 54.5,
-        "output_tps": 95.79,
+        "output_tps": 94.68,
         "strategy_and_ops": 55.0
       }
     },
@@ -6655,7 +6655,7 @@
         "healthcare_and_medical": 55.7,
         "intelligence": 54.9,
         "legal": 60.1,
-        "output_tps": 94.6,
+        "output_tps": 94.39,
         "strategy_and_ops": 59.5
       }
     },
@@ -7099,7 +7099,7 @@
         "finance_and_accounting": 7.1,
         "intelligence": 4.0,
         "legal": 6.9,
-        "output_tps": 87.46,
+        "output_tps": 86.22,
         "strategy_and_ops": 5.3
       }
     },
@@ -7121,8 +7121,8 @@
     ],
     "name": "Google: Gemma 4 26B A4B ",
     "open_weights": false,
-    "price_in": 0.09,
-    "price_out": 0.3,
+    "price_in": 0.0675,
+    "price_out": 0.225,
     "provider": "google",
     "released": "2026-04-03",
     "scores": {},
@@ -7146,7 +7146,7 @@
     "released": "2026-04-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 85.36
+        "output_tps": 85.95
       }
     },
     "use_cases": []
@@ -7221,7 +7221,7 @@
     "released": "2026-04-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 44.68
+        "output_tps": 44.48
       }
     },
     "use_cases": []
@@ -7332,7 +7332,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 54.0
+        "hf_trending": 62.0
       }
     },
     "use_cases": [
@@ -7361,7 +7361,7 @@
     "released": "2026-11-22",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 67.0
+        "hf_trending": 70.0
       }
     },
     "use_cases": [
@@ -7390,7 +7390,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 76.0
+        "hf_trending": 83.0
       }
     },
     "use_cases": [
@@ -7873,7 +7873,7 @@
         "healthcare_and_medical": 39.3,
         "intelligence": 31.6,
         "legal": 35.8,
-        "output_tps": 77.72,
+        "output_tps": 77.14,
         "strategy_and_ops": 47.4
       }
     },
@@ -7908,7 +7908,7 @@
         "healthcare_and_medical": 36.6,
         "intelligence": 27.7,
         "legal": 34.8,
-        "output_tps": 52.39,
+        "output_tps": 51.96,
         "strategy_and_ops": 44.5
       }
     },
@@ -7984,7 +7984,7 @@
         "healthcare_and_medical": 31.0,
         "intelligence": 23.1,
         "legal": 27.7,
-        "output_tps": 73.06,
+        "output_tps": 72.2,
         "strategy_and_ops": 38.0
       }
     },
@@ -8893,7 +8893,7 @@
     "released": "2026-02-05",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 89.62
+        "output_tps": 89.11
       }
     },
     "use_cases": []
@@ -9255,7 +9255,7 @@
     "released": "2026-06-25",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 141.82
+        "output_tps": 141.69
       }
     },
     "use_cases": []
@@ -10453,7 +10453,7 @@
         "healthcare_and_medical": 44.7,
         "intelligence": 51.4,
         "legal": 46.4,
-        "output_tps": 63.0,
+        "output_tps": 62.07,
         "strategy_and_ops": 50.0
       }
     },
@@ -10486,7 +10486,7 @@
         "finance_and_accounting": 44.2,
         "intelligence": 42.5,
         "legal": 42.5,
-        "output_tps": 60.31,
+        "output_tps": 59.74,
         "strategy_and_ops": 47.4
       }
     },
@@ -10515,7 +10515,7 @@
         "finance_and_accounting": 37.9,
         "intelligence": 29.4,
         "legal": 37.3,
-        "output_tps": 58.14,
+        "output_tps": 56.71,
         "strategy_and_ops": 42.2
       }
     },
@@ -10544,7 +10544,7 @@
         "finance_and_accounting": 42.5,
         "intelligence": 38.1,
         "legal": 40.5,
-        "output_tps": 58.99,
+        "output_tps": 58.08,
         "strategy_and_ops": 45.4
       }
     },
@@ -10573,7 +10573,7 @@
         "finance_and_accounting": 33.5,
         "intelligence": 30.5,
         "legal": 28.2,
-        "output_tps": 58.72,
+        "output_tps": 57.53,
         "strategy_and_ops": 40.0
       }
     },
@@ -10628,7 +10628,7 @@
         "finance_and_accounting": 47.6,
         "intelligence": 45.3,
         "legal": 43.8,
-        "output_tps": 60.76,
+        "output_tps": 60.02,
         "strategy_and_ops": 48.7
       }
     },
@@ -10673,7 +10673,7 @@
         "healthcare_and_medical": 57.0,
         "intelligence": 62.2,
         "legal": 58.7,
-        "output_tps": 42.47,
+        "output_tps": 42.14,
         "strategy_and_ops": 63.3
       }
     },
@@ -10710,7 +10710,7 @@
         "healthcare_and_medical": 54.1,
         "intelligence": 60.3,
         "legal": 56.1,
-        "output_tps": 43.53,
+        "output_tps": 43.13,
         "strategy_and_ops": 61.6
       }
     },
@@ -10748,7 +10748,7 @@
         "healthcare_and_medical": 41.9,
         "intelligence": 45.7,
         "legal": 45.6,
-        "output_tps": 39.94,
+        "output_tps": 39.4,
         "strategy_and_ops": 48.6
       }
     },
@@ -10784,7 +10784,7 @@
         "healthcare_and_medical": 50.2,
         "intelligence": 57.0,
         "legal": 52.7,
-        "output_tps": 42.3,
+        "output_tps": 41.65,
         "strategy_and_ops": 57.3
       }
     },
@@ -10850,7 +10850,7 @@
         "healthcare_and_medical": 54.9,
         "intelligence": 61.8,
         "legal": 56.9,
-        "output_tps": 41.7,
+        "output_tps": 41.29,
         "strategy_and_ops": 62.0
       }
     },
@@ -10892,7 +10892,7 @@
         "healthcare_and_medical": 53.3,
         "intelligence": 57.3,
         "legal": 55.0,
-        "output_tps": 59.11,
+        "output_tps": 58.66,
         "strategy_and_ops": 59.4
       }
     },
@@ -10928,7 +10928,7 @@
         "healthcare_and_medical": 51.2,
         "intelligence": 54.8,
         "legal": 51.4,
-        "output_tps": 56.57,
+        "output_tps": 55.58,
         "strategy_and_ops": 58.0
       }
     },
@@ -10961,7 +10961,7 @@
         "healthcare_and_medical": 41.0,
         "intelligence": 40.6,
         "legal": 40.2,
-        "output_tps": 54.93,
+        "output_tps": 54.08,
         "strategy_and_ops": 48.4
       }
     },
@@ -10994,7 +10994,7 @@
         "healthcare_and_medical": 48.0,
         "intelligence": 52.4,
         "legal": 48.8,
-        "output_tps": 56.81,
+        "output_tps": 56.32,
         "strategy_and_ops": 56.3
       }
     },
@@ -11061,7 +11061,7 @@
         "healthcare_and_medical": 52.1,
         "intelligence": 55.6,
         "legal": 52.8,
-        "output_tps": 56.86,
+        "output_tps": 56.12,
         "strategy_and_ops": 57.9
       }
     },
@@ -11311,7 +11311,7 @@
         "healthcare_and_medical": 34.8,
         "intelligence": 27.9,
         "legal": 32.2,
-        "output_tps": 129.62,
+        "output_tps": 129.89,
         "strategy_and_ops": 43.2
       }
     },
@@ -11341,7 +11341,7 @@
         "healthcare_and_medical": 29.2,
         "intelligence": 21.5,
         "legal": 26.7,
-        "output_tps": 123.48,
+        "output_tps": 123.03,
         "strategy_and_ops": 37.8
       }
     },
@@ -11371,7 +11371,7 @@
         "healthcare_and_medical": 16.2,
         "intelligence": 9.7,
         "legal": 16.3,
-        "output_tps": 105.28,
+        "output_tps": 104.47,
         "strategy_and_ops": 16.8
       }
     },
@@ -11401,7 +11401,7 @@
         "healthcare_and_medical": 27.4,
         "intelligence": 18.5,
         "legal": 24.5,
-        "output_tps": 115.83,
+        "output_tps": 115.63,
         "strategy_and_ops": 33.8
       }
     },
@@ -11431,7 +11431,7 @@
         "healthcare_and_medical": 15.7,
         "intelligence": 9.4,
         "legal": 16.6,
-        "output_tps": 102.15,
+        "output_tps": 102.13,
         "strategy_and_ops": 17.0
       }
     },
@@ -11484,7 +11484,7 @@
         "healthcare_and_medical": 30.5,
         "intelligence": 23.5,
         "legal": 28.4,
-        "output_tps": 121.97,
+        "output_tps": 122.33,
         "strategy_and_ops": 39.4
       }
     },
@@ -11848,7 +11848,7 @@
         "healthcare_and_medical": 5.8,
         "intelligence": 3.8,
         "legal": 8.1,
-        "output_tps": 202.24,
+        "output_tps": 204.66,
         "strategy_and_ops": 5.5
       }
     },
@@ -11872,7 +11872,7 @@
     "released": "2025-08-05",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 178.35
+        "output_tps": 180.13
       }
     },
     "use_cases": []
@@ -11898,7 +11898,7 @@
     "released": "2025-08-05",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 121.35
+        "output_tps": 122.61
       }
     },
     "use_cases": []
@@ -11921,7 +11921,7 @@
     "released": "2025-08-05",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 154.59
+        "output_tps": 155.77
       }
     },
     "use_cases": []
@@ -12259,7 +12259,7 @@
         "economics": 14.6,
         "finance_and_accounting": 14.8,
         "legal": 14.6,
-        "output_tps": 85.93,
+        "output_tps": 86.35,
         "strategy_and_ops": 6.9
       }
     },
@@ -12799,7 +12799,7 @@
         "healthcare_and_medical": 46.6,
         "intelligence": 35.4,
         "legal": 47.2,
-        "output_tps": 77.01,
+        "output_tps": 76.03,
         "strategy_and_ops": 54.8
       }
     },
@@ -12829,7 +12829,7 @@
         "healthcare_and_medical": 46.4,
         "intelligence": 35.2,
         "legal": 46.6,
-        "output_tps": 77.86,
+        "output_tps": 76.53,
         "strategy_and_ops": 53.2
       }
     },
@@ -12859,7 +12859,7 @@
         "healthcare_and_medical": 42.9,
         "intelligence": 31.1,
         "legal": 44.4,
-        "output_tps": 75.56,
+        "output_tps": 74.34,
         "strategy_and_ops": 49.3
       }
     },
@@ -13045,7 +13045,7 @@
     "released": "2025-08-27",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 32.73
+        "output_tps": 32.59
       }
     },
     "use_cases": []
@@ -13068,7 +13068,7 @@
     "released": "2025-08-27",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 36.68
+        "output_tps": 36.73
       }
     },
     "use_cases": []
@@ -13312,7 +13312,7 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 74.5
+        "hf_trending": 71.5
       }
     },
     "use_cases": [
@@ -13363,8 +13363,8 @@
     ],
     "name": "Tencent: Hy4 preview",
     "open_weights": false,
-    "price_in": 0.834,
-    "price_out": 2.501,
+    "price_in": 0.7506,
+    "price_out": 2.2509,
     "provider": "tencent",
     "released": "2026-08-28",
     "scores": {},
@@ -13437,7 +13437,7 @@
         "healthcare_and_medical": 17.6,
         "intelligence": 12.5,
         "legal": 23.1,
-        "output_tps": 98.98,
+        "output_tps": 98.68,
         "strategy_and_ops": 18.9
       }
     },
@@ -13474,11 +13474,11 @@
         "finance_and_accounting": 35.3,
         "intelligence": 20.1,
         "legal": 31.0,
-        "output_tps": 174.46,
+        "output_tps": 170.91,
         "strategy_and_ops": 35.2
       },
       "huggingface-models": {
-        "hf_trending": 1438.0
+        "hf_trending": 1454.5
       }
     },
     "use_cases": [
@@ -13506,7 +13506,7 @@
     "released": "2026-11-23",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 136.5
+        "hf_trending": 137.2
       }
     },
     "use_cases": [
@@ -13531,7 +13531,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 1268.0
+        "hf_trending": 1283.0
       }
     },
     "use_cases": []
@@ -13557,7 +13557,7 @@
     "released": "2026-11-26",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 164.0
+        "hf_trending": 191.0
       }
     },
     "use_cases": [
@@ -13615,12 +13615,35 @@
     "released": "2026-11-21",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 194.0
+        "hf_trending": 210.0
       }
     },
     "use_cases": [
       "Evaluating a new trending open model (HF trending score 58)"
     ]
+  },
+  {
+    "avoid_for": [],
+    "best_at": [],
+    "context_window": null,
+    "first_seen": "2026-11-27",
+    "id": "inkling-2-mini-unbound-gguf",
+    "links": {
+      "huggingface-models": "https://huggingface.co/nokeepai/Inkling-2-Mini-Unbound-GGUF"
+    },
+    "modalities": [],
+    "name": "Inkling-2-Mini-Unbound-GGUF",
+    "open_weights": true,
+    "price_in": null,
+    "price_out": null,
+    "provider": "nokeepai",
+    "released": "2026-11-21",
+    "scores": {
+      "huggingface-models": {
+        "hf_trending": 54.599999999999994
+      }
+    },
+    "use_cases": []
   },
   {
     "avoid_for": [
@@ -13643,7 +13666,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 75.0
+        "hf_trending": 76.5
       }
     },
     "use_cases": [
@@ -13671,7 +13694,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 532.0
+        "hf_trending": 541.8
       }
     },
     "use_cases": [
@@ -13712,11 +13735,11 @@
         "healthcare_and_medical": 40.8,
         "intelligence": 30.7,
         "legal": 41.6,
-        "output_tps": 104.02,
+        "output_tps": 103.77,
         "strategy_and_ops": 43.5
       },
       "huggingface-models": {
-        "hf_trending": 79.0
+        "hf_trending": 78.5
       }
     },
     "use_cases": [
@@ -13747,7 +13770,7 @@
         "finance_and_accounting": 21.9,
         "intelligence": 11.0,
         "legal": 21.7,
-        "output_tps": 95.66,
+        "output_tps": 95.57,
         "strategy_and_ops": 17.6
       }
     },
@@ -14300,7 +14323,7 @@
         "healthcare_and_medical": 29.5,
         "intelligence": 17.8,
         "legal": 28.9,
-        "output_tps": 318.73,
+        "output_tps": 326.47,
         "strategy_and_ops": 32.9
       }
     },
@@ -14650,7 +14673,7 @@
     "released": "2026-06-12",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 54.58
+        "output_tps": 54.88
       }
     },
     "use_cases": []
@@ -14744,7 +14767,7 @@
         "healthcare_and_medical": 51.6,
         "intelligence": 46.6,
         "legal": 49.2,
-        "output_tps": 37.04,
+        "output_tps": 36.58,
         "strategy_and_ops": 57.6
       },
       "huggingface-models": {
@@ -14850,7 +14873,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 132.0
+        "hf_trending": 134.0
       }
     },
     "use_cases": [
@@ -15177,7 +15200,7 @@
         "finance_and_accounting": 16.8,
         "intelligence": 6.0,
         "legal": 16.1,
-        "output_tps": 330.25,
+        "output_tps": 330.83,
         "strategy_and_ops": 8.7
       }
     },
@@ -15206,7 +15229,7 @@
         "finance_and_accounting": 4.0,
         "intelligence": 1.7,
         "legal": 4.6,
-        "output_tps": 336.34,
+        "output_tps": 336.18,
         "strategy_and_ops": 2.5
       }
     },
@@ -15359,7 +15382,7 @@
     "released": "2026-08-06",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 186.97,
+        "output_tps": 186.46,
         "strategy_and_ops": 9.7
       }
     },
@@ -15546,11 +15569,11 @@
     "open_weights": true,
     "price_in": 0.06,
     "price_out": 0.18,
-    "provider": "inclusionai",
-    "released": "2026-11-26",
+    "provider": "inclusionAI",
+    "released": "2026-11-19",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 88.0
+        "hf_trending": 50.5
       }
     },
     "use_cases": [
@@ -15579,7 +15602,7 @@
     "released": "2026-11-22",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 70.5
+        "hf_trending": 71.0
       }
     },
     "use_cases": [
@@ -15940,7 +15963,7 @@
     "released": "2024-12-06",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 63.77
+        "output_tps": 63.64
       }
     },
     "use_cases": []
@@ -16051,7 +16074,7 @@
     "released": "2025-04-05",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 65.29
+        "output_tps": 65.22
       }
     },
     "use_cases": []
@@ -16078,7 +16101,7 @@
     "released": "2025-04-05",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 94.47
+        "output_tps": 93.79
       }
     },
     "use_cases": []
@@ -16183,7 +16206,7 @@
     "released": "2026-06-29",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 52.76
+        "output_tps": 52.2
       }
     },
     "use_cases": []
@@ -16326,7 +16349,7 @@
     "released": "2025-09-17",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 69.35
+        "output_tps": 69.13
       }
     },
     "use_cases": []
@@ -16449,7 +16472,7 @@
     "released": "2026-09-08",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 472.34
+        "output_tps": 474.03
       }
     },
     "use_cases": [
@@ -16672,7 +16695,7 @@
         "healthcare_and_medical": 35.1,
         "intelligence": 26.8,
         "legal": 33.8,
-        "output_tps": 37.84,
+        "output_tps": 37.75,
         "strategy_and_ops": 45.7
       }
     },
@@ -16739,7 +16762,7 @@
         "healthcare_and_medical": 35.8,
         "intelligence": 29.9,
         "legal": 35.0,
-        "output_tps": 43.15,
+        "output_tps": 42.4,
         "strategy_and_ops": 46.9
       }
     },
@@ -17105,7 +17128,7 @@
         "healthcare_and_medical": 21.7,
         "intelligence": 19.0,
         "legal": 23.5,
-        "output_tps": 114.54,
+        "output_tps": 112.32,
         "strategy_and_ops": 27.9
       }
     },
@@ -17140,7 +17163,7 @@
         "healthcare_and_medical": 36.8,
         "intelligence": 29.1,
         "legal": 33.0,
-        "output_tps": 131.98,
+        "output_tps": 131.23,
         "strategy_and_ops": 50.8
       }
     },
@@ -17186,7 +17209,7 @@
     "released": "2025-12-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 97.69
+        "output_tps": 97.23
       }
     },
     "use_cases": []
@@ -17209,7 +17232,7 @@
     "released": "2025-12-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 179.65
+        "output_tps": 179.28
       }
     },
     "use_cases": []
@@ -17232,7 +17255,7 @@
     "released": "2025-12-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 94.87
+        "output_tps": 92.55
       }
     },
     "use_cases": []
@@ -17481,7 +17504,7 @@
         "healthcare_and_medical": 36.7,
         "intelligence": 26.1,
         "legal": 34.6,
-        "output_tps": 88.12,
+        "output_tps": 88.0,
         "strategy_and_ops": 43.3
       }
     },
@@ -17532,7 +17555,7 @@
         "finance_and_accounting": 34.6,
         "intelligence": 23.1,
         "legal": 31.3,
-        "output_tps": 83.35,
+        "output_tps": 82.54,
         "strategy_and_ops": 39.0
       }
     },
@@ -17668,7 +17691,7 @@
         "healthcare_and_medical": 10.7,
         "intelligence": 4.6,
         "legal": 9.7,
-        "output_tps": 138.48,
+        "output_tps": 137.72,
         "strategy_and_ops": 9.4
       }
     },
@@ -17932,7 +17955,7 @@
         "healthcare_and_medical": 8.8,
         "intelligence": 4.3,
         "legal": 11.6,
-        "output_tps": 153.38,
+        "output_tps": 151.98,
         "strategy_and_ops": 6.8
       }
     },
@@ -17956,7 +17979,7 @@
     "released": "2026-03-16",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 130.58
+        "output_tps": 129.79
       }
     },
     "use_cases": []
@@ -18226,7 +18249,7 @@
         "healthcare_and_medical": 41.3,
         "intelligence": 36.1,
         "legal": 38.5,
-        "output_tps": 368.48,
+        "output_tps": 368.21,
         "strategy_and_ops": 48.7
       }
     },
@@ -18262,7 +18285,7 @@
         "finance_and_accounting": 43.6,
         "intelligence": 34.2,
         "legal": 37.8,
-        "output_tps": 386.57,
+        "output_tps": 383.22,
         "strategy_and_ops": 48.5
       }
     },
@@ -18294,7 +18317,7 @@
         "finance_and_accounting": 10.0,
         "intelligence": 6.3,
         "legal": 12.5,
-        "output_tps": 88.78,
+        "output_tps": 89.71,
         "strategy_and_ops": 9.6
       }
     },
@@ -18542,7 +18565,7 @@
         "healthcare_and_medical": 39.1,
         "intelligence": 24.9,
         "legal": 39.6,
-        "output_tps": 184.04,
+        "output_tps": 184.12,
         "strategy_and_ops": 43.4
       }
     },
@@ -18582,7 +18605,7 @@
         "healthcare_and_medical": 48.7,
         "intelligence": 43.7,
         "legal": 46.9,
-        "output_tps": 83.7,
+        "output_tps": 82.16,
         "strategy_and_ops": 54.5
       }
     },
@@ -18649,7 +18672,7 @@
         "finance_and_accounting": 50.1,
         "intelligence": 40.5,
         "legal": 46.2,
-        "output_tps": 84.94,
+        "output_tps": 83.39,
         "strategy_and_ops": 54.1
       }
     },
@@ -18810,7 +18833,7 @@
         "healthcare_and_medical": 9.0,
         "intelligence": 5.5,
         "legal": 14.2,
-        "output_tps": 310.74,
+        "output_tps": 309.67,
         "strategy_and_ops": 7.1
       }
     },
@@ -18845,7 +18868,7 @@
         "healthcare_and_medical": 21.0,
         "intelligence": 13.6,
         "legal": 25.3,
-        "output_tps": 355.55,
+        "output_tps": 354.75,
         "strategy_and_ops": 21.8
       }
     },
@@ -19061,7 +19084,7 @@
         "healthcare_and_medical": 6.3,
         "intelligence": 3.4,
         "legal": 7.9,
-        "output_tps": 275.05,
+        "output_tps": 273.12,
         "strategy_and_ops": 6.2
       }
     },
@@ -19085,7 +19108,7 @@
     "released": "2025-10-29",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 108.89
+        "output_tps": 106.21
       }
     },
     "use_cases": []
@@ -19108,7 +19131,7 @@
     "released": "2025-10-29",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 138.51
+        "output_tps": 135.98
       }
     },
     "use_cases": []
@@ -19131,7 +19154,7 @@
     "released": "2025-10-29",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 137.33
+        "output_tps": 135.92
       }
     },
     "use_cases": []
@@ -19154,7 +19177,7 @@
     "released": "2025-10-29",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 122.91
+        "output_tps": 121.26
       }
     },
     "use_cases": []
@@ -19234,7 +19257,7 @@
     "released": "2025-11-27",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 112.58
+        "output_tps": 111.7
       }
     },
     "use_cases": []
@@ -19257,7 +19280,7 @@
     "released": "2025-11-27",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 90.65
+        "output_tps": 90.31
       }
     },
     "use_cases": []
@@ -19280,7 +19303,7 @@
     "released": "2025-11-27",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 103.07
+        "output_tps": 102.57
       }
     },
     "use_cases": []
@@ -19372,7 +19395,7 @@
     "released": "2024-12-03",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 227.92
+        "output_tps": 226.64
       }
     },
     "use_cases": []
@@ -19525,7 +19548,7 @@
     "released": "2025-12-15",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 115.04
+        "output_tps": 116.11
       }
     },
     "use_cases": []
@@ -19548,7 +19571,7 @@
     "released": "2025-12-15",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 172.12
+        "output_tps": 170.14
       }
     },
     "use_cases": []
@@ -19628,7 +19651,7 @@
         "healthcare_and_medical": 18.0,
         "intelligence": 11.8,
         "legal": 22.6,
-        "output_tps": 192.98,
+        "output_tps": 192.51,
         "strategy_and_ops": 15.3
       }
     },
@@ -19652,7 +19675,7 @@
     "released": "2025-10-28",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 128.68
+        "output_tps": 128.88
       }
     },
     "use_cases": []
@@ -19694,7 +19717,7 @@
     "released": "2025-08-18",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 145.89
+        "output_tps": 146.48
       }
     },
     "use_cases": []
@@ -19717,7 +19740,7 @@
     "released": "2025-08-18",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 133.91
+        "output_tps": 134.56
       }
     },
     "use_cases": []
@@ -19821,7 +19844,7 @@
     "released": "2025-04-16",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 122.12
+        "output_tps": 121.44
       }
     },
     "use_cases": []
@@ -20386,7 +20409,7 @@
     "released": "2024-12-12",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 38.56
+        "output_tps": 38.61
       }
     },
     "use_cases": []
@@ -20409,7 +20432,7 @@
     "released": "2025-02-26",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 14.65
+        "output_tps": 14.97
       }
     },
     "use_cases": []
@@ -20432,7 +20455,7 @@
     "released": "2025-02-26",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 20.32
+        "output_tps": 20.14
       }
     },
     "use_cases": []
@@ -20510,7 +20533,7 @@
         "finance_and_accounting": 30.6,
         "intelligence": 23.1,
         "legal": 26.4,
-        "output_tps": 130.88,
+        "output_tps": 124.83,
         "strategy_and_ops": 38.8
       }
     },
@@ -21416,7 +21439,7 @@
     "released": "2026-02-24",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 110.63
+        "output_tps": 107.26
       }
     },
     "use_cases": []
@@ -21439,7 +21462,7 @@
     "released": "2026-02-24",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 105.32
+        "output_tps": 104.34
       }
     },
     "use_cases": []
@@ -21630,7 +21653,7 @@
     "released": "2026-02-16",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 48.23
+        "output_tps": 48.17
       }
     },
     "use_cases": []
@@ -21696,7 +21719,7 @@
     "released": "2026-03-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 76.23
+        "output_tps": 76.22
       }
     },
     "use_cases": []
@@ -21719,7 +21742,7 @@
     "released": "2026-03-02",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 115.98
+        "output_tps": 111.9
       }
     },
     "use_cases": []
@@ -21742,7 +21765,7 @@
     "released": "2026-07-19",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 68.0
+        "hf_trending": 62.0
       }
     },
     "use_cases": []
@@ -21788,7 +21811,7 @@
     "released": "2026-03-30",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 142.39
+        "output_tps": 134.96
       }
     },
     "use_cases": []
@@ -21811,7 +21834,7 @@
     "released": "2026-03-30",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 69.39
+        "output_tps": 67.76
       }
     },
     "use_cases": []
@@ -21936,7 +21959,7 @@
     "released": "2026-04-16",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 100.79
+        "output_tps": 99.21
       }
     },
     "use_cases": []
@@ -21959,7 +21982,7 @@
     "released": "2026-04-16",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 90.89
+        "output_tps": 90.05
       }
     },
     "use_cases": []
@@ -22105,7 +22128,7 @@
     "released": "2026-06-01",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 56.46
+        "output_tps": 56.35
       }
     },
     "use_cases": []
@@ -22135,7 +22158,7 @@
         "finance_and_accounting": 41.3,
         "healthcare_and_medical": 39.0,
         "legal": 37.0,
-        "output_tps": 40.36,
+        "output_tps": 40.33,
         "strategy_and_ops": 44.4
       }
     },
@@ -22171,11 +22194,11 @@
         "healthcare_and_medical": 34.6,
         "intelligence": 20.1,
         "legal": 33.2,
-        "output_tps": 58.26,
+        "output_tps": 57.57,
         "strategy_and_ops": 39.0
       },
       "huggingface-models": {
-        "hf_trending": 115.0
+        "hf_trending": 110.0
       }
     },
     "use_cases": []
@@ -22204,7 +22227,7 @@
         "healthcare_and_medical": 23.2,
         "intelligence": 15.7,
         "legal": 27.4,
-        "output_tps": 58.84,
+        "output_tps": 58.03,
         "strategy_and_ops": 29.2
       }
     },
@@ -22234,7 +22257,7 @@
         "healthcare_and_medical": 24.1,
         "intelligence": 17.5,
         "legal": 26.2,
-        "output_tps": 57.91,
+        "output_tps": 57.83,
         "strategy_and_ops": 34.4
       }
     },
@@ -22261,7 +22284,7 @@
     "released": "2026-11-20",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 162.0
+        "hf_trending": 164.0
       }
     },
     "use_cases": [
@@ -22293,7 +22316,7 @@
         "healthcare_and_medical": 18.6,
         "intelligence": 10.0,
         "legal": 21.8,
-        "output_tps": 53.69,
+        "output_tps": 54.16,
         "strategy_and_ops": 16.4
       }
     },
@@ -22348,7 +22371,7 @@
     "released": "2026-11-16",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 110.5
+        "hf_trending": 99.0
       }
     },
     "use_cases": [
@@ -22373,7 +22396,7 @@
     "released": "2026-09-01",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 89.0
+        "hf_trending": 87.0
       }
     },
     "use_cases": []
@@ -22426,7 +22449,7 @@
         "healthcare_and_medical": 36.4,
         "intelligence": 28.5,
         "legal": 35.1,
-        "output_tps": 84.17,
+        "output_tps": 83.66,
         "strategy_and_ops": 44.5
       },
       "huggingface-models": {
@@ -22731,7 +22754,7 @@
     "released": "2026-02-03",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 77.12
+        "output_tps": 77.32
       }
     },
     "use_cases": []
@@ -22833,7 +22856,7 @@
     "released": "2025-09-11",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 102.69
+        "output_tps": 104.86
       }
     },
     "use_cases": []
@@ -22875,7 +22898,7 @@
     "released": "2025-09-22",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 74.63
+        "output_tps": 74.56
       }
     },
     "use_cases": []
@@ -22898,7 +22921,7 @@
     "released": "2025-09-22",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 85.27
+        "output_tps": 85.18
       }
     },
     "use_cases": []
@@ -23142,7 +23165,7 @@
         "healthcare_and_medical": 48.2,
         "intelligence": 42.8,
         "legal": 49.6,
-        "output_tps": 110.44,
+        "output_tps": 106.92,
         "strategy_and_ops": 56.9
       }
     },
@@ -23226,7 +23249,7 @@
     "released": "2026-11-24",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 131.0
+        "hf_trending": 135.0
       }
     },
     "use_cases": [
@@ -23263,7 +23286,7 @@
         "healthcare_and_medical": 30.7,
         "intelligence": 17.7,
         "legal": 28.1,
-        "output_tps": 391.6,
+        "output_tps": 386.89,
         "strategy_and_ops": 34.5
       }
     },
@@ -23335,7 +23358,7 @@
     "released": "2025-03-10",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 68.73
+        "output_tps": 70.31
       }
     },
     "use_cases": []
@@ -23526,7 +23549,7 @@
     "released": "2026-03-06",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 227.71
+        "output_tps": 226.38
       }
     },
     "use_cases": []
@@ -23724,7 +23747,7 @@
     "released": "2026-11-17",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 80.5
+        "hf_trending": 80.0
       }
     },
     "use_cases": [
@@ -23848,7 +23871,7 @@
     "released": "2026-09-22",
     "scores": {
       "artificial-analysis": {
-        "output_tps": 119.57,
+        "output_tps": 119.19,
         "strategy_and_ops": 21.1
       }
     },
@@ -24046,7 +24069,7 @@
         "finance_and_accounting": 28.4,
         "intelligence": 14.2,
         "legal": 25.1,
-        "output_tps": 80.95,
+        "output_tps": 84.57,
         "strategy_and_ops": 22.4
       }
     },
@@ -24300,7 +24323,7 @@
         "healthcare_and_medical": 39.9,
         "intelligence": 28.5,
         "legal": 38.6,
-        "output_tps": 77.03,
+        "output_tps": 76.17,
         "strategy_and_ops": 44.2
       }
     },
@@ -24425,7 +24448,7 @@
         "healthcare_and_medical": 42.9,
         "intelligence": 34.6,
         "legal": 35.4,
-        "output_tps": 98.11,
+        "output_tps": 97.74,
         "strategy_and_ops": 48.7
       }
     },
@@ -24474,7 +24497,7 @@
     "released": "2026-11-24",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 500.0
+        "hf_trending": 519.0
       }
     },
     "use_cases": [
@@ -24503,7 +24526,7 @@
     "released": "2026-11-24",
     "scores": {
       "huggingface-models": {
-        "hf_trending": 69.3
+        "hf_trending": 70.69999999999999
       }
     },
     "use_cases": [
