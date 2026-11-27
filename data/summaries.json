@@ -48,6 +48,10 @@
     "text": "A collection of 21 genre-specific skills for AI comic-drama production, from a one-line idea to a plan, asset prompts, episode scripts, storyboards and video prompts. Usable with Claude Code, WorkBuddy and DeepSeek."
   },
   {
+    "id": "069f94445fa0f593",
+    "text": "Simon Willison quotes Jack Despain Zhou on AI's de-individualizing effect: videos, talks and email pitches increasingly read as Claude-written."
+  },
+  {
     "id": "070953677a6891e6",
     "text": "An MCP server for buying travel eSIMs, gift cards and mobile top-ups with crypto, with user confirmation before any order."
   },
@@ -216,6 +220,10 @@
     "text": "This paper argues that 3D Gaussian segmentation trained on rendered masks can yield incomplete 3D selections, and proposes volumetric supervision instead."
   },
   {
+    "id": "2a158353075b7c16",
+    "text": "Entangle scales in-context learning for robot world-action models, using a human video as the context that specifies a task, aimed at unseen tasks and contexts."
+  },
+  {
     "id": "2ac82a9b4f5ff40f",
     "text": "A HUD that shows quotas, tokens and sessions for Claude Code, Codex and 25 more coding agents. It runs on Mac, Windows and Linux, with phone and watch support."
   },
@@ -292,12 +300,20 @@
     "text": "A Hacker News thread linking a PDF paper claiming the matrix multiplication exponent is nine fourths."
   },
   {
+    "id": "3f348a798299b962",
+    "text": "A swyx post titled as a design audit of an AI-built GitHub clone; the feed text contains only a slug, so no findings are available."
+  },
+  {
     "id": "3fd180609c9e4b0e",
     "text": "Recent activity in the tt-a1i/pickup repository; no description was given."
   },
   {
     "id": "422d3fe1c21667df",
     "text": "Recent activity in the JuneYaooo/capsule-cinema repository; no description was given."
+  },
+  {
+    "id": "4342d45f5c91eb55",
+    "text": "ProxyGenBench is a benchmark for video generation guided by structural proxies such as animated 3D blockouts that fix layout, motion, camera and event order."
   },
   {
     "id": "47ddbf71e00ceb23",
@@ -334,6 +350,10 @@
   {
     "id": "4ed8c42374396992",
     "text": "Recent activity in the heymrun/heym repository; no description was given."
+  },
+  {
+    "id": "4faaa3acd738f3c5",
+    "text": "Simon Willison's Hacker News comment on the NYT's warning about Photoshop AI features. A NYT photographer who shot his portrait refused to retouch a possible shirt stain, saying the paper allows only cropping and balancing."
   },
   {
     "id": "50feeb157090174b",
@@ -382,6 +402,10 @@
   {
     "id": "61e15db8fd33eda9",
     "text": "Hacker News thread titled 'Lean verification of the Riemann Hypothesis'; only the title was provided."
+  },
+  {
+    "id": "6263b7b450e8ec9c",
+    "text": "Release of datasette/datasette-mcp on GitHub; the feed gives no description beyond the name."
   },
   {
     "id": "63dbb81e2a2d11bd",
@@ -544,6 +568,10 @@
     "text": "Recent activity in the datasette/datasette-agent repository; no description was given."
   },
   {
+    "id": "9636993dcbefcb0f",
+    "text": "Paper on what zero-shot time-series forecasting leaderboards can establish, arguing they should report how small a score difference their held-out datasets can actually resolve."
+  },
+  {
     "id": "9670fd728ade1b2a",
     "text": "Recent activity in the simonw/github-zip-cors-proxy repository; no description was given."
   },
@@ -562,6 +590,10 @@
   {
     "id": "97d62433e020c780",
     "text": "Blender add-on and MCP server offering visual chat, scene tools and multi-agent workflows. It lists support for ChatGPT/GPT, Claude, Gemini, Ollama and OpenCode."
+  },
+  {
+    "id": "9a2d977585a641d4",
+    "text": "Agent project that wraps 20+ coding agents (Claude Code, Codex, DeepSeek and others) into a game-building workflow, with 100+ games to remix and publishing to WeChat, Douyin, TikTok, Telegram and itch.io."
   },
   {
     "id": "9d8099e6e6efd209",
@@ -586,6 +618,10 @@
   {
     "id": "a4ea85254a88a379",
     "text": "Eugene Yan's post on how public evals work and fail, based on a teardown of 12 benchmarks. It covers how to read eval scores and what to question."
+  },
+  {
+    "id": "a519f60a21707bce",
+    "text": "Repo implementing Qwen3-0.6B inference (12 KB), a bootable bare-metal OS (22 KB) and a Mini-GPT trainer with a Braille TUI (32 KB), all in x86-64 NASM assembly with no C, libc or other dependencies."
   },
   {
     "id": "a70cae4c16f0fdc6",
@@ -684,6 +720,10 @@
     "text": "Argues computer-use agents lack real-time awareness of screens that change on their own, and proposes proactive perception for them."
   },
   {
+    "id": "cf71a125cc26a7a2",
+    "text": "StateWeaver is a multi-agent system that coordinates story-state transitions to keep long generated videos consistent as events change the scene."
+  },
+  {
     "id": "d136c62c7f61e638",
     "text": "Hacker News post arguing that LLM agents work for their parent companies rather than for the user. No further text was provided."
   },
@@ -772,12 +812,20 @@
     "text": "Recent activity in the Leonxlnx/tastecode repository; no description was given."
   },
   {
+    "id": "ea247b47b521fbc6",
+    "text": "OS-Omni is a benchmark for generalist computer-using agents on long-horizon workflows that span web, mobile and desktop platforms, rather than isolated GUI actions."
+  },
+  {
     "id": "eb40edb5ed8830b7",
     "text": "Breaks a video down shot by shot, saying whether each shot was filmed, AI-generated or coded, and how to remake it. Output uses the open VIDEO.md format."
   },
   {
     "id": "eb4d2df7b7187bdc",
     "text": "This paper probes vision-language models for selective access and global-workspace-like behaviour, using global workspace theory as the frame."
+  },
+  {
+    "id": "ec4696bbb02f55d9",
+    "text": "Paper on recurrent state instability in Gated DeltaNet-2, a linear-attention model with separate channel-wise erase and write control. It proposes ways to mitigate the instability (the feed text is truncated)."
   },
   {
     "id": "ed1723e8570bbc24",
@@ -830,6 +878,10 @@
   {
     "id": "f7cfdfd7bcc39abd",
     "text": "Alibaba's code review tool combining deterministic pipelines with an LLM agent. It gives line-level comments, has built-in rules for NPE, thread safety, XSS and SQL injection, and works with OpenAI and Anthropic APIs."
+  },
+  {
+    "id": "f7df6e6b8267db29",
+    "text": "DRBench Pro is a knowledge-centric benchmark for deep research agents, evaluating which research directions a report covers and how deeply."
   },
   {
     "id": "f836fd200cc1c02e",

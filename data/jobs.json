@@ -2,8 +2,8 @@
   {
     "id": "global-jobs-hn-2026-11",
     "keyword_counts": {
-      "LLM": 17,
-      "LangChain": 2,
+      "LLM": 16,
+      "LangChain": 1,
       "MCP": 11,
       "MLOps": 2,
       "PyTorch": 8,
@@ -23,18 +23,18 @@
       "joulent | ai engineer, company brain | san francisco | onsite | full-time | $175k-$230k base plus bonus and equity"
     ],
     "source": "jobs-hn",
-    "total_posts": 238
+    "total_posts": 237
   },
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
-      "LLM": 3,
+      "LLM": 2,
       "LangChain": 0,
-      "MCP": 1,
+      "MCP": 0,
       "MLOps": 0,
       "PyTorch": 0,
-      "RAG": 2,
-      "agents": 9,
+      "RAG": 0,
+      "agents": 11,
       "evals": 1,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "brazilian subject matter expert in home & garden",
-      "sales engineer, us east",
-      "manager, technical support",
-      "consultant - people science",
-      "strategic account executive - nyc"
+      "director, demand generation",
+      "senior service delivery manager",
+      "service delivery manager",
+      "customer success manager",
+      "support operations lead"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100
