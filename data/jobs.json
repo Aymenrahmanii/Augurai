@@ -28,25 +28,25 @@
   {
     "id": "global-jobs-remoteok-2026-11",
     "keyword_counts": {
-      "LLM": 2,
+      "LLM": 3,
       "LangChain": 0,
-      "MCP": 0,
+      "MCP": 2,
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
-      "agents": 12,
-      "evals": 1,
+      "agents": 15,
+      "evals": 2,
       "fine-tuning": 0,
       "vector database": 0
     },
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "partner sales manager - emea central (eastern europe)",
-      "district manager, majors financial services",
-      "msp account executive - dach",
-      "account manager - uk/i",
-      "account executive, japan"
+      "founding engineer",
+      "senior software engineer",
+      "software engineer - backend",
+      "manager, dc commercial diligence",
+      "senior forward deployed engineer (united states)"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100
