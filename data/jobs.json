@@ -34,7 +34,7 @@
       "MLOps": 0,
       "PyTorch": 0,
       "RAG": 0,
-      "agents": 15,
+      "agents": 13,
       "evals": 2,
       "fine-tuning": 0,
       "vector database": 0
@@ -42,11 +42,11 @@
     "market": "global",
     "month": "2026-11",
     "notable_roles": [
-      "founding engineer",
-      "senior software engineer",
-      "software engineer - backend",
-      "manager, dc commercial diligence",
-      "senior forward deployed engineer (united states)"
+      "customer success manager",
+      "demo specialist i",
+      "account manager ii",
+      "area sales representative",
+      "strategic account manager - louisiana and mississippi"
     ],
     "source": "jobs-remoteok",
     "total_posts": 100

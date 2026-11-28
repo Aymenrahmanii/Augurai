@@ -34,6 +34,24 @@
     "title": "Document the project as you build it"
   },
   {
+    "exercise": "Without any AI tool, spend 10 minutes writing the smallest possible consumer of one hook or function in your own code, using only its docs. List each point where you had to guess or read the source. Only then, if you like, give the same task to an AI and compare the two friction lists.",
+    "first_seen": "2026-11-28",
+    "how_to_apply": "1. Pick an extension point or hook you have designed but never used for anything real.\n2. Ask an AI assistant to build a small experimental plugin against it, using only your docs and code.\n3. Write down every place it got stuck, guessed wrong or needed a workaround.\n4. Treat each item as a design question: is the API unclear, or is the doc unclear?\n5. Fix the API or docs, then ship the fix with a tutorial and examples.",
+    "id": "dogfood-your-api-by-having-an-ai-build-against-it",
+    "person_id": "simon-willison",
+    "principle": "The author of an API knows its intended use too well to notice where it is awkward. A fresh builder with no insider knowledge, which an AI model is, hits the rough edges in the order a new user would. The friction it reports is a cheap preview of what plugin authors would hit.",
+    "reinforced_by": [],
+    "related_skill": null,
+    "source_url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+    "tags": [
+      "api-design",
+      "dogfooding",
+      "plugins",
+      "testing"
+    ],
+    "title": "Dogfood your API by having an AI build against it"
+  },
+  {
     "exercise": "Pick one small UI element you dislike, such as a button, a select box or a link style. In 10 minutes, hand-write a page with four variants of it side by side. View it in two browsers and note which one you prefer and why, before asking any AI tool for options.",
     "first_seen": "2026-11-23",
     "how_to_apply": "1. Name the thing you are unhappy with and the environments it must work in. 2. Build one page that shows every reasonable variant side by side. 3. View it in each target environment, such as browsers or devices. 4. Pick a favourite and write down why. 5. Keep the winning snippet as your default.",

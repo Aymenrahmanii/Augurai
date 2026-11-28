@@ -64,6 +64,10 @@
     "text": "A Hacker News thread claiming Claude Code sends your email address to websites; only the title is available, so the claim is unverified here."
   },
   {
+    "id": "07af9c5780f0ec6e",
+    "text": "The paper argues that coding agents are stronger visual reasoners than video generation models, which are increasingly evaluated on whether they can carry out a task in a generated video. The feed text is truncated, so the method and results are not shown."
+  },
+  {
     "id": "07d89bac7c6a81d8",
     "text": "An MCP server returning Google search results, forum threads, local and shopping data, keyword ideas and AI answer tracking."
   },
@@ -170,6 +174,14 @@
   {
     "id": "1706ad9a3fb07359",
     "text": "Recent activity in alchaincyf/huashu-bird-sticker; no further detail was provided."
+  },
+  {
+    "id": "1a44d03684b9dd58",
+    "text": "EL4CTEO released blender-skills, a repository whose name suggests agent skills for Blender. The feed gives no description."
+  },
+  {
+    "id": "1b891257aed16803",
+    "text": "tt-a1i released skillroster; the feed gives no description beyond the name."
   },
   {
     "id": "1c414ec2b5237063",
@@ -316,6 +328,10 @@
     "text": "ProxyGenBench is a benchmark for video generation guided by structural proxies such as animated 3D blockouts that fix layout, motion, camera and event order."
   },
   {
+    "id": "479bc4e0e5b12179",
+    "text": "A Mac tool for running several Claude Desktop accounts at once, with separate sign-ins and custom icons. The accounts share one Claude Code setup, and sessions can message each other across accounts. It installs via Homebrew."
+  },
+  {
     "id": "47ddbf71e00ceb23",
     "text": "WeVisForensics is a self-evolving agent for detecting AI-generated video from explicit forensic evidence. It targets the weakness of single-pass chain-of-thought and fixed multi-agent workflows."
   },
@@ -416,6 +432,10 @@
     "text": "Sage-Med studies scaling for medical multimodal LLMs. The authors report that existing medical models underperform frontier general-purpose models on a range of medical tasks."
   },
   {
+    "id": "68cfb35a007a7c13",
+    "text": "datasette-charts 0.4a0 fixes design friction points that surfaced when Simon Willison had Claude Opus 5.5 build an experimental plugin against the new chart-type hook. It also adds a plugin website with an author tutorial and a gallery of charts linked to Datasette Lite demos."
+  },
+  {
     "id": "6a9dc30924159993",
     "text": "Recent activity in the LLMs-from-scratch repository; no further detail was provided."
   },
@@ -504,6 +524,10 @@
     "text": "Recent activity in the JuneYaooo/awesome-ai-media repository; no description was given."
   },
   {
+    "id": "87ea9f6b57b108f2",
+    "text": "A Hacker News item reports that Goldman Sachs is pulling Claude Code from its bankers and traders. The feed gives only the headline."
+  },
+  {
     "id": "8898dc1fb352feb7",
     "text": "HeyGen's open-source video editor where you write HTML and render MP4, driven by Claude Code, Codex or a free Studio app."
   },
@@ -528,8 +552,16 @@
     "text": "A Hacker News thread on startup founders urging the U.S. government not to shut off Chinese open-weight AI; only the title is available."
   },
   {
+    "id": "8f4aa0deafacda07",
+    "text": "A skill that its description says turns prompts into formally verified, production-ready code, written by a former Cursor engineer. The claim is the author's own and is not verified here."
+  },
+  {
     "id": "90780b0321ef5a02",
     "text": "An MCP server that stages Meta ads from an AI assistant. Ads are launched paused with every Advantage+ enhancement turned off."
+  },
+  {
+    "id": "91b0d57339c90199",
+    "text": "A Python script that sends opt-out and deletion requests to data brokers on the user's behalf. It is free and open source, and it is among today's rising repos."
   },
   {
     "id": "91c6907223232958",
@@ -624,6 +656,14 @@
     "text": "Repo implementing Qwen3-0.6B inference (12 KB), a bootable bare-metal OS (22 KB) and a Mini-GPT trainer with a Braille TUI (32 KB), all in x86-64 NASM assembly with no C, libc or other dependencies."
   },
   {
+    "id": "a556368df1d24692",
+    "text": "The paper starts from the point that coding agents can generate runnable games but a runnable game is not necessarily fun. It proposes playfulness as feedback for agentic game development, covering core functionality, visual design and gameplay."
+  },
+  {
+    "id": "a628d534a141df3f",
+    "text": "datasette-mcp 0.4 is a compatibility fix for Datasette 1.0a44."
+  },
+  {
     "id": "a70cae4c16f0fdc6",
     "text": "Agent skill for iteratively improving local LLM serving speed, covering decode, speculative decoding, prefill, KV cache, startup and time to first token, across hardware and quantizations."
   },
@@ -658,6 +698,10 @@
   {
     "id": "b1b0a02e118dea12",
     "text": "An MCP server exposing US air conditioner, heat pump and space heater listings with dated store prices and room sizing."
+  },
+  {
+    "id": "b21e59668b201f7c",
+    "text": "Simon Willison released datasette-charts-pie, a repository for the datasette-charts plugin ecosystem. The feed gives no further detail."
   },
   {
     "id": "b291739a17bf36d9",
@@ -794,6 +838,10 @@
   {
     "id": "e44c65cf42c4c921",
     "text": "VibeVideoAgent addresses code-driven video generation, where a coding agent writes rendering programs. It targets flaws such as overlapping labels that a program can produce even when it exits cleanly."
+  },
+  {
+    "id": "e5ca652deccb70e3",
+    "text": "sloemo01 open-sourced deepseek-harness-gpui, a companion to the deepseek-harness repo. The feed gives no description."
   },
   {
     "id": "e6cc9b0ff3b5b1a8",
